@@ -1,0 +1,13 @@
+10,0500a8c0_00002f48_5ada0419_0001_0000,LOG,WARN,0,2018/04/20 16:15:37.600,AORUS_X3,app1,13032,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00002f48_5ada041e_0002_0000,LOG,STATUS,0,2018/04/20 16:15:42.051,AORUS_X3,app1,17076,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002f48_5ada041e_0002_0000,LOG,STATUS,0,2018/04/20 16:15:42.051,AORUS_X3,app1,17076,ROOT,AppOutput,28,Entering state "whole_shot"
+10,0500a8c0_00002f48_5ada041e_0002_0000,LOG,STATUS,0,2018/04/20 16:16:22.837,AORUS_X3,app1,17076,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00002f48_5ada041e_0002_0000,LOG,STATUS,0,2018/04/20 16:16:22.837,AORUS_X3,app1,17076,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00002f48_5ada041e_0002_0000,LOG,WARN,0,2018/04/20 16:16:22.838,AORUS_X3,app1,17076,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00002f48_5ada041e_0002_0000,LOG,STATUS,0,2018/04/20 16:16:22.839,AORUS_X3,app1,17076,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002f48_5ada041e_0002_0000,LOG,STATUS,0,2018/04/20 16:16:22.839,AORUS_X3,app1,17076,ROOT,AppOutput,28,Entering state "whole_shot"
+10,0500a8c0_00002f48_5ada041e_0002_0000,LOG,STATUS,0,2018/04/20 16:17:03.621,AORUS_X3,app1,17076,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00002f48_5ada041e_0002_0000,LOG,STATUS,0,2018/04/20 16:17:03.621,AORUS_X3,app1,17076,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00002f48_5ada041e_0002_0000,LOG,WARN,0,2018/04/20 16:17:03.622,AORUS_X3,app1,17076,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00002f48_5ada041e_0002_0000,LOG,STATUS,0,2018/04/20 16:17:03.623,AORUS_X3,app1,17076,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002f48_5ada041e_0002_0000,LOG,STATUS,0,2018/04/20 16:17:03.623,AORUS_X3,app1,17076,ROOT,AppOutput,28,Entering state "whole_shot"

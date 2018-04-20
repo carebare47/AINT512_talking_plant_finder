@@ -1,0 +1,38 @@
+10,0500a8c0_00004464_5ad9f866_0001_0000,LOG,WARN,0,2018/04/20 15:25:42.838,AORUS_X3,app1,15400,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:25:44.832,AORUS_X3,app1,8456,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:25:44.832,AORUS_X3,app1,8456,ROOT,AppOutput,28,Entering state "whole_shot"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:26:25.652,AORUS_X3,app1,8456,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:26:25.652,AORUS_X3,app1,8456,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,WARN,0,2018/04/20 15:26:25.653,AORUS_X3,app1,8456,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:26:25.654,AORUS_X3,app1,8456,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:26:25.654,AORUS_X3,app1,8456,ROOT,AppOutput,28,Entering state "whole_shot"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:27:06.593,AORUS_X3,app1,8456,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:27:06.593,AORUS_X3,app1,8456,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,WARN,0,2018/04/20 15:27:06.594,AORUS_X3,app1,8456,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:27:06.595,AORUS_X3,app1,8456,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:27:06.595,AORUS_X3,app1,8456,ROOT,AppOutput,28,Entering state "whole_shot"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:27:47.372,AORUS_X3,app1,8456,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:27:47.372,AORUS_X3,app1,8456,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,WARN,0,2018/04/20 15:27:47.373,AORUS_X3,app1,8456,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:27:47.374,AORUS_X3,app1,8456,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:27:47.374,AORUS_X3,app1,8456,ROOT,AppOutput,28,Entering state "whole_shot"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:28:28.160,AORUS_X3,app1,8456,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:28:28.160,AORUS_X3,app1,8456,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,WARN,0,2018/04/20 15:28:28.161,AORUS_X3,app1,8456,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:28:28.162,AORUS_X3,app1,8456,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:28:28.162,AORUS_X3,app1,8456,ROOT,AppOutput,28,Entering state "whole_shot"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:29:08.891,AORUS_X3,app1,8456,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:29:08.891,AORUS_X3,app1,8456,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,WARN,0,2018/04/20 15:29:08.892,AORUS_X3,app1,8456,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:29:08.893,AORUS_X3,app1,8456,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:29:08.893,AORUS_X3,app1,8456,ROOT,AppOutput,28,Entering state "whole_shot"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:29:49.612,AORUS_X3,app1,8456,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:29:49.612,AORUS_X3,app1,8456,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,WARN,0,2018/04/20 15:29:49.613,AORUS_X3,app1,8456,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:29:49.614,AORUS_X3,app1,8456,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:29:49.614,AORUS_X3,app1,8456,ROOT,AppOutput,28,Entering state "whole_shot"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:30:30.374,AORUS_X3,app1,8456,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:30:30.374,AORUS_X3,app1,8456,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,WARN,0,2018/04/20 15:30:30.375,AORUS_X3,app1,8456,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:30:30.377,AORUS_X3,app1,8456,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00004464_5ad9f868_0002_0000,LOG,STATUS,0,2018/04/20 15:30:30.377,AORUS_X3,app1,8456,ROOT,AppOutput,28,Entering state "whole_shot"

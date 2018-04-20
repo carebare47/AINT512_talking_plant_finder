@@ -1,0 +1,13 @@
+10,0500a8c0_00003ac0_5ada549f_0001_0000,LOG,WARN,0,2018/04/20 21:59:11.350,AORUS_X3,app1,11824,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00003ac0_5ada549f_0002_0000,LOG,STATUS,0,2018/04/20 21:59:11.367,AORUS_X3,app1,26476,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003ac0_5ada549f_0002_0000,LOG,STATUS,0,2018/04/20 21:59:11.367,AORUS_X3,app1,26476,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_00003ac0_5ada549f_0002_0000,LOG,STATUS,0,2018/04/20 21:59:49.039,AORUS_X3,app1,26476,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00003ac0_5ada549f_0002_0000,LOG,STATUS,0,2018/04/20 21:59:49.039,AORUS_X3,app1,26476,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00003ac0_5ada549f_0002_0000,LOG,WARN,0,2018/04/20 21:59:49.040,AORUS_X3,app1,26476,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00003ac0_5ada549f_0002_0000,LOG,STATUS,0,2018/04/20 21:59:49.042,AORUS_X3,app1,26476,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003ac0_5ada549f_0002_0000,LOG,STATUS,0,2018/04/20 21:59:49.042,AORUS_X3,app1,26476,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_00003ac0_5ada549f_0002_0000,LOG,STATUS,0,2018/04/20 22:00:26.631,AORUS_X3,app1,26476,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00003ac0_5ada549f_0002_0000,LOG,STATUS,0,2018/04/20 22:00:26.631,AORUS_X3,app1,26476,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00003ac0_5ada549f_0002_0000,LOG,WARN,0,2018/04/20 22:00:26.632,AORUS_X3,app1,26476,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00003ac0_5ada549f_0002_0000,LOG,STATUS,0,2018/04/20 22:00:26.633,AORUS_X3,app1,26476,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003ac0_5ada549f_0002_0000,LOG,STATUS,0,2018/04/20 22:00:26.633,AORUS_X3,app1,26476,ROOT,AppOutput,26,Entering state "greeting"

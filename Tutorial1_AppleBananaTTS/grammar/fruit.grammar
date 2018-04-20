@@ -8,10 +8,318 @@
 ;
 ;  banana
 
-.Choice	(
+.Start
+(
+	?HESITATION
+	[
+	(BINARY)
+	]
+)
+
+BINARY
+(
+	[
+	(yes)					{<binary_response_said yes_said>}
+	(affirmative)			{<binary_response_said yes_said>}
+	(?yes i have ?indeed)	{<binary_response_said yes_said>}
+	(no)					{<binary_response_said no_said>}
+	(negative)				{<binary_response_said no_said>}
+	(?no i have not)		{<binary_response_said no_said>}
+	]
+)
+
+.Greet	
+(
 		[
 			(apple)       {<fruit_said apple_said>}
+			(egg)       {<fruit_said egg_said>}
+			(food)       {<fruit_said food_said>}
 			(banana)      {<fruit_said banana_said>}
+			(medicine)		{<fruit_said medicine_said>}
 			(exit)        {<fruit_said exit_said>}
 		]
+)
+
+;.Greet	;This should be the three way switcher, edible medical or environment
+;(
+;		[
+;			(apple)       {<fruit_said apple_said>}
+;			(egg)       {<fruit_said egg_said>}
+;			(food)       {<fruit_said food_said>}
+;			(banana)      {<fruit_said banana_said>}
+;			(medicine)		{<fruit_said medicine_said>}
+;			(exit)        {<fruit_said exit_said>}
+;		]
+;);;
+
+.Choice (
+			?HESITATION
+				[
+				(?WILL_YOU) 
+				
+				(?CAN_YOU)
+				]
+				
+				
+
+			  ?PRE_OBJECT OBJECT ?THAT ?CAN ?CURE CONDITION ?please
+		)
+		
+		
+CURE
+(
+	[
+		(cure ?my)
+		(help ?with ?my)
+		(help (?me with my))
+		(help (?me with a))
+	]
+)
+CONDITION
+(
+	[
+		(headache) {<condition_said headache_said>}
+		(cold) {<condition_said cold_said>}
+		(?i ?need ?a ?massive shit) {<condition_said constipated_said>}
+	]
+)
+THAT
+(
+	[
+	(which)
+	(that)
+	]
+)
+
+CAN
+(
+	[
+	(can)
+	(could)
+	(will)
+	]
+)
+
+PRE_OBJECT
+(
+	[
+	(a)
+	(the)
+	]
+)
+
+OBJECT
+(
+	[
+	(plant)
+	(tree)
+	(shrub)
+	(flower)
+	]
+)
+HESITATION
+(
+  [
+	(uh)
+	(and)
+	(so)
+  ]
+)
+
+CAN_YOU
+(
+	[
+	(can you help ?me ?find)
+	;(can I get a)
+	]
+)
+
+WILL_YOU
+(
+	[
+	(will you help ?me)
+	]
+)
+
+FIND
+(
+	[
+	(hand with finding)
+	(find a plant that can)
+	(find ?me ?a)
+	]
+)
+
+I_WANT
+( 
+  [
+	(i would like to)
+	(i want ?to)
+	(can i)
+	(could i)
+	(find me a plant that)
+	(can i please)
+	(i will)
+	(i)
+  ]
+)
+
+
+VERB
+(
+  [
+	(order)
+	(get)
+	(take)
+	(have)
+  ]
+)
+
+
+
+
+DRUG_CLASS
+(
+	[
+		(Abortifacient)		{<drugclass_said Abortifacient_said>}
+		(Acrid)		{<drugclass_said Acrid_said>}
+		(Adaptogen)		{<drugclass_said Adaptogen_said>}
+		(Alterative)		{<drugclass_said Alterative_said>}
+		(Anaesthetic)		{<drugclass_said Anaesthetic_said>}
+		(Analgesic)		{<drugclass_said Analgesic_said>}
+		(Anaphrodisiac)		{<drugclass_said Anaphrodisiac_said>}
+		(Anodyne)		{<drugclass_said Anodyne_said>}
+		(Antacid)		{<drugclass_said Antacid_said>}
+		(Anthelmintic)		{<drugclass_said Anthelmintic_said>}
+		(Antiaphonic)		{<drugclass_said Antiaphonic_said>}
+		(Antiarthritic)		{<drugclass_said Antiarthritic_said>}
+		(Antiasthmatic)		{<drugclass_said Antiasthmatic_said>}
+		(Antibacterial)		{<drugclass_said Antibacterial_said>}
+		(Antibilious)		{<drugclass_said Antibilious_said>}
+		(Antibiotic)		{<drugclass_said Antibiotic_said>}
+		(Anticholesterolemic)		{<drugclass_said Anticholesterolemic_said>}
+		(Anticoagulant)		{<drugclass_said Anticoagulant_said>}
+		(Antidandruff)		{<drugclass_said Antidandruff_said>}
+		(Antidermatosic)		{<drugclass_said Antidermatosic_said>}
+		(Antidote)		{<drugclass_said Antidote_said>}
+		(Antiecchymotic)		{<drugclass_said Antiecchymotic_said>}
+		(Antiemetic)		{<drugclass_said Antiemetic_said>}
+		(Antifungal)		{<drugclass_said Antifungal_said>}
+		(Antihaemorrhoidal)		{<drugclass_said Antihaemorrhoidal_said>}
+		(Antihalitosis)		{<drugclass_said Antihalitosis_said>}
+		(Antihydrotic)		{<drugclass_said Antihydrotic_said>}
+		(Antiinflammatory)		{<drugclass_said Antiinflammatory_said>}
+		(Antiperiodic)		{<drugclass_said Antiperiodic_said>}
+		(Antiphlogistic)		{<drugclass_said Antiphlogistic_said>}
+		(Antipruritic)		{<drugclass_said Antipruritic_said>}
+		(Antipyretic)		{<drugclass_said Antipyretic_said>}
+		(Antirheumatic)		{<drugclass_said Antirheumatic_said>}
+		(Antiscorbutic)		{<drugclass_said Antiscorbutic_said>}
+		(Antiscrophulatic)		{<drugclass_said Antiscrophulatic_said>}
+		(Antiseptic)		{<drugclass_said Antiseptic_said>}
+		(Antispasmodic)		{<drugclass_said Antispasmodic_said>}
+		(Antitumor)		{<drugclass_said Antitumor_said>}
+		(Antitussive)		{<drugclass_said Antitussive_said>}
+		(Antivinous)		{<drugclass_said Antivinous_said>}
+		(Antiviral)		{<drugclass_said Antiviral_said>}
+		(Aperient)		{<drugclass_said Aperient_said>}
+		(Aphrodisiac)		{<drugclass_said Aphrodisiac_said>}
+		(Appetizer)		{<drugclass_said Appetizer_said>}
+		(Aromatherapy)		{<drugclass_said Aromatherapy_said>}
+		(Aromatic)		{<drugclass_said Aromatic_said>}
+		(Astringent)		{<drugclass_said Astringent_said>}
+		(Bach)		{<drugclass_said Bach_said>}
+		(Balsamic)		{<drugclass_said Balsamic_said>}
+		(Birth)		{<drugclass_said aid    _said>}
+		(irth)		{<drugclass_said aid_said>}
+		(Bitter)		{<drugclass_said Bitter_said>}
+		(Bl)		{<drugclass_said purifier    _said>}
+		(l)		{<drugclass_said purifier_said>}
+		(Bl)		{<drugclass_said tonic    _said>}
+		(l)		{<drugclass_said tonic_said>}
+		(Cancer)		{<drugclass_said Cancer_said>}
+		(Cardiac)		{<drugclass_said Cardiac_said>}
+		(Cardiotonic)		{<drugclass_said Cardiotonic_said>}
+		(Carminative)		{<drugclass_said Carminative_said>}
+		(Cathartic)		{<drugclass_said Cathartic_said>}
+		(Cholagogue)		{<drugclass_said Cholagogue_said>}
+		(Contraceptive)		{<drugclass_said Contraceptive_said>}
+		(Cytostatic)		{<drugclass_said Cytostatic_said>}
+		(Cytotoxic)		{<drugclass_said Cytotoxic_said>}
+		(Decongestant)		{<drugclass_said Decongestant_said>}
+		(Demulcent)		{<drugclass_said Demulcent_said>}
+		(Deobstruent)		{<drugclass_said Deobstruent_said>}
+		(Deodorant)		{<drugclass_said Deodorant_said>}
+		(Depurative)		{<drugclass_said Depurative_said>}
+		(Detergent)		{<drugclass_said Detergent_said>}
+		(Diaphoretic)		{<drugclass_said Diaphoretic_said>}
+		(Digestive)		{<drugclass_said Digestive_said>}
+		(Disinfectant)		{<drugclass_said Disinfectant_said>}
+		(Diuretic)		{<drugclass_said Diuretic_said>}
+		(Emetic)		{<drugclass_said Emetic_said>}
+		(Emmenagogue)		{<drugclass_said Emmenagogue_said>}
+		(Emollient)		{<drugclass_said Emollient_said>}
+		(Enuresis)		{<drugclass_said Enuresis_said>}
+		(Errhine)		{<drugclass_said Errhine_said>}
+		(Expectorant)		{<drugclass_said Expectorant_said>}
+		(Febrifuge)		{<drugclass_said Febrifuge_said>}
+		(F)		{<drugclass_said care    _said>}
+		()		{<drugclass_said care_said>}
+		(Galactofuge)		{<drugclass_said Galactofuge_said>}
+		(Galactogogue)		{<drugclass_said Galactogogue_said>}
+		(Haemolytic)		{<drugclass_said Haemolytic_said>}
+		(Haemostatic)		{<drugclass_said Haemostatic_said>}
+		(Hallucinogenic)		{<drugclass_said Hallucinogenic_said>}
+		(Hepatic)		{<drugclass_said Hepatic_said>}
+		(Homeopathy)		{<drugclass_said Homeopathy_said>}
+		(Hydrogogue)		{<drugclass_said Hydrogogue_said>}
+		(Hypnotic)		{<drugclass_said Hypnotic_said>}
+		(Hypoglycaemic)		{<drugclass_said Hypoglycaemic_said>}
+		(Hypotensive)		{<drugclass_said Hypotensive_said>}
+		(Infertility)		{<drugclass_said Infertility_said>}
+		(Irritant)		{<drugclass_said Irritant_said>}
+		(Kidney)		{<drugclass_said Kidney_said>}
+		(Laxative)		{<drugclass_said Laxative_said>}
+		(Lenitive)		{<drugclass_said Lenitive_said>}
+		(Lithontripic)		{<drugclass_said Lithontripic_said>}
+		(Miscellany)		{<drugclass_said Miscellany_said>}
+		(Mouthwash)		{<drugclass_said Mouthwash_said>}
+		(Mydriatic)		{<drugclass_said Mydriatic_said>}
+		(Narcotic)		{<drugclass_said Narcotic_said>}
+		(Nervine)		{<drugclass_said Nervine_said>}
+		(Nutritive)		{<drugclass_said Nutritive_said>}
+		(Odontalgic)		{<drugclass_said Odontalgic_said>}
+		(Ophthalmic)		{<drugclass_said Ophthalmic_said>}
+		(Oxytoxic)		{<drugclass_said Oxytoxic_said>}
+		(Parasiticide)		{<drugclass_said Parasiticide_said>}
+		(Pectoral)		{<drugclass_said Pectoral_said>}
+		(Plaster)		{<drugclass_said Plaster_said>}
+		(Poultice)		{<drugclass_said Poultice_said>}
+		(Purgative)		{<drugclass_said Purgative_said>}
+		(Refrigerant)		{<drugclass_said Refrigerant_said>}
+		(Resolvent)		{<drugclass_said Resolvent_said>}
+		(Restorative)		{<drugclass_said Restorative_said>}
+		(Rubefacient)		{<drugclass_said Rubefacient_said>}
+		(Salve)		{<drugclass_said Salve_said>}
+		(Sedative)		{<drugclass_said Sedative_said>}
+		(Sialagogue)		{<drugclass_said Sialagogue_said>}
+		(Skin)		{<drugclass_said Skin_said>}
+		(Sternutatory)		{<drugclass_said Sternutatory_said>}
+		(Stimulant)		{<drugclass_said Stimulant_said>}
+		(Stings)		{<drugclass_said Stings_said>}
+		(Stomachic)		{<drugclass_said Stomachic_said>}
+		(Styptic)		{<drugclass_said Styptic_said>}
+		(TB)		{<drugclass_said TB_said>}
+		(Tonic)		{<drugclass_said Tonic_said>}
+		(Uter)		{<drugclass_said tonic    _said>}
+		(ter)		{<drugclass_said tonic_said>}
+		(Vasoconstrictor)		{<drugclass_said Vasoconstrictor_said>}
+		(Vasodilator)		{<drugclass_said Vasodilator_said>}
+		(VD)		{<drugclass_said VD_said>}
+		(Vermifuge)		{<drugclass_said Vermifuge_said>}
+		(Vesicant)		{<drugclass_said Vesicant_said>}
+		(Vulnerary)		{<drugclass_said Vulnerary_said>}
+		(Warts)		{<drugclass_said Warts_said>}
+		(Women's complaints) 	<{WomensComplaints_said drugclass_said>}
+	]
 )

@@ -14,8 +14,8 @@
 #include <my_global.h>
 
 //#include <tom.h>
-
-
+char* sql_food(char* food);
+char* sql_country(char* country);
 void printDate(void);
 char* concat(const char *s1, const char *s2);
 char* intToStr(int num);
@@ -23,8 +23,11 @@ const char* returnDate(void);
 char* returnTime(void);
 char* integer_to_string(int x);
 char* returnMySQLVersion(void);
-
-
+void finish_with_error(MYSQL *con);
+char* sql_medic(char* condition);
+void goDoSQL(App *app, char* purpose, char* specific);
+char* sql_general(char* type, char* query);
+void goDoAllTheSQL(App *app, char* purpose, char* specific);
 
 void RootEntryFn(App *app)
 {
@@ -57,8 +60,359 @@ void RootPostRecFn(App *app)
 	}
 }
 
+void startfn(App *app) {
+	AppCreateState(app, "start", "root", startfn); 
+	AppSetGrammar(app, ".Start");
+	char buf[100];
+	printf("\nHello. Have you used this service before?\n");
+	AppAppendTTSPrompt(app, "Hello. Have you used this service before?");
+
+	NLGetStringSlotValue(AppGetNLResult(app), "binary_response_said", buf, 100);
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
+	if (!strcmp(buf, "yes_said")) {
+		printf("Welcome back!\n");
+		//AppAppendTTSPrompt(app, "You said egg egg egg egg.");
+		AppGoto(app, "greeting");
+	}
+	else if (!strcmp(buf, "no_said")) {
+		printf("Loading introduction...\n");
+		//AppAppendTTSPrompt(app, "You said egg egg egg egg.");
+		AppAppendTTSPrompt(app, "I am here to help you in finding the perfect plant. I have access to a database of over 7500 plants. I can help you find plants that grow in various soil types or locations, or I can help you find a plant to help treat a medical problem or to replace a foodstuff.");
+		printf("I am here to help you in finding the perfect plant.I have access to a database of over 7500 plants.I can help you find plants that grow in various soil types or locations, or I can help you find a plant to help treat a medical problem or to replace a foodstuff.");
+		AppGoto(app, "greeting");
+	} else {
+		AppAppendTTSPrompt(app, "try again");
+		//AppAppendPrompt(app, "try_again.wav");
+	}
+
+	AppGotoSelf(app);
+
+
+}
+
 void firstQfn(App *app) {
 
+}
+
+void foodfn(App *app) {
+	AppSetGrammar(app, ".Choice");
+	char buf[100];
+	printf("\n I can help you find plants that can be used as substitutes for other foods. What foodstuff would you like to replace ? \n");
+	AppAppendTTSPrompt(app, "I can help you find plants that can be used as substitutes for other foods. What foodstuff would you like to replace ?");
+	NLGetStringSlotValue(AppGetNLResult(app), "fruit_said", buf, 100);
+
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
+	if (!strcmp(buf, "egg_said")) {
+		printf("You said egg egg egg egg.\n");
+		AppAppendTTSPrompt(app, "You said egg egg egg egg.");
+		goDoSQL(app, "food", "Egg");
+	}
+		/*MYSQL *con = mysql_init(NULL);
+
+		if (con == NULL)
+		{
+			fprintf(stderr, "mysql_init() failed\n");
+			exit(1);
+		}
+
+		if (mysql_real_connect(con, "localhost", "root", "Ms-dos333",
+			"pfaf2innodb", 0, NULL, 0) == NULL)
+		{
+			finish_with_error(con);
+		}
+
+		if (mysql_query(con, sql_food("Egg")))
+		{
+			finish_with_error(con);
+		}
+
+
+		MYSQL_RES *result = mysql_store_result(con);
+
+		if (result == NULL)
+		{
+			finish_with_error(con);
+		}
+
+		int num_fields = mysql_num_fields(result);
+		printf("num_fields: %d", num_fields);
+		MYSQL_ROW row;
+		AppAppendTTSPrompt(app, "Here are your results: ");
+		while ((row = mysql_fetch_row(result)))
+		{
+			for (int i = 0; i < num_fields; i++)
+			{
+				printf("%s ", row[i] ? row[i] : "NULL");
+				printf("%s ", row[i]);
+				AppAppendTTSPrompt(app, row[i]);
+			}
+			printf("\n");
+		}
+
+		mysql_free_result(result);
+		mysql_close(con);
+	}*/
+	AppGotoSelf(app);
+}
+
+void goDoAllTheSQL(App *app, char* purpose, char* specific) {
+
+
+	MYSQL *con = mysql_init(NULL);
+
+	if (con == NULL)
+	{
+		fprintf(stderr, "mysql_init() failed\n");
+		exit(1);
+	}
+
+	if (mysql_real_connect(con, "localhost", "root", "Ms-dos333",
+		"pfaf2innodb", 0, NULL, 0) == NULL)
+	{
+		finish_with_error(con);
+	}
+
+	if (mysql_query(con, sql_general(purpose, specific)))
+	{
+		finish_with_error(con);
+	}
+
+
+	//if (strcmp(purpose, "medical") == 0) {
+
+	//	if (mysql_query(con, sql_medic(specific)))
+	//	{
+	//		finish_with_error(con);
+	//	}
+	//}
+	//else if (strcmp(purpose, "food") == 0) {
+	//	if (mysql_query(con, sql_food(specific)))
+	//	{
+	//		finish_with_error(con);
+	//	}
+	//}
+	//else {
+	//	printf("Something's gone wrong");
+	//	finish_with_error(con);
+	//}
+
+
+
+
+	MYSQL_RES *result = mysql_store_result(con);
+
+	if (result == NULL)
+	{
+		finish_with_error(con);
+	}
+
+	int num_fields = mysql_num_fields(result);
+	printf("num_fields: %d", num_fields);
+	MYSQL_ROW row;
+	AppAppendTTSPrompt(app, "Here are your results: ");
+	while ((row = mysql_fetch_row(result)))
+	{
+		for (int i = 0; i < num_fields; i++)
+		{
+			printf("%s ", row[i] ? row[i] : "NULL");
+			printf("%s ", row[i]);
+			AppAppendTTSPrompt(app, row[i]);
+		}
+		printf("\n");
+	}
+
+	mysql_free_result(result);
+	mysql_close(con);
+
+}
+
+
+void goDoSQL(App *app, char* purpose, char* specific) {
+
+
+	MYSQL *con = mysql_init(NULL);
+
+	if (con == NULL)
+	{
+		fprintf(stderr, "mysql_init() failed\n");
+		exit(1);
+	}
+
+	if (mysql_real_connect(con, "localhost", "root", "Ms-dos333",
+		"pfaf2innodb", 0, NULL, 0) == NULL)
+	{
+		finish_with_error(con);
+	}
+
+	if (strcmp(purpose, "medical") == 0) {
+
+		if (mysql_query(con, sql_medic(specific)))
+		{
+			finish_with_error(con);
+		}
+	}
+	else if (strcmp(purpose, "food") == 0) {
+		if (mysql_query(con, sql_food(specific)))
+		{
+			finish_with_error(con);
+		}
+	}
+	else {
+		printf("Something's gone wrong");
+		finish_with_error(con);
+	}
+
+
+
+
+	MYSQL_RES *result = mysql_store_result(con);
+
+	if (result == NULL)
+	{
+		finish_with_error(con);
+	}
+
+	int num_fields = mysql_num_fields(result);
+	printf("num_fields: %d", num_fields);
+	MYSQL_ROW row;
+	AppAppendTTSPrompt(app, "Here are your results: ");
+	while ((row = mysql_fetch_row(result)))
+	{
+		for (int i = 0; i < num_fields; i++)
+		{
+			printf("%s ", row[i] ? row[i] : "NULL");
+			printf("%s ", row[i]);
+			AppAppendTTSPrompt(app, row[i]);
+		}
+		printf("\n");
+	}
+
+	mysql_free_result(result);
+	mysql_close(con);
+
+}
+
+
+void greetfn(App *app) {
+	AppSetGrammar(app, ".Greet");
+	char buf[100];
+	//AppAppendTTSPrompt(app, returnMySQLVersion());
+	printf("\n%s", returnTime());
+	printf("\n%s\n", returnDate());
+	//AppAppendTTSPrompt(app, returnTime());
+	//AppAppendTTSPrompt(app, "So, you would like to buy a plant? Where abouts do you live?");
+	//AppAppendTTSPrompt(app, returnDate());
+	AppAppendTTSPrompt(app, "Would you like to find a plant that will grow well in a particular environment, or would you rather search for medicinal or edible plants?");	
+
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
+	/*
+	* Get the value of the "fruit" slot
+	*/
+	//AppAppendPrompt(app, "you_said.wav");
+
+	
+	NLGetStringSlotValue(AppGetNLResult(app), "fruit_said", buf, 100);
+
+	if (!strcmp(buf, "apple_said")) {
+		//AppAppendPrompt(app, "apple.wav");
+		AppAppendTTSPrompt(app, "you said food");
+		printf("You said you prefer an apple.\n");
+		AppGoto(app, "food");
+	}
+	else if (!strcmp(buf, "medicine_said")) {
+		//AppAppendPrompt(app, "apple.wav");
+		AppAppendTTSPrompt(app, "you said medicine");
+		printf("You said you would like to find a plant to help with a medical problem.\n");
+		AppGoto(app, "medicine");
+	}
+	//else if (!strcmp(buf, "medicine_said")) {
+	//	//AppAppendPrompt(app, "apple.wav");
+	//	AppAppendTTSPrompt(app, "you said medicine");
+	//	printf("You said you would like to find a plant to help with a medical problem.\n");
+	//	AppGoto(app, "medicine");
+	//}
+	else if (!strcmp(buf, "food_said")) {
+		//AppAppendPrompt(app, "apple.wav");
+		AppAppendTTSPrompt(app, "you said food");
+		printf("You said you are interested in food.\n");
+		AppGoto(app, "food");
+	}
+	else if (!strcmp(buf, "banana_said")) {
+		//AppAppendPrompt(app, "banana.wav");
+		AppAppendTTSPrompt(app, "you said medicine");
+		printf("You said you prefer a banana.\n");
+		AppGoto(app, "medical");
+	}
+	else if (!strcmp(buf, "exit_said")) {
+		printf("You said exit.\n");
+		exit(0);
+	}
+	else {
+		AppAppendTTSPrompt(app, "try again");
+		//AppAppendPrompt(app, "try_again.wav");
+		printf("You said you prefer a banana.\n");
+	}
+
+	AppGotoSelf(app);
+}
+
+void environmentfn(App *app) {
+	
+	
+	AppGotoSelf(app);
+}
+
+void medicalfn(App *app) {
+	AppSetGrammar(app, ".Choice");
+	char buf[100];
+	
+	AppAppendTTSPrompt(app, "Tell me a little more about what you want help with.");
+
+
+
+	//Sleep(10000);
+	//AppGotoSelf(app);
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
+	/*
+	* Get the value of the "fruit" slot
+	*/
+	//AppAppendPrompt(app, "you_said.wav");
+
+
+	NLGetStringSlotValue(AppGetNLResult(app), "condition_said", buf, 100);
+
+	if (!strcmp(buf, "headache_said")) {
+		//AppAppendPrompt(app, "apple.wav");
+		AppAppendTTSPrompt(app, "I'm sorry to hear about your headache. Can I recommend an analgesic?");
+		printf("You said you have a headache.\n");
+		goDoAllTheSQL(app, "medicinal", "Analgesic");
+	} else if (!strcmp(buf, "cold_said")) {
+		//AppAppendPrompt(app, "apple.wav");
+		AppAppendTTSPrompt(app, "you said food");
+		printf("You said you have a cold. Here, grow a laxative.\n");
+		goDoAllTheSQL(app, "medicinal", "Laxative");
+	}
+	else if (!strcmp(buf, "constipated_said")) {
+		AppAppendTTSPrompt(app, "you said you need a massive shit");
+		printf("Here, grow a laxative.\n");
+		goDoAllTheSQL(app, "medicinal", "Laxative");
+	}
+
+	//exit(0);
+	
+	AppGotoSelf(app);
 }
 
 void AllInOneFn(App *app)
@@ -122,9 +476,52 @@ int main(int argc, char *argv[])
 {
 	App *app;
 	app = AppNew(&argc, argv);
+	
+	
+
+	MYSQL *con = mysql_init(NULL);
+
+	if (con == NULL)
+	{
+		fprintf(stderr, "mysql_init() failed\n");
+		exit(1);
+	}
+
+	if (mysql_real_connect(con, "localhost", "root", "Ms-dos333",
+		"pfaf2innodb", 0, NULL, 0) == NULL)
+	{
+		finish_with_error(con);
+	}
+
+		if (mysql_query(con, "SELECT `Use` FROM `medicinal uses`;"))
+		{
+			finish_with_error(con);
+		}
 
 
+	MYSQL_RES *result = mysql_store_result(con);
 
+	if (result == NULL)
+	{
+		finish_with_error(con);
+	}
+
+	int num_fields = mysql_num_fields(result);
+	printf("num_fields: %d", num_fields);
+	MYSQL_ROW row;
+
+	while ((row = mysql_fetch_row(result)))
+	{
+		for (int i = 0; i < num_fields; i++)
+		{
+			printf("%s    ", row[i] ? row[i] : "NULL");
+			printf("%s ", row[i]);
+		}
+		printf("\n");
+	}
+
+	mysql_free_result(result);
+	mysql_close(con);
 
 	if (app == NULL)
 		exit(-1);
@@ -132,13 +529,17 @@ int main(int argc, char *argv[])
 	AppCreateStateClass(app, "root", NULL, RootEntryFn, RootPostRecFn);
 	AppCreateState(app, "whole_shot", "root", AllInOneFn);
 	AppCreateState(app, "first_q", "root", firstQfn);
-	AppGo(app, "whole_shot");
+	AppCreateState(app, "greeting", "root", greetfn);
+	AppCreateState(app, "food", "root", foodfn);
+	AppCreateState(app, "medicine", "root", medicalfn);
+	AppCreateState(app, "environment", "root", environmentfn);
+
+	AppCreateState(app, "start", "root", startfn);
+	
+	
+	AppGo(app, "start");
 	return 0;
 }
-
-
-
-
 
 
 char* concat(const char *s1, const char *s2)
@@ -162,20 +563,37 @@ void printDate(void) {
 	printf("(ss)The day is: %s", arrDayNames[sst.wDayOfWeek]);
 }
 
-//This is not the fastest way to do this, but you shouldn't be worrying about that now. Note that the function returns a block of heap allocated memory to the caller and passes on ownership of that memory. It is the responsibility of the caller to free the memory when it is no longer needed.
+char* sql_country(char* country) {
+	//concat("SELECT `latin name` FROM `range` WHERE `Britain` IS NOT NULL;")
+	char* buff[100];
+	char* country_query;
+	sprintf(buff, "SELECT `latin name` FROM `range` WHERE `%s` IS NOT NULL;", country);
+	printf("\n\n%s\n\n", buff);
+	return buff;
+}
 
-//Call the function like this:
+char* sql_medic(char* condition) {
+	//concat("SELECT `latin name` FROM `range` WHERE `Britain` IS NOT NULL;")
+	char* buff[100];
+	sprintf(buff, "SELECT * FROM `medicinal use details` WHERE `Use`='%s';", condition);
+	printf("\n\n%s\n\n", buff);
+	return buff;
+}
+char* sql_general(char* type, char* query) {
+	//concat("SELECT `latin name` FROM `range` WHERE `Britain` IS NOT NULL;")
+	char* buff[100];
+	sprintf(buff, "SELECT * FROM `%s use details` WHERE `Use`='%s';", type, query);
+	printf("\n\n%s\n\n", buff);
+	return buff;
+}
 
-//const char* calculateMonth(int month)
-//{
-//static char* months[] = { "Jan", "Feb", "Mar" .... };
-//	static char badFood[] = "Unknown";
-//	if (month<1 || month>12)
-//		return badFood; // choose whatever is appropriate for bad input. Crashing is never appropriate however.
-//else
-//return months[month - 1];
-//}
-//char* concat(const char *s1, const char *s2)
+char* sql_food(char* condition) {
+	//concat("SELECT `latin name` FROM `range` WHERE `Britain` IS NOT NULL;")
+	char* buff[100];
+	sprintf(buff, "SELECT * FROM `edible use details` WHERE `Use`='%s';", condition);
+	printf("\n\n%s\n\n", buff);
+	return buff;
+}
 
 const char* returnDate(void)
 {
@@ -244,7 +662,6 @@ const char* returnDate(void)
 //	return s6;
 //}
 
-
 char* integer_to_string(int x)
 {
 	char* buffer = malloc(sizeof(char) * sizeof(int) * 4 + 1);
@@ -254,8 +671,6 @@ char* integer_to_string(int x)
 	}
 	return buffer; // caller is expected to invoke free() on this buffer to release memory
 }
-
-
 
 char* returnTime(void) {
 
@@ -370,4 +785,11 @@ char* returnMySQLVersion(void) {
 	char* ver4 = concat(ver3, integer_to_string(sub_sub_ver));
 	char* ver5 = concat("My SQL client version is ", ver4);
 	return ver5;
+}
+
+void finish_with_error(MYSQL *con)
+{
+	fprintf(stderr, "%s\n", mysql_error(con));
+	mysql_close(con);
+	exit(1);
 }

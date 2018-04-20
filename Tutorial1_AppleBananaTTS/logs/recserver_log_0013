@@ -1,0 +1,22 @@
+10,-,LOG,STATUS,0,2018/04/20 20:11:43.448,AORUS_X3,recserver,14620,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/04/20 20:11:54.559,AORUS_X3,recserver,14620,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/04/20 20:11:54.559,AORUS_X3,recserver,14620,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/04/20 20:11:54.559,AORUS_X3,recserver,14620,RS,RecServer,19,Client 0 connected
+10,0500a8c0_0000146c_5ada3b6f_0001_0000,LOG,STATUS,0,2018/04/20 20:11:54.560,AORUS_X3,recserver,14620,RS,RecServer,24,Client 0 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/20 20:12:00.332,AORUS_X3,recserver,14620,RS,RecServer,19,Client 1 connected
+10,0500a8c0_00004e20_5ada3b80_0002_0000,LOG,STATUS,0,2018/04/20 20:12:03.489,AORUS_X3,recserver,24112,RS,RecServer,53,Client 1 started utterance 65562 with grammar .Greet
+10,0500a8c0_00004e20_5ada3b80_0002_0000,LOG,STATUS,0,2018/04/20 20:12:15.457,AORUS_X3,recserver,24112,RS,RecServer,33,Client 1 utterance 65562 result:
+10,0500a8c0_00004e20_5ada3b80_0002_0000,LOG,STATUS,0,2018/04/20 20:12:15.457,AORUS_X3,recserver,24112,RAPI,RecServer,48,Result #0:     medicine (conf: 57, NL conf: 57)
+10,0500a8c0_00004e20_5ada3b80_0002_0000,LOG,STATUS,0,2018/04/20 20:12:15.457,AORUS_X3,recserver,24112,RAPI,RecServer,44,NL Res.#0:     <fruit_said "medicine_said">
+10,0500a8c0_00004e20_5ada3b80_0002_0000,LOG,STATUS,0,2018/04/20 20:12:15.457,AORUS_X3,recserver,24112,RAPI,RecServer,23,Total Audio: 10.79 sec
+10,0500a8c0_00004e20_5ada3b80_0002_0000,LOG,STATUS,0,2018/04/20 20:12:15.517,AORUS_X3,recserver,14620,RS,RecServer,24,Client 1 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/20 20:13:37.987,AORUS_X3,recserver,14620,RS,RecServer,19,Client 2 connected
+10,0500a8c0_000028ac_5ada3be2_0002_0000,LOG,STATUS,0,2018/04/20 20:13:41.043,AORUS_X3,recserver,24112,RS,RecServer,53,Client 2 started utterance 65562 with grammar .Greet
+10,0500a8c0_000028ac_5ada3be2_0002_0000,LOG,STATUS,0,2018/04/20 20:13:56.498,AORUS_X3,recserver,14620,RS,RecServer,24,Client 2 disconnected
+
+

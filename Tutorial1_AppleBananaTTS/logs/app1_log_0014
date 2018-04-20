@@ -1,3 +1,0 @@
-10,0500a8c0_00000ea0_5ad9d8b6_0001_0000,LOG,WARN,0,2018/04/20 13:10:31.017,AORUS_X3,app1,17424,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
-10,0500a8c0_00000ea0_5ad9d8b7_0002_0000,LOG,STATUS,0,2018/04/20 13:10:31.037,AORUS_X3,app1,11244,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,0500a8c0_00000ea0_5ad9d8b7_0002_0000,LOG,STATUS,0,2018/04/20 13:10:31.038,AORUS_X3,app1,11244,ROOT,AppOutput,28,Entering state "whole_shot"

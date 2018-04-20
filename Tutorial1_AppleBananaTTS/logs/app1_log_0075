@@ -1,0 +1,18 @@
+10,0500a8c0_00002174_5ada2cc2_0001_0000,LOG,WARN,0,2018/04/20 19:09:06.461,AORUS_X3,app1,18760,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,STATUS,0,2018/04/20 19:09:06.477,AORUS_X3,app1,20076,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,STATUS,0,2018/04/20 19:09:06.477,AORUS_X3,app1,20076,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,STATUS,0,2018/04/20 19:09:11.446,AORUS_X3,app1,20076,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,STATUS,0,2018/04/20 19:09:11.447,AORUS_X3,app1,20076,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,WARN,0,2018/04/20 19:09:11.447,AORUS_X3,app1,20076,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,STATUS,0,2018/04/20 19:09:11.448,AORUS_X3,app1,20076,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,STATUS,0,2018/04/20 19:09:11.448,AORUS_X3,app1,20076,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,STATUS,0,2018/04/20 19:09:16.413,AORUS_X3,app1,20076,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,STATUS,0,2018/04/20 19:09:16.413,AORUS_X3,app1,20076,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,WARN,0,2018/04/20 19:09:16.413,AORUS_X3,app1,20076,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,STATUS,0,2018/04/20 19:09:16.414,AORUS_X3,app1,20076,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,STATUS,0,2018/04/20 19:09:16.414,AORUS_X3,app1,20076,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,STATUS,0,2018/04/20 19:09:21.296,AORUS_X3,app1,20076,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,STATUS,0,2018/04/20 19:09:21.297,AORUS_X3,app1,20076,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,WARN,0,2018/04/20 19:09:21.297,AORUS_X3,app1,20076,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,STATUS,0,2018/04/20 19:09:21.299,AORUS_X3,app1,20076,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002174_5ada2cc2_0002_0000,LOG,STATUS,0,2018/04/20 19:09:21.299,AORUS_X3,app1,20076,ROOT,AppOutput,26,Entering state "greeting"

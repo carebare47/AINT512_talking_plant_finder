@@ -1,0 +1,105 @@
+
+; GSL Grammar for Chinese takeaway order
+
+;i would like to order two times crispy aromatic duck
+;i want five fried rice please
+;two times crispy duck please
+;and two times crispy aromatic duck
+;uh i will take crispy duck two times please
+;two times number eighty two please
+
+
+.ORDERSENTENCE
+(
+	?HESITATION ?I_WANT ?VERB
+	
+	[
+		; Amount first and then order code
+		(
+		  ?AMOUNT
+		  FOOD
+		)
+	
+		; OR Amount after order code
+		(
+		  FOOD
+		  ?AMOUNT
+		)	
+		
+		; OR the the user has finished ordering
+		(
+			FINISHED
+		)
+	]
+	?please
+)
+
+
+I_WANT
+( 
+  [
+	(i would like to)
+	(i want ?to)
+	(can i)
+	(i will)
+	(i)
+  ]
+)
+
+
+VERB
+(
+  [
+	(order)
+	(get)
+	(take)
+	(have)
+  ]
+)
+
+FOOD
+(
+	[
+		(?number sixty one)		{<ordercode 61>}
+		(?number twenty two)	{<ordercode 22>}
+		(?number eighty two)	{<ordercode 82>}
+		(?number ninety one)	{<ordercode 91>}
+		
+		(sweet and sour pork)	{<ordercode 61>}
+		(fried rice)			{<ordercode 22>}
+		(?quarter ?crispy ?aromatic duck) {<ordercode 82>}
+		(singapore noodles)		{<ordercode 91>}	
+		
+	]
+
+)
+
+AMOUNT
+(
+  [
+	(one ?time)			{<amount 1>}
+	(two ?times)		{<amount 2>}
+	(three ?times)		{<amount 3>}
+	(four ?times)		{<amount 4>}
+	(five ?times)		{<amount 5>}
+  ]
+)
+
+
+HESITATION
+(
+  [
+	(uh)
+	(and)
+  ]
+)
+
+FINISHED
+(
+  [
+	(no thanks)			{<exit 1>}
+	(thats it)			{<exit 1>}
+	(thats all)			{<exit 1>}
+	(no)				{<exit 1>}
+  ]
+)

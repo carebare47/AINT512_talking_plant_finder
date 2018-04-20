@@ -1,0 +1,15 @@
+10,0100007f_0000281c_5ada40ae_0001_0000,LOG,WARN,0,2018/04/20 20:34:07.386,AORUS_X3,app1,3728,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0100007f_0000281c_5ada40af_0002_0000,LOG,STATUS,0,2018/04/20 20:34:07.403,AORUS_X3,app1,25636,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0100007f_0000281c_5ada40af_0002_0000,LOG,STATUS,0,2018/04/20 20:34:07.403,AORUS_X3,app1,25636,ROOT,AppOutput,26,Entering state "greeting"
+10,0100007f_0000281c_5ada40af_0002_0000,LOG,STATUS,0,2018/04/20 20:34:37.982,AORUS_X3,app1,25636,ROOT,AppOutput,23,Recognized: "medicine"
+10,0100007f_0000281c_5ada40af_0002_0000,LOG,STATUS,0,2018/04/20 20:34:37.982,AORUS_X3,app1,25636,ROOT,AppOutput,45,Interpretation: <fruit_said "medicine_said">
+10,0100007f_0000281c_5ada40af_0002_0000,LOG,WARN,0,2018/04/20 20:34:37.982,AORUS_X3,app1,25636,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0100007f_0000281c_5ada40af_0002_0000,LOG,STATUS,0,2018/04/20 20:34:37.983,AORUS_X3,app1,25636,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0100007f_0000281c_5ada40af_0002_0000,LOG,STATUS,0,2018/04/20 20:34:37.983,AORUS_X3,app1,25636,ROOT,AppOutput,26,Entering state "medicine"
+10,0100007f_0000281c_5ada40af_0002_0000,LOG,STATUS,0,2018/04/20 20:35:12.789,AORUS_X3,app1,25636,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0100007f_0000281c_5ada40af_0002_0000,LOG,STATUS,0,2018/04/20 20:35:12.789,AORUS_X3,app1,25636,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0100007f_0000281c_5ada40af_0002_0000,LOG,WARN,0,2018/04/20 20:35:12.790,AORUS_X3,app1,25636,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0100007f_0000281c_5ada40af_0002_0000,LOG,STATUS,0,2018/04/20 20:35:12.791,AORUS_X3,app1,25636,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0100007f_0000281c_5ada40af_0002_0000,LOG,STATUS,0,2018/04/20 20:35:12.791,AORUS_X3,app1,25636,ROOT,AppOutput,26,Entering state "medicine"
+10,0100007f_0000281c_5ada40af_0002_0000,LOG,STATUS,0,2018/04/20 20:35:21.099,AORUS_X3,app1,25636,ROOT,AppOutput,69,Recognized: "can you help me find flower which can cure my headache"
+10,0100007f_0000281c_5ada40af_0002_0000,LOG,STATUS,0,2018/04/20 20:35:21.099,AORUS_X3,app1,25636,ROOT,AppOutput,49,Interpretation: <condition_said "headache_said">

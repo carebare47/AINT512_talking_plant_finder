@@ -1,0 +1,16 @@
+10,0500a8c0_000051c4_5ada2c80_0001_0000,LOG,WARN,0,2018/04/20 19:08:00.321,AORUS_X3,app1,15628,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_000051c4_5ada2c80_0002_0000,LOG,STATUS,0,2018/04/20 19:08:00.339,AORUS_X3,app1,13336,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000051c4_5ada2c80_0002_0000,LOG,STATUS,0,2018/04/20 19:08:00.339,AORUS_X3,app1,13336,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_000051c4_5ada2c80_0002_0000,LOG,STATUS,0,2018/04/20 19:08:05.518,AORUS_X3,app1,13336,ROOT,AppOutput,19,Recognized: "food"
+10,0500a8c0_000051c4_5ada2c80_0002_0000,LOG,STATUS,0,2018/04/20 19:08:05.518,AORUS_X3,app1,13336,ROOT,AppOutput,41,Interpretation: <fruit_said "food_said">
+10,0500a8c0_000051c4_5ada2c80_0002_0000,LOG,WARN,0,2018/04/20 19:08:05.518,AORUS_X3,app1,13336,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_000051c4_5ada2c80_0002_0000,LOG,STATUS,0,2018/04/20 19:08:05.520,AORUS_X3,app1,13336,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000051c4_5ada2c80_0002_0000,LOG,STATUS,0,2018/04/20 19:08:05.520,AORUS_X3,app1,13336,ROOT,AppOutput,22,Entering state "food"
+10,0500a8c0_000051c4_5ada2c80_0002_0000,LOG,STATUS,0,2018/04/20 19:08:16.042,AORUS_X3,app1,13336,ROOT,AppOutput,18,Recognized: "egg"
+10,0500a8c0_000051c4_5ada2c80_0002_0000,LOG,STATUS,0,2018/04/20 19:08:16.043,AORUS_X3,app1,13336,ROOT,AppOutput,40,Interpretation: <fruit_said "egg_said">
+10,0500a8c0_000051c4_5ada2c80_0002_0000,LOG,STATUS,0,2018/04/20 19:08:16.044,AORUS_X3,app1,13336,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000051c4_5ada2c80_0002_0000,LOG,STATUS,0,2018/04/20 19:08:16.044,AORUS_X3,app1,13336,ROOT,AppOutput,22,Entering state "food"
+10,0500a8c0_000051c4_5ada2c80_0002_0000,LOG,STATUS,0,2018/04/20 19:08:25.367,AORUS_X3,app1,13336,ROOT,AppOutput,18,Recognized: "egg"
+10,0500a8c0_000051c4_5ada2c80_0002_0000,LOG,STATUS,0,2018/04/20 19:08:25.367,AORUS_X3,app1,13336,ROOT,AppOutput,40,Interpretation: <fruit_said "egg_said">
+10,0500a8c0_000051c4_5ada2c80_0002_0000,LOG,STATUS,0,2018/04/20 19:08:25.419,AORUS_X3,app1,13336,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000051c4_5ada2c80_0002_0000,LOG,STATUS,0,2018/04/20 19:08:25.419,AORUS_X3,app1,13336,ROOT,AppOutput,22,Entering state "food"

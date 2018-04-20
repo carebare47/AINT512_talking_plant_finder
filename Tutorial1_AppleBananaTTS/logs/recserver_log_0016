@@ -1,0 +1,17 @@
+10,-,LOG,STATUS,0,2018/04/20 21:55:50.463,AORUS_X3,recserver,22868,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/04/20 21:56:00.343,AORUS_X3,recserver,22868,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/04/20 21:56:00.343,AORUS_X3,recserver,22868,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/04/20 21:56:00.343,AORUS_X3,recserver,22868,RS,RecServer,19,Client 0 connected
+10,0500a8c0_00005650_5ada53e0_0002_0000,LOG,STATUS,0,2018/04/20 21:56:03.325,AORUS_X3,recserver,1008,RS,RecServer,53,Client 0 started utterance 65562 with grammar .Greet
+10,0500a8c0_00005650_5ada53e0_0002_0000,LOG,STATUS,0,2018/04/20 21:56:33.332,AORUS_X3,recserver,1008,RS,RecServer,33,Client 0 utterance 65562 aborted
+10,0500a8c0_00005650_5ada53e0_0002_0000,LOG,STATUS,0,2018/04/20 21:56:36.266,AORUS_X3,recserver,1008,RS,RecServer,53,Client 0 started utterance 65582 with grammar .Greet
+10,0500a8c0_00005650_5ada53e0_0002_0000,LOG,STATUS,0,2018/04/20 21:56:58.033,AORUS_X3,recserver,1008,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,0500a8c0_00005650_5ada53e0_0002_0000,LOG,STATUS,0,2018/04/20 21:56:58.052,AORUS_X3,recserver,1008,RS,RecServer,33,Client 0 utterance 65582 result:
+10,0500a8c0_00005650_5ada53e0_0002_0000,LOG,STATUS,0,2018/04/20 21:56:58.052,AORUS_X3,recserver,1008,RAPI,RecServer,50,Result #0:     <rejected> (conf: 33, NL conf:  0)
+10,0500a8c0_00005650_5ada53e0_0002_0000,LOG,STATUS,0,2018/04/20 21:56:58.052,AORUS_X3,recserver,1008,RAPI,RecServer,22,Total Audio: 3.93 sec
+10,0500a8c0_00005650_5ada53e0_0002_0000,LOG,STATUS,0,2018/04/20 21:56:58.052,AORUS_X3,recserver,1008,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass4
+10,0500a8c0_00005650_5ada53e0_0002_0000,LOG,STATUS,0,2018/04/20 21:57:01.010,AORUS_X3,recserver,1008,RS,RecServer,53,Client 0 started utterance 65604 with grammar .Greet
+10,0500a8c0_00005650_5ada53e0_0002_0000,LOG,STATUS,0,2018/04/20 21:57:31.027,AORUS_X3,recserver,1008,RS,RecServer,33,Client 0 utterance 65604 aborted
+10,0500a8c0_00005650_5ada53e0_0002_0000,LOG,STATUS,0,2018/04/20 21:57:33.907,AORUS_X3,recserver,1008,RS,RecServer,53,Client 0 started utterance 65624 with grammar .Greet

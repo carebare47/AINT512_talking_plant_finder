@@ -1,0 +1,141 @@
+10,0500a8c0_00000a40_5ada2b82_03b2_0000,LOG,ERROR,0,2018/04/20 19:03:46.494,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b82_03b2_0000,LOG,STATUS,0,2018/04/20 19:03:46.496,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:46.498,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b82_03b3_0000,LOG,WARN,0,2018/04/20 19:03:46.604,AORUS_X3,app1,21592,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b82_03b3_0000,LOG,STATUS,0,2018/04/20 19:03:46.618,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b82_03b3_0000,LOG,ERROR,0,2018/04/20 19:03:46.618,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b82_03b3_0000,LOG,ERROR,0,2018/04/20 19:03:46.618,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b82_03b3_0000,LOG,STATUS,0,2018/04/20 19:03:46.618,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:46.619,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b82_03b4_0000,LOG,WARN,0,2018/04/20 19:03:46.728,AORUS_X3,app1,19500,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b82_03b4_0000,LOG,STATUS,0,2018/04/20 19:03:46.738,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b82_03b4_0000,LOG,ERROR,0,2018/04/20 19:03:46.738,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b82_03b4_0000,LOG,ERROR,0,2018/04/20 19:03:46.738,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b82_03b4_0000,LOG,STATUS,0,2018/04/20 19:03:46.738,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:46.739,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b82_03b5_0000,LOG,WARN,0,2018/04/20 19:03:46.846,AORUS_X3,app1,6316,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b82_03b5_0000,LOG,STATUS,0,2018/04/20 19:03:46.857,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b82_03b5_0000,LOG,ERROR,0,2018/04/20 19:03:46.857,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b82_03b5_0000,LOG,ERROR,0,2018/04/20 19:03:46.857,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b82_03b5_0000,LOG,STATUS,0,2018/04/20 19:03:46.857,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:46.858,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b82_03b6_0000,LOG,WARN,0,2018/04/20 19:03:46.973,AORUS_X3,app1,11212,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b82_03b6_0000,LOG,STATUS,0,2018/04/20 19:03:46.985,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b82_03b6_0000,LOG,ERROR,0,2018/04/20 19:03:46.985,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b82_03b6_0000,LOG,ERROR,0,2018/04/20 19:03:46.985,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b82_03b6_0000,LOG,STATUS,0,2018/04/20 19:03:46.985,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:46.986,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b82_03b7_0000,LOG,WARN,0,2018/04/20 19:03:47.107,AORUS_X3,app1,7092,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b82_03b7_0000,LOG,STATUS,0,2018/04/20 19:03:47.118,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b82_03b7_0000,LOG,ERROR,0,2018/04/20 19:03:47.118,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b82_03b7_0000,LOG,ERROR,0,2018/04/20 19:03:47.118,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b82_03b7_0000,LOG,STATUS,0,2018/04/20 19:03:47.118,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:47.119,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b83_03b8_0000,LOG,WARN,0,2018/04/20 19:03:47.224,AORUS_X3,app1,14360,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b83_03b8_0000,LOG,STATUS,0,2018/04/20 19:03:47.234,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b83_03b8_0000,LOG,ERROR,0,2018/04/20 19:03:47.234,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b83_03b8_0000,LOG,ERROR,0,2018/04/20 19:03:47.234,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b83_03b8_0000,LOG,STATUS,0,2018/04/20 19:03:47.234,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:47.235,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b83_03b9_0000,LOG,WARN,0,2018/04/20 19:03:47.345,AORUS_X3,app1,23616,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b83_03b9_0000,LOG,STATUS,0,2018/04/20 19:03:47.355,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b83_03b9_0000,LOG,ERROR,0,2018/04/20 19:03:47.355,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b83_03b9_0000,LOG,ERROR,0,2018/04/20 19:03:47.355,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b83_03b9_0000,LOG,STATUS,0,2018/04/20 19:03:47.355,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:47.356,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b83_03ba_0000,LOG,WARN,0,2018/04/20 19:03:47.463,AORUS_X3,app1,20732,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b83_03ba_0000,LOG,STATUS,0,2018/04/20 19:03:47.473,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b83_03ba_0000,LOG,ERROR,0,2018/04/20 19:03:47.473,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b83_03ba_0000,LOG,ERROR,0,2018/04/20 19:03:47.473,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b83_03ba_0000,LOG,STATUS,0,2018/04/20 19:03:47.473,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:47.474,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b83_03bb_0000,LOG,WARN,0,2018/04/20 19:03:47.579,AORUS_X3,app1,18224,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b83_03bb_0000,LOG,STATUS,0,2018/04/20 19:03:47.589,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b83_03bb_0000,LOG,ERROR,0,2018/04/20 19:03:47.589,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b83_03bb_0000,LOG,ERROR,0,2018/04/20 19:03:47.589,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b83_03bb_0000,LOG,STATUS,0,2018/04/20 19:03:47.589,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:47.589,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b83_03bc_0000,LOG,WARN,0,2018/04/20 19:03:47.696,AORUS_X3,app1,4048,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b83_03bc_0000,LOG,STATUS,0,2018/04/20 19:03:47.706,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b83_03bc_0000,LOG,ERROR,0,2018/04/20 19:03:47.706,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b83_03bc_0000,LOG,ERROR,0,2018/04/20 19:03:47.706,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b83_03bc_0000,LOG,STATUS,0,2018/04/20 19:03:47.706,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:47.707,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b83_03bd_0000,LOG,WARN,0,2018/04/20 19:03:47.820,AORUS_X3,app1,11952,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b83_03bd_0000,LOG,STATUS,0,2018/04/20 19:03:47.831,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b83_03bd_0000,LOG,ERROR,0,2018/04/20 19:03:47.831,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b83_03bd_0000,LOG,ERROR,0,2018/04/20 19:03:47.831,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b83_03bd_0000,LOG,STATUS,0,2018/04/20 19:03:47.831,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:47.831,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b83_03be_0000,LOG,WARN,0,2018/04/20 19:03:47.931,AORUS_X3,app1,23528,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b83_03be_0000,LOG,STATUS,0,2018/04/20 19:03:47.941,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b83_03be_0000,LOG,ERROR,0,2018/04/20 19:03:47.941,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b83_03be_0000,LOG,ERROR,0,2018/04/20 19:03:47.941,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b83_03be_0000,LOG,STATUS,0,2018/04/20 19:03:47.941,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:47.942,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b83_03bf_0000,LOG,WARN,0,2018/04/20 19:03:48.049,AORUS_X3,app1,19828,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b83_03bf_0000,LOG,STATUS,0,2018/04/20 19:03:48.059,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b83_03bf_0000,LOG,ERROR,0,2018/04/20 19:03:48.059,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b83_03bf_0000,LOG,ERROR,0,2018/04/20 19:03:48.059,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b83_03bf_0000,LOG,STATUS,0,2018/04/20 19:03:48.059,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:48.060,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b84_03c0_0000,LOG,WARN,0,2018/04/20 19:03:48.164,AORUS_X3,app1,4968,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b84_03c0_0000,LOG,STATUS,0,2018/04/20 19:03:48.173,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b84_03c0_0000,LOG,ERROR,0,2018/04/20 19:03:48.173,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b84_03c0_0000,LOG,ERROR,0,2018/04/20 19:03:48.173,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b84_03c0_0000,LOG,STATUS,0,2018/04/20 19:03:48.173,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:48.174,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b84_03c1_0000,LOG,WARN,0,2018/04/20 19:03:48.279,AORUS_X3,app1,10700,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b84_03c1_0000,LOG,STATUS,0,2018/04/20 19:03:48.290,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b84_03c1_0000,LOG,ERROR,0,2018/04/20 19:03:48.290,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b84_03c1_0000,LOG,ERROR,0,2018/04/20 19:03:48.290,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b84_03c1_0000,LOG,STATUS,0,2018/04/20 19:03:48.290,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:48.291,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b84_03c2_0000,LOG,WARN,0,2018/04/20 19:03:48.420,AORUS_X3,app1,14308,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b84_03c2_0000,LOG,STATUS,0,2018/04/20 19:03:48.430,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b84_03c2_0000,LOG,ERROR,0,2018/04/20 19:03:48.430,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b84_03c2_0000,LOG,ERROR,0,2018/04/20 19:03:48.430,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b84_03c2_0000,LOG,STATUS,0,2018/04/20 19:03:48.430,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:48.431,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b84_03c3_0000,LOG,WARN,0,2018/04/20 19:03:48.532,AORUS_X3,app1,20764,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b84_03c3_0000,LOG,STATUS,0,2018/04/20 19:03:48.542,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b84_03c3_0000,LOG,ERROR,0,2018/04/20 19:03:48.542,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b84_03c3_0000,LOG,ERROR,0,2018/04/20 19:03:48.542,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b84_03c3_0000,LOG,STATUS,0,2018/04/20 19:03:48.542,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:48.543,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b84_03c4_0000,LOG,WARN,0,2018/04/20 19:03:48.652,AORUS_X3,app1,3424,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b84_03c4_0000,LOG,STATUS,0,2018/04/20 19:03:48.664,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b84_03c4_0000,LOG,ERROR,0,2018/04/20 19:03:48.664,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b84_03c4_0000,LOG,ERROR,0,2018/04/20 19:03:48.664,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b84_03c4_0000,LOG,STATUS,0,2018/04/20 19:03:48.664,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:48.664,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b84_03c5_0000,LOG,WARN,0,2018/04/20 19:03:48.775,AORUS_X3,app1,3128,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b84_03c5_0000,LOG,STATUS,0,2018/04/20 19:03:48.786,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b84_03c5_0000,LOG,ERROR,0,2018/04/20 19:03:48.786,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b84_03c5_0000,LOG,ERROR,0,2018/04/20 19:03:48.787,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b84_03c5_0000,LOG,STATUS,0,2018/04/20 19:03:48.787,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:48.787,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b84_03c6_0000,LOG,WARN,0,2018/04/20 19:03:48.897,AORUS_X3,app1,22896,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b84_03c6_0000,LOG,STATUS,0,2018/04/20 19:03:48.910,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b84_03c6_0000,LOG,ERROR,0,2018/04/20 19:03:48.910,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b84_03c6_0000,LOG,ERROR,0,2018/04/20 19:03:48.910,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b84_03c6_0000,LOG,STATUS,0,2018/04/20 19:03:48.910,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:48.911,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b84_03c7_0000,LOG,WARN,0,2018/04/20 19:03:49.019,AORUS_X3,app1,6040,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b84_03c7_0000,LOG,STATUS,0,2018/04/20 19:03:49.030,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b84_03c7_0000,LOG,ERROR,0,2018/04/20 19:03:49.030,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b84_03c7_0000,LOG,ERROR,0,2018/04/20 19:03:49.030,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b84_03c7_0000,LOG,STATUS,0,2018/04/20 19:03:49.030,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:49.031,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b85_03c8_0000,LOG,WARN,0,2018/04/20 19:03:49.136,AORUS_X3,app1,10436,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b85_03c8_0000,LOG,STATUS,0,2018/04/20 19:03:49.145,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b85_03c8_0000,LOG,ERROR,0,2018/04/20 19:03:49.145,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b85_03c8_0000,LOG,ERROR,0,2018/04/20 19:03:49.145,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b85_03c8_0000,LOG,STATUS,0,2018/04/20 19:03:49.145,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:49.146,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error
+10,0500a8c0_00000a40_5ada2b85_03c9_0000,LOG,WARN,0,2018/04/20 19:03:49.252,AORUS_X3,app1,18360,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000a40_5ada2b85_03c9_0000,LOG,STATUS,0,2018/04/20 19:03:49.262,AORUS_X3,app1,23324,ROOT,AppOutput,37,Successfully reinitialized RecClient
+10,0500a8c0_00000a40_5ada2b85_03c9_0000,LOG,ERROR,0,2018/04/20 19:03:49.262,AORUS_X3,app1,23324,DIALOG,AppWaitForCall,50,Can't wait for call - call is already in progress
+10,0500a8c0_00000a40_5ada2b85_03c9_0000,LOG,ERROR,0,2018/04/20 19:03:49.262,AORUS_X3,app1,23324,DIALOG,AppGetNextCall,61,AppWaitForCall() failed because: NUANCE_OUT_OF_SEQUENCE_CALL
+10,0500a8c0_00000a40_5ada2b85_03c9_0000,LOG,STATUS,0,2018/04/20 19:03:49.262,AORUS_X3,app1,23324,ROOT,AppOutput,46,Terminating RecClient because of system error
+10,ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ,LOG,STATUS,0,2018/04/20 19:03:49.263,AORUS_X3,app1,23324,ROOT,AppOutput,49,Reinitializing RecClient because of system error

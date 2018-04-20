@@ -1,0 +1,9 @@
+10,-,LOG,STATUS,0,2018/04/20 19:37:34.479,AORUS_X3,recserver,7660,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/04/20 19:37:44.941,AORUS_X3,recserver,7660,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/04/20 19:37:44.941,AORUS_X3,recserver,7660,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/04/20 20:11:26.900,AORUS_X3,recserver,7660,RS,RecServer,19,Client 0 connected
+10,0500a8c0_00005664_5ada3b5e_0001_0000,LOG,ERROR,0,2018/04/20 20:11:26.900,AORUS_X3,recserver,9288,RS,ClientDesc::InitConnection,20,0: Version Mismatch
+10,0500a8c0_00005664_5ada3b5e_0001_0000,LOG,ERROR,0,2018/04/20 20:11:26.901,AORUS_X3,recserver,7660,RS,ClientDesc::~ClientDesc,35,0: Error Occurred, Shutting Down
+
+
