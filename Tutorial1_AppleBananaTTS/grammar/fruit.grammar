@@ -1,0 +1,17 @@
+;
+;  Sample GSL file for the FirstApp JSCapplication.
+;
+;  Examples of what you can say:
+;  (Pausing between words is not necessary.)
+;
+;  apple
+;
+;  banana
+
+.Choice	(
+		[
+			(apple)       {<fruit_said apple_said>}
+			(banana)      {<fruit_said banana_said>}
+			(exit)        {<fruit_said exit_said>}
+		]
+)

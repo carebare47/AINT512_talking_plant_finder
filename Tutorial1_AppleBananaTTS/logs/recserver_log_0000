@@ -1,0 +1,2 @@
+10,-,LOG,ERROR,0,2018/04/20 12:40:51.341,AORUS_X3,recserver,16944,CONFIG,NuancePackageConfigImpl::NuancePackageConfigImpl,60,Package directory 'd:\Banana\grammar\fruit' does not exist.
+10,-,LOG,STATUS,0,2018/04/20 12:40:51.347,AORUS_X3,recserver,16944,RS,AppOutput,68,Initialization Failure. Failure creating Nuance Config Object. Exit
