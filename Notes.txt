@@ -1,0 +1,39 @@
+Country, 
+
+Are you interested in food, medicine?
+
+Yes, food.
+
+I can help you find plants that can be used as substitutes for other foods. What foodstuff would you like to replace?
+Eggs.
+
+Okay, searching for plants that can replace eggs in food.
+--------------------------------------------------------------------------------------------------------------------
+Hello. Have you used this service before?
+
+Y/N
+
+I am here to help you in finding the perfect plant. I have access to a database of over 7500 plants. I can help you find plants that grow in various soil types or locations, or I can help you find a plant to help treat a medical problem or to replace a foodstuff. 
+
+How can I help? (limit to three choices?)
+
+
+Would you like to find a plant that will grow well in your environment, or would you rather search for medicinal or edible plants?
+
+can it be any kind of job?
+so uh can you help me find a plant to help with my cold? I'm a but headachey and stuff.
+
+
+sore muscles
+headache
+cold
+alergies
+aphrodesiac
+anodesiac
+sleeplessness
+give me energy
+nausious
+
+statistical links?
+
+match symmptopns to things that can be cured
