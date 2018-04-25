@@ -1,0 +1,60 @@
+10,-,LOG,STATUS,0,2018/04/20 22:38:04.448,AORUS_X3,recserver,21676,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/04/20 22:38:16.691,AORUS_X3,recserver,21676,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/04/20 22:38:16.691,AORUS_X3,recserver,21676,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/04/20 22:38:16.691,AORUS_X3,recserver,21676,RS,RecServer,19,Client 0 connected
+10,0500a8c0_000064cc_5ada5dbc_0001_0000,LOG,STATUS,0,2018/04/20 22:38:16.692,AORUS_X3,recserver,21676,RS,RecServer,24,Client 0 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/20 22:38:28.028,AORUS_X3,recserver,21676,RS,RecServer,19,Client 1 connected
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:38:31.931,AORUS_X3,recserver,23908,RS,RecServer,53,Client 1 started utterance 65562 with grammar .Start
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:38:34.691,AORUS_X3,recserver,23908,RS,RecServer,33,Client 1 utterance 65562 result:
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:38:34.691,AORUS_X3,recserver,23908,RAPI,RecServer,42,Result #0:     no (conf: 51, NL conf: 51)
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:38:34.691,AORUS_X3,recserver,23908,RAPI,RecServer,48,NL Res.#0:     <binary_response_said "no_said">
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:38:34.691,AORUS_X3,recserver,23908,RAPI,RecServer,22,Total Audio: 1.43 sec
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:38:39.613,AORUS_X3,recserver,23908,RS,RecServer,53,Client 1 started utterance 65584 with grammar .Start
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:38:42.452,AORUS_X3,recserver,23908,RS,RecServer,33,Client 1 utterance 65584 result:
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:38:42.452,AORUS_X3,recserver,23908,RAPI,RecServer,42,Result #0:     no (conf: 54, NL conf: 54)
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:38:42.452,AORUS_X3,recserver,23908,RAPI,RecServer,48,NL Res.#0:     <binary_response_said "no_said">
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:38:42.452,AORUS_X3,recserver,23908,RAPI,RecServer,22,Total Audio: 1.33 sec
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:39:07.735,AORUS_X3,recserver,23908,RS,RecServer,53,Client 1 started utterance 65606 with grammar .Greet
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:39:17.252,AORUS_X3,recserver,23908,RS,RecServer,33,Client 1 utterance 65606 result:
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:39:17.252,AORUS_X3,recserver,23908,RAPI,RecServer,48,Result #0:     medicine (conf: 45, NL conf: 45)
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:39:17.252,AORUS_X3,recserver,23908,RAPI,RecServer,44,NL Res.#0:     <fruit_said "medicine_said">
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:39:17.252,AORUS_X3,recserver,23908,RAPI,RecServer,22,Total Audio: 2.89 sec
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:39:22.007,AORUS_X3,recserver,23908,RS,RecServer,54,Client 1 started utterance 65628 with grammar .Choice
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:39:27.014,AORUS_X3,recserver,23908,RS,RecServer,33,Client 1 utterance 65628 result:
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:39:27.014,AORUS_X3,recserver,23908,RAPI,RecServer,73,Result #0:     and a plant will cure my headache (conf: 49, NL conf: 45)
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:39:27.014,AORUS_X3,recserver,23908,RAPI,RecServer,48,NL Res.#0:     <condition_said "headache_said">
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:39:27.014,AORUS_X3,recserver,23908,RAPI,RecServer,22,Total Audio: 3.21 sec
+10,0500a8c0_000043b8_5ada5dd4_0002_0000,LOG,STATUS,0,2018/04/20 22:39:39.890,AORUS_X3,recserver,21676,RS,RecServer,24,Client 1 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/20 22:46:08.774,AORUS_X3,recserver,21676,RS,RecServer,19,Client 2 connected
+10,0500a8c0_00003af0_5ada5fa1_0002_0000,LOG,STATUS,0,2018/04/20 22:46:11.055,AORUS_X3,recserver,21676,RS,RecServer,24,Client 2 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/20 22:46:41.225,AORUS_X3,recserver,21676,RS,RecServer,19,Client 3 connected
+10,0500a8c0_000061c8_5ada5fc1_0002_0000,LOG,STATUS,0,2018/04/20 22:46:42.658,AORUS_X3,recserver,21676,RS,RecServer,24,Client 3 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/20 22:47:12.256,AORUS_X3,recserver,21676,RS,RecServer,19,Client 4 connected
+10,0500a8c0_00002720_5ada5fe0_0002_0000,LOG,STATUS,0,2018/04/20 22:47:14.249,AORUS_X3,recserver,21676,RS,RecServer,24,Client 4 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/20 22:53:35.548,AORUS_X3,recserver,21676,RS,RecServer,19,Client 5 connected
+10,0500a8c0_000061cc_5ada615f_0002_0000,LOG,STATUS,0,2018/04/20 22:53:37.613,AORUS_X3,recserver,21676,RS,RecServer,24,Client 5 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/20 22:57:48.655,AORUS_X3,recserver,21676,RS,RecServer,19,Client 6 connected
+10,0500a8c0_0000439c_5ada625d_0002_0000,LOG,STATUS,0,2018/04/20 22:57:51.240,AORUS_X3,recserver,21676,RS,RecServer,24,Client 6 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/21 14:32:43.888,AORUS_X3,recserver,21676,RS,RecServer,19,Client 7 connected
+10,0500a8c0_00006714_5adb3d7b_0001_0000,LOG,STATUS,0,2018/04/21 14:32:43.970,AORUS_X3,recserver,21676,RS,RecServer,24,Client 7 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/21 14:33:27.044,AORUS_X3,recserver,21676,RS,RecServer,19,Client 8 connected
+10,0500a8c0_00005924_5adb3da7_0001_0000,LOG,STATUS,0,2018/04/21 14:33:27.091,AORUS_X3,recserver,21676,RS,RecServer,24,Client 8 disconnected
+
+

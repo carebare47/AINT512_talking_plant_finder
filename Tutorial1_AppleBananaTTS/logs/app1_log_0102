@@ -1,4 +1,0 @@
-10,0500a8c0_00005664_5ada3b5e_0001_0000,LOG,WARN,0,2018/04/20 20:11:27.136,AORUS_X3,app1,17732,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
-10,0500a8c0_00005664_5ada3b5e_0001_0000,LOG,WARN,0,2018/04/20 20:11:27.151,AORUS_X3,app1,17732,VRSAPI,RecServerInternal::respondVersionPackageAck,31,Version or packageID mismatch.
-10,0500a8c0_00005664_5ada3b5e_0001_0000,LOG,WARN,0,2018/04/20 20:11:27.151,AORUS_X3,app1,17732,VRSAPI,VRSInitialization,31,connect to recserver timed out
-10,-,LOG,ERROR,0,2018/04/20 20:11:27.155,AORUS_X3,app1,3200,DIALOG,InitializeRecClient,101,Waiting for the RecClient to finish initializing failed because "NUANCE_VERSION_OR_PACKAGE_MISMATCH"

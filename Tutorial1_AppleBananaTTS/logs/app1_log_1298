@@ -1,0 +1,11 @@
+10,1f00a8c0_00004790_5ae0b5b0_0001_0000,LOG,WARN,0,2018/04/25 18:06:56.552,AORUS_X3,app1,20164,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00004790_5ae0b5b0_0002_0000,LOG,STATUS,0,2018/04/25 18:06:56.577,AORUS_X3,app1,5788,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00004790_5ae0b5b0_0002_0000,LOG,STATUS,0,2018/04/25 18:06:56.577,AORUS_X3,app1,5788,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00004790_5ae0b5b0_0002_0000,LOG,STATUS,0,2018/04/25 18:07:08.043,AORUS_X3,app1,5788,ROOT,AppOutput,21,Recognized: "canopy"
+10,1f00a8c0_00004790_5ae0b5b0_0002_0000,LOG,STATUS,0,2018/04/25 18:07:08.043,AORUS_X3,app1,5788,ROOT,AppOutput,50,Interpretation: <env_catagory_said "canopy_said">
+10,1f00a8c0_00004790_5ae0b5b0_0002_0000,LOG,WARN,0,2018/04/25 18:07:08.043,AORUS_X3,app1,5788,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,1f00a8c0_00004790_5ae0b5b0_0002_0000,LOG,STATUS,0,2018/04/25 18:07:08.045,AORUS_X3,app1,5788,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00004790_5ae0b5b0_0002_0000,LOG,STATUS,0,2018/04/25 18:07:08.045,AORUS_X3,app1,5788,ROOT,AppOutput,22,Entering state "env2"
+10,1f00a8c0_00004790_5ae0b5b0_0002_0000,LOG,STATUS,0,2018/04/25 18:07:45.129,AORUS_X3,app1,5788,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_00004790_5ae0b5b0_0002_0000,LOG,STATUS,0,2018/04/25 18:07:45.129,AORUS_X3,app1,5788,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_00004790_5ae0b5b0_0002_0000,LOG,WARN,0,2018/04/25 18:07:45.130,AORUS_X3,app1,5788,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"

@@ -1,0 +1,62 @@
+10,1f00a8c0_000059e8_5ae0c4a9_0001_0000,LOG,WARN,0,2018/04/25 19:10:49.804,AORUS_X3,app1,3680,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:10:49.824,AORUS_X3,app1,15732,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:10:49.824,AORUS_X3,app1,15732,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:00.453,AORUS_X3,app1,15732,ROOT,AppOutput,21,Recognized: "canopy"
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:00.453,AORUS_X3,app1,15732,ROOT,AppOutput,50,Interpretation: <env_catagory_said "canopy_said">
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,WARN,0,2018/04/25 19:11:00.454,AORUS_X3,app1,15732,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:00.455,AORUS_X3,app1,15732,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:00.455,AORUS_X3,app1,15732,ROOT,AppOutput,22,Entering state "env2"
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:10.916,AORUS_X3,app1,15732,ROOT,AppOutput,18,Recognized: "yes"
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:10.916,AORUS_X3,app1,15732,ROOT,AppOutput,50,Interpretation: <binary_response_said "yes_said">
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,WARN,0,2018/04/25 19:11:10.916,AORUS_X3,app1,15732,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:10.917,AORUS_X3,app1,15732,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:10.917,AORUS_X3,app1,15732,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:17.014,AORUS_X3,app1,15732,ROOT,AppOutput,19,Recognized: "lawn"
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:17.014,AORUS_X3,app1,15732,ROOT,AppOutput,48,Interpretation: <env_catagory_said "lawn_said">
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,WARN,0,2018/04/25 19:11:17.016,AORUS_X3,app1,15732,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:17.017,AORUS_X3,app1,15732,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:17.017,AORUS_X3,app1,15732,ROOT,AppOutput,22,Entering state "env2"
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:17.138,AORUS_X3,app1,15732,ROOT,AppOutput,99,Skipping AppStartAction (ACTION_RECOGNIZE) because the state has changed or the session has ended.
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:17.138,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:17.140,AORUS_X3,app1,15732,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:17.140,AORUS_X3,app1,15732,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,ERROR,0,2018/04/25 19:11:30.050,AORUS_X3,app1,15732,DIALOG,HandlePlaybackDone,43,".ZeroMatches" is not a known grammar name
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:30.050,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:30.051,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:30.052,AORUS_X3,app1,15732,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:30.052,AORUS_X3,app1,15732,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,ERROR,0,2018/04/25 19:11:38.230,AORUS_X3,app1,15732,DIALOG,HandlePlaybackDone,43,".ZeroMatches" is not a known grammar name
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:38.230,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:38.230,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:38.232,AORUS_X3,app1,15732,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:38.232,AORUS_X3,app1,15732,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,ERROR,0,2018/04/25 19:11:46.420,AORUS_X3,app1,15732,DIALOG,HandlePlaybackDone,43,".ZeroMatches" is not a known grammar name
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:46.420,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:46.420,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:46.421,AORUS_X3,app1,15732,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:46.421,AORUS_X3,app1,15732,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,ERROR,0,2018/04/25 19:11:54.609,AORUS_X3,app1,15732,DIALOG,HandlePlaybackDone,43,".ZeroMatches" is not a known grammar name
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:54.609,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:54.609,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:54.611,AORUS_X3,app1,15732,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:54.611,AORUS_X3,app1,15732,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,ERROR,0,2018/04/25 19:12:02.750,AORUS_X3,app1,15732,DIALOG,HandlePlaybackDone,43,".ZeroMatches" is not a known grammar name
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:02.750,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:02.751,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:02.752,AORUS_X3,app1,15732,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:02.752,AORUS_X3,app1,15732,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,ERROR,0,2018/04/25 19:12:10.910,AORUS_X3,app1,15732,DIALOG,HandlePlaybackDone,43,".ZeroMatches" is not a known grammar name
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:10.910,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:10.911,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:10.912,AORUS_X3,app1,15732,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:10.912,AORUS_X3,app1,15732,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,ERROR,0,2018/04/25 19:12:19.030,AORUS_X3,app1,15732,DIALOG,HandlePlaybackDone,43,".ZeroMatches" is not a known grammar name
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:19.030,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:19.030,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:19.032,AORUS_X3,app1,15732,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:19.032,AORUS_X3,app1,15732,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,ERROR,0,2018/04/25 19:12:27.199,AORUS_X3,app1,15732,DIALOG,HandlePlaybackDone,43,".ZeroMatches" is not a known grammar name
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:27.199,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:27.199,AORUS_X3,app1,15732,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:27.200,AORUS_X3,app1,15732,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:12:27.200,AORUS_X3,app1,15732,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"

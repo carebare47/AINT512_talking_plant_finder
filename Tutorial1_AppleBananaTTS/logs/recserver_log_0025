@@ -1,0 +1,17 @@
+10,-,LOG,STATUS,0,2018/04/21 15:42:30.384,AORUS_X3,recserver,10792,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/04/21 15:42:41.728,AORUS_X3,recserver,10792,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/04/21 15:42:41.728,AORUS_X3,recserver,10792,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/04/21 15:42:41.728,AORUS_X3,recserver,10792,RS,RecServer,19,Client 0 connected
+10,0500a8c0_000037d8_5adb4de1_0002_0000,LOG,STATUS,0,2018/04/21 15:42:45.588,AORUS_X3,recserver,16144,RS,RecServer,53,Client 0 started utterance 65562 with grammar .Start
+10,0500a8c0_000037d8_5adb4de1_0002_0000,LOG,STATUS,0,2018/04/21 15:42:58.897,AORUS_X3,recserver,16144,RS,RecServer,33,Client 0 utterance 65562 result:
+10,0500a8c0_000037d8_5adb4de1_0002_0000,LOG,STATUS,0,2018/04/21 15:42:58.897,AORUS_X3,recserver,16144,RAPI,RecServer,50,Result #0:     <rejected> (conf:  0, NL conf:  0)
+10,0500a8c0_000037d8_5adb4de1_0002_0000,LOG,STATUS,0,2018/04/21 15:42:58.897,AORUS_X3,recserver,16144,RAPI,RecServer,22,Total Audio: 0.00 sec
+10,0500a8c0_000037d8_5adb4de1_0002_0000,LOG,STATUS,0,2018/04/21 15:43:02.761,AORUS_X3,recserver,16144,RS,RecServer,53,Client 0 started utterance 65584 with grammar .Start
+10,0500a8c0_000037d8_5adb4de1_0002_0000,LOG,STATUS,0,2018/04/21 15:43:13.622,AORUS_X3,recserver,16144,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,0500a8c0_000037d8_5adb4de1_0002_0000,LOG,STATUS,0,2018/04/21 15:43:13.671,AORUS_X3,recserver,16144,RS,RecServer,33,Client 0 utterance 65584 result:
+10,0500a8c0_000037d8_5adb4de1_0002_0000,LOG,STATUS,0,2018/04/21 15:43:13.671,AORUS_X3,recserver,16144,RAPI,RecServer,50,Result #0:     <rejected> (conf: 38, NL conf:  0)
+10,0500a8c0_000037d8_5adb4de1_0002_0000,LOG,STATUS,0,2018/04/21 15:43:13.671,AORUS_X3,recserver,16144,RAPI,RecServer,22,Total Audio: 7.47 sec
+10,0500a8c0_000037d8_5adb4de1_0002_0000,LOG,STATUS,0,2018/04/21 15:43:13.671,AORUS_X3,recserver,16144,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass4
+10,0500a8c0_000037d8_5adb4de1_0002_0000,LOG,STATUS,0,2018/04/21 15:43:17.512,AORUS_X3,recserver,16144,RS,RecServer,53,Client 0 started utterance 65606 with grammar .Start

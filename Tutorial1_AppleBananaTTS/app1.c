@@ -13,6 +13,11 @@
 #include <mysql.h>
 #include <my_global.h>
 
+
+
+const char* locale = "Britain";
+int firstRunFlag = 1;
+
 //#include <tom.h>
 char* sql_food(char* food);
 char* sql_country(char* country);
@@ -25,9 +30,16 @@ char* integer_to_string(int x);
 char* returnMySQLVersion(void);
 void finish_with_error(MYSQL *con);
 char* sql_medic(char* condition);
+void SQLspeakQuery(App *app, char* str);
 void goDoSQL(App *app, char* purpose, char* specific);
 char* sql_general(char* type, char* query);
 void goDoAllTheSQL(App *app, char* purpose, char* specific);
+void speakComposition(App *app, char* type, char* str, int speak);
+int returnSQLnumberOfMatches(App *app, char* str);
+int returnSQLCount(App *app, char* str);
+void envResultsFn2(char* str);
+void envResultsFn(App app, char* str);
+
 
 void RootEntryFn(App *app)
 {
@@ -36,7 +48,6 @@ void RootEntryFn(App *app)
 	AppSetEndRecognitionTimeout(app, (float)30.0);
 	AppSetRejectionThreshold(app, 35);
 }
-
 void RootPostRecFn(App *app)
 {
 	UttStatus status = AppGetUttStatus(app);
@@ -59,9 +70,8 @@ void RootPostRecFn(App *app)
 		break;
 	}
 }
-
 void startfn(App *app) {
-	AppCreateState(app, "start", "root", startfn); 
+	//AppCreateState(app, "start", "root", startfn); 
 	AppSetGrammar(app, ".Start");
 	char buf[100];
 	printf("\nHello. Have you used this service before?\n");
@@ -73,16 +83,18 @@ void startfn(App *app) {
 		return;
 	}
 	if (!strcmp(buf, "yes_said")) {
+		firstRunFlag = 0;
 		printf("Welcome back!\n");
 		//AppAppendTTSPrompt(app, "You said egg egg egg egg.");
-		AppGoto(app, "greeting");
+		AppGoto(app, "askLocale");
 	}
 	else if (!strcmp(buf, "no_said")) {
+		firstRunFlag = 1;
 		printf("Loading introduction...\n");
 		//AppAppendTTSPrompt(app, "You said egg egg egg egg.");
 		AppAppendTTSPrompt(app, "I am here to help you in finding the perfect plant. I have access to a database of over 7500 plants. I can help you find plants that grow in various soil types or locations, or I can help you find a plant to help treat a medical problem or to replace a foodstuff.");
 		printf("I am here to help you in finding the perfect plant.I have access to a database of over 7500 plants.I can help you find plants that grow in various soil types or locations, or I can help you find a plant to help treat a medical problem or to replace a foodstuff.");
-		AppGoto(app, "greeting");
+		AppGoto(app, "askLocale");
 	} else {
 		AppAppendTTSPrompt(app, "try again");
 		//AppAppendPrompt(app, "try_again.wav");
@@ -92,11 +104,9 @@ void startfn(App *app) {
 
 
 }
-
 void firstQfn(App *app) {
-
+	AppGotoSelf(app);
 }
-
 void foodfn(App *app) {
 	AppSetGrammar(app, ".Choice");
 	char buf[100];
@@ -113,54 +123,9 @@ void foodfn(App *app) {
 		AppAppendTTSPrompt(app, "You said egg egg egg egg.");
 		goDoSQL(app, "food", "Egg");
 	}
-		/*MYSQL *con = mysql_init(NULL);
-
-		if (con == NULL)
-		{
-			fprintf(stderr, "mysql_init() failed\n");
-			exit(1);
-		}
-
-		if (mysql_real_connect(con, "localhost", "root", "Ms-dos333",
-			"pfaf2innodb", 0, NULL, 0) == NULL)
-		{
-			finish_with_error(con);
-		}
-
-		if (mysql_query(con, sql_food("Egg")))
-		{
-			finish_with_error(con);
-		}
-
-
-		MYSQL_RES *result = mysql_store_result(con);
-
-		if (result == NULL)
-		{
-			finish_with_error(con);
-		}
-
-		int num_fields = mysql_num_fields(result);
-		printf("num_fields: %d", num_fields);
-		MYSQL_ROW row;
-		AppAppendTTSPrompt(app, "Here are your results: ");
-		while ((row = mysql_fetch_row(result)))
-		{
-			for (int i = 0; i < num_fields; i++)
-			{
-				printf("%s ", row[i] ? row[i] : "NULL");
-				printf("%s ", row[i]);
-				AppAppendTTSPrompt(app, row[i]);
-			}
-			printf("\n");
-		}
-
-		mysql_free_result(result);
-		mysql_close(con);
-	}*/
+	
 	AppGotoSelf(app);
 }
-
 void goDoAllTheSQL(App *app, char* purpose, char* specific) {
 
 
@@ -231,8 +196,89 @@ void goDoAllTheSQL(App *app, char* purpose, char* specific) {
 	mysql_close(con);
 
 }
+void SQLcolumnReturn(App *app, char* str) {
 
+	MYSQL *con = mysql_init(NULL);
+	if (con == NULL)
+	{
+		fprintf(stderr, "mysql_init() failed\n");
+		exit(1);
+	}
 
+	if (mysql_real_connect(con, "localhost", "root", "Ms-dos333",
+		"pfaf2innodb", 0, NULL, 0) == NULL)
+	{
+		finish_with_error(con);
+	}
+
+	//Create search query
+	//SELECT DISTINCT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'plantlocations'
+	char* s1 = concat("SELECT DISTINCT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '", str);
+	char* s2 = concat(s1, "' ORDER BY `");
+	char* s3 = concat(s2, "COLUMN_NAME");
+	char* s4 = concat(s3, "` ASC;");
+	//printf("Query = %s\n\n\n", s4);
+
+	if (mysql_query(con, s4))
+	{
+		finish_with_error(con);
+	}
+
+	MYSQL_RES *result = mysql_store_result(con);
+
+	if (result == NULL)
+	{
+		finish_with_error(con);
+	}
+
+	int num_fields = mysql_num_fields(result);
+	//int num_rows = mysql_num_rows(result);
+
+	MYSQL_ROW row;
+	int length = 0;
+	
+	while ((row = mysql_fetch_row(result)))
+	{
+		for (int i = 0; i < num_fields; i++)
+		{
+			if (row[i]) {
+				if (length < strlen(row[i])) {
+					length = strlen(row[i]);
+				}
+			}
+		}
+	}
+	//printf("First query executed, max string length = %d\n\n\n", length);
+
+	if (mysql_query(con, s4))
+	{
+		finish_with_error(con);
+	}
+
+	result = mysql_store_result(con);
+
+	if (result == NULL)
+	{
+		finish_with_error(con);
+	}
+	
+	int oscillator = 0;
+	while ((row = mysql_fetch_row(result)))
+	{
+		for (int i = 0; i < num_fields; i++)
+		{
+				printf("\t%-*s\t", (length+1), row[i] ? row[i] : "NULL");
+				oscillator = oscillator + 1;
+				if (oscillator == 2) {
+					printf("\n");
+					oscillator = 0;
+				}
+		}
+	}
+	mysql_free_result(result);
+	mysql_close(con);
+
+}
 void goDoSQL(App *app, char* purpose, char* specific) {
 
 
@@ -297,10 +343,8 @@ void goDoSQL(App *app, char* purpose, char* specific) {
 	mysql_close(con);
 
 }
-
-
 void greetfn(App *app) {
-	AppSetGrammar(app, ".Greet");
+	AppSetGrammar(app, ".SearchType");
 	char buf[100];
 	//AppAppendTTSPrompt(app, returnMySQLVersion());
 	printf("\n%s", returnTime());
@@ -308,8 +352,12 @@ void greetfn(App *app) {
 	//AppAppendTTSPrompt(app, returnTime());
 	//AppAppendTTSPrompt(app, "So, you would like to buy a plant? Where abouts do you live?");
 	//AppAppendTTSPrompt(app, returnDate());
-	AppAppendTTSPrompt(app, "Would you like to find a plant that will grow well in a particular environment, or would you rather search for medicinal or edible plants?");	
-
+	if (firstRunFlag == 1) {
+		AppAppendTTSPrompt(app, "Would you like to find a plant that will grow well in a particular environment, or would you rather search for medicinal or edible plants?");
+	}
+	else if (firstRunFlag == 0){
+		AppAppendTTSPrompt(app, "How can I help?");
+	}
 	if (!AppRecognize(app)) {
 		printf("!AppRec\n");
 		return;
@@ -320,37 +368,24 @@ void greetfn(App *app) {
 	//AppAppendPrompt(app, "you_said.wav");
 
 	
-	NLGetStringSlotValue(AppGetNLResult(app), "fruit_said", buf, 100);
+	NLGetStringSlotValue(AppGetNLResult(app), "search_type_said", buf, 100);
 
-	if (!strcmp(buf, "apple_said")) {
+	if (!strcmp(buf, "environment_said")) {
 		//AppAppendPrompt(app, "apple.wav");
-		AppAppendTTSPrompt(app, "you said food");
-		printf("You said you prefer an apple.\n");
-		AppGoto(app, "food");
+		AppAppendTTSPrompt(app, "you said you want to search by environment");
+		printf("you said you want to search by environment.\n");
+		AppGoto(app, "environment");
 	}
-	else if (!strcmp(buf, "medicine_said")) {
+	else if (!strcmp(buf, "medicinal_said")) {
 		//AppAppendPrompt(app, "apple.wav");
 		AppAppendTTSPrompt(app, "you said medicine");
 		printf("You said you would like to find a plant to help with a medical problem.\n");
 		AppGoto(app, "medicine");
-	}
-	//else if (!strcmp(buf, "medicine_said")) {
-	//	//AppAppendPrompt(app, "apple.wav");
-	//	AppAppendTTSPrompt(app, "you said medicine");
-	//	printf("You said you would like to find a plant to help with a medical problem.\n");
-	//	AppGoto(app, "medicine");
-	//}
-	else if (!strcmp(buf, "food_said")) {
+	} else if (!strcmp(buf, "edible_said")) {
 		//AppAppendPrompt(app, "apple.wav");
 		AppAppendTTSPrompt(app, "you said food");
 		printf("You said you are interested in food.\n");
 		AppGoto(app, "food");
-	}
-	else if (!strcmp(buf, "banana_said")) {
-		//AppAppendPrompt(app, "banana.wav");
-		AppAppendTTSPrompt(app, "you said medicine");
-		printf("You said you prefer a banana.\n");
-		AppGoto(app, "medical");
 	}
 	else if (!strcmp(buf, "exit_said")) {
 		printf("You said exit.\n");
@@ -364,13 +399,445 @@ void greetfn(App *app) {
 
 	AppGotoSelf(app);
 }
-
+int looped = 0;
+const char *plantLocationStringArray[8];
+int envCounter = 0;
+int firstEnv = 0;
 void environmentfn(App *app) {
+	int errorCounter = 0;
 	
-	
+		AppSetGrammar(app, ".Environment");
+		
+		char buf[200];
+		
+
+		if (envCounter >= 7) {
+			AppAppendTTSPrompt(app, "You have already selected eight catagories for searching and so cannot select anymore.");
+			AppGoto(app, "envResults");
+		}
+
+		if (looped == 0) {
+			printf("\n\n\n Here are some search catagories to help you find the plant you want: \n\n");
+			SQLcolumnReturn(app, "plantlocations");
+			AppAppendTTSPrompt(app, "By which category would you like to search for a plant?");
+			//AppAppendTTSPrompt(app, "category");
+			looped = 1;
+		}
+		if (!AppRecognize(app)) {
+			printf("!AppRec\n");
+			return;
+		}
+		NLGetStringSlotValue(AppGetNLResult(app), "env_catagory_said", buf, 100);
+		
+
+		//const char *plantLocationStringArray[8];
+		
+
+		if (!strcmp(buf, "canopy_said")) {
+			AppAppendTTSPrompt(app, "You said canopy.");
+			printf("You said canopy.\n");
+			plantLocationStringArray[envCounter] = "Canopy";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "common_name_said")) {
+			AppAppendTTSPrompt(app, "You said common name.");
+			printf("You said common_name_said.\n");
+			plantLocationStringArray[envCounter] = "Common name";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "cultivar_said")) {
+			AppAppendTTSPrompt(app, "You said cultivar.");
+			printf("You said cultivar_said.\n");
+			plantLocationStringArray[envCounter] = "Cultivar";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "cultivatedbeds_said")) {
+			AppAppendTTSPrompt(app, "You said cultivated beds.");
+			printf("You said cultivatedbeds_said.\n");
+			plantLocationStringArray[envCounter] = "CultivatedBeds";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "dappledshade_said")) {
+			AppAppendTTSPrompt(app, "You said dappled shade.");
+			printf("You said dappledshade_said.\n");
+			plantLocationStringArray[envCounter] = "DappledShade";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "deepshade_said")) {
+			AppAppendTTSPrompt(app, "You said deep shade.");
+			printf("You said deepshade_said.\n");
+			plantLocationStringArray[envCounter] = "DeepShade";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "eastwall_said")) {
+			AppAppendTTSPrompt(app, "You said east wall.");
+			printf("You said eastwall_said.\n");
+			plantLocationStringArray[envCounter] = "EastWall";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "groundcover_said")) {
+			AppAppendTTSPrompt(app, "You said ground cover.");
+			printf("You said groundcover_said.\n");
+			plantLocationStringArray[envCounter] = "GroundCover";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "habit_said")) {
+			AppAppendTTSPrompt(app, "You said habit.");
+			printf("You said habit_said.\n");
+			plantLocationStringArray[envCounter] = "Habit";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "habitat_said")) {
+			AppAppendTTSPrompt(app, "You said habitat.");
+			printf("You said habitat_said.\n");
+			plantLocationStringArray[envCounter] = "Habitat";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "hardyness_said")) {
+			AppAppendTTSPrompt(app, "You said hardiness.");
+			printf("You said hardyness_said.\n");
+			plantLocationStringArray[envCounter] = "Hardyness";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "hedge_said")) {
+			AppAppendTTSPrompt(app, "You said hedge.");
+			printf("You said hedge_said.\n");
+			plantLocationStringArray[envCounter] = "Hedge";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "hedgerow_said")) {
+			AppAppendTTSPrompt(app, "You said hedgerow.");
+			printf("You said hedgerow_said.\n");
+			plantLocationStringArray[envCounter] = "Hedgerow";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "height_said")) {
+			AppAppendTTSPrompt(app, "You said height.");
+			printf("You said height_said.\n");
+			plantLocationStringArray[envCounter] = "Height";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "latin_name_said")) {
+			AppAppendTTSPrompt(app, "You said latin name.");
+			printf("You said latin_name_said.\n");
+			plantLocationStringArray[envCounter] = "Latin name";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "lawn_said")) {
+			AppAppendTTSPrompt(app, "You said lawn.");
+			printf("You said lawn_said.\n");
+			plantLocationStringArray[envCounter] = "Lawn";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "meadow_said")) {
+			AppAppendTTSPrompt(app, "You said meadow.");
+			printf("You said meadow_said.\n");
+			plantLocationStringArray[envCounter] = "Meadow";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "northwall_said")) {
+			AppAppendTTSPrompt(app, "You said north wall.");
+			printf("You said northwall_said.\n");
+			plantLocationStringArray[envCounter] = "NorthWall";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "otherhabitats_said")) {
+			AppAppendTTSPrompt(app, "You said other habitats.");
+			printf("You said otherhabitats_said.\n");
+			plantLocationStringArray[envCounter] = "OtherHabitats";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "pond_said")) {
+			AppAppendTTSPrompt(app, "You said pond.");
+			printf("You said pond_said.\n");
+			plantLocationStringArray[envCounter] = "Pond";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "secondary_said")) {
+			AppAppendTTSPrompt(app, "You said secondary.");
+			printf("You said secondary_said.\n");
+			plantLocationStringArray[envCounter] = "Secondary";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "shade_said")) {
+			AppAppendTTSPrompt(app, "You said shade.");
+			printf("You said shade_said.\n");
+			plantLocationStringArray[envCounter] = "Shade";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "shadyedge_said")) {
+			AppAppendTTSPrompt(app, "You said shady edge.");
+			printf("You said shadyedge_said.\n");
+			plantLocationStringArray[envCounter] = "ShadyEdge";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "southwall_said")) {
+			AppAppendTTSPrompt(app, "You said south wall.");
+			printf("You said southwall_said.\n");
+			plantLocationStringArray[envCounter] = "SouthWall";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "sunnyedge_said")) {
+			AppAppendTTSPrompt(app, "You said sunny edge.");
+			printf("You said sunnyedge_said.\n");
+			plantLocationStringArray[envCounter] = "SunnyEdge";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "walls_said")) {
+			AppAppendTTSPrompt(app, "You said walls.");
+			printf("You said walls_said.\n");
+			plantLocationStringArray[envCounter] = "Walls";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "westwall_said")) {
+			AppAppendTTSPrompt(app, "You said west wall.");
+			printf("You said westwall_said.\n");
+			plantLocationStringArray[envCounter] = "WestWall";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "width_said")) {
+			AppAppendTTSPrompt(app, "You said width.");
+			printf("You said width_said.\n");
+			plantLocationStringArray[envCounter] = "Width";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+		else if (!strcmp(buf, "woodlandgarden_said")) {
+			AppAppendTTSPrompt(app, "You said woodland garden.");
+			printf("You said woodlandgarden_said.\n");
+			plantLocationStringArray[envCounter] = "WoodlandGarden";
+			envCounter = envCounter + 1;
+			AppGoto(app, "env2");
+		}
+
+			
 	AppGotoSelf(app);
 }
+char storeBuf[400];
+char* storeBuf2[400];
 
+int firstEnvFn2Flag = 0;
+void environmentfn2(App *app) {
+	
+	AppSetGrammar(app, ".Start");
+	char buf[200];
+	int errorCounter = 0;
+	
+	
+
+	int n = sizeof(plantLocationStringArray);
+	printf("Number of terms so far: %d\n", envCounter);
+	
+	for (int i = 0; i < envCounter; i++) {
+		printf("Element %d of plant locations is %s\n", i, plantLocationStringArray[i]);
+
+	}
+
+	char buf2[100];
+	char buf3[100];
+
+	if (firstEnvFn2Flag == 0) {
+		sprintf(buf2, "SELECT COUNT(*) FROM `plantlocations` WHERE `%s`=1", plantLocationStringArray[0]);
+		strcpy(storeBuf, buf2);
+		firstEnvFn2Flag = 1;
+	}
+	else {
+		strcpy(buf2, storeBuf);
+	}
+
+	
+
+
+	for (int i = 0; i < envCounter; i++) {
+		//printf("\n envCounter: %d\n", envCounter);
+		//printf("27error %d\n", errorCounter = errorCounter + 1);
+		char buf4[100];
+		sprintf(buf4, " AND WHERE `%s`=1", plantLocationStringArray[i]);
+		
+		strcpy(buf2, concat(buf2, buf4));
+			
+	}
+	
+	
+	printf("buf3: %s\n", buf3);
+	printf("buf2: %s\n", buf2);
+
+	//returnSQLCount(buf2);
+	AppAppendTTSPrompt(app, buf3);
+	
+	AppAppendTTSPrompt(app, "Would you like to add another term?");
+	
+
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+
+		return;
+	}
+	
+	NLGetStringSlotValue(AppGetNLResult(app), "binary_response_said", buf, 200);
+	
+
+	if (!strcmp(buf, "yes_said")) {
+		AppAppendTTSPrompt(app, "You said yes.");
+		printf("You said yes.\n");
+		looped = 0;
+		AppGoto(app, "environment");
+	}
+	else if (!strcmp(buf, "no_said")) {
+		AppAppendTTSPrompt(app, "You said no.");
+		printf("You said no.\n");
+		strcpy(storeBuf2, buf2);
+		AppGoto(app, "envResultsBuf", buf2);
+		//envResultsFn2(app, buf2);
+		sleep(1000);
+	}
+	AppGotoSelf(app);
+}
+void environmentfn3(App *app) {
+
+	AppSetGrammar(app, ".Start");
+	char buf[200];
+	
+
+	printf("Number of terms so far: %d\n", envCounter);
+
+	for (int i = 0; i < envCounter; i++) {
+		printf("Element %d of plant locations is %s\n", i, plantLocationStringArray[i]);
+	}
+
+	char buf2[400];
+	
+	sprintf(buf2, "SELECT COUNT(*) FROM `plantlocations` WHERE `%s`=1", plantLocationStringArray[0]);
+
+	for (int i = 1; i < envCounter; i++) {
+		//printf("\n envCounter: %d\n", envCounter);
+		//printf("27error %d\n", errorCounter = errorCounter + 1);
+		char buf4[100];
+		sprintf(buf4, " AND `%s`=1", plantLocationStringArray[i]);
+
+		strcpy(buf2, concat(buf2, buf4));
+
+	}
+
+
+	char buf3[100];
+	printf("\nQuery: %s\n\n", buf2);
+	sprintf(buf3, "Currently %d plants match your search criteria.", returnSQLCount(app, buf2));
+	printf("%s\n", buf3);
+	
+
+	AppAppendTTSPrompt(app, buf3);	
+	//AppAppendTTSPrompt(app, buf3);
+	if (returnSQLCount(app, buf2) == 0) {
+		AppGoto(app, "zeroMatchesEnv");
+	}
+	else {
+		AppAppendTTSPrompt(app, "Would you like to add another term?");
+	}
+
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
+
+	NLGetStringSlotValue(AppGetNLResult(app), "binary_response_said", buf, 200);
+
+
+	if (!strcmp(buf, "yes_said")) {
+		AppAppendTTSPrompt(app, "You said yes.");
+		printf("You said yes.\n");
+		looped = 0;
+		AppGoto(app, "environment");
+	}
+	else if (!strcmp(buf, "no_said")) {
+		AppAppendTTSPrompt(app, "You said no.");
+		printf("You said no.\n");
+		sprintf(storeBuf2, "SELECT `Latin name` FROM `plantlocations` WHERE `%s`=1", plantLocationStringArray[0]);
+		for (int i = 1; i < envCounter; i++) {
+			char buf6[100];
+			sprintf(buf6, " AND `%s`=1", plantLocationStringArray[i]);
+			strcpy(storeBuf2, concat(storeBuf2, buf6));
+		}
+		AppGoto(app, "envResults");
+	}
+	AppGotoSelf(app);
+}
+void envZeroMatches(App *app) {
+	AppSetGrammar(app, ".ZeroMatches");
+	char buf[200];
+	AppAppendTTSPrompt(app, "Would you like to remove the last term, start searching again by environment, or start searching again via a different category?");
+
+
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
+
+	NLGetStringSlotValue(AppGetNLResult(app), "env_zero_match_response_said", buf, 200);
+
+	if (!strcmp(buf, "remove_last_said")) {
+		AppAppendTTSPrompt(app, "You said you would like to remove the last item you added to the search term.");
+		printf("You said you would like to remove the last item you added to the search term.\n");
+		envCounter = envCounter - 1;
+		AppGoto(app, "env2");
+	}
+	/*else if (!strcmp(buf, "restart_env_said")) {
+		AppAppendTTSPrompt(app, "You said no.");
+		printf("You said no.\n");
+		AppGoto(app, "env2");
+	}*/
+	AppGotoSelf(app);
+
+}
+void envResultsBufFn(App *app, char str) {
+}
+void envResultsFn(App *app, char str) {
+
+
+	AppSetGrammar(app, ".Start");
+	char buf[200];
+	printf("Query: %s\n", storeBuf2);
+
+	SQLspeakQuery(app, storeBuf2);
+	
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
+
+	NLGetStringSlotValue(AppGetNLResult(app), "binary_response_said", buf, 200);
+
+	sleep(1000);
+	AppGotoSelf(app);
+
+}
 void medicalfn(App *app) {
 	AppSetGrammar(app, ".Choice");
 	char buf[100];
@@ -414,9 +881,125 @@ void medicalfn(App *app) {
 	
 	AppGotoSelf(app);
 }
+void askLocalefn(App *app) {
 
-void AllInOneFn(App *app)
-{
+	AppSetGrammar(app, ".Start");
+	char buf[100];
+
+	AppAppendTTSPrompt(app, concat("You are currently searching for plants that will grow in ", locale));
+	//AppAppendTTSPrompt(app, concat("You're locale is currently set to ", locale));
+	AppAppendTTSPrompt(app, "Would you like to change that?");
+
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
+
+	NLGetStringSlotValue(AppGetNLResult(app), "binary_response_said", buf, 100);
+
+	if (!strcmp(buf, "yes_said")) {
+		//AppAppendPrompt(app, "apple.wav");
+		printf("You said you would like to change your locale.\n");
+		AppGoto(app, "changeLocale");
+	}
+	else if (!strcmp(buf, "no_said")) {
+		//AppAppendPrompt(app, "apple.wav");
+		printf("You're happy to look for plants that will grow well in %s", locale);
+		AppGoto(app, "greeting");
+	}
+
+
+	AppGotoSelf(app);
+}
+void changeLocalefn(App *app) {
+
+
+	AppSetGrammar(app, ".Locale");
+	char buf[100];
+
+	AppAppendTTSPrompt(app, "Which location would you like to search in?");
+
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
+	NLGetStringSlotValue(AppGetNLResult(app), "locale_said", buf, 100);
+
+
+
+	if (!strcmp(buf, "africa_said")) {
+		AppAppendTTSPrompt(app, "You said Africa.");
+		printf("You said Africa.\n");
+		locale = "Africa";
+		AppGoto(app, "greeting");
+	}
+	else if (!strcmp(buf, "australasia_said")) {
+		AppAppendTTSPrompt(app, "You said Australasia.");
+		printf("You said Australasia.\n");
+		locale = "Australasia";
+		AppGoto(app, "greeting");
+	}
+	else if (!strcmp(buf, "britain_said")) {
+		AppAppendTTSPrompt(app, "You said Britain.");
+		printf("You said Britain.\n");
+		locale = "Britain";
+		AppGoto(app, "greeting");
+	}
+	else if (!strcmp(buf, "asia_said")) {
+		AppAppendTTSPrompt(app, "You said Asia.");
+		printf("You said Asia.\n");
+		locale = "Asia";
+		AppGoto(app, "greeting");
+	}
+	else if (!strcmp(buf, "europe_said")) {
+		AppAppendTTSPrompt(app, "You said Europe.");
+		printf("You said Europe.\n");
+		locale = "Europe";
+		AppGoto(app, "greeting");
+	}	else if (!strcmp(buf, "mediterranean_said")) {
+		AppAppendTTSPrompt(app, "You said Mediterranean.");
+		printf("You said Mediterranean.\n");
+		locale = "Mediterranean";
+		AppGoto(app, "greeting");
+	}
+	else if (!strcmp(buf, "north_america_said")) {
+		AppAppendTTSPrompt(app, "You said North America.");
+		printf("You said North America.\n");
+		locale = "N America";
+		AppGoto(app, "greeting");
+	}
+	else if (!strcmp(buf, "south_america_said")) {
+		AppAppendTTSPrompt(app, "You said South America.");
+		printf("You said South America.\n");
+		locale = "S America";
+		AppGoto(app, "greeting");
+	}
+	else if (!strcmp(buf, "other_said")) {
+		AppAppendTTSPrompt(app, "You said Other.");
+		printf("You said Other.\n");
+		locale = "Other";
+		AppGoto(app, "greeting");
+	}
+	else {
+		AppAppendTTSPrompt(app, "Try again.");
+		printf("Try again. \n");
+	}
+
+	/*
+	Africa_said
+	Australasia_said
+	Britain_said
+	Asia_said
+	Europe_said
+	Mediterranean_said
+	America_said
+	Other_said
+	America_said
+	Asia_said
+	*/
+	AppGotoSelf(app);
+}
+void AllInOneFn(App *app){
 	char buf[100];
 
 	AppSetGrammar(app, ".Choice");
@@ -471,73 +1054,77 @@ void AllInOneFn(App *app)
 
 	AppGotoSelf(app);
 }
+//int main(int argc, char *argv[])
+//{
+//	App *app;
+//	app = AppNew(&argc, argv);
+//
+//	if (app == NULL)
+//		exit(-1);
+//
+//	AppCreateStateClass(app, "root", NULL, RootEntryFn, RootPostRecFn);
+//	AppCreateState(app, "whole_shot", "root", AllInOneFn);
+//	AppGo(app, "whole_shot");
+//	return 0;
+//}
+
+int firstTestFlag = 0;
+void testfn(App *app) {
+	//AppCreateState(app, "start", "root", startfn); 
+	AppSetGrammar(app, ".Start");
+	char buf[100];
+	
+
+	if (firstTestFlag == 0) {
+		printf("\nNumber of matches: %d\n\n", returnSQLnumberOfMatches(app, "SELECT * FROM sym"));
+		speakComposition(app, "Common", "Shallots", 1);
+		firstTestFlag = 1;
+	}
+	NLGetStringSlotValue(AppGetNLResult(app), "binary_response_said", buf, 100);
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
+	AppGotoSelf(app);
+}
 
 int main(int argc, char *argv[])
 {
 	App *app;
 	app = AppNew(&argc, argv);
-	
-	
+	//goDoAllTheSQL(app, "edible", "egg");
 
-	MYSQL *con = mysql_init(NULL);
-
-	if (con == NULL)
-	{
-		fprintf(stderr, "mysql_init() failed\n");
-		exit(1);
-	}
-
-	if (mysql_real_connect(con, "localhost", "root", "Ms-dos333",
-		"pfaf2innodb", 0, NULL, 0) == NULL)
-	{
-		finish_with_error(con);
-	}
-
-		if (mysql_query(con, "SELECT `Use` FROM `medicinal uses`;"))
-		{
-			finish_with_error(con);
-		}
-
-
-	MYSQL_RES *result = mysql_store_result(con);
-
-	if (result == NULL)
-	{
-		finish_with_error(con);
-	}
-
-	int num_fields = mysql_num_fields(result);
-	printf("num_fields: %d", num_fields);
-	MYSQL_ROW row;
-
-	while ((row = mysql_fetch_row(result)))
-	{
-		for (int i = 0; i < num_fields; i++)
-		{
-			printf("%s    ", row[i] ? row[i] : "NULL");
-			printf("%s ", row[i]);
-		}
-		printf("\n");
-	}
-
-	mysql_free_result(result);
-	mysql_close(con);
-
-	if (app == NULL)
+	if (app == NULL) {
+		printf("What's going on here then?");
+		sleep(2);
 		exit(-1);
-
+	}
 	AppCreateStateClass(app, "root", NULL, RootEntryFn, RootPostRecFn);
+	AppCreateState(app, "start", "root", startfn);
+	
+	AppCreateState(app, "askLocale", "root", askLocalefn);
+	AppCreateState(app, "changeLocale", "root", changeLocalefn);
+
+	AppCreateState(app, "greeting", "root", greetfn);
+	
+
+
 	AppCreateState(app, "whole_shot", "root", AllInOneFn);
 	AppCreateState(app, "first_q", "root", firstQfn);
-	AppCreateState(app, "greeting", "root", greetfn);
+	
 	AppCreateState(app, "food", "root", foodfn);
 	AppCreateState(app, "medicine", "root", medicalfn);
 	AppCreateState(app, "environment", "root", environmentfn);
-
-	AppCreateState(app, "start", "root", startfn);
+	AppCreateState(app, "env2", "root", environmentfn3);
+	AppCreateState(app, "test", "root", testfn);
+	AppCreateState(app, "zeroMatchesEnv", "root", envZeroMatches);
+	AppCreateState(app, "envResultsBuf", "root", envResultsBufFn);
+	AppCreateState(app, "envResults", "root", envResultsFn);
 	
 	
-	AppGo(app, "start");
+	
+	//AppGo(app, "environment");
+	AppGo(app, "environment");
 	return 0;
 }
 
@@ -550,7 +1137,6 @@ char* concat(const char *s1, const char *s2)
 	strcat(result, s2);
 	return result;
 }
-
 void printDate(void) {
 	char* arrDayNames[7] = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" }; // Jeez I hope this works, I haven't done this in ages and it's hard without a compiler..
 	SYSTEMTIME st;
@@ -562,7 +1148,6 @@ void printDate(void) {
 	printf("(ss)The current date and time are: %d/%d/%d %d:%d:%d:%d", sst.wDay, sst.wMonth, sst.wYear, sst.wHour, sst.wMinute, sst.wSecond, sst.wMilliseconds);
 	printf("(ss)The day is: %s", arrDayNames[sst.wDayOfWeek]);
 }
-
 char* sql_country(char* country) {
 	//concat("SELECT `latin name` FROM `range` WHERE `Britain` IS NOT NULL;")
 	char* buff[100];
@@ -571,7 +1156,6 @@ char* sql_country(char* country) {
 	printf("\n\n%s\n\n", buff);
 	return buff;
 }
-
 char* sql_medic(char* condition) {
 	//concat("SELECT `latin name` FROM `range` WHERE `Britain` IS NOT NULL;")
 	char* buff[100];
@@ -586,7 +1170,6 @@ char* sql_general(char* type, char* query) {
 	printf("\n\n%s\n\n", buff);
 	return buff;
 }
-
 char* sql_food(char* condition) {
 	//concat("SELECT `latin name` FROM `range` WHERE `Britain` IS NOT NULL;")
 	char* buff[100];
@@ -594,7 +1177,6 @@ char* sql_food(char* condition) {
 	printf("\n\n%s\n\n", buff);
 	return buff;
 }
-
 const char* returnDate(void)
 {
 	//static char* months[] = { "Jan", "Feb", "Mar" .... };
@@ -650,7 +1232,6 @@ const char* returnDate(void)
 	//char* s3 = concat(s2, "st");
 	return s7;
 }
-
 //	//char* s2 = concat(st.wday, "th");
 //	char* s3 = concat(s1, s2);
 //	return s3;
@@ -661,7 +1242,6 @@ const char* returnDate(void)
 //	printf("%s", s6);
 //	return s6;
 //}
-
 char* integer_to_string(int x)
 {
 	char* buffer = malloc(sizeof(char) * sizeof(int) * 4 + 1);
@@ -671,7 +1251,6 @@ char* integer_to_string(int x)
 	}
 	return buffer; // caller is expected to invoke free() on this buffer to release memory
 }
-
 char* returnTime(void) {
 
 	SYSTEMTIME st;
@@ -772,7 +1351,6 @@ char* returnTime(void) {
 
 
 }
-
 char* returnMySQLVersion(void) {
 	printf("\nMySQL client version: %s\n", mysql_get_client_info());
 	int main_ver = 0;
@@ -786,10 +1364,284 @@ char* returnMySQLVersion(void) {
 	char* ver5 = concat("My SQL client version is ", ver4);
 	return ver5;
 }
-
 void finish_with_error(MYSQL *con)
 {
 	fprintf(stderr, "%s\n", mysql_error(con));
 	mysql_close(con);
 	exit(1);
+}
+void speakComposition(App *app, char* type, char* str, int speak) {
+
+	MYSQL *con = mysql_init(NULL);
+
+	if (con == NULL)
+	{
+		fprintf(stderr, "mysql_init() failed\n");
+		exit(1);
+	}
+
+	if (mysql_real_connect(con, "localhost", "root", "Ms-dos333",
+		"pfaf2innodb", 0, NULL, 0) == NULL)
+	{
+		finish_with_error(con);
+	}
+	char* s0 = concat("SELECT * FROM composition WHERE `", type); //Common Name`='", str);
+	char* s1 = concat(s0, " Name`='");
+	char* s2 = concat(s1, str);
+	char* s3 = concat(s2, "'");
+	//char* s1 = concat("SELECT * FROM composition WHERE `Common Name`='", str);
+	//char* s2 = concat(s1, "'");
+	char buf[100];
+	sprintf(buf, "SELECT * FROM composition WHERE `%s Name`='%s'", type, str);
+	printf("\nQuery being sent: %s\n\n", buf);
+	if (mysql_query(con, buf))
+	{
+		finish_with_error(con);
+	}
+
+	MYSQL_RES *result = mysql_store_result(con);
+
+	if (result == NULL)
+	{
+		finish_with_error(con);
+	}
+
+	int num_fields = mysql_num_fields(result);
+	MYSQL_ROW row;
+	MYSQL_FIELD *field;
+	printf("\n");
+	char buf2[100];
+	char buf3[100];
+	while ((row = mysql_fetch_row(result)))
+	{
+		for (int i = 0; i < num_fields; i++)
+		{
+			field = mysql_fetch_field(result);
+			if (row[i]) {
+				if (!strcmp(field->name, "Dry or Fresh weight")) {
+					if (!strcmp(row[i], "F")) {
+						sprintf(buf2, "The following weights are per 100 grams when the plant is fresh\n");
+						printf("%s", buf2);
+						if (speak == 1) {
+							AppAppendTTSPrompt(app, buf2);
+						}
+					}
+					else if (!strcmp(row[i], "D")) {
+						sprintf(buf2, "The following weights are per 100 grams when the plant is dry\n");
+						printf("%s", buf2);
+						if (speak == 1) {
+							AppAppendTTSPrompt(app, buf2);
+						}
+					} 
+					else {
+						sprintf(buf2, "NULL");
+					}
+				} else if (!strcmp(field->name, "VitaminC")) {
+					sprintf(buf2, "%s %s \n", "Vitamin C", row[i]);
+					printf("%s", buf2);
+					if (speak == 1) {
+						AppAppendTTSPrompt(app, buf2);
+					}
+				} else if (!strcmp(field->name, "VitaminA")) {
+					sprintf(buf2, "%s %s \n", "Vitamin A", row[i]);
+					printf("%s", buf2);
+					if (speak == 1) {
+						AppAppendTTSPrompt(app, buf2);
+					}
+				}
+				else {
+					//printf("%s %s \n", field->name, row[i]);
+					sprintf(buf3, "%s %s \n", field->name, row[i]);
+					printf("%s", buf3);
+					if (speak == 1) {
+						AppAppendTTSPrompt(app, buf3);
+					}
+				}
+				
+			}
+			
+		}
+	}
+	printf("\n");
+
+
+	mysql_free_result(result);
+	mysql_close(con);
+}
+int returnSQLnumberOfMatches(App *app, char* str) {
+
+	MYSQL *con = mysql_init(NULL);
+
+	if (con == NULL)
+	{
+		fprintf(stderr, "mysql_init() failed\n");
+		exit(1);
+	}
+
+	if (mysql_real_connect(con, "localhost", "root", "Ms-dos333",
+		"pfaf2innodb", 0, NULL, 0) == NULL)
+	{
+		finish_with_error(con);
+	}
+
+	if (mysql_query(con, str))
+	{
+		finish_with_error(con);
+	}
+
+	MYSQL_RES *result = mysql_store_result(con);
+
+	if (result == NULL)
+	{
+		finish_with_error(con);
+	}
+
+	int num_fields = mysql_num_fields(result);
+	//printf("num_fields: %d", num_fields);
+	MYSQL_ROW row;
+	int non_null_counter = 0;
+	while ((row = mysql_fetch_row(result)))
+	{
+		for (int i = 0; i < num_fields; i++)
+		{
+			//printf("%s ", row[i] ? row[i] : "NULL");
+			if (row[i]) {
+				non_null_counter += 1;
+			}
+
+		}
+
+	}
+	//printf("Non_null_counter = %d ", non_null_counter);
+	mysql_free_result(result);
+	mysql_close(con);
+	return num_fields;
+}
+
+int returnSQLCount(App *app, char* str) {
+
+	MYSQL *con = mysql_init(NULL);
+
+	if (con == NULL)
+	{
+		fprintf(stderr, "mysql_init() failed\n");
+		exit(1);
+	}
+
+	if (mysql_real_connect(con, "localhost", "root", "Ms-dos333",
+		"pfaf2innodb", 0, NULL, 0) == NULL)
+	{
+		finish_with_error(con);
+	}
+
+	if (mysql_query(con, str))
+	{
+		finish_with_error(con);
+	}
+
+	MYSQL_RES *result = mysql_store_result(con);
+
+	if (result == NULL)
+	{
+		finish_with_error(con);
+	}
+
+	int num_fields = mysql_num_fields(result);
+	//printf("num_fields: %d", num_fields);
+	MYSQL_ROW row;
+	int non_null_counter = 0;
+	int sqlCount = 0;
+	while ((row = mysql_fetch_row(result)))
+	{
+		for (int i = 0; i < num_fields; i++)
+		{
+			//printf("row: %d", i);
+			//printf("%s ", row[i] ? row[i] : "NULL");
+			if (row[i]) {
+				sqlCount = atoi(row[i]);
+			}
+
+		}
+
+	}
+	//printf("Non_null_counter = %d ", non_null_counter);
+	mysql_free_result(result);
+	mysql_close(con);
+	return sqlCount;
+}
+
+//
+//void tamplateFN(App *app) {
+//
+//	AppSetGrammar(app, ".");
+//	char buf[100];
+//
+//	AppAppendTTSPrompt(app, ".");
+//	
+//	if (!AppRecognize(app)) {
+//		printf("!AppRec\n");
+//		return;
+//	}
+//	NLGetStringSlotValue(AppGetNLResult(app), ".", buf, 100);
+//
+//	if (!strcmp(buf, "")) {
+//		AppAppendTTSPrompt(app, ".");
+//		printf("You said  .\n");
+//		AppGoto("");
+//	}
+//	else if (!strcmp(buf, "")) {
+//		AppAppendTTSPrompt(app, ".");
+//		printf("You said  .\n");
+//		AppGoto("");
+//	}
+//
+//	AppGotoSelf(app);
+//}
+
+void SQLspeakQuery(App *app, char* str) {
+
+
+	MYSQL *con = mysql_init(NULL);
+
+	if (con == NULL)
+	{
+		fprintf(stderr, "mysql_init() failed\n");
+		exit(1);
+	}
+
+	if (mysql_real_connect(con, "localhost", "root", "Ms-dos333",
+		"pfaf2innodb", 0, NULL, 0) == NULL)
+	{
+		finish_with_error(con);
+	}
+
+	if (mysql_query(con, str))
+	{
+		finish_with_error(con);
+	}
+
+	MYSQL_RES *result = mysql_store_result(con);
+
+	if (result == NULL)
+	{
+		finish_with_error(con);
+	}
+
+	int num_fields = mysql_num_fields(result);
+	MYSQL_ROW row;
+	AppAppendTTSPrompt(app, "Here are your results: ");
+	while ((row = mysql_fetch_row(result)))
+	{
+		for (int i = 0; i < num_fields; i++)
+		{
+			printf("%s ", row[i] ? row[i] : "NULL");
+			//printf("%s ", row[i]);
+			AppAppendTTSPrompt(app, row[i]);
+		}
+		printf("\n");
+	}
+
+	mysql_free_result(result);
+	mysql_close(con);
+
 }

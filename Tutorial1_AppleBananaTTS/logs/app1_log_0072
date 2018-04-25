@@ -1,4 +1,0 @@
-10,0500a8c0_00000020_5ada2c68_0001_0000,LOG,WARN,0,2018/04/20 19:07:36.492,AORUS_X3,app1,16320,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
-10,0500a8c0_00000020_5ada2c68_0001_0000,LOG,WARN,0,2018/04/20 19:07:40.343,AORUS_X3,app1,16320,VRSAPI,VRSInitializationCollector,48,Request for sp-chan license failed (timed out).
-10,0500a8c0_00000020_5ada2c68_0001_0000,LOG,WARN,0,2018/04/20 19:07:40.343,AORUS_X3,app1,16320,VRSAPI,VRSInitialization,22,get license timed out
-10,-,LOG,ERROR,0,2018/04/20 19:07:40.347,AORUS_X3,app1,5800,DIALOG,InitializeRecClient,94,Waiting for the RecClient to finish initializing failed because "NUANCE_LICENSE_CHECK_FAILED"

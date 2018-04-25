@@ -1,7 +1,0 @@
-10,0500a8c0_00002918_5ada2c1c_0001_0000,LOG,WARN,0,2018/04/20 19:06:20.829,AORUS_X3,app1,2860,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
-10,0500a8c0_00002918_5ada2c1c_0002_0000,LOG,STATUS,0,2018/04/20 19:06:20.874,AORUS_X3,app1,5100,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,0500a8c0_00002918_5ada2c1c_0002_0000,LOG,STATUS,0,2018/04/20 19:06:20.874,AORUS_X3,app1,5100,ROOT,AppOutput,26,Entering state "greeting"
-10,0500a8c0_00002918_5ada2c1c_0002_0000,LOG,ERROR,0,2018/04/20 19:06:20.875,AORUS_X3,app1,2860,AUDIO.VAUDIOBUF,NuTTSLocatorSingleton::RetrieveTTSLocator,41,Cannot read NCP_RM_ADDRESSES from Config
-10,0500a8c0_00002918_5ada2c1c_0002_0000,LOG,ERROR,0,2018/04/20 19:06:20.875,AORUS_X3,app1,2860,AUDIO.VAUDIOBUF,TTSConnection::TTSConnection,80,couldn't locate tts server default because NUANCE_RESOURCE_MANAGER_UNAVAILABLE.
-10,0500a8c0_00002918_5ada2c1c_0002_0000,LOG,ERROR,0,2018/04/20 19:06:20.875,AORUS_X3,app1,2860,AUDIO.VAUDIOBUF,VAudioBufImpl::set_up_file_registry,32,Can not connect to a tts server
-10,0500a8c0_00002918_5ada2c1c_0002_0000,LOG,WARN,0,2018/04/20 19:06:20.875,AORUS_X3,app1,5100,DIALOG,AppStartAction (ACTION_RECOGNIZE),100,PrompterPlay() returned "NUANCE_SERVER_NOT_ACCESSIBLE".  Probably indicates text-to-speech problem.

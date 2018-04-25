@@ -1,8 +1,0 @@
-10,0500a8c0_00004e20_5ada3b80_0001_0000,LOG,WARN,0,2018/04/20 20:12:00.525,AORUS_X3,app1,22328,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
-10,0500a8c0_00004e20_5ada3b80_0002_0000,LOG,STATUS,0,2018/04/20 20:12:00.541,AORUS_X3,app1,24016,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,0500a8c0_00004e20_5ada3b80_0002_0000,LOG,STATUS,0,2018/04/20 20:12:00.541,AORUS_X3,app1,24016,ROOT,AppOutput,26,Entering state "greeting"
-10,0500a8c0_00004e20_5ada3b80_0002_0000,LOG,STATUS,0,2018/04/20 20:12:15.457,AORUS_X3,app1,24016,ROOT,AppOutput,23,Recognized: "medicine"
-10,0500a8c0_00004e20_5ada3b80_0002_0000,LOG,STATUS,0,2018/04/20 20:12:15.457,AORUS_X3,app1,24016,ROOT,AppOutput,45,Interpretation: <fruit_said "medicine_said">
-10,0500a8c0_00004e20_5ada3b80_0002_0000,LOG,WARN,0,2018/04/20 20:12:15.457,AORUS_X3,app1,24016,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
-10,0500a8c0_00004e20_5ada3b80_0002_0000,LOG,STATUS,0,2018/04/20 20:12:15.458,AORUS_X3,app1,24016,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,0500a8c0_00004e20_5ada3b80_0002_0000,LOG,STATUS,0,2018/04/20 20:12:15.458,AORUS_X3,app1,24016,ROOT,AppOutput,26,Entering state "medicine"

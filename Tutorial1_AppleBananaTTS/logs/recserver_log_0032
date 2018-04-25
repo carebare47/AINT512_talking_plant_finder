@@ -1,0 +1,149 @@
+10,-,LOG,STATUS,0,2018/04/25 13:02:27.435,AORUS_X3,recserver,10672,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/04/25 13:02:38.698,AORUS_X3,recserver,10672,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/04/25 13:02:38.698,AORUS_X3,recserver,10672,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/04/25 13:02:38.699,AORUS_X3,recserver,10672,RS,RecServer,19,Client 0 connected
+10,1f00a8c0_00004528_5ae06e53_0001_0000,LOG,STATUS,0,2018/04/25 13:02:38.699,AORUS_X3,recserver,10672,RS,RecServer,24,Client 0 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 13:08:00.608,AORUS_X3,recserver,10672,RS,RecServer,19,Client 1 connected
+10,1f00a8c0_00003198_5ae06fa0_0002_0000,LOG,STATUS,0,2018/04/25 13:08:02.487,AORUS_X3,recserver,10672,RS,RecServer,24,Client 1 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 13:08:20.577,AORUS_X3,recserver,10672,RS,RecServer,19,Client 2 connected
+10,1f00a8c0_00000c4c_5ae06fb4_0002_0000,LOG,STATUS,0,2018/04/25 13:08:21.840,AORUS_X3,recserver,10672,RS,RecServer,24,Client 2 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 13:17:39.050,AORUS_X3,recserver,10672,RS,RecServer,19,Client 3 connected
+10,1f00a8c0_0000126c_5ae071e3_0002_0000,LOG,STATUS,0,2018/04/25 13:17:42.312,AORUS_X3,recserver,10672,RS,RecServer,24,Client 3 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 13:20:44.309,AORUS_X3,recserver,10672,RS,RecServer,19,Client 4 connected
+10,1f00a8c0_0000033c_5ae0729c_0002_0000,LOG,STATUS,0,2018/04/25 13:20:45.739,AORUS_X3,recserver,10672,RS,RecServer,24,Client 4 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 13:29:57.040,AORUS_X3,recserver,10672,RS,RecServer,19,Client 5 connected
+10,1f00a8c0_00003ba4_5ae074c5_0002_0000,LOG,STATUS,0,2018/04/25 13:29:57.643,AORUS_X3,recserver,10672,RS,RecServer,24,Client 5 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 13:30:43.799,AORUS_X3,recserver,10672,RS,RecServer,19,Client 6 connected
+10,1f00a8c0_00002f60_5ae074f3_0002_0000,LOG,STATUS,0,2018/04/25 13:30:44.966,AORUS_X3,recserver,10672,RS,RecServer,24,Client 6 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 13:42:29.403,AORUS_X3,recserver,10672,RS,RecServer,19,Client 7 connected
+10,1f00a8c0_000032c8_5ae077b5_0002_0000,LOG,STATUS,0,2018/04/25 13:42:38.812,AORUS_X3,recserver,10672,RS,RecServer,24,Client 7 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 13:42:42.344,AORUS_X3,recserver,10672,RS,RecServer,19,Client 8 connected
+10,1f00a8c0_00002984_5ae077c2_0002_0000,LOG,STATUS,0,2018/04/25 13:47:13.894,AORUS_X3,recserver,10672,RS,RecServer,24,Client 8 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 13:48:14.496,AORUS_X3,recserver,10672,RS,RecServer,19,Client 9 connected
+10,1f00a8c0_000029f0_5ae0790e_0002_0000,LOG,STATUS,0,2018/04/25 13:48:18.462,AORUS_X3,recserver,10672,RS,RecServer,24,Client 9 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 13:49:34.252,AORUS_X3,recserver,10672,RS,RecServer,20,Client 10 connected
+10,1f00a8c0_00004864_5ae0795e_0002_0000,LOG,STATUS,0,2018/04/25 13:49:49.003,AORUS_X3,recserver,10672,RS,RecServer,25,Client 10 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 13:49:53.213,AORUS_X3,recserver,10672,RS,RecServer,20,Client 11 connected
+10,1f00a8c0_00004aa0_5ae07971_0002_0000,LOG,STATUS,0,2018/04/25 13:50:14.062,AORUS_X3,recserver,10672,RS,RecServer,25,Client 11 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 13:50:15.980,AORUS_X3,recserver,10672,RS,RecServer,20,Client 12 connected
+10,1f00a8c0_000018ac_5ae07988_0002_0000,LOG,STATUS,0,2018/04/25 14:31:03.184,AORUS_X3,recserver,10672,RS,RecServer,25,Client 12 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:31:30.317,AORUS_X3,recserver,10672,RS,RecServer,20,Client 13 connected
+10,1f00a8c0_00005078_5ae08332_0002_0000,LOG,STATUS,0,2018/04/25 14:32:22.220,AORUS_X3,recserver,10672,RS,RecServer,25,Client 13 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:32:23.825,AORUS_X3,recserver,10672,RS,RecServer,20,Client 14 connected
+10,1f00a8c0_00005568_5ae08368_0002_0000,LOG,STATUS,0,2018/04/25 14:33:27.278,AORUS_X3,recserver,10672,RS,RecServer,25,Client 14 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:33:31.641,AORUS_X3,recserver,10672,RS,RecServer,20,Client 15 connected
+10,1f00a8c0_00000ee4_5ae083ab_0002_0000,LOG,STATUS,0,2018/04/25 14:33:45.545,AORUS_X3,recserver,10672,RS,RecServer,25,Client 15 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:33:47.158,AORUS_X3,recserver,10672,RS,RecServer,20,Client 16 connected
+10,1f00a8c0_000025f4_5ae083bb_0002_0000,LOG,STATUS,0,2018/04/25 14:34:16.848,AORUS_X3,recserver,10672,RS,RecServer,25,Client 16 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:34:43.183,AORUS_X3,recserver,10672,RS,RecServer,20,Client 17 connected
+10,1f00a8c0_00004418_5ae083f3_0002_0000,LOG,STATUS,0,2018/04/25 14:35:46.765,AORUS_X3,recserver,10672,RS,RecServer,25,Client 17 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:35:52.294,AORUS_X3,recserver,10672,RS,RecServer,20,Client 18 connected
+10,1f00a8c0_00005020_5ae08438_0002_0000,LOG,STATUS,0,2018/04/25 14:36:46.287,AORUS_X3,recserver,10672,RS,RecServer,25,Client 18 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:36:49.441,AORUS_X3,recserver,10672,RS,RecServer,20,Client 19 connected
+10,1f00a8c0_00002d84_5ae08471_0002_0000,LOG,STATUS,0,2018/04/25 14:36:59.686,AORUS_X3,recserver,10672,RS,RecServer,25,Client 19 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:37:33.289,AORUS_X3,recserver,10672,RS,RecServer,20,Client 20 connected
+10,1f00a8c0_000051f8_5ae0849d_0002_0000,LOG,STATUS,0,2018/04/25 14:37:43.275,AORUS_X3,recserver,10672,RS,RecServer,25,Client 20 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:37:44.752,AORUS_X3,recserver,10672,RS,RecServer,20,Client 21 connected
+10,1f00a8c0_00003220_5ae084a8_0002_0000,LOG,STATUS,0,2018/04/25 14:37:47.034,AORUS_X3,recserver,10672,RS,RecServer,25,Client 21 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:39:11.010,AORUS_X3,recserver,10672,RS,RecServer,20,Client 22 connected
+10,1f00a8c0_00005538_5ae084ff_0002_0000,LOG,STATUS,0,2018/04/25 14:39:42.634,AORUS_X3,recserver,10672,RS,RecServer,25,Client 22 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:39:46.278,AORUS_X3,recserver,10672,RS,RecServer,20,Client 23 connected
+10,1f00a8c0_000053d8_5ae08522_0002_0000,LOG,STATUS,0,2018/04/25 14:40:15.512,AORUS_X3,recserver,10672,RS,RecServer,25,Client 23 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:40:17.385,AORUS_X3,recserver,10672,RS,RecServer,20,Client 24 connected
+10,1f00a8c0_00005580_5ae08541_0002_0000,LOG,STATUS,0,2018/04/25 14:45:16.226,AORUS_X3,recserver,10672,RS,RecServer,25,Client 24 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:50:07.109,AORUS_X3,recserver,10672,RS,RecServer,20,Client 25 connected
+10,1f00a8c0_0000289c_5ae0878f_0002_0000,LOG,STATUS,0,2018/04/25 14:51:21.442,AORUS_X3,recserver,10672,RS,RecServer,25,Client 25 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:51:23.105,AORUS_X3,recserver,10672,RS,RecServer,20,Client 26 connected
+10,1f00a8c0_00001c8c_5ae087db_0002_0000,LOG,STATUS,0,2018/04/25 14:51:39.175,AORUS_X3,recserver,10672,RS,RecServer,25,Client 26 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:51:40.666,AORUS_X3,recserver,10672,RS,RecServer,20,Client 27 connected
+10,1f00a8c0_00004d44_5ae087ec_0002_0000,LOG,STATUS,0,2018/04/25 14:51:55.900,AORUS_X3,recserver,10672,RS,RecServer,25,Client 27 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:51:57.344,AORUS_X3,recserver,10672,RS,RecServer,20,Client 28 connected
+10,1f00a8c0_00001404_5ae087fd_0002_0000,LOG,STATUS,0,2018/04/25 14:54:05.014,AORUS_X3,recserver,10672,RS,RecServer,25,Client 28 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:54:06.805,AORUS_X3,recserver,10672,RS,RecServer,20,Client 29 connected
+10,1f00a8c0_000020d0_5ae0887f_0002_0000,LOG,STATUS,0,2018/04/25 14:54:20.354,AORUS_X3,recserver,10672,RS,RecServer,25,Client 29 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:54:24.589,AORUS_X3,recserver,10672,RS,RecServer,20,Client 30 connected
+10,1f00a8c0_0000500c_5ae08890_0002_0000,LOG,STATUS,0,2018/04/25 14:57:55.900,AORUS_X3,recserver,10672,RS,RecServer,25,Client 30 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:57:58.476,AORUS_X3,recserver,10672,RS,RecServer,20,Client 31 connected
+10,1f00a8c0_00005270_5ae08966_0002_0000,LOG,STATUS,0,2018/04/25 14:58:52.461,AORUS_X3,recserver,10672,RS,RecServer,25,Client 31 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:58:55.149,AORUS_X3,recserver,10672,RS,RecServer,20,Client 32 connected
+10,1f00a8c0_00005374_5ae0899f_0002_0000,LOG,STATUS,0,2018/04/25 14:59:10.846,AORUS_X3,recserver,10672,RS,RecServer,25,Client 32 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 14:59:46.427,AORUS_X3,recserver,10672,RS,RecServer,20,Client 33 connected
+10,1f00a8c0_000048ec_5ae089d2_0002_0000,LOG,STATUS,0,2018/04/25 15:00:00.853,AORUS_X3,recserver,10672,RS,RecServer,25,Client 33 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 15:00:02.282,AORUS_X3,recserver,10672,RS,RecServer,20,Client 34 connected
+10,1f00a8c0_00001cac_5ae089e2_0002_0000,LOG,STATUS,0,2018/04/25 15:00:04.102,AORUS_X3,recserver,10672,RS,RecServer,25,Client 34 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 15:00:47.836,AORUS_X3,recserver,10672,RS,RecServer,20,Client 35 connected
+10,1f00a8c0_0000103c_5ae08a10_0002_0000,LOG,STATUS,0,2018/04/25 15:00:52.006,AORUS_X3,recserver,10672,RS,RecServer,25,Client 35 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 15:01:05.267,AORUS_X3,recserver,10672,RS,RecServer,20,Client 36 connected

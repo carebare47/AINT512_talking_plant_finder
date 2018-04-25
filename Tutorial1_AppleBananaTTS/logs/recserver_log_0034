@@ -1,0 +1,32 @@
+10,-,LOG,STATUS,0,2018/04/25 19:10:24.497,AORUS_X3,recserver,11424,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/04/25 19:10:39.398,AORUS_X3,recserver,11424,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/04/25 19:10:39.399,AORUS_X3,recserver,11424,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,ERROR,0,2018/04/25 19:10:39.399,AORUS_X3,recserver,11424,RS,RecserverMainThread::Respond,51,Failed to read in connection message, read 0 bytes
+10,-,LOG,STATUS,0,2018/04/25 19:10:39.399,AORUS_X3,recserver,11424,RS,RecServer,19,Client 0 connected
+10,1f00a8c0_00001a50_5ae0c49f_0002_0000,LOG,STATUS,0,2018/04/25 19:10:40.979,AORUS_X3,recserver,12836,RS,RecServer,59,Client 0 started utterance 65562 with grammar .Environment
+10,1f00a8c0_00001a50_5ae0c49f_0002_0000,LOG,STATUS,0,2018/04/25 19:10:48.280,AORUS_X3,recserver,11424,RS,RecServer,24,Client 0 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 19:10:49.588,AORUS_X3,recserver,11424,RS,RecServer,19,Client 1 connected
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:10:51.424,AORUS_X3,recserver,12836,RS,RecServer,59,Client 1 started utterance 65562 with grammar .Environment
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:00.453,AORUS_X3,recserver,12836,RS,RecServer,33,Client 1 utterance 65562 result:
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:00.453,AORUS_X3,recserver,12836,RAPI,RecServer,46,Result #0:     canopy (conf: 59, NL conf: 59)
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:00.453,AORUS_X3,recserver,12836,RAPI,RecServer,49,NL Res.#0:     <env_catagory_said "canopy_said">
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:00.453,AORUS_X3,recserver,12836,RAPI,RecServer,22,Total Audio: 6.47 sec
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:08.597,AORUS_X3,recserver,12836,RS,RecServer,53,Client 1 started utterance 65584 with grammar .Start
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:10.915,AORUS_X3,recserver,12836,RS,RecServer,33,Client 1 utterance 65584 result:
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:10.915,AORUS_X3,recserver,12836,RAPI,RecServer,43,Result #0:     yes (conf: 83, NL conf: 83)
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:10.915,AORUS_X3,recserver,12836,RAPI,RecServer,49,NL Res.#0:     <binary_response_said "yes_said">
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:10.915,AORUS_X3,recserver,12836,RAPI,RecServer,22,Total Audio: 1.35 sec
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:14.053,AORUS_X3,recserver,12836,RS,RecServer,59,Client 1 started utterance 65606 with grammar .Environment
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:16.992,AORUS_X3,recserver,12836,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:17.014,AORUS_X3,recserver,12836,RS,RecServer,33,Client 1 utterance 65606 result:
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:17.014,AORUS_X3,recserver,12836,RAPI,RecServer,44,Result #0:     lawn (conf: 47, NL conf: 50)
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:17.014,AORUS_X3,recserver,12836,RAPI,RecServer,47,NL Res.#0:     <env_catagory_said "lawn_said">
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:17.014,AORUS_X3,recserver,12836,RAPI,RecServer,22,Total Audio: 1.65 sec
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:17.014,AORUS_X3,recserver,12836,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass4
+10,1f00a8c0_000059e8_5ae0c4a9_0002_0000,LOG,STATUS,0,2018/04/25 19:11:30.047,AORUS_X3,recserver,11424,RS,RecServer,24,Client 1 disconnected
+
+

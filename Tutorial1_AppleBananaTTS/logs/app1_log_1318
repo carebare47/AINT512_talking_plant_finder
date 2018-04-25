@@ -1,0 +1,47 @@
+10,1f00a8c0_00002c28_5ae0c597_0001_0000,LOG,WARN,0,2018/04/25 19:14:47.352,AORUS_X3,app1,9736,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:14:47.371,AORUS_X3,app1,22260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:14:47.372,AORUS_X3,app1,22260,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:14:51.793,AORUS_X3,app1,22260,ROOT,AppOutput,21,Recognized: "canopy"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:14:51.793,AORUS_X3,app1,22260,ROOT,AppOutput,50,Interpretation: <env_catagory_said "canopy_said">
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,WARN,0,2018/04/25 19:14:51.793,AORUS_X3,app1,22260,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:14:51.795,AORUS_X3,app1,22260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:14:51.795,AORUS_X3,app1,22260,ROOT,AppOutput,22,Entering state "env2"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:02.363,AORUS_X3,app1,22260,ROOT,AppOutput,18,Recognized: "yes"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:02.363,AORUS_X3,app1,22260,ROOT,AppOutput,50,Interpretation: <binary_response_said "yes_said">
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,WARN,0,2018/04/25 19:15:02.363,AORUS_X3,app1,22260,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:02.364,AORUS_X3,app1,22260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:02.364,AORUS_X3,app1,22260,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:08.306,AORUS_X3,app1,22260,ROOT,AppOutput,19,Recognized: "lawn"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:08.306,AORUS_X3,app1,22260,ROOT,AppOutput,48,Interpretation: <env_catagory_said "lawn_said">
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,WARN,0,2018/04/25 19:15:08.306,AORUS_X3,app1,22260,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:08.307,AORUS_X3,app1,22260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:08.307,AORUS_X3,app1,22260,ROOT,AppOutput,22,Entering state "env2"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:08.441,AORUS_X3,app1,22260,ROOT,AppOutput,99,Skipping AppStartAction (ACTION_RECOGNIZE) because the state has changed or the session has ended.
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:08.442,AORUS_X3,app1,22260,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:08.443,AORUS_X3,app1,22260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:08.443,AORUS_X3,app1,22260,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:24.512,AORUS_X3,app1,22260,ROOT,AppOutput,31,Recognized: "remove last item"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:24.512,AORUS_X3,app1,22260,ROOT,AppOutput,66,Interpretation: <env_zero_match_response_said "remove_last_said">
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,ERROR,0,2018/04/25 19:15:24.513,AORUS_X3,app1,22260,DIALOG,AppGoto(Cond),36,Unknown state name: "environmentfn"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:24.514,AORUS_X3,app1,22260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:15:24.514,AORUS_X3,app1,22260,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:16:06.910,AORUS_X3,app1,22260,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:16:06.910,AORUS_X3,app1,22260,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,WARN,0,2018/04/25 19:16:06.911,AORUS_X3,app1,22260,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:16:06.912,AORUS_X3,app1,22260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:16:06.912,AORUS_X3,app1,22260,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:16:19.532,AORUS_X3,app1,22260,ROOT,AppOutput,31,Recognized: "remove last item"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:16:19.532,AORUS_X3,app1,22260,ROOT,AppOutput,66,Interpretation: <env_zero_match_response_said "remove_last_said">
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,ERROR,0,2018/04/25 19:16:19.532,AORUS_X3,app1,22260,DIALOG,AppGoto(Cond),36,Unknown state name: "environmentfn"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:16:19.533,AORUS_X3,app1,22260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:16:19.533,AORUS_X3,app1,22260,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:17:01.950,AORUS_X3,app1,22260,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:17:01.950,AORUS_X3,app1,22260,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,WARN,0,2018/04/25 19:17:01.950,AORUS_X3,app1,22260,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:17:01.951,AORUS_X3,app1,22260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:17:01.951,AORUS_X3,app1,22260,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:17:40.119,AORUS_X3,app1,22260,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:17:40.119,AORUS_X3,app1,22260,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,WARN,0,2018/04/25 19:17:40.119,AORUS_X3,app1,22260,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:17:40.122,AORUS_X3,app1,22260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00002c28_5ae0c597_0002_0000,LOG,STATUS,0,2018/04/25 19:17:40.122,AORUS_X3,app1,22260,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"

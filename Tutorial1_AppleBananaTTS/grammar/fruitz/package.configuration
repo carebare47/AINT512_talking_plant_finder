@@ -1,0 +1,17 @@
+package.ID			NUANCE,v8.5.0,1117,44819495-118980472
+package.Name			English.America
+package.JustInTime		FALSE
+package.Verification		FALSE
+package.NLDefined		TRUE
+package.NumGrammars		4
+package.GrammarName0		.Start
+package.GrammarName1		.Locale
+package.GrammarName2		.Greet
+package.GrammarName3		.Choice
+package..Start.DynagramNames		:
+package..Locale.DynagramNames		:
+package..Greet.DynagramNames		:
+package..Choice.DynagramNames		:
+package.NumFirstPassPackages		1
+package.NumSecondPassPackages		4
+package.SecondPassCrossWord		TRUE
