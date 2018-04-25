@@ -1,0 +1,13 @@
+10,1f00a8c0_00004c1c_5ae0ebe7_0001_0000,LOG,WARN,0,2018/04/25 21:58:16.143,AORUS_X3,app1,2800,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00004c1c_5ae0ebe8_0002_0000,LOG,STATUS,0,2018/04/25 21:58:16.163,AORUS_X3,app1,20192,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00004c1c_5ae0ebe8_0002_0000,LOG,STATUS,0,2018/04/25 21:58:16.163,AORUS_X3,app1,20192,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00004c1c_5ae0ebe8_0002_0000,LOG,STATUS,0,2018/04/25 21:58:27.294,AORUS_X3,app1,20192,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00004c1c_5ae0ebe8_0002_0000,LOG,STATUS,0,2018/04/25 21:58:27.294,AORUS_X3,app1,20192,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00004c1c_5ae0ebe8_0002_0000,LOG,WARN,0,2018/04/25 21:58:27.295,AORUS_X3,app1,20192,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00004c1c_5ae0ebe8_0002_0000,LOG,STATUS,0,2018/04/25 21:58:27.297,AORUS_X3,app1,20192,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00004c1c_5ae0ebe8_0002_0000,LOG,STATUS,0,2018/04/25 21:58:27.297,AORUS_X3,app1,20192,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00004c1c_5ae0ebe8_0002_0000,LOG,STATUS,0,2018/04/25 21:58:57.430,AORUS_X3,app1,20192,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_00004c1c_5ae0ebe8_0002_0000,LOG,STATUS,0,2018/04/25 21:58:57.430,AORUS_X3,app1,20192,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_00004c1c_5ae0ebe8_0002_0000,LOG,WARN,0,2018/04/25 21:58:57.430,AORUS_X3,app1,20192,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00004c1c_5ae0ebe8_0002_0000,LOG,STATUS,0,2018/04/25 21:58:57.432,AORUS_X3,app1,20192,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00004c1c_5ae0ebe8_0002_0000,LOG,STATUS,0,2018/04/25 21:58:57.432,AORUS_X3,app1,20192,ROOT,AppOutput,29,Entering state "environment"

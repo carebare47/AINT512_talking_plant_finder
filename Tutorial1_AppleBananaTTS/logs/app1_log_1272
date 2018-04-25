@@ -1,6 +1,0 @@
-10,1f00a8c0_000028c4_5ae0a3db_0001_0000,LOG,WARN,0,2018/04/25 16:50:51.806,AORUS_X3,app1,13300,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
-10,1f00a8c0_000028c4_5ae0a3db_0002_0000,LOG,STATUS,0,2018/04/25 16:50:51.828,AORUS_X3,app1,1128,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,1f00a8c0_000028c4_5ae0a3db_0002_0000,LOG,STATUS,0,2018/04/25 16:50:51.828,AORUS_X3,app1,1128,ROOT,AppOutput,29,Entering state "environment"
-10,1f00a8c0_000028c4_5ae0a3db_0002_0000,LOG,STATUS,0,2018/04/25 16:50:57.799,AORUS_X3,app1,1128,ROOT,AppOutput,21,Recognized: "canopy"
-10,1f00a8c0_000028c4_5ae0a3db_0002_0000,LOG,STATUS,0,2018/04/25 16:50:57.799,AORUS_X3,app1,1128,ROOT,AppOutput,50,Interpretation: <env_catagory_said "canopy_said">
-10,-,LOG,WARN,0,2018/04/25 16:51:13.143,AORUS_X3,app1,19808,NLM,LicenseManagerInfo::Respond,42,Socket read error -10053(WSAECONNABORTED)

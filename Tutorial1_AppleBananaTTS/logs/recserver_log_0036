@@ -1,0 +1,8 @@
+10,-,LOG,STATUS,0,2018/04/25 20:28:44.435,AORUS_X3,recserver,12928,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/04/25 20:28:57.595,AORUS_X3,recserver,12928,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/04/25 20:28:57.595,AORUS_X3,recserver,12928,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/04/25 20:28:57.596,AORUS_X3,recserver,12928,RS,RecServer,19,Client 0 connected
+10,1f00a8c0_000042c0_5ae0d6f4_0001_0000,LOG,STATUS,0,2018/04/25 20:28:57.597,AORUS_X3,recserver,12928,RS,RecServer,24,Client 0 disconnected
+
+

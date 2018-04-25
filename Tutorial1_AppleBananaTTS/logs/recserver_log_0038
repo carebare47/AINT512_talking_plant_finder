@@ -1,0 +1,20 @@
+10,-,LOG,STATUS,0,2018/04/25 21:02:51.341,AORUS_X3,recserver,12352,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/04/25 21:03:03.860,AORUS_X3,recserver,12352,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/04/25 21:03:03.860,AORUS_X3,recserver,12352,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/04/25 21:03:03.860,AORUS_X3,recserver,12352,RS,RecServer,19,Client 0 connected
+10,1f00a8c0_00004f2c_5ae0deeb_0001_0000,LOG,STATUS,0,2018/04/25 21:03:03.861,AORUS_X3,recserver,12352,RS,RecServer,24,Client 0 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/25 21:56:27.421,AORUS_X3,recserver,12352,RS,RecServer,19,Client 1 connected
+10,1f00a8c0_00004f28_5ae0eb7b_0002_0000,LOG,STATUS,0,2018/04/25 21:56:31.121,AORUS_X3,recserver,21548,RS,RecServer,59,Client 1 started utterance 65562 with grammar .Environment
+10,1f00a8c0_00004f28_5ae0eb7b_0002_0000,LOG,STATUS,0,2018/04/25 21:56:38.575,AORUS_X3,recserver,21548,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,1f00a8c0_00004f28_5ae0eb7b_0002_0000,LOG,STATUS,0,2018/04/25 21:56:38.672,AORUS_X3,recserver,21548,RS,RecServer,33,Client 1 utterance 65562 result:
+10,1f00a8c0_00004f28_5ae0eb7b_0002_0000,LOG,STATUS,0,2018/04/25 21:56:38.672,AORUS_X3,recserver,21548,RAPI,RecServer,50,Result #0:     <rejected> (conf: 34, NL conf:  0)
+10,1f00a8c0_00004f28_5ae0eb7b_0002_0000,LOG,STATUS,0,2018/04/25 21:56:38.672,AORUS_X3,recserver,21548,RAPI,RecServer,22,Total Audio: 6.93 sec
+10,1f00a8c0_00004f28_5ae0eb7b_0002_0000,LOG,STATUS,0,2018/04/25 21:56:38.672,AORUS_X3,recserver,21548,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass3
+10,1f00a8c0_00004f28_5ae0eb7b_0002_0000,LOG,STATUS,0,2018/04/25 21:56:38.750,AORUS_X3,recserver,21548,RS,RecServer,59,Client 1 started utterance 65583 with grammar .Environment
+10,1f00a8c0_00004f28_5ae0eb7b_0002_0000,LOG,STATUS,0,2018/04/25 21:56:40.452,AORUS_X3,recserver,12352,RS,RecServer,24,Client 1 disconnected
+
+

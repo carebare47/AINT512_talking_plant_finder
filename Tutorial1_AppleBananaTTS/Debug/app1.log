@@ -1,100 +1,89 @@
 ﻿cl : Command line warning D9007: '/Gm' requires '/Zi or /ZI'; option ignored
   app1.c
-app1.c(245): warning C4018: '<': signed/unsigned mismatch
-app1.c(716): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[400]'
-app1.c(716): warning C4024: 'strcpy': different types for formal and actual parameter 1
-app1.c(717): warning C4020: 'AppGotoPublicWrapper': too many actual parameters
-app1.c(667): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+app1.c(192): warning C4013: 'SQLcolumnReturn' undefined; assuming extern returning int
+app1.c(490): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[400]'
+app1.c(490): warning C4024: 'strcpy': different types for formal and actual parameter 1
+app1.c(491): warning C4020: 'AppGotoPublicWrapper': too many actual parameters
+app1.c(441): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(668): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+app1.c(442): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(129): note: see declaration of 'strcpy'
-app1.c(672): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+app1.c(446): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(129): note: see declaration of 'strcpy'
-app1.c(682): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+app1.c(456): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(684): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+app1.c(458): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(129): note: see declaration of 'strcpy'
-app1.c(716): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+app1.c(490): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(129): note: see declaration of 'strcpy'
-app1.c(782): warning C4047: 'function': 'char *const ' differs in levels of indirection from 'char *[400]'
-app1.c(782): warning C4024: 'sprintf': different types for formal and actual parameter 1
-app1.c(786): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[400]'
-app1.c(786): warning C4024: 'strcpy': different types for formal and actual parameter 1
-app1.c(786): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char *[400]'
-app1.c(786): warning C4024: 'concat': different types for formal and actual parameter 1
-app1.c(737): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+app1.c(556): warning C4047: 'function': 'char *const ' differs in levels of indirection from 'char *[400]'
+app1.c(556): warning C4024: 'sprintf': different types for formal and actual parameter 1
+app1.c(560): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[400]'
+app1.c(560): warning C4024: 'strcpy': different types for formal and actual parameter 1
+app1.c(560): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char *[400]'
+app1.c(560): warning C4024: 'concat': different types for formal and actual parameter 1
+app1.c(511): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(743): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+app1.c(517): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(745): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+app1.c(519): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(129): note: see declaration of 'strcpy'
-app1.c(752): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+app1.c(526): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(782): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+app1.c(556): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(785): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+app1.c(559): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(786): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+app1.c(560): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(129): note: see declaration of 'strcpy'
-app1.c(821): warning C4028: formal parameter 1 different from declaration
-app1.c(821): warning C4028: formal parameter 2 different from declaration
-app1.c(828): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[400]'
-app1.c(828): warning C4024: 'SQLspeakQuery': different types for formal and actual parameter 2
-app1.c(826): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char **'
-app1.c(1121): warning C4113: 'void (__cdecl *)(App *,char)' differs in parameter lists from 'AppFunction'
-app1.c(1122): warning C4113: 'void (__cdecl *)(App *,char)' differs in parameter lists from 'AppFunction'
-app1.c(1136): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(129): note: see declaration of 'strcpy'
-app1.c(1137): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(90): note: see declaration of 'strcat'
-app1.c(1155): warning C4047: 'function': 'char *const ' differs in levels of indirection from 'char *[100]'
-app1.c(1155): warning C4024: 'sprintf': different types for formal and actual parameter 1
-app1.c(1157): warning C4047: 'return': 'char *' differs in levels of indirection from 'char *[100]'
-app1.c(1155): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(1156): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char **'
-app1.c(1154): warning C4101: 'country_query': unreferenced local variable
-app1.c(1162): warning C4047: 'function': 'char *const ' differs in levels of indirection from 'char *[100]'
-app1.c(1162): warning C4024: 'sprintf': different types for formal and actual parameter 1
-app1.c(1164): warning C4047: 'return': 'char *' differs in levels of indirection from 'char *[100]'
-app1.c(1162): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(1163): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char **'
-app1.c(1169): warning C4047: 'function': 'char *const ' differs in levels of indirection from 'char *[100]'
-app1.c(1169): warning C4024: 'sprintf': different types for formal and actual parameter 1
-app1.c(1171): warning C4047: 'return': 'char *' differs in levels of indirection from 'char *[100]'
-app1.c(1169): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(1170): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char **'
-app1.c(1176): warning C4047: 'function': 'char *const ' differs in levels of indirection from 'char *[100]'
-app1.c(1176): warning C4024: 'sprintf': different types for formal and actual parameter 1
-app1.c(1178): warning C4047: 'return': 'char *' differs in levels of indirection from 'char *[100]'
-app1.c(1176): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(1177): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char **'
-app1.c(1208): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
-app1.c(1250): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(1359): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
-app1.c(1395): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(1423): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(1430): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(1437): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(1440): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(1446): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-app1.c(1454): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-c:\nuance85\aint512\tutorials\retry\1_tutorial1_applebananatts\tutorial1_applebananatts\app1.c(1157): warning C4172: returning address of local variable or temporary: buff
-c:\nuance85\aint512\tutorials\retry\1_tutorial1_applebananatts\tutorial1_applebananatts\app1.c(1164): warning C4172: returning address of local variable or temporary: buff
-c:\nuance85\aint512\tutorials\retry\1_tutorial1_applebananatts\tutorial1_applebananatts\app1.c(1178): warning C4172: returning address of local variable or temporary: buff
-c:\nuance85\aint512\tutorials\retry\1_tutorial1_applebananatts\tutorial1_applebananatts\app1.c(1171): warning C4172: returning address of local variable or temporary: buff
-c:\nuance85\aint512\tutorials\retry\1_tutorial1_applebananatts\tutorial1_applebananatts\app1.c(1353): warning C4715: 'returnTime': not all control paths return a value
+app1.c(595): warning C4028: formal parameter 1 different from declaration
+app1.c(595): warning C4028: formal parameter 2 different from declaration
+app1.c(602): warning C4047: 'function': 'char *' differs in levels of indirection from 'char *[400]'
+app1.c(602): warning C4024: 'SQLspeakQuery': different types for formal and actual parameter 2
+app1.c(600): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char **'
+app1.c(896): warning C4113: 'void (__cdecl *)(App *,char)' differs in parameter lists from 'AppFunction'
+app1.c(897): warning C4113: 'void (__cdecl *)(App *,char)' differs in parameter lists from 'AppFunction'
+  date_time_functions.c
+date_time_functions.c(37): warning C4013: 'concat' undefined; assuming extern returning int
+date_time_functions.c(44): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+date_time_functions.c(45): warning C4013: 'integer_to_string' undefined; assuming extern returning int
+date_time_functions.c(37): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(38): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(45): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(46): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(49): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(52): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(55): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(58): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(61): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(62): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(63): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(64): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(97): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(100): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(129): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(132): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(94): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(105): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(106): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(112): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(113): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(119): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(120): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(127): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(137): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(138): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(144): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(145): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(151): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(152): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(160): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(161): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(167): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(168): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(174): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+date_time_functions.c(175): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+  Generating Code...
+c:\nuance85\aint512\tutorials\retry\1_tutorial1_applebananatts\tutorial1_applebananatts\date_time_functions.c(181): warning C4715: 'returnTime': not all control paths return a value
   app1.vcxproj -> C:\nuance85\AINT512\Tutorials\retry\1_Tutorial1_AppleBananaTTS\Tutorial1_AppleBananaTTS\.\Debug\app1.exe
   app1.vcxproj -> .\Debug\app1.pdb (Full PDB)

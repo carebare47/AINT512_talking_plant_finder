@@ -125,6 +125,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="app1.c" />
+    <ClCompile Include="date_time_functions.c" />
+    <ClCompile Include="sql_functions.c" />
+    <ClCompile Include="string_functions.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="date_time_functions.h" />
+    <ClInclude Include="sql_functions.h" />
+    <ClInclude Include="string_functions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
