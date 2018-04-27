@@ -1,0 +1,11 @@
+10,1f00a8c0_000063fc_5ae36768_0001_0000,LOG,WARN,0,2018/04/27 19:09:44.666,AORUS_X3,app1,13344,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_000063fc_5ae36768_0002_0000,LOG,STATUS,0,2018/04/27 19:09:44.688,AORUS_X3,app1,9276,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000063fc_5ae36768_0002_0000,LOG,STATUS,0,2018/04/27 19:09:44.688,AORUS_X3,app1,9276,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_000063fc_5ae36768_0002_0000,LOG,STATUS,0,2018/04/27 19:09:49.418,AORUS_X3,app1,9276,ROOT,AppOutput,30,Recognized: "canopy and lawn"
+10,1f00a8c0_000063fc_5ae36768_0002_0000,LOG,STATUS,0,2018/04/27 19:09:49.418,AORUS_X3,app1,9276,ROOT,AppOutput,46,Interpretation: <canopy_said 1> <lawn_said 1>
+10,1f00a8c0_000063fc_5ae36768_0002_0000,LOG,STATUS,0,2018/04/27 19:09:49.420,AORUS_X3,app1,9276,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000063fc_5ae36768_0002_0000,LOG,STATUS,0,2018/04/27 19:09:49.420,AORUS_X3,app1,9276,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_000063fc_5ae36768_0002_0000,LOG,STATUS,0,2018/04/27 19:09:54.107,AORUS_X3,app1,9276,ROOT,AppOutput,30,Recognized: "lawn and canopy"
+10,1f00a8c0_000063fc_5ae36768_0002_0000,LOG,STATUS,0,2018/04/27 19:09:54.107,AORUS_X3,app1,9276,ROOT,AppOutput,46,Interpretation: <canopy_said 1> <lawn_said 1>
+10,1f00a8c0_000063fc_5ae36768_0002_0000,LOG,STATUS,0,2018/04/27 19:09:54.109,AORUS_X3,app1,9276,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000063fc_5ae36768_0002_0000,LOG,STATUS,0,2018/04/27 19:09:54.109,AORUS_X3,app1,9276,ROOT,AppOutput,27,Entering state "freeSpeak"

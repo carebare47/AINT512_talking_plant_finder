@@ -13,8 +13,11 @@ extern int firstEnv;
 extern char storeBuf[400];
 extern char* storeBuf2[400];
 extern int firstEnvFn2Flag;
+extern int habitCounter;
+extern const char *plantHabitStringArray[8];
 
 
+void envPandHfn(App *app);
 void envResultsFn2(char* str);
 void envResultsFn(App app, char* str);
 

@@ -1,0 +1,61 @@
+10,1f00a8c0_00004cec_5ae34633_0001_0000,LOG,WARN,0,2018/04/27 16:48:03.633,AORUS_X3,app1,5272,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00001740_5ae34630_0001_0000,LOG,WARN,0,2018/04/27 16:48:09.848,AORUS_X3,app1,2116,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:09.849,AORUS_X3,app1,5440,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:09.849,AORUS_X3,app1,5440,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,ERROR,0,2018/04/27 16:48:11.776,AORUS_X3,app1,5440,DIALOG,HandlePlaybackDone,37,".Speak" is not a known grammar name
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:11.776,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:11.776,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:11.778,AORUS_X3,app1,5440,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:11.778,AORUS_X3,app1,5440,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,ERROR,0,2018/04/27 16:48:14.936,AORUS_X3,app1,5440,DIALOG,HandlePlaybackDone,37,".Speak" is not a known grammar name
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:14.936,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:14.937,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:14.938,AORUS_X3,app1,5440,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:14.938,AORUS_X3,app1,5440,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,ERROR,0,2018/04/27 16:48:18.113,AORUS_X3,app1,5440,DIALOG,HandlePlaybackDone,37,".Speak" is not a known grammar name
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:18.113,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:18.114,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:18.116,AORUS_X3,app1,5440,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:18.116,AORUS_X3,app1,5440,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,ERROR,0,2018/04/27 16:48:21.322,AORUS_X3,app1,2116,AUDIO,StartRecording,22,WaveInAddBuffer Error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,ERROR,0,2018/04/27 16:48:21.322,AORUS_X3,app1,2116,AUDIO,StartRecording,103,The wave header was not prepared.  Use the Prepare function to prepare the header, and then try again.
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,ERROR,0,2018/04/27 16:48:21.323,AORUS_X3,app1,5440,DIALOG,HandlePlaybackDone,58,Failed call to RCRecognize() because "NUANCE_AUDIO_ERROR"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:21.323,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:21.323,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:21.325,AORUS_X3,app1,5440,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:21.325,AORUS_X3,app1,5440,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,ERROR,0,2018/04/27 16:48:24.351,AORUS_X3,app1,5440,DIALOG,HandlePlaybackDone,67,Failed call to RCRecognize() because "NUANCE_OUT_OF_SEQUENCE_CALL"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:24.351,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:24.351,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:24.353,AORUS_X3,app1,5440,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:24.353,AORUS_X3,app1,5440,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,ERROR,0,2018/04/27 16:48:27.339,AORUS_X3,app1,5440,DIALOG,HandlePlaybackDone,67,Failed call to RCRecognize() because "NUANCE_OUT_OF_SEQUENCE_CALL"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:27.339,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:27.339,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:27.341,AORUS_X3,app1,5440,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:27.341,AORUS_X3,app1,5440,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,ERROR,0,2018/04/27 16:48:30.415,AORUS_X3,app1,5440,DIALOG,HandlePlaybackDone,67,Failed call to RCRecognize() because "NUANCE_OUT_OF_SEQUENCE_CALL"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:30.415,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:30.415,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:30.416,AORUS_X3,app1,5440,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:30.416,AORUS_X3,app1,5440,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,ERROR,0,2018/04/27 16:48:33.501,AORUS_X3,app1,5440,DIALOG,HandlePlaybackDone,67,Failed call to RCRecognize() because "NUANCE_OUT_OF_SEQUENCE_CALL"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:33.501,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:33.502,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:33.503,AORUS_X3,app1,5440,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:33.503,AORUS_X3,app1,5440,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,ERROR,0,2018/04/27 16:48:36.594,AORUS_X3,app1,5440,DIALOG,HandlePlaybackDone,67,Failed call to RCRecognize() because "NUANCE_OUT_OF_SEQUENCE_CALL"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:36.594,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:36.594,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:36.596,AORUS_X3,app1,5440,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:36.596,AORUS_X3,app1,5440,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,ERROR,0,2018/04/27 16:48:39.648,AORUS_X3,app1,5440,DIALOG,HandlePlaybackDone,67,Failed call to RCRecognize() because "NUANCE_OUT_OF_SEQUENCE_CALL"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:39.648,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:39.648,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:39.650,AORUS_X3,app1,5440,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:39.650,AORUS_X3,app1,5440,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,ERROR,0,2018/04/27 16:48:42.716,AORUS_X3,app1,5440,DIALOG,HandlePlaybackDone,67,Failed call to RCRecognize() because "NUANCE_OUT_OF_SEQUENCE_CALL"
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:42.716,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:42.717,AORUS_X3,app1,5440,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:42.718,AORUS_X3,app1,5440,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:42.718,AORUS_X3,app1,5440,ROOT,AppOutput,27,Entering state "freeSpeak"

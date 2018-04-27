@@ -1,0 +1,13 @@
+10,1f00a8c0_00006408_5ae36f9c_0001_0000,LOG,WARN,0,2018/04/27 19:44:44.373,AORUS_X3,app1,24852,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00006408_5ae36f9c_0002_0000,LOG,STATUS,0,2018/04/27 19:44:44.390,AORUS_X3,app1,12940,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00006408_5ae36f9c_0002_0000,LOG,STATUS,0,2018/04/27 19:44:44.390,AORUS_X3,app1,12940,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00006408_5ae36f9c_0002_0000,LOG,STATUS,0,2018/04/27 19:44:51.069,AORUS_X3,app1,12940,ROOT,AppOutput,40,Recognized: "canopy and hedge and pond"
+10,1f00a8c0_00006408_5ae36f9c_0002_0000,LOG,STATUS,0,2018/04/27 19:44:51.069,AORUS_X3,app1,12940,ROOT,AppOutput,61,Interpretation: <canopy_said 1> <hedge_said 1> <pond_said 1>
+10,1f00a8c0_00006408_5ae36f9c_0002_0000,LOG,WARN,0,2018/04/27 19:44:51.070,AORUS_X3,app1,12940,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,1f00a8c0_00006408_5ae36f9c_0002_0000,LOG,STATUS,0,2018/04/27 19:44:51.071,AORUS_X3,app1,12940,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00006408_5ae36f9c_0002_0000,LOG,STATUS,0,2018/04/27 19:44:51.071,AORUS_X3,app1,12940,ROOT,AppOutput,22,Entering state "env2"
+10,1f00a8c0_00006408_5ae36f9c_0002_0000,LOG,STATUS,0,2018/04/27 19:44:59.061,AORUS_X3,app1,12940,ROOT,AppOutput,17,Recognized: "no"
+10,1f00a8c0_00006408_5ae36f9c_0002_0000,LOG,STATUS,0,2018/04/27 19:44:59.061,AORUS_X3,app1,12940,ROOT,AppOutput,49,Interpretation: <binary_response_said "no_said">
+10,1f00a8c0_00006408_5ae36f9c_0002_0000,LOG,WARN,0,2018/04/27 19:44:59.061,AORUS_X3,app1,12940,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,1f00a8c0_00006408_5ae36f9c_0002_0000,LOG,STATUS,0,2018/04/27 19:44:59.062,AORUS_X3,app1,12940,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00006408_5ae36f9c_0002_0000,LOG,STATUS,0,2018/04/27 19:44:59.062,AORUS_X3,app1,12940,ROOT,AppOutput,28,Entering state "envResults"

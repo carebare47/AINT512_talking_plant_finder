@@ -1,0 +1,315 @@
+10,1f00a8c0_00005fc8_5ae36b75_0001_0000,LOG,WARN,0,2018/04/27 19:27:01.249,AORUS_X3,app1,340,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:27:01.265,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:27:01.265,AORUS_X3,app1,25596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:27:07.965,AORUS_X3,app1,25596,ROOT,AppOutput,40,Recognized: "canopy and lawn pond pond"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:27:07.965,AORUS_X3,app1,25596,ROOT,AppOutput,60,Interpretation: <canopy_said 1> <lawn_said 1> <pond_said 1>
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:27:07.966,AORUS_X3,app1,25596,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:27:07.967,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:27:07.967,AORUS_X3,app1,25596,ROOT,AppOutput,22,Entering state "env2"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:27:08.079,AORUS_X3,app1,25596,ROOT,AppOutput,99,Skipping AppStartAction (ACTION_RECOGNIZE) because the state has changed or the session has ended.
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:27:08.080,AORUS_X3,app1,25596,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:27:08.081,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:27:08.081,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:27:49.495,AORUS_X3,app1,25596,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:27:49.495,AORUS_X3,app1,25596,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:27:49.495,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:27:49.497,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:27:49.497,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:28:27.646,AORUS_X3,app1,25596,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:28:27.646,AORUS_X3,app1,25596,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:28:27.647,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:28:27.648,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:28:27.648,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:29:05.774,AORUS_X3,app1,25596,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:29:05.774,AORUS_X3,app1,25596,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:29:05.775,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:29:05.776,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:29:05.776,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:29:43.894,AORUS_X3,app1,25596,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:29:43.894,AORUS_X3,app1,25596,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:29:43.894,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:29:43.896,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:29:43.896,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:30:25.206,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:30:25.206,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:30:25.207,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:30:25.208,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:30:25.208,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:30:40.839,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:30:40.839,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:30:40.840,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:30:40.841,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:30:40.841,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:30:50.973,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:30:50.973,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:30:50.974,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:30:50.975,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:30:50.975,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:02.493,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:02.493,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:31:02.493,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:02.496,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:02.496,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:11.516,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:11.516,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:31:11.517,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:11.518,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:11.518,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:34.914,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:34.914,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:31:34.915,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:34.916,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:34.916,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:55.561,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:55.561,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:31:55.561,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:55.563,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:31:55.563,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:32:11.973,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:32:11.973,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:32:11.974,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:32:11.975,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:32:11.975,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:32:50.093,AORUS_X3,app1,25596,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:32:50.093,AORUS_X3,app1,25596,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:32:50.093,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:32:50.095,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:32:50.095,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:02.379,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:02.379,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:33:02.380,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:02.381,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:02.381,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:12.029,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:12.029,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:33:12.030,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:12.032,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:12.032,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:32.538,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:32.538,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:33:32.539,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:32.540,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:32.540,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:42.872,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:42.872,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:33:42.873,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:42.874,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:42.874,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:55.602,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:55.603,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:33:55.604,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:55.605,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:33:55.605,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:34:12.933,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:34:12.933,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:34:12.934,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:34:12.935,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:34:12.935,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:34:40.037,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:34:40.038,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:34:40.038,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:34:40.039,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:34:40.039,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:34:57.274,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,STATUS,0,2018/04/27 19:34:57.274,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36b75_0002_0000,LOG,WARN,0,2018/04/27 19:34:57.274,AORUS_X3,app1,25596,DIALOG,HandleFinalResult,60,Aborting session because of too many consecutive exceptions
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:34:57.275,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:34:57.275,AORUS_X3,app1,25596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:29.133,AORUS_X3,app1,25596,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:29.133,AORUS_X3,app1,25596,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:35:29.134,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:29.136,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:29.136,AORUS_X3,app1,25596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:36.736,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:36.736,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:35:36.737,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:36.738,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:36.738,AORUS_X3,app1,25596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:42.081,AORUS_X3,app1,25596,ROOT,AppOutput,21,Recognized: "meadow"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:42.081,AORUS_X3,app1,25596,ROOT,AppOutput,32,Interpretation: <meadow_said 1>
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:35:42.081,AORUS_X3,app1,25596,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:42.083,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:42.083,AORUS_X3,app1,25596,ROOT,AppOutput,22,Entering state "env2"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:42.202,AORUS_X3,app1,25596,ROOT,AppOutput,99,Skipping AppStartAction (ACTION_RECOGNIZE) because the state has changed or the session has ended.
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:42.203,AORUS_X3,app1,25596,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:42.205,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:35:42.205,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:04.087,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:04.087,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:36:04.088,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:04.090,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:04.090,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:15.007,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:15.007,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:36:15.008,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:15.009,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:15.009,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:24.395,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:24.396,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:36:24.396,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:24.398,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:24.398,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:38.052,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:38.052,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:36:38.053,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:38.054,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:38.054,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:52.263,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:52.263,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:36:52.263,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:52.265,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:36:52.265,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:37:17.132,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:37:17.132,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:37:17.133,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:37:17.134,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:37:17.134,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:37:31.976,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:37:31.976,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:37:31.977,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:37:31.979,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:37:31.979,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:37:45.254,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:37:45.254,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:37:45.255,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:37:45.256,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:37:45.256,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:11.861,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:11.861,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:38:11.862,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:11.863,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:11.865,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:21.840,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:21.841,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:38:21.842,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:21.843,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:21.843,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:38.080,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:38.081,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:38:38.081,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:38.083,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:38.083,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:47.238,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:47.238,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:38:47.239,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:47.241,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:38:47.241,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:05.600,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:05.600,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:39:05.601,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:05.603,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:05.603,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:17.200,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:17.200,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:39:17.201,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:17.202,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:17.202,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:30.756,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:30.757,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:39:30.758,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:30.759,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:30.760,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:43.978,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:43.978,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:39:43.979,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:43.980,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:43.980,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:57.110,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:57.110,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:39:57.111,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:57.113,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:39:57.113,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:40:09.279,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:40:09.280,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:40:09.280,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:40:09.282,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:40:09.282,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:40:40.200,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:40:40.200,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:40:40.201,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:40:40.204,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:40:40.204,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:40:57.337,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:40:57.338,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:40:57.338,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:40:57.340,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:40:57.340,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:41:16.240,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,STATUS,0,2018/04/27 19:41:16.240,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36d51_0003_0000,LOG,WARN,0,2018/04/27 19:41:16.240,AORUS_X3,app1,25596,DIALOG,HandleFinalResult,60,Aborting session because of too many consecutive exceptions
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:16.242,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:16.242,AORUS_X3,app1,25596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:23.594,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:23.594,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,WARN,0,2018/04/27 19:41:23.595,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:23.596,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:23.596,AORUS_X3,app1,25596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:34.146,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:34.171,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,WARN,0,2018/04/27 19:41:34.171,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:34.197,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:34.197,AORUS_X3,app1,25596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:45.703,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:45.703,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,WARN,0,2018/04/27 19:41:45.704,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:45.707,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:45.707,AORUS_X3,app1,25596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:50.493,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:50.493,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,WARN,0,2018/04/27 19:41:50.494,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:50.495,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:41:50.495,AORUS_X3,app1,25596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:00.490,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:00.490,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,WARN,0,2018/04/27 19:42:00.490,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:00.492,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:00.492,AORUS_X3,app1,25596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:16.080,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:16.080,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,WARN,0,2018/04/27 19:42:16.080,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:16.083,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:16.083,AORUS_X3,app1,25596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:22.077,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:22.077,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,WARN,0,2018/04/27 19:42:22.078,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:22.079,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:22.079,AORUS_X3,app1,25596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:25.156,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:25.156,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,WARN,0,2018/04/27 19:42:25.157,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:25.158,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:25.158,AORUS_X3,app1,25596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:34.803,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:34.803,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,WARN,0,2018/04/27 19:42:34.804,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:34.805,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:34.805,AORUS_X3,app1,25596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:37.807,AORUS_X3,app1,25596,ROOT,AppOutput,21,Recognized: "meadow"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:37.807,AORUS_X3,app1,25596,ROOT,AppOutput,32,Interpretation: <meadow_said 1>
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,WARN,0,2018/04/27 19:42:37.807,AORUS_X3,app1,25596,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:37.809,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:37.809,AORUS_X3,app1,25596,ROOT,AppOutput,22,Entering state "env2"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:37.933,AORUS_X3,app1,25596,ROOT,AppOutput,99,Skipping AppStartAction (ACTION_RECOGNIZE) because the state has changed or the session has ended.
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:37.934,AORUS_X3,app1,25596,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:37.935,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:37.935,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:58.035,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:58.035,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,WARN,0,2018/04/27 19:42:58.035,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:58.038,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:42:58.038,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:43:10.433,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:43:10.433,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,WARN,0,2018/04/27 19:43:10.433,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:43:10.435,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:43:10.435,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:43:21.607,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:43:21.607,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,WARN,0,2018/04/27 19:43:21.608,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:43:21.609,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:43:21.609,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:43:39.931,AORUS_X3,app1,25596,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:43:39.931,AORUS_X3,app1,25596,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,WARN,0,2018/04/27 19:43:39.932,AORUS_X3,app1,25596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:43:39.934,AORUS_X3,app1,25596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00005fc8_5ae36ecc_0004_0000,LOG,STATUS,0,2018/04/27 19:43:39.934,AORUS_X3,app1,25596,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"

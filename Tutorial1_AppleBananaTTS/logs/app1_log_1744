@@ -1,0 +1,5 @@
+10,1f00a8c0_0000179c_5ae36a97_0001_0000,LOG,WARN,0,2018/04/27 19:23:19.598,AORUS_X3,app1,20124,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_0000179c_5ae36a97_0002_0000,LOG,STATUS,0,2018/04/27 19:23:19.613,AORUS_X3,app1,16132,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_0000179c_5ae36a97_0002_0000,LOG,STATUS,0,2018/04/27 19:23:19.613,AORUS_X3,app1,16132,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_0000179c_5ae36a97_0002_0000,LOG,STATUS,0,2018/04/27 19:23:29.434,AORUS_X3,app1,16132,ROOT,AppOutput,50,Recognized: "canopy and lawn and pond pond hedge"
+10,1f00a8c0_0000179c_5ae36a97_0002_0000,LOG,STATUS,0,2018/04/27 19:23:29.434,AORUS_X3,app1,16132,ROOT,AppOutput,75,Interpretation: <canopy_said 1> <hedge_said 1> <lawn_said 1> <pond_said 1>

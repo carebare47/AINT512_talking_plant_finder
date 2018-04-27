@@ -1,8 +1,0 @@
-10,1f00a8c0_0000138c_5ae318b7_0001_0000,LOG,WARN,0,2018/04/27 13:33:59.603,AORUS_X3,app1,18192,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
-10,1f00a8c0_0000138c_5ae318b7_0002_0000,LOG,STATUS,0,2018/04/27 13:33:59.643,AORUS_X3,app1,6120,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,1f00a8c0_0000138c_5ae318b7_0002_0000,LOG,STATUS,0,2018/04/27 13:33:59.643,AORUS_X3,app1,6120,ROOT,AppOutput,29,Entering state "environment"
-10,1f00a8c0_0000138c_5ae318b7_0002_0000,LOG,STATUS,0,2018/04/27 13:34:09.997,AORUS_X3,app1,6120,ROOT,AppOutput,25,Utterance status: REJECT
-10,1f00a8c0_0000138c_5ae318b7_0002_0000,LOG,STATUS,0,2018/04/27 13:34:09.997,AORUS_X3,app1,6120,ROOT,AppOutput,15,Recognized: ""
-10,1f00a8c0_0000138c_5ae318b7_0002_0000,LOG,WARN,0,2018/04/27 13:34:09.998,AORUS_X3,app1,6120,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
-10,1f00a8c0_0000138c_5ae318b7_0002_0000,LOG,STATUS,0,2018/04/27 13:34:09.999,AORUS_X3,app1,6120,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,1f00a8c0_0000138c_5ae318b7_0002_0000,LOG,STATUS,0,2018/04/27 13:34:09.999,AORUS_X3,app1,6120,ROOT,AppOutput,29,Entering state "environment"

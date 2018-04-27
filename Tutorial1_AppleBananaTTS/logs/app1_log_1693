@@ -1,0 +1,34 @@
+10,1f00a8c0_0000412c_5ae34706_0001_0000,LOG,WARN,0,2018/04/27 16:51:35.040,AORUS_X3,app1,4056,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_0000412c_5ae34706_0001_0000,LOG,WARN,0,2018/04/27 16:51:35.057,AORUS_X3,app1,4056,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:35.057,AORUS_X3,app1,17748,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:35.058,AORUS_X3,app1,17748,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,ERROR,0,2018/04/27 16:51:36.936,AORUS_X3,app1,17748,DIALOG,HandlePlaybackDone,37,".Speak" is not a known grammar name
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:36.936,AORUS_X3,app1,17748,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:36.936,AORUS_X3,app1,17748,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:36.938,AORUS_X3,app1,17748,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:36.938,AORUS_X3,app1,17748,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,ERROR,0,2018/04/27 16:51:40.119,AORUS_X3,app1,17748,DIALOG,HandlePlaybackDone,37,".Speak" is not a known grammar name
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:40.119,AORUS_X3,app1,17748,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:40.119,AORUS_X3,app1,17748,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:40.121,AORUS_X3,app1,17748,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:40.121,AORUS_X3,app1,17748,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,ERROR,0,2018/04/27 16:51:43.299,AORUS_X3,app1,17748,DIALOG,HandlePlaybackDone,37,".Speak" is not a known grammar name
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:43.299,AORUS_X3,app1,17748,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:43.299,AORUS_X3,app1,17748,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:43.300,AORUS_X3,app1,17748,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:43.300,AORUS_X3,app1,17748,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,ERROR,0,2018/04/27 16:51:46.411,AORUS_X3,app1,17748,DIALOG,HandlePlaybackDone,37,".Speak" is not a known grammar name
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:46.411,AORUS_X3,app1,17748,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:46.411,AORUS_X3,app1,17748,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:46.412,AORUS_X3,app1,17748,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:46.412,AORUS_X3,app1,17748,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,ERROR,0,2018/04/27 16:51:49.594,AORUS_X3,app1,17748,DIALOG,HandlePlaybackDone,37,".Speak" is not a known grammar name
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:49.594,AORUS_X3,app1,17748,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:49.594,AORUS_X3,app1,17748,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:49.596,AORUS_X3,app1,17748,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:49.596,AORUS_X3,app1,17748,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,ERROR,0,2018/04/27 16:51:52.793,AORUS_X3,app1,17748,DIALOG,HandlePlaybackDone,37,".Speak" is not a known grammar name
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:52.793,AORUS_X3,app1,17748,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:52.793,AORUS_X3,app1,17748,ROOT,AppOutput,22,Detected system error
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:52.795,AORUS_X3,app1,17748,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:52.795,AORUS_X3,app1,17748,ROOT,AppOutput,27,Entering state "freeSpeak"

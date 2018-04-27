@@ -31,6 +31,7 @@
 
 
 const char *plantLocationStringArray[8];
+const char *plantHabitStringArray[8];
 
 void foodfn(App *app) {
 	AppSetGrammar(app, ".Choice");
@@ -163,6 +164,569 @@ void AllInOneFn(App *app){
 //	AppGo(app, "whole_shot");
 //	return 0;
 //}
+int recognitionFlag = 0;
+void freeSpeakfn(App *app) {
+	
+	AppSetGrammar(app, ".Speak");
+	char buf[100];
+	
+	AppAppendTTSPrompt(app, "How can I help?");
+
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
+
+	int canopy_said = 2;
+	int common_name_said = 2;
+	int cultivar_said = 2;
+	int cultivatedbeds_said = 2;
+	int dappledshade_said = 2;
+	int deepshade_said = 2;
+	int eastwall_said = 2;
+	int groundcover_said = 2;
+	int habit_said = 2;
+	int habitat_said = 2;
+	int hardyness_said = 2;
+	int hedge_said = 2;
+	int hedgerow_said = 2;
+	int height_said = 2;
+	int latin_name_said = 2;
+	int lawn_said = 2;
+	int meadow_said = 2;
+	int northwall_said = 2;
+	int otherhabitats_said = 2;
+	int pond_said = 2;
+	int secondary_said = 2;
+	int shade_said = 2;
+	int shadyedge_said = 2;
+	int southwall_said = 2;
+	int sunnyedge_said = 2;
+	int walls_said = 2;
+	int westwall_said = 2;
+	int width_said = 2;
+	int woodlandgarden_said = 2;
+	int shrub = 2;
+	int annual = 2;
+	int perennial = 2;
+	int tree = 2;
+	int perennial_climber = 2;
+	int annual_slash_perennial = 2;
+	int climber = 2;
+	int fern = 2;
+	int bulb = 2;
+	int biennial = 2;
+	int annual_slash_biennial = 2;
+	int biennial_slash_perennial = 2;
+	int bamboo = 2;
+	int corm = 2;
+	int lichen = 2;
+	int annual_climber = 2;
+
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////// PLANTLOCATION SLOTS    PLANTLOCATION SLOTS    PLANTLOCATION SLOTS    ///////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	NLGetIntSlotValue(AppGetNLResult(app), "canopy_said", &canopy_said);
+	if (canopy_said == 1) {
+		printf("%s\n", "You said canopy.");
+		plantLocationStringArray[envCounter] = "Canopy";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "common_name_said", &common_name_said);
+	if (common_name_said == 1) {
+		printf("%s\n", "You said common name.");
+		plantLocationStringArray[envCounter] = "Common name";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "cultivar_said", &cultivar_said);
+	if (cultivar_said == 1) {
+		printf("%s\n", "You said cultivar.");
+		plantLocationStringArray[envCounter] = "Cultivar";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "cultivatedbeds_said", &cultivatedbeds_said);
+	if (cultivatedbeds_said == 1) {
+		printf("%s\n", "You said cultivated beds.");
+		plantLocationStringArray[envCounter] = "CultivatedBeds";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "dappledshade_said", &dappledshade_said);
+	if (dappledshade_said == 1) {
+		printf("%s\n", "You said dappled shade.");
+		plantLocationStringArray[envCounter] = "DappledShade";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "deepshade_said", &deepshade_said);
+	if (deepshade_said == 1) {
+		printf("%s\n", "You said deep shade.");
+		plantLocationStringArray[envCounter] = "DeepShade";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "eastwall_said", &eastwall_said);
+	if (eastwall_said == 1) {
+		printf("%s\n", "You said east wall.");
+		plantLocationStringArray[envCounter] = "EastWall";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "groundcover_said", &groundcover_said);
+	if (groundcover_said == 1) {
+		printf("%s\n", "You said ground cover.");
+		plantLocationStringArray[envCounter] = "GroundCover";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "habit_said", &habit_said);
+	if (habit_said == 1) {
+		printf("%s\n", "You said habit.");
+		plantLocationStringArray[envCounter] = "Habit";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "habitat_said", &habitat_said);
+	if (habitat_said == 1) {
+		printf("%s\n", "You said habitat.");
+		plantLocationStringArray[envCounter] = "Habitat";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "hardyness_said", &hardyness_said);
+	if (hardyness_said == 1) {
+		printf("%s\n", "You said hardiness.");
+		plantLocationStringArray[envCounter] = "Hardyness";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "hedge_said", &hedge_said);
+	if (hedge_said == 1) {
+		printf("%s\n", "You said hedge.");
+		plantLocationStringArray[envCounter] = "Hedge";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "hedgerow_said", &hedgerow_said);
+	if (hedgerow_said == 1) {
+		printf("%s\n", "You said hedgerow.");
+		plantLocationStringArray[envCounter] = "Hedgerow";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "height_said", &height_said);
+	if (height_said == 1) {
+		printf("%s\n", "You said height.");
+		plantLocationStringArray[envCounter] = "Height";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "latin_name_said", &latin_name_said);
+	if (latin_name_said == 1) {
+		printf("%s\n", "You said latin name.");
+		plantLocationStringArray[envCounter] = "Latin name";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "lawn_said", &lawn_said);
+	if (lawn_said == 1) {
+		printf("%s\n", "You said lawn.");
+		plantLocationStringArray[envCounter] = "Lawn";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "meadow_said", &meadow_said);
+	if (meadow_said == 1) {
+		printf("%s\n", "You said meadow.");
+		plantLocationStringArray[envCounter] = "Meadow";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "northwall_said", &northwall_said);
+	if (northwall_said == 1) {
+		printf("%s\n", "You said north wall.");
+		plantLocationStringArray[envCounter] = "NorthWall";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "otherhabitats_said", &otherhabitats_said);
+	if (otherhabitats_said == 1) {
+		printf("%s\n", "You said other habitats.");
+		plantLocationStringArray[envCounter] = "OtherHabitats";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "pond_said", &pond_said);
+	if (pond_said == 1) {
+		printf("%s\n", "You said pond.");
+		plantLocationStringArray[envCounter] = "Pond";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "secondary_said", &secondary_said);
+	if (secondary_said == 1) {
+		printf("%s\n", "You said secondary.");
+		plantLocationStringArray[envCounter] = "Secondary";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "shade_said", &shade_said);
+	if (shade_said == 1) {
+		printf("%s\n", "You said shade.");
+		plantLocationStringArray[envCounter] = "Shade";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "shadyedge_said", &shadyedge_said);
+	if (shadyedge_said == 1) {
+		printf("%s\n", "You said shady edge.");
+		plantLocationStringArray[envCounter] = "ShadyEdge";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "southwall_said", &southwall_said);
+	if (southwall_said == 1) {
+		printf("%s\n", "You said south wall.");
+		plantLocationStringArray[envCounter] = "SouthWall";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "sunnyedge_said", &sunnyedge_said);
+	if (sunnyedge_said == 1) {
+		printf("%s\n", "You said sunny edge.");
+		plantLocationStringArray[envCounter] = "SunnyEdge";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "walls_said", &walls_said);
+	if (walls_said == 1) {
+		printf("%s\n", "You said walls.");
+		plantLocationStringArray[envCounter] = "Walls";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "westwall_said", &westwall_said);
+	if (westwall_said == 1) {
+		printf("%s\n", "You said west wall.");
+		plantLocationStringArray[envCounter] = "WestWall";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "width_said", &width_said);
+	if (width_said == 1) {
+		printf("%s\n", "You said width.");
+		plantLocationStringArray[envCounter] = "Width";
+		envCounter = envCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "woodlandgarden_said", &woodlandgarden_said);
+	if (woodlandgarden_said == 1) {
+		printf("%s\n", "You said woodland garden.");
+		plantLocationStringArray[envCounter] = "WoodlandGarden";
+		envCounter = envCounter + 1;
+	}
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////// HABIT SLOTS    HABIT SLOTS    HABIT SLOTS    //////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	NLGetIntSlotValue(AppGetNLResult(app), "shrub_said", &shrub);
+	if (shrub == 1) {
+		printf("%s\n", "You said Shrub.");
+		plantHabitStringArray[habitCounter] = "Shrub";
+		habitCounter = habitCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "annual_said", &annual);
+	if (annual == 1) {
+		printf("%s\n", "You said Annual.");
+		plantHabitStringArray[habitCounter] = "Annual";
+		habitCounter = habitCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "perennial_said", &perennial);
+	if (perennial == 1) {
+		printf("%s\n", "You said Perennial.");
+		plantHabitStringArray[habitCounter] = "Perennial";
+		habitCounter = habitCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "tree_said", &tree);
+	if (tree == 1) {
+		printf("%s\n", "You said Tree.");
+		plantHabitStringArray[habitCounter] = "Tree";
+		habitCounter = habitCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "perennial_climber_said", &perennial_climber);
+	if (perennial_climber == 1) {
+		printf("%s\n", "You said Perennial Climber.");
+		plantHabitStringArray[habitCounter] = "Perennial Climber";
+		habitCounter = habitCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "annual_slash_perennial_said", &annual_slash_perennial);
+	if (annual_slash_perennial == 1) {
+		printf("%s\n", "You said Annual_slash_Perennial.");
+		plantHabitStringArray[habitCounter] = "Annual_slash_Perennial";
+		habitCounter = habitCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "climber_said", &climber);
+	if (climber == 1) {
+		printf("%s\n", "You said Climber.");
+		plantHabitStringArray[habitCounter] = "Climber";
+		habitCounter = habitCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "fern_said", &fern);
+	if (fern == 1) {
+		printf("%s\n", "You said Fern.");
+		plantHabitStringArray[habitCounter] = "Fern";
+		habitCounter = habitCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "bulb_said", &bulb);
+	if (bulb == 1) {
+		printf("%s\n", "You said Bulb.");
+		plantHabitStringArray[habitCounter] = "Bulb";
+		habitCounter = habitCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "biennial_said", &biennial);
+	if (biennial == 1) {
+		printf("%s\n", "You said Biennial.");
+		plantHabitStringArray[habitCounter] = "Biennial";
+		habitCounter = habitCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "annual_slash_biennial_said", &annual_slash_biennial);
+	if (annual_slash_biennial == 1) {
+		printf("%s\n", "You said Annual_slash_Biennial.");
+		plantHabitStringArray[habitCounter] = "Annual_slash_Biennial";
+		habitCounter = habitCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "biennial_slash_perennial_said", &biennial_slash_perennial);
+	if (biennial_slash_perennial == 1) {
+		printf("%s\n", "You said Biennial_slash_Perennial.");
+		plantHabitStringArray[habitCounter] = "Biennial_slash_Perennial";
+		habitCounter = habitCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "bamboo_said", &bamboo);
+	if (bamboo == 1) {
+		printf("%s\n", "You said Bamboo.");
+		plantHabitStringArray[habitCounter] = "Bamboo";
+		habitCounter = habitCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "corm_said", &corm);
+	if (corm == 1) {
+		printf("%s\n", "You said Corm.");
+		plantHabitStringArray[habitCounter] = "Corm";
+		habitCounter = habitCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "lichen_said", &lichen);
+	if (lichen == 1) {
+		printf("%s\n", "You said Lichen.");
+		plantHabitStringArray[habitCounter] = "Lichen";
+		habitCounter = habitCounter + 1;
+	}
+	NLGetIntSlotValue(AppGetNLResult(app), "annual_climber_said", &annual_climber);
+	if (annual_climber == 1) {
+		printf("%s\n", "You said Annual Climber.");
+		plantHabitStringArray[habitCounter] = "Annual Climber";
+		habitCounter = habitCounter + 1;
+	}
+
+
+
+
+	if ((AppGetRecognitionStage(app) == 4)){//&& (recognitionFlag == 1)) {
+		AppGoto(app, "env2PandH");
+	}
+
+/*
+	if (!strcmp(buf, "canopy_said")) {
+		AppAppendTTSPrompt(app, "You said canopy.");
+		printf("You said canopy.\n");
+		plantLocationStringArray[envCounter] = "Canopy";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "common_name_said")) {
+		AppAppendTTSPrompt(app, "You said common name.");
+		printf("You said common_name_said.\n");
+		plantLocationStringArray[envCounter] = "Common name";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "cultivar_said")) {
+		AppAppendTTSPrompt(app, "You said cultivar.");
+		printf("You said cultivar_said.\n");
+		plantLocationStringArray[envCounter] = "Cultivar";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "cultivatedbeds_said")) {
+		AppAppendTTSPrompt(app, "You said cultivated beds.");
+		printf("You said cultivatedbeds_said.\n");
+		plantLocationStringArray[envCounter] = "CultivatedBeds";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "dappledshade_said")) {
+		AppAppendTTSPrompt(app, "You said dappled shade.");
+		printf("You said dappledshade_said.\n");
+		plantLocationStringArray[envCounter] = "DappledShade";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "deepshade_said")) {
+		AppAppendTTSPrompt(app, "You said deep shade.");
+		printf("You said deepshade_said.\n");
+		plantLocationStringArray[envCounter] = "DeepShade";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "eastwall_said")) {
+		AppAppendTTSPrompt(app, "You said east wall.");
+		printf("You said eastwall_said.\n");
+		plantLocationStringArray[envCounter] = "EastWall";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "groundcover_said")) {
+		AppAppendTTSPrompt(app, "You said ground cover.");
+		printf("You said groundcover_said.\n");
+		plantLocationStringArray[envCounter] = "GroundCover";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "habit_said")) {
+		AppAppendTTSPrompt(app, "You said habit.");
+		printf("You said habit_said.\n");
+		plantLocationStringArray[envCounter] = "Habit";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "habitat_said")) {
+		AppAppendTTSPrompt(app, "You said habitat.");
+		printf("You said habitat_said.\n");
+		plantLocationStringArray[envCounter] = "Habitat";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "hardyness_said")) {
+		AppAppendTTSPrompt(app, "You said hardiness.");
+		printf("You said hardyness_said.\n");
+		plantLocationStringArray[envCounter] = "Hardyness";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "hedge_said")) {
+		AppAppendTTSPrompt(app, "You said hedge.");
+		printf("You said hedge_said.\n");
+		plantLocationStringArray[envCounter] = "Hedge";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "hedgerow_said")) {
+		AppAppendTTSPrompt(app, "You said hedgerow.");
+		printf("You said hedgerow_said.\n");
+		plantLocationStringArray[envCounter] = "Hedgerow";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "height_said")) {
+		AppAppendTTSPrompt(app, "You said height.");
+		printf("You said height_said.\n");
+		plantLocationStringArray[envCounter] = "Height";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "latin_name_said")) {
+		AppAppendTTSPrompt(app, "You said latin name.");
+		printf("You said latin_name_said.\n");
+		plantLocationStringArray[envCounter] = "Latin name";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "lawn_said")) {
+		AppAppendTTSPrompt(app, "You said lawn.");
+		printf("You said lawn_said.\n");
+		plantLocationStringArray[envCounter] = "Lawn";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "meadow_said")) {
+		AppAppendTTSPrompt(app, "You said meadow.");
+		printf("You said meadow_said.\n");
+		plantLocationStringArray[envCounter] = "Meadow";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "northwall_said")) {
+		AppAppendTTSPrompt(app, "You said north wall.");
+		printf("You said northwall_said.\n");
+		plantLocationStringArray[envCounter] = "NorthWall";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "otherhabitats_said")) {
+		AppAppendTTSPrompt(app, "You said other habitats.");
+		printf("You said otherhabitats_said.\n");
+		plantLocationStringArray[envCounter] = "OtherHabitats";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "pond_said")) {
+		AppAppendTTSPrompt(app, "You said pond.");
+		printf("You said pond_said.\n");
+		plantLocationStringArray[envCounter] = "Pond";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "secondary_said")) {
+		AppAppendTTSPrompt(app, "You said secondary.");
+		printf("You said secondary_said.\n");
+		plantLocationStringArray[envCounter] = "Secondary";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "shade_said")) {
+		AppAppendTTSPrompt(app, "You said shade.");
+		printf("You said shade_said.\n");
+		plantLocationStringArray[envCounter] = "Shade";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "shadyedge_said")) {
+		AppAppendTTSPrompt(app, "You said shady edge.");
+		printf("You said shadyedge_said.\n");
+		plantLocationStringArray[envCounter] = "ShadyEdge";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "southwall_said")) {
+		AppAppendTTSPrompt(app, "You said south wall.");
+		printf("You said southwall_said.\n");
+		plantLocationStringArray[envCounter] = "SouthWall";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "sunnyedge_said")) {
+		AppAppendTTSPrompt(app, "You said sunny edge.");
+		printf("You said sunnyedge_said.\n");
+		plantLocationStringArray[envCounter] = "SunnyEdge";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "walls_said")) {
+		AppAppendTTSPrompt(app, "You said walls.");
+		printf("You said walls_said.\n");
+		plantLocationStringArray[envCounter] = "Walls";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "westwall_said")) {
+		AppAppendTTSPrompt(app, "You said west wall.");
+		printf("You said westwall_said.\n");
+		plantLocationStringArray[envCounter] = "WestWall";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "width_said")) {
+		AppAppendTTSPrompt(app, "You said width.");
+		printf("You said width_said.\n");
+		plantLocationStringArray[envCounter] = "Width";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else if (!strcmp(buf, "woodlandgarden_said")) {
+		AppAppendTTSPrompt(app, "You said woodland garden.");
+		printf("You said woodlandgarden_said.\n");
+		plantLocationStringArray[envCounter] = "WoodlandGarden";
+		envCounter = envCounter + 1;
+		AppGoto(app, "env2");
+	}
+	else {
+		AppAppendTTSPrompt(app, "Try again.");
+	}*/
+	
+	AppGotoSelf(app);
+}
+
 
 
 int main(int argc, char *argv[])
@@ -176,7 +740,6 @@ int main(int argc, char *argv[])
 	app = AppNew(&argc, argv);
 	
 	
-	AppSetBargeInAllowed(app, 1);
 	//goDoAllTheSQL(app, "edible", "egg");
 
 	if (app == NULL) {
@@ -201,16 +764,18 @@ int main(int argc, char *argv[])
 	AppCreateState(app, "medicine", "root", medicalfn);
 	AppCreateState(app, "environment", "root", environmentfn);
 	AppCreateState(app, "env2", "root", environmentfn3);
+	AppCreateState(app, "env2PandH", "root", envPandHfn);
+	
 	AppCreateState(app, "test", "root", testfn);
 	AppCreateState(app, "zeroMatchesEnv", "root", envZeroMatches);
 	AppCreateState(app, "envResultsBuf", "root", envResultsBufFn);
 	AppCreateState(app, "envResults", "root", envResultsFn);
+
+	AppCreateState(app, "freeSpeak", "root", freeSpeakfn);
 	
-	printf("AppGetBargeInAllowed = %d\n", AppGetBargeInAllowed(app));
-	AppSetBargeInAllowed(app, 1);
-	printf("AppGetBargeInAllowed = %d\n", AppGetBargeInAllowed(app));
+
 	//AppGo(app, "environment");
-	AppGo(app, "environment");
+	AppGo(app, "freeSpeak");
 	return 0;
 }
 

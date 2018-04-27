@@ -1,0 +1,37 @@
+10,1f00a8c0_000055d4_5ae365fd_0001_0000,LOG,WARN,0,2018/04/27 19:03:41.891,AORUS_X3,app1,19104,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:03:41.911,AORUS_X3,app1,4348,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:03:41.911,AORUS_X3,app1,4348,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:03:47.870,AORUS_X3,app1,4348,ROOT,AppOutput,30,Recognized: "lawn and canopy"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:03:47.870,AORUS_X3,app1,4348,ROOT,AppOutput,46,Interpretation: <canopy_said 1> <lawn_said 1>
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:03:47.873,AORUS_X3,app1,4348,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:03:47.873,AORUS_X3,app1,4348,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:04:19.759,AORUS_X3,app1,4348,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:04:19.759,AORUS_X3,app1,4348,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,WARN,0,2018/04/27 19:04:19.759,AORUS_X3,app1,4348,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:04:19.761,AORUS_X3,app1,4348,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:04:19.761,AORUS_X3,app1,4348,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:04:51.649,AORUS_X3,app1,4348,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:04:51.649,AORUS_X3,app1,4348,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,WARN,0,2018/04/27 19:04:51.650,AORUS_X3,app1,4348,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:04:51.651,AORUS_X3,app1,4348,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:04:51.651,AORUS_X3,app1,4348,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:05:23.539,AORUS_X3,app1,4348,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:05:23.539,AORUS_X3,app1,4348,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,WARN,0,2018/04/27 19:05:23.539,AORUS_X3,app1,4348,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:05:23.541,AORUS_X3,app1,4348,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:05:23.541,AORUS_X3,app1,4348,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:05:55.419,AORUS_X3,app1,4348,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:05:55.419,AORUS_X3,app1,4348,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,WARN,0,2018/04/27 19:05:55.419,AORUS_X3,app1,4348,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:05:55.421,AORUS_X3,app1,4348,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:05:55.421,AORUS_X3,app1,4348,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:06:27.309,AORUS_X3,app1,4348,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:06:27.310,AORUS_X3,app1,4348,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,WARN,0,2018/04/27 19:06:27.310,AORUS_X3,app1,4348,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:06:27.311,AORUS_X3,app1,4348,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:06:27.311,AORUS_X3,app1,4348,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:06:59.198,AORUS_X3,app1,4348,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:06:59.198,AORUS_X3,app1,4348,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,WARN,0,2018/04/27 19:06:59.199,AORUS_X3,app1,4348,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:06:59.201,AORUS_X3,app1,4348,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_000055d4_5ae365fd_0002_0000,LOG,STATUS,0,2018/04/27 19:06:59.201,AORUS_X3,app1,4348,ROOT,AppOutput,27,Entering state "freeSpeak"

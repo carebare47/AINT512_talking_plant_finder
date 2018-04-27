@@ -17,6 +17,98 @@
 )
 
 
+
+
+
+.Speaked
+(
+	[
+	;(?i ?want ?a ?plant ?that ?will ?grow ?well ?against ?by ?my ENV_SLOTS ?and ?in ?my ?ENV_SLOTS)
+	(ENV_SLOTS ?and ?ENV_SLOTS ?and ?ENV_SLOTS ?and ?ENV_SLOTS ?and ?ENV_SLOTS)
+	]
+)
+
+
+.Speak
+(
+	[
+	;(?i ?want ?a ?plant ?that ?will ?grow ?well ?against ?by ?my ENV_SLOTS ?and ?in ?my ?ENV_SLOTS)
+	(?INTRO ENV_SLOTS ?and ?INTRO ?ENV_SLOTS ?and ?INTRO ?ENV_SLOTS ?and ?INTRO ?ENV_SLOTS ?and ?ENV_SLOTS)
+	]
+)
+
+INTRO
+(
+	[
+	(?i ?want ?a ?plant ?that ?will ?grow ?well ?against ?by ?my ?is ?a)
+	]
+)
+
+
+ENV_SLOTS
+(
+	[
+		;plantlocation slots
+		(canopy)          	 {<canopy_said 1>}
+		(cultivated beds)          	 {<cultivatedbeds_said 1>}
+		(dappled shade)          	 {<dappledshade_said 1>}
+		(deep shade)          	 {<deepshade_said 1>}
+		(east wall)          	 {<eastwall_said 1>}
+		(ground cover)          	 {<groundcover_said 1>}
+		(habitat)          	 {<habitat_said 1>}
+		(hardiness)          	 {<hardyness_said 1>}
+		(hedge)          	 {<hedge_said 1>}
+		(hedgerow)          	 {<hedgerow_said 1>}
+		(height)          	 {<height_said 1>}
+		(lawn)          	 {<lawn_said 1>}
+		(meadow)          	 {<meadow_said 1>}
+		(north wall)          	 {<northwall_said 1>}
+		(other habitats)          	 {<otherhabitats_said 1>}
+		(pond)          	 {<pond_said 1>}
+		(secondary)          	 {<secondary_said 1>}
+		(shade)          	 {<shade_said 1>}
+		(shady edge)          	 {<shadyedge_said 1>}
+		(south wall)          	 {<southwall_said 1>}
+		(sunny edge)          	 {<sunnyedge_said 1>}
+		(walls)          	 {<walls_said 1>}
+		(west wall)          	 {<westwall_said 1>}
+		(width)          	 {<width_said 1>}
+		(woodland garden)          	 {<woodlandgarden_said 1>}
+		
+		
+		;Habit slots
+		
+		(shrub)  	 				{<shrub_said 1>}
+		(annual)  	 				{<annual_said 1>}
+		(perennial)  	 			{<perennial_said 1>}
+		(tree)  	 				{<tree_said 1>}
+		(perennial climber)  		{<perennial_climber_said 1>}
+		(annual perennial)  		{<annual_slash_perennial_said 1>}
+		(climber)  	 				{<climber_said 1>}
+		(fern)  	 				{<fern_said 1>}
+		(bulb)  	 				{<bulb_said 1>}
+		(biennial)  	 			{<biennial_said 1>}
+		(annual biennial)  			{<annual_slash_biennial_said 1>}
+		(biennial perennial)  		{<biennial_slash_perennial_said 1>}
+		(bamboo)  	 				{<bamboo_said 1>}
+		(corm)  	 				{<corm_said 1>}
+		(lichen)  	 				{<lichen_said 1>}
+		(annual climber)  	 		{<annual_climber_said 1>}
+
+	]
+)
+
+
+WALL
+(
+	[
+		(west wall)	{<env_catagory_said westwall_said>}
+		(east wall)	{<env_catagory_said eastwall_said>}
+		(north wall)	{<env_catagory_said northwall_said>}
+		(south wall)	{<env_catagory_said southwall_said>}
+	]
+)
+
 ;temperatues
 ;time of year to plant
 ;time of year to flower
@@ -96,6 +188,7 @@ MATCHES
 	(ENV_CATAGORY)
 	]
 )
+
 ENV_CATAGORY
 (
 	[

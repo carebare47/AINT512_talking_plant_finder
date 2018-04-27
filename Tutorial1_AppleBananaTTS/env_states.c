@@ -2,12 +2,89 @@
 
 int looped = 0;
 int envCounter = 0;
+int habitCounter = 0;
 int firstEnv = 0;
 char storeBuf[400];
 char* storeBuf2[400];
 int firstEnvFn2Flag = 0;
 
+void envPandHfn(App *app) {
 
+
+
+
+	AppSetGrammar(app, ".Start");
+	char buf[200];
+
+
+	printf("Number of plant locations so far: %d\n", envCounter);
+
+	for (int i = 0; i < envCounter; i++) {
+		printf("Element %d of plant locations is %s\n", i, plantLocationStringArray[i]);
+	}
+
+	printf("Number of habits so far: %d\n", habitCounter);
+	for (int i = 0; i < habitCounter; i++) {
+		printf("Element %d of habit is %s\n", i, plantHabitStringArray[i]);
+	}
+
+	char buf2[400];
+
+	sprintf(buf2, "SELECT COUNT(*) FROM `plantlocations` WHERE `%s`=1", plantLocationStringArray[0]);
+
+	for (int i = 1; i < envCounter; i++) {
+		//printf("\n envCounter: %d\n", envCounter);
+		//printf("27error %d\n", errorCounter = errorCounter + 1);
+		char buf4[100];
+		sprintf(buf4, " AND `%s`=1", plantLocationStringArray[i]);
+
+		strcpy(buf2, concat(buf2, buf4));
+
+	}
+
+
+	char buf3[100];
+	printf("\nQuery: %s\n\n", buf2);
+	sprintf(buf3, "Currently %d plants match your search criteria.", returnSQLCount(app, buf2));
+	printf("%s\n", buf3);
+
+
+	AppAppendTTSPrompt(app, buf3);
+	//AppAppendTTSPrompt(app, buf3);
+	if (returnSQLCount(app, buf2) == 0) {
+		AppGoto(app, "zeroMatchesEnv");
+	}
+	else {
+		AppAppendTTSPrompt(app, "Would you like to add another term?");
+	}
+
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
+
+	NLGetStringSlotValue(AppGetNLResult(app), "binary_response_said", buf, 200);
+
+
+	if (!strcmp(buf, "yes_said")) {
+		AppAppendTTSPrompt(app, "You said yes.");
+		printf("You said yes.\n");
+		looped = 0;
+		AppGoto(app, "environment");
+	}
+	else if (!strcmp(buf, "no_said")) {
+		AppAppendTTSPrompt(app, "You said no.");
+		printf("You said no.\n");
+		sprintf(storeBuf2, "SELECT `Common name`,`Latin name` FROM `plantlocations` WHERE `%s`=1", plantLocationStringArray[0]);
+		for (int i = 1; i < envCounter; i++) {
+			char buf6[100];
+			sprintf(buf6, " AND `%s`=1", plantLocationStringArray[i]);
+			strcpy(storeBuf2, concat(storeBuf2, buf6));
+		}
+		AppGoto(app, "envResults");
+	}
+	AppGotoSelf(app);
+}
 void environmentfn(App *app) {
 	int errorCounter = 0;
 
@@ -15,9 +92,7 @@ void environmentfn(App *app) {
 
 	char buf[200];
 
-	printf("AppGetBargeInAllowed = %d\n", AppGetBargeInAllowed(app));
-	AppSetBargeInAllowed(app, 1);
-	printf("AppGetBargeInAllowed = %d\n", AppGetBargeInAllowed(app));
+
 
 	if (envCounter >= 7) {
 		AppAppendTTSPrompt(app, "You have already selected eight catagories for searching and so cannot select anymore.");
@@ -29,7 +104,7 @@ void environmentfn(App *app) {
 		SQLcolumnReturn(app, "plantlocations");
 		AppAppendTTSPrompt(app, "By which category would you like to search for a plant?");
 		//AppAppendTTSPrompt(app, "category");
-		looped = 1;
+		//looped = 1;
 	}
 	if (!AppRecognize(app)) {
 		printf("!AppRec\n");
