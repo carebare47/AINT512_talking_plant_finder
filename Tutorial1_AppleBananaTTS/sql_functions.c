@@ -371,6 +371,9 @@ void speakComposition(App *app, char* type, char* str, int speak) {
 	mysql_free_result(result);
 	mysql_close(con);
 }
+
+
+
 int returnSQLnumberOfMatches(App *app, char* str) {
 
 	MYSQL *con = mysql_init(NULL);
@@ -503,7 +506,7 @@ void SQLspeakQuery(App *app, char* str) {
 
 	int num_fields = mysql_num_fields(result);
 	MYSQL_ROW row;
-	AppAppendTTSPrompt(app, "Here are your results: ");
+	AppAppendTTSPrompt(app, "Here are your results. Common name and then Latin name : ");
 	while ((row = mysql_fetch_row(result)))
 	{
 		for (int i = 0; i < num_fields; i++)
@@ -512,6 +515,7 @@ void SQLspeakQuery(App *app, char* str) {
 			//printf("%s ", row[i]);
 			AppAppendTTSPrompt(app, row[i]);
 		}
+		AppAppendSilence(app, 400);
 		printf("\n");
 	}
 
@@ -519,3 +523,4 @@ void SQLspeakQuery(App *app, char* str) {
 	mysql_close(con);
 
 }
+

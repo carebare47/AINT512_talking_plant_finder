@@ -1,0 +1,18 @@
+10,-,LOG,STATUS,0,2018/04/26 16:50:52.622,AORUS_X3,recserver,17544,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/04/26 16:51:01.894,AORUS_X3,recserver,17544,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/04/26 16:51:01.894,AORUS_X3,recserver,17544,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/04/26 16:51:42.853,AORUS_X3,recserver,17544,RS,RecServer,19,Client 0 connected
+10,087abc0a_00004f58_5ae1f58f_0002_0000,LOG,STATUS,0,2018/04/26 16:51:46.739,AORUS_X3,recserver,19236,RS,RecServer,59,Client 0 started utterance 65562 with grammar .Environment
+10,087abc0a_00004f58_5ae1f58f_0002_0000,LOG,STATUS,0,2018/04/26 16:51:55.229,AORUS_X3,recserver,19236,RS,RecServer,33,Client 0 utterance 65562 result:
+10,087abc0a_00004f58_5ae1f58f_0002_0000,LOG,STATUS,0,2018/04/26 16:51:55.230,AORUS_X3,recserver,19236,RAPI,RecServer,50,Result #0:     <rejected> (conf:  0, NL conf:  0)
+10,087abc0a_00004f58_5ae1f58f_0002_0000,LOG,STATUS,0,2018/04/26 16:51:55.230,AORUS_X3,recserver,19236,RAPI,RecServer,22,Total Audio: 0.00 sec
+10,087abc0a_00004f58_5ae1f58f_0002_0000,LOG,STATUS,0,2018/04/26 16:51:55.365,AORUS_X3,recserver,19236,RS,RecServer,59,Client 0 started utterance 65583 with grammar .Environment
+10,087abc0a_00004f58_5ae1f58f_0002_0000,LOG,STATUS,0,2018/04/26 16:52:02.802,AORUS_X3,recserver,17544,RS,RecServer,24,Client 0 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/26 16:52:05.164,AORUS_X3,recserver,17544,RS,RecServer,19,Client 1 connected
+10,087abc0a_00004dfc_5ae1f5a5_0002_0000,LOG,STATUS,0,2018/04/26 16:52:09.029,AORUS_X3,recserver,19236,RS,RecServer,59,Client 1 started utterance 65562 with grammar .Environment
+10,087abc0a_00004dfc_5ae1f5a5_0002_0000,LOG,STATUS,0,2018/04/26 16:52:09.336,AORUS_X3,recserver,17544,RS,RecServer,24,Client 1 disconnected
+
+

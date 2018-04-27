@@ -1,0 +1,8 @@
+10,-,LOG,STATUS,0,2018/04/27 16:17:01.373,AORUS_X3,recserver,11548,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/04/27 16:17:13.036,AORUS_X3,recserver,11548,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/04/27 16:17:13.036,AORUS_X3,recserver,11548,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/04/27 16:17:29.382,AORUS_X3,recserver,11548,RS,RecServer,19,Client 0 connected
+10,1f00a8c0_00002294_5ae33f09_0002_0000,LOG,STATUS,0,2018/04/27 16:17:33.321,AORUS_X3,recserver,20012,RS,RecServer,59,Client 0 started utterance 65569 with grammar .Environment
+10,1f00a8c0_00002294_5ae33f09_0002_0000,LOG,STATUS,0,2018/04/27 16:18:03.329,AORUS_X3,recserver,20012,RS,RecServer,33,Client 0 utterance 65569 aborted
+10,1f00a8c0_00002294_5ae33f09_0002_0000,LOG,STATUS,0,2018/04/27 16:18:03.422,AORUS_X3,recserver,20012,RS,RecServer,59,Client 0 started utterance 65591 with grammar .Environment

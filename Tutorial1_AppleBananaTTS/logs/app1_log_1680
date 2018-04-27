@@ -1,0 +1,161 @@
+10,1f00a8c0_00000510_5ae33b4b_0001_0000,LOG,WARN,0,2018/04/27 16:01:31.471,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0001_0000,LOG,WARN,0,2018/04/27 16:01:31.489,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0001_0000,LOG,WARN,0,2018/04/27 16:01:31.489,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:01:31.490,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:01:31.490,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:01:31.491,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:02:09.379,AORUS_X3,app1,11156,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:02:11.405,AORUS_X3,app1,11156,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:02:13.579,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:02:16.638,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:02:20.369,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:02:22.676,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:02:52.841,AORUS_X3,app1,11156,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:02:52.841,AORUS_X3,app1,11156,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:02:52.842,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:02:52.844,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:02:52.844,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:02:52.845,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:03:22.917,AORUS_X3,app1,11156,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:03:22.917,AORUS_X3,app1,11156,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:03:22.918,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:03:22.919,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:03:22.919,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:03:22.920,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:03:52.996,AORUS_X3,app1,11156,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:03:52.996,AORUS_X3,app1,11156,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:03:52.996,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:03:52.998,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:03:52.998,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:03:52.998,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:05.499,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:05.499,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:05.499,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:05.501,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:05.501,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:05.501,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:07.925,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:07.925,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:07.925,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:07.927,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:07.927,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:07.927,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:21.299,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:21.299,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:21.299,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:21.300,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:21.300,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:21.300,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:26.869,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:26.869,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:26.870,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:26.871,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:26.871,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:26.871,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:31.430,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:31.430,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:31.431,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:31.433,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:31.433,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:31.434,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:33.043,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:33.043,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:33.044,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:33.045,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:33.045,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:33.046,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:37.419,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:37.419,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:37.420,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:37.421,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:37.421,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:37.422,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:45.698,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:45.698,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:45.698,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:45.700,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:45.700,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:45.701,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:51.284,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:51.284,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:51.285,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:51.286,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:04:51.286,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:04:51.286,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:19.978,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:19.978,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:05:19.978,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:19.980,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:19.980,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:05:19.981,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:26.564,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:26.564,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:05:26.564,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:26.565,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:26.565,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:05:26.566,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:29.427,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:29.427,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:05:29.428,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:29.429,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:29.429,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:05:29.430,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:33.379,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:33.379,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:05:33.380,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:33.381,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:33.381,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:05:33.382,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:34.511,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:34.511,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:05:34.512,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:34.513,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:34.513,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:05:34.514,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:36.742,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:36.742,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:05:36.742,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:36.743,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:36.743,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:05:36.743,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:41.061,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:41.061,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:05:41.061,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:41.063,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:41.063,AORUS_X3,app1,11156,ROOT,AppOutput,29,Entering state "environment"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:05:41.064,AORUS_X3,app1,8852,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:45.505,AORUS_X3,app1,11156,ROOT,AppOutput,21,Recognized: "canopy"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:45.505,AORUS_X3,app1,11156,ROOT,AppOutput,50,Interpretation: <env_catagory_said "canopy_said">
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:05:45.506,AORUS_X3,app1,11156,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:45.507,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:05:45.507,AORUS_X3,app1,11156,ROOT,AppOutput,22,Entering state "env2"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:00.835,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:00.835,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:06:00.835,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:00.837,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:00.837,AORUS_X3,app1,11156,ROOT,AppOutput,22,Entering state "env2"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:09.452,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:09.452,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:06:09.453,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:09.454,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:09.454,AORUS_X3,app1,11156,ROOT,AppOutput,22,Entering state "env2"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:17.746,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:17.746,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:06:17.746,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:17.748,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:17.748,AORUS_X3,app1,11156,ROOT,AppOutput,22,Entering state "env2"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:28.999,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:28.999,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:06:29.000,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:29.001,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:29.001,AORUS_X3,app1,11156,ROOT,AppOutput,22,Entering state "env2"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:37.718,AORUS_X3,app1,11156,ROOT,AppOutput,25,Utterance status: REJECT
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:37.718,AORUS_X3,app1,11156,ROOT,AppOutput,15,Recognized: ""
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:06:37.718,AORUS_X3,app1,11156,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:37.720,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:37.720,AORUS_X3,app1,11156,ROOT,AppOutput,22,Entering state "env2"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:48.406,AORUS_X3,app1,11156,ROOT,AppOutput,21,Recognized: "and no"
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:48.406,AORUS_X3,app1,11156,ROOT,AppOutput,49,Interpretation: <binary_response_said "no_said">
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,WARN,0,2018/04/27 16:06:48.406,AORUS_X3,app1,11156,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:48.408,AORUS_X3,app1,11156,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,1f00a8c0_00000510_5ae33b4b_0002_0000,LOG,STATUS,0,2018/04/27 16:06:48.408,AORUS_X3,app1,11156,ROOT,AppOutput,28,Entering state "envResults"
