@@ -1,0 +1,8 @@
+10,0500a8c0_000063a0_5ae86ae2_0001_0000,LOG,WARN,0,2018/05/01 14:25:55.097,AORUS_X3,app1,12568,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_000014a8_5ae86adc_0001_0000,LOG,WARN,0,2018/05/01 14:25:58.107,AORUS_X3,app1,11636,VRSAPI,VRSInitialization,31,connect to recserver timed out
+10,-,LOG,ERROR,0,2018/05/01 14:25:58.107,AORUS_X3,app1,1556,DIALOG,InitializeRecClient,83,Waiting for the RecClient to finish initializing failed because "NUANCE_TIMED_OUT"
+eeSpeak"
+10,0500a8c0_000063a0_5ae86ae3_0002_0000,LOG,ERROR,0,2018/05/01 14:25:55.169,AORUS_X3,app1,12568,AUDIO.VAUDIOBUF,NuTTSLocatorSingleton::RetrieveTTSLocator,41,Cannot read NCP_RM_ADDRESSES from Config
+10,0500a8c0_000063a0_5ae86ae3_0002_0000,LOG,ERROR,0,2018/05/01 14:25:55.169,AORUS_X3,app1,12568,AUDIO.VAUDIOBUF,TTSConnection::TTSConnection,80,couldn't locate tts server default because NUANCE_RESOURCE_MANAGER_UNAVAILABLE.
+10,0500a8c0_000063a0_5ae86ae3_0002_0000,LOG,ERROR,0,2018/05/01 14:25:55.169,AORUS_X3,app1,12568,AUDIO.VAUDIOBUF,VAudioBufImpl::set_up_file_registry,32,Can not connect to a tts server
+10,0500a8c0_000063a0_5ae86ae3_0002_0000,LOG,WARN,0,2018/05/01 14:25:55.169,AORUS_X3,app1,18792,DIALOG,AppStartAction (ACTION_RECOGNIZE),100,PrompterPlay() returned "NUANCE_SERVER_NOT_ACCESSIBLE".  Probably indicates text-to-speech problem.

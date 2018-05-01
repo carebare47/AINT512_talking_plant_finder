@@ -24,11 +24,13 @@
 #include "nuance_states.h"
 
 
+#define _CRT_SECURE_NO_WARNINGS
+
 
 
 //#include <tom.h>
 
-
+int hardyness = 0;
 
 char plantLocationStringArray[8][36];
 char plantHabitStringArray[8][36];
@@ -37,6 +39,7 @@ char errorStoreArray[8][24];
 char errorEnvStringArray[8][24];
 
 int numberStringArray[8];
+void randomSuggestion(App *app);
 
 void foodfn(App *app) {
 	AppSetGrammar(app, ".Choice");
@@ -174,7 +177,7 @@ int firstFreeSpeak = 0;
 void freeSpeakfn(App *app) {
 	
 	AppSetGrammar(app, ".Speak");
-	char buf[100];
+	
 	
 	if (firstFreeSpeak == 0) {
 		AppAppendTTSPrompt(app, "How can I help?");
@@ -524,13 +527,24 @@ void freeSpeakfn(App *app) {
 		strcpy(plantHabitStringArray[habitCounter], "Annual Climber");
 		habitCounter = habitCounter + 1;
 	}
+	
+	int hardy = 0;
+	if (NLGetIntSlotValue(AppGetNLResult(app), "hardy_said", &hardy) != 119){
+		hardyness = hardy;
+		printf("Hardy said.\n");
+		printf("Hardy level: %d\n", hardy);
+		}
 
-
-
-
+	//{<suggestion_said suggestion>}
+	char buf[100];
+	(NLGetStringSlotValue(AppGetNLResult(app), "suggestion_said", buf, 100));
+	if (!strcmp("suggestion", buf)) {
+		randomSuggestion(app);
+		AppGotoSelf(app);
+	}
 
 	if ((AppGetRecognitionStage(app) == 4)){//&& (recognitionFlag == 1)) {
-		AppGoto(app, "envCheck");
+		AppGoto(app, "envCheck1");
 	}
 
 /*
@@ -788,9 +802,13 @@ int main(int argc, char *argv[])
 	AppCreateState(app, "envResultsBuf", "root", envResultsBufFn);
 	AppCreateState(app, "envResults", "root", envResultsFn);
 
+	AppCreateState(app, "envPreCheck", "root", envPreCheckfn);
+	
+
 	AppCreateState(app, "freeSpeak", "root", freeSpeakfn);
 	AppCreateState(app, "envErrorFix", "root", envErrorFixfn);
 	AppCreateState(app, "envCheck", "root", envCheckfn);
+	AppCreateState(app, "envCheck1", "root", envCheckfn1);
 
 	//AppGo(app, "environment");
 	AppGo(app, "freeSpeak");
@@ -828,3 +846,63 @@ int main(int argc, char *argv[])
 //	AppGotoSelf(app);
 //}
 
+int firstRandomSuggestion = 0;
+const char *a[18][35];
+void randomSuggestion(App *app) {
+	//a.append("Hardyness");
+	//a.append("Latin name");
+	if (firstRandomSuggestion == 0) {
+		strcpy(a[0], "Canopy");
+		strcpy(a[1], "Cultivated Beds");
+		strcpy(a[2], "Dappled Shade");
+		strcpy(a[3], "Deep Shade");
+		strcpy(a[4], "East Wall");
+		strcpy(a[5], "Ground Cover");
+		strcpy(a[6], "Habitat");
+		strcpy(a[7], "Hedge");
+		strcpy(a[8], "Hedgerow");
+		strcpy(a[9], "Lawn");
+		strcpy(a[10], "Meadow");
+		strcpy(a[11], "North Wall");
+		strcpy(a[12], "Pond");
+		strcpy(a[13], "Shade");
+		strcpy(a[14], "Shady Edge");
+		strcpy(a[15], "South Wall");
+		strcpy(a[16], "Sunny Edge");
+		strcpy(a[17], "West Wall");
+		strcpy(a[18], "Woodland Garden");
+		firstRandomSuggestion = 1;
+	}
+
+	printf("Suggestions: \n");
+	srand((unsigned)time(NULL));
+//	randomNumber = rand() % 10;
+	AppAppendTTSPrompt(app, "Why not try searching by where the plant will grow, such as ");
+	int randomMemory = 0;
+	int min = 0; int max = 18; 
+	for (int i = 0; i < 2; i++) {
+		char buf10[150];
+		int randomNumber = (rand() % (max + 1 - min)) + min;
+		while (randomNumber == randomMemory) {
+			randomNumber = (rand() % (max + 1 - min)) + min;
+		}
+		//printf("random number = %d\n", randomNumber);
+		printf("%s\n", a[randomNumber]);
+		//sprintf(buf10, "SELECT * FROM `plantlocations` WHERE `%s`=1", a[randomNumber]);
+		AppAppendTTSPrompt(app, a[randomNumber]);
+		//SQLspeakQuery(app, buf10);
+		AppAppendSilence(app, 150);
+		AppAppendTTSPrompt(app, " or ");
+		randomMemory = randomNumber;
+	}
+	AppAppendTTSPrompt(app, " you could try searching by type of plant, like ");
+	SQLspeakQueryResultsOnly(app, "SELECT `Habit` FROM `plantlocations` ORDER BY RAND() LIMIT 1");
+	AppAppendTTSPrompt(app, " or ");
+	SQLspeakQueryResultsOnly(app, "SELECT `Habit` FROM `plantlocations` ORDER BY RAND() LIMIT 1");
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
+	//SELECT `Habit` FROM `plantlocations` ORDER BY RAND() LIMIT 1
+
+}

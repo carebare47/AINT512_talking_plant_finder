@@ -11,6 +11,7 @@ char* sql_country(char* country);
 char* returnMySQLVersion(void);
 char* sql_medic(char* condition);
 void SQLspeakQuery(App *app, char* str);
+void SQLspeakQueryResultsOnly(App *app, char* str);
 void goDoSQL(App *app, char* purpose, char* specific);
 char* sql_general(char* type, char* query);
 void goDoAllTheSQL(App *app, char* purpose, char* specific);

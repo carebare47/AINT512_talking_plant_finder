@@ -22,6 +22,7 @@
 #[*]b
 #[*]f
 #[*]g
+#[*]k
 #[*]m
 #[*]n
 #[*]p
@@ -48,6 +49,7 @@
 #[I]m
 #[I]n
 #[I]r
+#[I]s
 #[I]z
 #[O]!
 #[O]r
@@ -60,6 +62,7 @@
 #[T]r
 #[^]#
 #[^]D
+#[a]d
 #[a]f
 #[a]k
 #[a]n
@@ -82,6 +85,7 @@
 #[d]a
 #[d]aj
 #[d]i
+#[d]u
 #[e]#
 #[e]Z
 #[e]t
@@ -149,7 +153,9 @@
 #[r]*
 #[r]I
 #[r]i
+#[r]o
 #[r]u
+#[s]*
 #[s]*r
 #[s]A
 #[s]E
@@ -157,10 +163,12 @@
 #[s]^
 #[s]aj
 #[s]aw
+#[s]i
 #[s]k
 #[s]o
 #[s]t
 #[t]*
+#[t]*r
 #[t]A
 #[t]E
 #[t]I
@@ -170,6 +178,7 @@
 #[t]u
 #[t]w
 #[v]*r
+#[v]E
 #[v]^
 #[v]i
 #[w]*
@@ -200,13 +209,16 @@
 *[g]A
 *[g]E
 *[g]I
+*[g]dZ
 *[g]e
 *[k]*
+*[k]s
 *[l]#
 *[l]*
 *[l]d
 *[l]dZ
 *[l]e
+*[l]i
 *[l]u
 *[m]#
 *[m]E
@@ -243,7 +255,9 @@
 *[v]A
 *[v]e
 *[z]#
+*[z]^
 *r
+*r[!]i
 *r[*]l
 *r[*]n
 *r[*]p
@@ -254,6 +268,7 @@
 *r[e]n
 *r[g]*
 *r[i]#
+*r[m]#
 *r[m]*
 *r[m]E
 *r[n]#
@@ -279,6 +294,7 @@ A[n]I
 A[n]d
 A[n]t
 A[p]*
+A[r]!
 A[r]#
 A[r]d
 A[r]k
@@ -298,6 +314,8 @@ E
 E[!]*
 E[!]I
 E[!]o
+E[S]*
+E[S]l
 E[b]r
 E[dZ]
 E[dZ]#
@@ -331,7 +349,9 @@ E[r]i
 E[s]#
 E[s]i
 E[s]j
+E[s]p
 E[s]t
+E[s]tS
 E[t]#
 E[t]I
 E[v]#
@@ -382,6 +402,7 @@ I[r]*
 I[r]i
 I[s]*
 I[s]I
+I[s]p
 I[s]t
 I[tS]#
 I[t]#
@@ -394,6 +415,7 @@ I[v]#
 I[v]e
 I[z]#
 I[z]A
+I[z]^
 O
 O[!]*r
 O[*r]T
@@ -410,11 +432,13 @@ O[r]t
 O[s]t
 Oj
 S
+S[*]l
 S[*]n
 S[*]t
 S[I]t
 S[e]!
 S[e]d
+S[l]i
 S[r]^
 T
 T[*r]t
@@ -444,6 +468,7 @@ Z[j]*
 ^[l]t
 ^[n]#
 ^[n]i
+^[s]t
 ^[v]*r
 a
 a[!]*
@@ -451,6 +476,7 @@ a[!]I
 a[*]n
 a[b]*
 a[b]I
+a[d]#
 a[f]r
 a[k]#
 a[k]I
@@ -522,6 +548,7 @@ b[I]t
 b[O]l
 b[O]r
 b[^]l
+b[^]s
 b[a]k
 b[a]m
 b[aj]#
@@ -574,6 +601,7 @@ d[n]i
 d[o]#
 d[o]t
 d[r]i
+d[u]#
 d[z]#
 e
 e[!]*
@@ -622,6 +650,8 @@ g[E]n
 g[E]t
 g[I]n
 g[I]t
+g[I]v
+g[dZ]E
 g[e]n
 g[r]aw
 g[r]o
@@ -660,6 +690,7 @@ i[b]i
 i[d]#
 i[d]i
 i[k]*
+i[m]l
 i[m]u
 i[n]#
 i[n]*
@@ -673,6 +704,7 @@ i[s]t
 i[t]*r
 i[v]aj
 i[z]#
+i[z]^
 i[z]i
 j
 j[*]#
@@ -738,6 +770,7 @@ l[dZ]i
 l[d]#
 l[e]Z
 l[e]n
+l[i]#
 l[i]s
 l[i]z
 l[j]*
@@ -748,6 +781,7 @@ l[s]*
 l[s]a
 l[t]*
 l[t]I
+l[t]s
 l[u]s
 l[v]#
 l[v]*
@@ -781,6 +815,7 @@ m[b]u
 m[i]#
 m[i]A
 m[j]*
+m[l]i
 m[u]v
 n
 n[*]#
@@ -838,6 +873,7 @@ n[v]aj
 noi
 o
 o[!]*r
+o[b]^
 o[d]*
 o[d]i
 o[l]d
@@ -854,6 +890,7 @@ p[*]t
 p[*r]E
 p[*r]g
 p[A]n
+p[E]S
 p[E]k
 p[I]r
 p[O]n
@@ -867,7 +904,9 @@ p[o]l
 p[o]t
 p[t]I
 r
+r[!]i
 r[*]!
+r[*]#
 r[*]d
 r[*]f
 r[*]k
@@ -877,6 +916,7 @@ r[*]n
 r[*]p
 r[*]s
 r[*]t
+r[*]z
 r[E]!
 r[E]r
 r[I]!
@@ -899,10 +939,12 @@ r[i]*
 r[i]a
 r[i]m
 r[i]s
+r[i]z
 r[k]A
 r[m]#
 r[m]I
 r[o]#
+r[o]b
 r[o]d
 r[o]m
 r[t]#
@@ -915,6 +957,8 @@ rej
 s
 s[*]!
 s[*]d
+s[*]dZ
+s[*]g
 s[*]l
 s[*]n
 s[*]s
@@ -936,11 +980,13 @@ s[a]m
 s[aj]!
 s[aj]a
 s[aw]T
+s[i]#
 s[i]*
 s[j]*
 s[k]I
 s[o]#
 s[p]E
+s[tS]*
 s[t]#
 s[t]*
 s[t]*r
@@ -952,6 +998,7 @@ s[t]o
 s[t]r
 t
 tS
+tS[*]n
 tS[I]g~
 t[*]#
 t[*]f
@@ -961,11 +1008,13 @@ t[*]n
 t[*]r
 t[*]s
 t[*]v
+t[*r]!
 t[*r]#
 t[*r]*
 t[*r]a
 t[*r]dZ
 t[*r]e
+t[*r]m
 t[A]k
 t[A]n
 t[A]r
@@ -1020,6 +1069,7 @@ v[*]n
 v[*r]#
 v[*r]m
 v[A]r
+v[E]r
 v[I]n
 v[^]l
 v[aj]*r
@@ -1049,4 +1099,5 @@ z
 z[*r]#
 z[A]l
 z[I]t
+z[^]l
 z[i]a

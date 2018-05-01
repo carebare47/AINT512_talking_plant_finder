@@ -1,0 +1,38 @@
+10,0500a8c0_0000619c_5ae869fb_0001_0000,LOG,WARN,0,2018/05/01 14:22:03.945,AORUS_X3,app1,24052,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:03.964,AORUS_X3,app1,23472,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:03.964,AORUS_X3,app1,23472,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:14.791,AORUS_X3,app1,23472,ROOT,AppOutput,21,Recognized: "pond a"
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:14.791,AORUS_X3,app1,23472,ROOT,AppOutput,30,Interpretation: <pond_said 1>
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,WARN,0,2018/05/01 14:22:32.117,AORUS_X3,app1,23472,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:32.119,AORUS_X3,app1,23472,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:32.119,AORUS_X3,app1,23472,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:41.722,AORUS_X3,app1,23472,ROOT,AppOutput,19,Recognized: "corm"
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:41.722,AORUS_X3,app1,23472,ROOT,AppOutput,30,Interpretation: <corm_said 1>
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,WARN,0,2018/05/01 14:22:41.723,AORUS_X3,app1,23472,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:41.724,AORUS_X3,app1,23472,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:41.724,AORUS_X3,app1,23472,ROOT,AppOutput,29,Entering state "envErrorFix"
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:44.081,AORUS_X3,app1,23472,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:44.081,AORUS_X3,app1,23472,ROOT,AppOutput,22,Entering state "env2"
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:55.706,AORUS_X3,app1,23472,ROOT,AppOutput,18,Recognized: "yes"
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:55.706,AORUS_X3,app1,23472,ROOT,AppOutput,50,Interpretation: <binary_response_said "yes_said">
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,WARN,0,2018/05/01 14:22:55.706,AORUS_X3,app1,23472,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:55.707,AORUS_X3,app1,23472,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:22:55.707,AORUS_X3,app1,23472,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:23:04.014,AORUS_X3,app1,23472,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:23:04.014,AORUS_X3,app1,23472,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,WARN,0,2018/05/01 14:23:04.015,AORUS_X3,app1,23472,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:23:04.016,AORUS_X3,app1,23472,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:23:04.016,AORUS_X3,app1,23472,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:23:09.106,AORUS_X3,app1,23472,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:23:09.107,AORUS_X3,app1,23472,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,WARN,0,2018/05/01 14:23:09.107,AORUS_X3,app1,23472,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:23:09.108,AORUS_X3,app1,23472,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:23:09.108,AORUS_X3,app1,23472,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:23:15.540,AORUS_X3,app1,23472,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:23:15.540,AORUS_X3,app1,23472,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,WARN,0,2018/05/01 14:23:15.540,AORUS_X3,app1,23472,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:23:15.542,AORUS_X3,app1,23472,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:23:15.542,AORUS_X3,app1,23472,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:23:21.214,AORUS_X3,app1,23472,ROOT,AppOutput,21,Recognized: "pond a"
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,STATUS,0,2018/05/01 14:23:21.214,AORUS_X3,app1,23472,ROOT,AppOutput,30,Interpretation: <pond_said 1>
+10,0500a8c0_0000619c_5ae869fb_0002_0000,LOG,WARN,0,2018/05/01 14:23:52.717,AORUS_X3,app1,23472,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed

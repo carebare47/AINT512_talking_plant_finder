@@ -1,0 +1,24 @@
+10,0500a8c0_000034e4_5ae87e01_0001_0000,LOG,WARN,0,2018/05/01 15:47:29.486,AORUS_X3,app1,14076,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:47:29.506,AORUS_X3,app1,14376,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:47:29.506,AORUS_X3,app1,14376,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:47:35.028,AORUS_X3,app1,14376,ROOT,AppOutput,25,Recognized: "suggestion"
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:47:35.028,AORUS_X3,app1,14376,ROOT,AppOutput,47,Interpretation: <suggestion_said "suggestion">
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:47:55.222,AORUS_X3,app1,14376,ROOT,AppOutput,31,Recognized: "hardy deep shade"
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:47:55.222,AORUS_X3,app1,14376,ROOT,AppOutput,50,Interpretation: <deepshade_said 1> <hardy_said 5>
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,WARN,0,2018/05/01 15:47:55.222,AORUS_X3,app1,14376,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,WARN,0,2018/05/01 15:47:55.222,AORUS_X3,app1,14376,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:47:55.224,AORUS_X3,app1,14376,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:47:55.224,AORUS_X3,app1,14376,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:48:01.133,AORUS_X3,app1,14376,ROOT,AppOutput,31,Recognized: "hardy deep shade"
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:48:01.133,AORUS_X3,app1,14376,ROOT,AppOutput,50,Interpretation: <deepshade_said 1> <hardy_said 5>
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,WARN,0,2018/05/01 15:48:04.241,AORUS_X3,app1,14376,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:48:04.242,AORUS_X3,app1,14376,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:48:04.242,AORUS_X3,app1,14376,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:48:17.130,AORUS_X3,app1,14376,ROOT,AppOutput,25,Recognized: "deep shade"
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:48:17.130,AORUS_X3,app1,14376,ROOT,AppOutput,35,Interpretation: <deepshade_said 1>
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,WARN,0,2018/05/01 15:48:17.130,AORUS_X3,app1,14376,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:48:17.132,AORUS_X3,app1,14376,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:48:17.132,AORUS_X3,app1,14376,ROOT,AppOutput,29,Entering state "envErrorFix"
+10,-,LOG,WARN,0,2018/05/01 15:48:47.993,AORUS_X3,app1,10004,NLM,LicenseManagerInfo::Respond,42,Socket read error -10053(WSAECONNABORTED)
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:50:13.712,AORUS_X3,app1,14376,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000034e4_5ae87e01_0002_0000,LOG,STATUS,0,2018/05/01 15:50:13.712,AORUS_X3,app1,14376,ROOT,AppOutput,22,Entering state "env2"

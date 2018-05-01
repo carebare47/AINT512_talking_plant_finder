@@ -120,7 +120,8 @@ NUMBERS
 		(corm)  	 				{<corm_said 1>}
 		(lichen)  	 				{<lichen_said 1>}
 		(annual climber)  	 		{<annual_climber_said 1>}
-
+		
+		
 
 	]
 )
@@ -173,10 +174,40 @@ ENV_SLOTS
 		(corm)  	 				{<corm_said 1>}
 		(lichen)  	 				{<lichen_said 1>}
 		(annual climber)  	 		{<annual_climber_said 1>}
+		
+				;Hardyness
+		;(hardy)								{<hardy_said 1>}
+		(HARDY)									{<hardy_said 5>}
+		(very HARDY)							{<hardy_said 7>}
+		(very very HARDY)						{<hardy_said 10>}
+		(extremely HARDY)						{<hardy_said 10>}
+		(especially HARDY)						{<hardy_said 10>}
+		(extra HARDY)							{<hardy_said 10>}
+		(not ?very ?especially HARDY)			{<hardy_said 3>}
+		
+		;Suggestion
+		(?PRESUG suggestion ?please)					{<suggestion_said suggestion>}
 
 	]
 )
 
+PRESUG
+(
+	[
+	(?can ?i ?have ?a)
+	(?will ?you ?give ?me ?a)
+	(?do ?you ?have ?any)
+	]
+)
+
+HARDY
+(
+	[
+	(hardy)
+	(sturdy)
+	(robust)
+	]	
+)
 
 WALL
 (
@@ -236,10 +267,12 @@ MATCHES
 		(restart search ?by environment) {<env_zero_match_response_said restart_env_said>}
 	]
 )
-.Environmental_search
+.Results_or_modify
 (
 	[
-	
+	(see results)		{<pre_reults_said see_results_said>}
+	(add ?a term)		{<pre_reults_said add_term_said>}
+	(remove ?a term)	{<pre_reults_said remove_term_said>}
 	]
 )
 

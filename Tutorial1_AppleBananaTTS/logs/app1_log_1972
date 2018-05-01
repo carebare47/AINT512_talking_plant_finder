@@ -1,0 +1,10 @@
+10,0500a8c0_000057c8_5ae86a83_0001_0000,LOG,WARN,0,2018/05/01 14:24:19.923,AORUS_X3,app1,15952,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:19.945,AORUS_X3,app1,23596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:19.946,AORUS_X3,app1,23596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:29.622,AORUS_X3,app1,23596,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:29.623,AORUS_X3,app1,23596,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,WARN,0,2018/05/01 14:24:29.623,AORUS_X3,app1,23596,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:29.624,AORUS_X3,app1,23596,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:29.624,AORUS_X3,app1,23596,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:38.688,AORUS_X3,app1,23596,ROOT,AppOutput,24,Recognized: "hardiness"
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:38.688,AORUS_X3,app1,23596,ROOT,AppOutput,35,Interpretation: <hardyness_said 1>

@@ -1,0 +1,3 @@
+10,0500a8c0_000023cc_5ae869e4_0001_0000,LOG,WARN,0,2018/05/01 14:21:40.301,AORUS_X3,app1,5744,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_000023cc_5ae869ea_0002_0000,LOG,STATUS,0,2018/05/01 14:21:46.864,AORUS_X3,app1,25368,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000023cc_5ae869ea_0002_0000,LOG,STATUS,0,2018/05/01 14:21:46.864,AORUS_X3,app1,25368,ROOT,AppOutput,27,Entering state "freeSpeak"

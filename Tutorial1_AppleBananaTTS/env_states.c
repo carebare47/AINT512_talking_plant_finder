@@ -22,6 +22,7 @@ void resetAllVars(void) {
 	numberCounter = 0;
 	storeBufCount[500] = "";
 	errorEnvStringCounter = 0;
+	hardyness = 0;
 
 	for (int n = 0; n < 8; n++) {
 		strcpy(plantLocationStringArray[n], "");
@@ -31,10 +32,44 @@ void resetAllVars(void) {
 		strcpy(errorEnvStringArray[n], "");
 	}
 }
+void envPreCheckfn(App *app) {
+	AppSetGrammar(app, ".Results_or_modify");
 
-void envCheckfn(App *app) {
-	AppSetGrammar(app, ".ErrorFixNumbers");
+	char buf[100];
+
+	AppAppendTTSPrompt(app, "Would you like to see your results, or add or remove a term?");
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
+
+	NLGetStringSlotValue(AppGetNLResult(app), "pre_reults_said", buf, 100);
+	if (!strcmp("see_results_said", buf)) {
+		AppAppendTTSPrompt(app, "You said you would like to see your results.");
+		constructAdvancedString("count");
+		constructAdvancedString("normal");
+		//if (returnSQLCount(app, storeBufCount) <= 7) {
+			AppGoto(app, "envResults");
+		//}
+	}
+	else if (!strcmp("add_term_said", buf)) {
+		AppAppendTTSPrompt(app, "You said you would like to add a term.");
+		AppGoto(app, "freeSpeak");
+	}
+	else if (!strcmp("remove_term_said", buf)) {
+		AppAppendTTSPrompt(app, "You said you would like to remove a term.");
+		AppGoto(app, "envCheck");
+	}
+	else {
+		AppAppendTTSPrompt(app, "Try again.");
+	}
+	AppGotoSelf(app);
+
+}
+void envCheckfn1(App *app) {
+	AppSetGrammar(app, ".Start");
 	char buf[200];
+	errorEnvStringCounter = 0;
 
 
 	char buf2[400];
@@ -56,28 +91,83 @@ void envCheckfn(App *app) {
 	//	}
 	//}
 
-
+	//char errorArraySpeakStr[400];
+	//strcpy(errorArraySpeakStr, "So far you have selected: ");
+	AppAppendTTSPrompt(app, "So far you have selected: ");
 
 	printf("Number of plant locations so far: %d\n", envCounter);
 
 	for (int i = 0; i < envCounter; i++) {
 		printf("Plant location %d is %s\n", i, plantLocationStringArray[i]);
+		AppAppendTTSPrompt(app, plantLocationStringArray[i]);
+		AppAppendSilence(app, 400);
+		//strcpy(errorArraySpeakStr, concat(errorArraySpeakStr, plantLocationStringArray[i]));
+		//strcpy(errorArraySpeakStr, concat(errorArraySpeakStr, " ")); 
+
 	}
 
 	printf("Number of habits so far: %d\n", habitCounter);
 	for (int i = 0; i < habitCounter; i++) {
-		printf("Plant habit %d is %s\n", (i + envCounter ), plantHabitStringArray[i]);
+		printf("Plant habit %d is %s\n", (i + envCounter), plantHabitStringArray[i]);
+		AppAppendTTSPrompt(app, plantHabitStringArray[i]);
+		AppAppendSilence(app, 400);
+
 	}
+	if (hardyness > 0) {
+		AppAppendTTSPrompt(app, " and a hardyness of ");
+		switch (hardyness) {
+		case 3:
+			AppAppendTTSPrompt(app, " three.");
+			break;
+		case 5:
+			AppAppendTTSPrompt(app, " five.");
+			break;
+		case 7:
+			AppAppendTTSPrompt(app, " seven.");
+			break;
+		case 10:
+			AppAppendTTSPrompt(app, " nine.");
+			break;
+		}
+	}
+	AppAppendSilence(app, 100);
+	AppAppendTTSPrompt(app, "Is this correct?");
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
+	
+	NLGetStringSlotValue(AppGetNLResult(app), "binary_response_said", buf, 100);
+	if (!strcmp("yes_said", buf)) {
+		AppAppendTTSPrompt(app, "You said yes.");
+		//AppGoto(app, "envPreCheck");
+		AppGoto(app, "env2");
+		//AppGoto(app, "envPandH");
+	}
+	else if (!strcmp("no_said", buf)){
+		AppAppendTTSPrompt(app, "You said no.");
+		AppGoto(app, "envCheck");
+	}
+	else {
+		AppAppendTTSPrompt(app, "Try again.");
+	}
+	AppGotoSelf(app);
+}
 
-
+void envCheckfn(App *app) {
+	char buf2[400];
+	constructAdvancedString("count");
+	strcpy(buf2, storeBufCount);
 	int sqlCount = returnSQLCount(app, buf2);
 	char buf3[100];
 	printf("\nQuery: %s\n\n", buf2);
 	sprintf(buf3, "Currently %d plants match your search criteria.", returnSQLCount(app, buf2));
 	printf("%s\n", buf3);
 
+	AppSetGrammar(app, ".ErrorFixNumbers");
+	//AppAppendTTSPrompt(app, errorArraySpeakStr);
 
-	AppAppendTTSPrompt(app, "Which term would you like to remove?");
+	AppAppendTTSPrompt(app, "Which terms would you like to remove?");
 
 
 	if (!AppRecognize(app)) {
@@ -1246,6 +1336,10 @@ void envZeroMatches(App *app) {
 void constructAdvancedString(char *str) {
 	strcpy(storeBuf2, "");
 	strcpy(storeBufCount, "");
+	
+
+		
+	
 	if (!strcmp(str, "count")) {
 		//if ((plantLocationStringArray[0] != "") && plantHabitStringArray[0] != "") {
 		//if ((plantLocationStringArray[0] != "") || (envCounter != 0)) {
@@ -1274,6 +1368,36 @@ void constructAdvancedString(char *str) {
 			}
 
 		}
+		if (hardyness != 0) {
+			int hardyMax, hardyMin;
+			char buf5[100];
+			switch (hardyness) {
+			case 3:
+				hardyMin = 3;
+				hardyMax = 10;
+				break;
+			case 5:
+				hardyMin = 5;
+				hardyMax = 10;
+				break;
+			case 7:
+				hardyMin = 7;
+				hardyMax = 10;
+				break;
+			case 10:
+				hardyMin = 9;
+				hardyMax = 10;
+				break;
+
+			}
+			if ((envCounter == 0) && (habitCounter == 0)) {
+				sprintf(buf5, "SELECT COUNT(`Latin name`) FROM `plantlocations` WHERE `Hardyness` BETWEEN %d AND %d", hardyMin, hardyMax);
+			}
+			else {
+				sprintf(buf5, " AND `Hardyness` BETWEEN %d AND %d", hardyMin, hardyMax);
+			}
+			strcpy(storeBufCount, concat(storeBufCount, buf5));
+		}
 	}
 	else if (!strcmp(str, "normal")) {
 		//if ((plantLocationStringArray[0] != "") && plantHabitStringArray[0] != "") {
@@ -1300,6 +1424,36 @@ void constructAdvancedString(char *str) {
 				strcpy(storeBuf2, concat(storeBuf2, buf6));
 			}
 
+		}
+		if (hardyness != 0) {
+			int hardyMax, hardyMin;
+			char buf5[100];
+			switch (hardyness) {
+			case 3:
+				hardyMin = 3;
+				hardyMax = 10;
+				break;
+			case 5:
+				hardyMin = 5;
+				hardyMax = 10;
+				break;
+			case 7:
+				hardyMin = 7;
+				hardyMax = 10;
+				break;
+			case 10:
+				hardyMin = 9;
+				hardyMax = 10;
+				break;
+
+			}
+			if ((envCounter == 0) && (habitCounter == 0)) {
+				sprintf(buf5, "SELECT `Common name`,`Latin name` FROM `plantlocations` WHERE `Hardyness` BETWEEN %d AND %d", hardyMin, hardyMax);
+			}
+			else {
+				sprintf(buf5, " AND `Hardyness` BETWEEN %d AND %d", hardyMin, hardyMax);
+			}
+			strcpy(storeBufCount, concat(storeBufCount, buf5));
 		}
 	}
 	else {
@@ -1334,13 +1488,13 @@ void envResultsFn(App *app, char str) {
 		AppGoto(app, "freeSpeak");
 	}
 	else if (!strcmp(buf, "no_said")) {
-		AppAppendTTSPrompt(app, "Thanks for using this service.");
+		AppAppendTTSPrompt(app, "Thank you for using this service. Goodbye.");
 		printf("Thank you for using this service. Goodbye.");
 		if (!AppRecognize(app)) {
 			printf("!AppRec\n");
 			return;
 		}
-		sleep(4);
+		sleep(6);
 		exit(0);
 	}
 

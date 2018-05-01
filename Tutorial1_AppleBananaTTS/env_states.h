@@ -9,6 +9,8 @@
 extern char plantLocationStringArray[8][36];
 extern char plantHabitStringArray[8][36];
 extern char errorEnvStringArray[8][24];
+extern int hardyness;
+
 
 extern int looped;
 extern int envCounter;
@@ -33,11 +35,13 @@ extern int numberStringArray[8];
 void envPandHfn(App *app);
 void envResultsFn2(char* str);
 void envResultsFn(App app, char* str);
+void envPreCheckfn(App *app);
 
 void environmentfn(App *app);
 void environmentfn2(App *app);
 void environmentfn3(App *app);
 void envZeroMatches(App *app);
+void envCheckfn1(App *app);
 void envResultsBufFn(App *app, char str);
 void envResultsFn(App *app, char str);
 void envErrorFixfn(App *app);

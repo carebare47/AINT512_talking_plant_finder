@@ -1,0 +1,48 @@
+10,0500a8c0_00002eb4_5ae86e21_0001_0000,LOG,WARN,0,2018/05/01 14:39:45.631,AORUS_X3,app1,25548,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:39:45.651,AORUS_X3,app1,11100,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:39:45.651,AORUS_X3,app1,11100,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:39:58.620,AORUS_X3,app1,11100,ROOT,AppOutput,45,Recognized: "i want lichen very hardy shrub"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:39:58.620,AORUS_X3,app1,11100,ROOT,AppOutput,62,Interpretation: <hardy_said 7> <lichen_said 1> <shrub_said 1>
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,WARN,0,2018/05/01 14:40:04.283,AORUS_X3,app1,11100,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:40:04.284,AORUS_X3,app1,11100,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:40:04.284,AORUS_X3,app1,11100,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:40:41.740,AORUS_X3,app1,11100,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:40:41.740,AORUS_X3,app1,11100,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,WARN,0,2018/05/01 14:40:41.740,AORUS_X3,app1,11100,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:40:41.743,AORUS_X3,app1,11100,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:40:41.743,AORUS_X3,app1,11100,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:41:19.207,AORUS_X3,app1,11100,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:41:19.207,AORUS_X3,app1,11100,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,WARN,0,2018/05/01 14:41:19.208,AORUS_X3,app1,11100,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:41:19.210,AORUS_X3,app1,11100,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:41:19.210,AORUS_X3,app1,11100,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:41:56.622,AORUS_X3,app1,11100,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:41:56.622,AORUS_X3,app1,11100,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,WARN,0,2018/05/01 14:41:56.623,AORUS_X3,app1,11100,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:41:56.624,AORUS_X3,app1,11100,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:41:56.624,AORUS_X3,app1,11100,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:42:34.059,AORUS_X3,app1,11100,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:42:34.059,AORUS_X3,app1,11100,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,WARN,0,2018/05/01 14:42:34.060,AORUS_X3,app1,11100,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:42:34.061,AORUS_X3,app1,11100,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:42:34.061,AORUS_X3,app1,11100,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:43:11.525,AORUS_X3,app1,11100,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:43:11.525,AORUS_X3,app1,11100,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,WARN,0,2018/05/01 14:43:11.526,AORUS_X3,app1,11100,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:43:11.527,AORUS_X3,app1,11100,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:43:11.527,AORUS_X3,app1,11100,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:43:48.960,AORUS_X3,app1,11100,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:43:48.960,AORUS_X3,app1,11100,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,WARN,0,2018/05/01 14:43:48.960,AORUS_X3,app1,11100,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:43:48.961,AORUS_X3,app1,11100,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:43:48.961,AORUS_X3,app1,11100,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:44:26.382,AORUS_X3,app1,11100,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:44:26.382,AORUS_X3,app1,11100,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,WARN,0,2018/05/01 14:44:26.383,AORUS_X3,app1,11100,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:44:26.384,AORUS_X3,app1,11100,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:44:26.384,AORUS_X3,app1,11100,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:45:03.816,AORUS_X3,app1,11100,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:45:03.816,AORUS_X3,app1,11100,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,WARN,0,2018/05/01 14:45:03.816,AORUS_X3,app1,11100,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:45:03.819,AORUS_X3,app1,11100,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002eb4_5ae86e21_0002_0000,LOG,STATUS,0,2018/05/01 14:45:03.819,AORUS_X3,app1,11100,ROOT,AppOutput,26,Entering state "envCheck"
