@@ -6308,8 +6308,9 @@ app1.c(4092): warning C4047: 'function': 'char *' differs in levels of indirecti
 app1.c(4092): warning C4024: 'strcpy': different types for formal and actual parameter 1
 app1.c(4105): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char *[31]'
 app1.c(4105): warning C4024: 'AppAppendTTSPromptPublicWrapper': different types for formal and actual parameter 2
-app1.c(4120): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char *[31]'
-app1.c(4120): warning C4024: 'strcpy': different types for formal and actual parameter 2
+app1.c(4118): warning C4020: 'returnSQLnumberOfMatches': too many actual parameters
+app1.c(4122): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char *[31]'
+app1.c(4122): warning C4024: 'strcpy': different types for formal and actual parameter 2
 app1.c(4108): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const char **'
 app1.c(4102): warning C4101: 'buf': unreferenced local variable
   app1.vcxproj -> C:\nuance85\AINT512\Tutorials\retry\1_Tutorial1_AppleBananaTTS\Tutorial1_AppleBananaTTS\.\Debug\app1.exe

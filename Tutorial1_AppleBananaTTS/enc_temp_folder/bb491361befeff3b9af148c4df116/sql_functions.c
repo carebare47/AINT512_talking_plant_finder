@@ -319,7 +319,7 @@ void speakComposition(App *app, char* type, char* str, int speak) {
 		{
 			field = mysql_fetch_field(result);
 			if (row[i]) {
-				if (!strcmp(field->name, "Dry or Fresh weight")) {//Field was null pointer, I think occoured here. Should catch this.
+				if (!strcmp(field->name, "Dry or Fresh weight")) {
 					if (!strcmp(row[i], "F")) {
 						sprintf(buf2, "The following weights are per 100 grams when the plant is fresh\n");
 						printf("%s", buf2);

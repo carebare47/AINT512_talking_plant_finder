@@ -4115,15 +4115,18 @@ if (firstCommonNameRun == 0){
 		//char buf17[350];
 		//sprintf(buf17, "SELECT `Latin Name`,`Common Name`,`Part of plant`,`Water`,`Calories`,`Protein`,`Fat` FROM composition WHERE `Common Name`='%s' GROUP BY `Latin name` LIMIT 0, 1", commonNameArray[iCommonName]);
 		//speakComposition(app, char* type, char* str, int speak) {
-		AppAppendTTSPrompt(app, "Nutritional composition:");
-		char compositionBuf[300];
-		strcpy(compositionBuf, commonNameArray[iCommonName]);
-		speakComposition(app, "Common", compositionBuf, 1);
-	/*	if (!AppRecognize(app)) {
-			printf("!AppRec\n");
-			return;
-		}*/
-		// sleep()
+		if (returnSQLnumberOfMatches(app, "SELECT * FROM composition WHERE `Common Name`='%s'", commonNameArray[iCommonName]) > 2) {
+			//if (returnSQLnumberOfMatches(app, "SELECT * FROM composition WHERE `Common Name`='%s' GROUP BY `Latin name` LIMIT 0, 1", ) {
+			AppAppendTTSPrompt(app, "Nutritional composition:");
+			char compositionBuf[300];
+			strcpy(compositionBuf, commonNameArray[iCommonName]);
+			speakComposition(app, "Common", compositionBuf, 1);
+				if (!AppRecognize(app)) {
+					printf("!AppRec\n");
+					return;
+				}
+				// sleep()
+		}
 	}
 	
 
