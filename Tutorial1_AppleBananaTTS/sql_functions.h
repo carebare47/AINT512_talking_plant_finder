@@ -18,6 +18,7 @@ void goDoAllTheSQL(App *app, char* purpose, char* specific);
 void speakComposition(App *app, char* type, char* str, int speak);
 int returnSQLnumberOfMatches(App *app, char* str);
 int returnSQLCount(App *app, char* str);
+void SQLReverseSearch(App *app, char* str);
 
 #endif
 #pragma once

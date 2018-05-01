@@ -574,3 +574,92 @@ void SQLspeakQueryResultsOnly(App *app, char* str) {
 
 }
 
+void SQLReverseSearch(App *app, char* str) {
+
+
+	MYSQL *con = mysql_init(NULL);
+
+	if (con == NULL)
+	{
+		fprintf(stderr, "mysql_init() failed\n");
+		exit(1);
+	}
+
+	if (mysql_real_connect(con, "localhost", "root", "Ms-dos333",
+		"pfaf2innodb", 0, NULL, 0) == NULL)
+	{
+		finish_with_error(con);
+	}
+
+	if (mysql_query(con, str))
+	{
+		finish_with_error(con);
+	}
+
+	MYSQL_RES *result = mysql_store_result(con);
+
+	if (result == NULL)
+	{
+		finish_with_error(con);
+	}
+
+
+	int num_fields = mysql_num_fields(result);
+	MYSQL_ROW row;
+	MYSQL_FIELD *field;	printf("\n");
+	char buf2[100];
+	char buf3[100];
+	int growWellInFlag = 0;
+	while ((row = mysql_fetch_row(result)))
+	{
+		for (int i = 0; i < num_fields; i++)
+		{
+			field = mysql_fetch_field(result);
+			if (row[i]) {
+				//if (row[i] == 1) {
+				if ((!strcmp(field->name, "Width")) || (!strcmp(field->name, "Height")) || (!strcmp(field->name, "Hardyness")) || (!strcmp(field->name, "Latin name")) || (!strcmp(field->name, "Habitat")) || (!strcmp(field->name, "Habit"))) {
+					if (!strcmp(field->name, "Hardyness")) {
+						AppAppendTTSPrompt(app, "With a hardyness rating of");
+						AppAppendTTSPrompt(app, row[i]);
+						AppAppendTTSPrompt(app, "out of ten.");
+						sprintf(buf3, "%s %s \n", field->name, row[i]);
+						printf("%s", buf3);
+						printf("\n");
+					}
+					else {
+						sprintf(buf3, "%s %s \n", field->name, row[i]);
+						printf("%s", buf3);
+						//if (speak == 1) {
+						AppAppendTTSPrompt(app, buf3);
+						printf("\n");
+					}
+				}
+				else {
+					
+					if (!(strcmp(row[i], "1"))) {
+						if (growWellInFlag == 0) {
+							AppAppendTTSPrompt(app, "This plant will grow well in ");
+							growWellInFlag = 1;
+						}
+						//printf("%s %s \n", field->name, row[i]);
+						sprintf(buf3, "%s \n", field->name);
+						printf("%s", buf3);
+						//if (speak == 1) {
+						AppAppendTTSPrompt(app, buf3);
+						printf("\n");
+
+						//}
+
+					}
+
+				}
+				
+			}
+		}
+	}
+	
+
+	mysql_free_result(result);
+	mysql_close(con);
+}
+

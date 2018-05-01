@@ -1,9 +1,0 @@
-10,0500a8c0_00002eac_5ae7b93f_0001_0000,LOG,WARN,0,2018/05/01 01:47:59.384,AORUS_X3,app1,13884,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
-10,0500a8c0_00002eac_5ae7b93f_0002_0000,LOG,STATUS,0,2018/05/01 01:47:59.407,AORUS_X3,app1,16332,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,0500a8c0_00002eac_5ae7b93f_0002_0000,LOG,STATUS,0,2018/05/01 01:47:59.407,AORUS_X3,app1,16332,ROOT,AppOutput,27,Entering state "freeSpeak"
-10,0500a8c0_00002eac_5ae7b93f_0002_0000,LOG,STATUS,0,2018/05/01 01:48:08.086,AORUS_X3,app1,16332,ROOT,AppOutput,28,Recognized: "and perennial"
-10,0500a8c0_00002eac_5ae7b93f_0002_0000,LOG,STATUS,0,2018/05/01 01:48:08.086,AORUS_X3,app1,16332,ROOT,AppOutput,35,Interpretation: <perennial_said 1>
-10,0500a8c0_00002eac_5ae7b93f_0002_0000,LOG,WARN,0,2018/05/01 01:48:08.086,AORUS_X3,app1,16332,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
-10,0500a8c0_00002eac_5ae7b93f_0002_0000,LOG,STATUS,0,2018/05/01 01:48:08.089,AORUS_X3,app1,16332,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,0500a8c0_00002eac_5ae7b93f_0002_0000,LOG,STATUS,0,2018/05/01 01:48:08.089,AORUS_X3,app1,16332,ROOT,AppOutput,26,Entering state "envCheck"
-10,-,LOG,WARN,0,2018/05/01 01:49:38.197,AORUS_X3,app1,19400,NLM,LicenseManagerInfo::Respond,42,Socket read error -10053(WSAECONNABORTED)

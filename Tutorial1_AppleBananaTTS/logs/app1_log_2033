@@ -1,0 +1,20 @@
+10,0500a8c0_000056e8_5ae89fc8_0001_0000,LOG,WARN,0,2018/05/01 18:11:36.781,AORUS_X3,app1,12100,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:11:36.798,AORUS_X3,app1,21512,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:11:36.799,AORUS_X3,app1,21512,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:11:41.749,AORUS_X3,app1,21512,ROOT,AppOutput,26,Recognized: "hardy shrub"
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:11:41.749,AORUS_X3,app1,21512,ROOT,AppOutput,46,Interpretation: <hardy_said 5> <shrub_said 1>
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,WARN,0,2018/05/01 18:11:41.750,AORUS_X3,app1,21512,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:11:41.751,AORUS_X3,app1,21512,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:11:41.751,AORUS_X3,app1,21512,ROOT,AppOutput,27,Entering state "envCheck1"
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:11:51.583,AORUS_X3,app1,21512,ROOT,AppOutput,18,Recognized: "yes"
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:11:51.583,AORUS_X3,app1,21512,ROOT,AppOutput,50,Interpretation: <binary_response_said "yes_said">
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,WARN,0,2018/05/01 18:11:51.583,AORUS_X3,app1,21512,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:11:51.584,AORUS_X3,app1,21512,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:11:51.584,AORUS_X3,app1,21512,ROOT,AppOutput,22,Entering state "env2"
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:12:01.219,AORUS_X3,app1,21512,ROOT,AppOutput,17,Recognized: "no"
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:12:01.219,AORUS_X3,app1,21512,ROOT,AppOutput,49,Interpretation: <binary_response_said "no_said">
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:12:09.206,AORUS_X3,app1,21512,ROOT,AppOutput,18,Recognized: "yes"
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:12:09.206,AORUS_X3,app1,21512,ROOT,AppOutput,50,Interpretation: <binary_response_said "yes_said">
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,WARN,0,2018/05/01 18:12:09.206,AORUS_X3,app1,21512,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:12:09.207,AORUS_X3,app1,21512,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000056e8_5ae89fc8_0002_0000,LOG,STATUS,0,2018/05/01 18:12:09.207,AORUS_X3,app1,21512,ROOT,AppOutput,28,Entering state "envResults"

@@ -1,0 +1,10 @@
+10,0500a8c0_00003498_5ae8d5f9_0001_0000,LOG,WARN,0,2018/05/01 22:02:49.735,AORUS_X3,app1,22428,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00003498_5ae8d5f9_0002_0000,LOG,STATUS,0,2018/05/01 22:02:49.752,AORUS_X3,app1,12756,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003498_5ae8d5f9_0002_0000,LOG,STATUS,0,2018/05/01 22:02:49.752,AORUS_X3,app1,12756,ROOT,AppOutput,31,Entering state "reverseSearch"
+10,0500a8c0_00003498_5ae8d5f9_0002_0000,LOG,STATUS,0,2018/05/01 22:03:02.130,AORUS_X3,app1,12756,ROOT,AppOutput,22,Recognized: "shallon"
+10,0500a8c0_00003498_5ae8d5f9_0002_0000,LOG,STATUS,0,2018/05/01 22:03:02.130,AORUS_X3,app1,12756,ROOT,AppOutput,40,Interpretation: <common_name_said 1191>
+10,0500a8c0_00003498_5ae8d5f9_0002_0000,LOG,STATUS,0,2018/05/01 22:03:02.131,AORUS_X3,app1,12756,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003498_5ae8d5f9_0002_0000,LOG,STATUS,0,2018/05/01 22:03:02.131,AORUS_X3,app1,12756,ROOT,AppOutput,31,Entering state "reverseSearch"
+10,-,LOG,WARN,0,2018/05/01 22:04:20.663,AORUS_X3,app1,24456,NLM,LicenseManagerInfo::Respond,42,Socket read error -10053(WSAECONNABORTED)
+10,-,LOG,WARN,0,2018/05/01 22:05:09.236,AORUS_X3,app1,24456,NLM,LicenseManagerInfo::Respond,42,Socket read error -10053(WSAECONNABORTED)
+10,-,LOG,WARN,0,2018/05/01 22:06:33.881,AORUS_X3,app1,24456,NLM,LicenseManagerInfo::Respond,42,Socket read error -10053(WSAECONNABORTED)

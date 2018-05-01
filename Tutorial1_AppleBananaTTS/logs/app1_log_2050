@@ -1,0 +1,7 @@
+10,0500a8c0_00000518_5ae8b742_0001_0000,LOG,WARN,0,2018/05/01 19:51:46.378,AORUS_X3,app1,25252,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000518_5ae8b742_0002_0000,LOG,STATUS,0,2018/05/01 19:51:46.400,AORUS_X3,app1,9108,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00000518_5ae8b742_0002_0000,LOG,STATUS,0,2018/05/01 19:51:46.400,AORUS_X3,app1,9108,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_00000518_5ae8b742_0002_0000,LOG,STATUS,0,2018/05/01 19:51:53.202,AORUS_X3,app1,9108,ROOT,AppOutput,50,Recognized: "extremely hardy very hardy bamboo a"
+10,0500a8c0_00000518_5ae8b742_0002_0000,LOG,WARN,0,2018/05/01 19:51:53.202,AORUS_X3,app1,9108,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_00000518_5ae8b742_0002_0000,LOG,STATUS,0,2018/05/01 19:51:53.203,AORUS_X3,app1,9108,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00000518_5ae8b742_0002_0000,LOG,STATUS,0,2018/05/01 19:51:53.203,AORUS_X3,app1,9108,ROOT,AppOutput,26,Entering state "envCheck"

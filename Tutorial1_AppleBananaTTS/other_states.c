@@ -158,7 +158,7 @@ void startfn(App *app) {
 
 }
 void greetfn(App *app) {
-	AppSetGrammar(app, ".SearchType");
+	AppSetGrammar(app, ".OtherSearchType");
 	char buf[100];
 	//AppAppendTTSPrompt(app, returnMySQLVersion());
 	printf("\n%s", returnTime());
@@ -167,7 +167,8 @@ void greetfn(App *app) {
 	//AppAppendTTSPrompt(app, "So, you would like to buy a plant? Where abouts do you live?");
 	//AppAppendTTSPrompt(app, returnDate());
 	if (firstRunFlag == 1) {
-		AppAppendTTSPrompt(app, "Would you like to find a plant that will grow well in a particular environment, or would you rather search for medicinal or edible plants?");
+		AppAppendTTSPrompt(app, "Would you like to find a plant to match an environment, or see what environments match a plant.");
+		//AppAppendTTSPrompt(app, "Would you like to find a plant that will grow well in a particular environment, or would you rather search for medicinal or edible plants?");
 	}
 	else if (firstRunFlag == 0) {
 		AppAppendTTSPrompt(app, "How can I help?");
@@ -184,23 +185,30 @@ void greetfn(App *app) {
 
 	NLGetStringSlotValue(AppGetNLResult(app), "search_type_said", buf, 100);
 
-	if (!strcmp(buf, "environment_said")) {
-		//AppAppendPrompt(app, "apple.wav");
-		AppAppendTTSPrompt(app, "you said you want to search by environment");
-		printf("you said you want to search by environment.\n");
-		AppGoto(app, "environment");
+	//if (!strcmp(buf, "environment_said")) {
+	//	//AppAppendPrompt(app, "apple.wav");
+	//	AppAppendTTSPrompt(app, "you said you want to search by environment");
+	//	printf("you said you want to search by environment.\n");
+	//	AppGoto(app, "environment");
+	//}
+	//else if (!strcmp(buf, "medicinal_said")) {
+	//	//AppAppendPrompt(app, "apple.wav");
+	//	AppAppendTTSPrompt(app, "you said medicine");
+	//	printf("You said you would like to find a plant to help with a medical problem.\n");
+	//	AppGoto(app, "medicine");
+	//}
+	//else if (!strcmp(buf, "edible_said")) {
+	//	//AppAppendPrompt(app, "apple.wav");
+	//	AppAppendTTSPrompt(app, "you said food");
+	//	printf("You said you are interested in food.\n");
+	//	AppGoto(app, "food");
+	//}
+	if (!strcmp(buf, "normal_said")) {
+		//AppAppendTTSPrompt(app, "")
+		AppGoto(app, "freeSpeech");
 	}
-	else if (!strcmp(buf, "medicinal_said")) {
-		//AppAppendPrompt(app, "apple.wav");
-		AppAppendTTSPrompt(app, "you said medicine");
-		printf("You said you would like to find a plant to help with a medical problem.\n");
-		AppGoto(app, "medicine");
-	}
-	else if (!strcmp(buf, "edible_said")) {
-		//AppAppendPrompt(app, "apple.wav");
-		AppAppendTTSPrompt(app, "you said food");
-		printf("You said you are interested in food.\n");
-		AppGoto(app, "food");
+	else if (!strcmp(buf, "reverse_said")) {
+		AppGoto(app, "reverseSearch");
 	}
 	else if (!strcmp(buf, "exit_said")) {
 		printf("You said exit.\n");

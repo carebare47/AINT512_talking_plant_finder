@@ -1,0 +1,3 @@
+10,0500a8c0_00000b84_5ae8afd5_0002_0000,LOG,STATUS,0,2018/05/01 19:20:05.665,AORUS_X3,app1,19036,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00000b84_5ae8afd5_0002_0000,LOG,STATUS,0,2018/05/01 19:20:05.666,AORUS_X3,app1,19036,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_00000b84_5ae8afd5_0002_0000,LOG,WARN,0,2018/05/01 19:20:07.472,AORUS_X3,app1,23716,AUDIO,WavCreate,73,failed to create file .\utt01.wav because NUANCE_INSUFFICIENT_DISK_SPACE

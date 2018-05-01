@@ -1,23 +1,7 @@
-10,0500a8c0_000030fc_5ae88d13_0001_0000,LOG,WARN,0,2018/05/01 16:51:47.782,AORUS_X3,app1,11472,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:51:47.801,AORUS_X3,app1,11804,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:51:47.801,AORUS_X3,app1,11804,ROOT,AppOutput,27,Entering state "freeSpeak"
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:51:53.458,AORUS_X3,app1,11804,ROOT,AppOutput,32,Recognized: "very hardy bamboo"
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:51:53.458,AORUS_X3,app1,11804,ROOT,AppOutput,47,Interpretation: <bamboo_said 1> <hardy_said 7>
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,WARN,0,2018/05/01 16:51:53.458,AORUS_X3,app1,11804,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:51:53.459,AORUS_X3,app1,11804,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:51:53.459,AORUS_X3,app1,11804,ROOT,AppOutput,27,Entering state "envCheck1"
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:52:05.161,AORUS_X3,app1,11804,ROOT,AppOutput,18,Recognized: "yes"
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:52:05.161,AORUS_X3,app1,11804,ROOT,AppOutput,50,Interpretation: <binary_response_said "yes_said">
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,WARN,0,2018/05/01 16:52:05.161,AORUS_X3,app1,11804,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:52:05.162,AORUS_X3,app1,11804,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:52:05.162,AORUS_X3,app1,11804,ROOT,AppOutput,22,Entering state "env2"
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:52:15.768,AORUS_X3,app1,11804,ROOT,AppOutput,18,Recognized: "yes"
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:52:15.768,AORUS_X3,app1,11804,ROOT,AppOutput,50,Interpretation: <binary_response_said "yes_said">
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,WARN,0,2018/05/01 16:52:15.768,AORUS_X3,app1,11804,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:52:15.769,AORUS_X3,app1,11804,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:52:15.769,AORUS_X3,app1,11804,ROOT,AppOutput,27,Entering state "freeSpeak"
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:52:23.619,AORUS_X3,app1,11804,ROOT,AppOutput,20,Recognized: "shade"
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:52:23.619,AORUS_X3,app1,11804,ROOT,AppOutput,31,Interpretation: <shade_said 1>
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,WARN,0,2018/05/01 16:52:23.619,AORUS_X3,app1,11804,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:52:23.620,AORUS_X3,app1,11804,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,0500a8c0_000030fc_5ae88d13_0002_0000,LOG,STATUS,0,2018/05/01 16:52:23.620,AORUS_X3,app1,11804,ROOT,AppOutput,27,Entering state "envCheck1"
+10,0500a8c0_00003148_5ae8dc46_0001_0000,LOG,WARN,0,2018/05/01 22:29:42.659,AORUS_X3,app1,18408,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00003148_5ae8dc46_0002_0000,LOG,STATUS,0,2018/05/01 22:29:42.675,AORUS_X3,app1,5296,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003148_5ae8dc46_0002_0000,LOG,STATUS,0,2018/05/01 22:29:42.675,AORUS_X3,app1,5296,ROOT,AppOutput,31,Entering state "reverseSearch"
+10,0500a8c0_00003148_5ae8dc46_0002_0000,LOG,STATUS,0,2018/05/01 22:29:49.604,AORUS_X3,app1,5296,ROOT,AppOutput,24,Recognized: "sunflower"
+10,0500a8c0_00003148_5ae8dc46_0002_0000,LOG,STATUS,0,2018/05/01 22:29:49.604,AORUS_X3,app1,5296,ROOT,AppOutput,40,Interpretation: <common_name_said 1268>
+10,0500a8c0_00003148_5ae8dc46_0002_0000,LOG,STATUS,0,2018/05/01 22:29:49.605,AORUS_X3,app1,5296,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003148_5ae8dc46_0002_0000,LOG,STATUS,0,2018/05/01 22:29:49.605,AORUS_X3,app1,5296,ROOT,AppOutput,31,Entering state "reverseSearch"

@@ -24,7 +24,7 @@ extern int habitCounter;
 //const char *plantLocationStringArray[8];
 //const char *plantHabitStringArray[8];
 
-
+extern int global_width;
 extern char errorFixArray[8][24];
 extern char errorStoreArray[8][24];
 
@@ -41,11 +41,12 @@ void environmentfn(App *app);
 void environmentfn2(App *app);
 void environmentfn3(App *app);
 void envZeroMatches(App *app);
+void envCheckfn(App *app);
 void envCheckfn1(App *app);
 void envResultsBufFn(App *app, char str);
 void envResultsFn(App *app, char str);
 void envErrorFixfn(App *app);
-void envCheckfn(App *app);
+
 void constructAdvancedString(void);
 
 #endif

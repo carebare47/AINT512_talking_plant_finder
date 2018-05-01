@@ -1,0 +1,13 @@
+10,0500a8c0_0000232c_5ae8a572_0001_0000,LOG,WARN,0,2018/05/01 18:35:46.559,AORUS_X3,app1,2620,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_0000232c_5ae8a572_0002_0000,LOG,STATUS,0,2018/05/01 18:35:46.581,AORUS_X3,app1,16456,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000232c_5ae8a572_0002_0000,LOG,STATUS,0,2018/05/01 18:35:46.581,AORUS_X3,app1,16456,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_0000232c_5ae8a572_0002_0000,LOG,STATUS,0,2018/05/01 18:35:57.556,AORUS_X3,app1,16456,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_0000232c_5ae8a572_0002_0000,LOG,STATUS,0,2018/05/01 18:35:57.556,AORUS_X3,app1,16456,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_0000232c_5ae8a572_0002_0000,LOG,WARN,0,2018/05/01 18:35:57.557,AORUS_X3,app1,16456,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_0000232c_5ae8a572_0002_0000,LOG,STATUS,0,2018/05/01 18:35:57.558,AORUS_X3,app1,16456,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000232c_5ae8a572_0002_0000,LOG,STATUS,0,2018/05/01 18:35:57.558,AORUS_X3,app1,16456,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_0000232c_5ae8a572_0002_0000,LOG,STATUS,0,2018/05/01 18:36:22.823,AORUS_X3,app1,16456,ROOT,AppOutput,70,Recognized: "i want lichen hardy bamboo a will grow well against and"
+10,0500a8c0_0000232c_5ae8a572_0002_0000,LOG,STATUS,0,2018/05/01 18:36:22.823,AORUS_X3,app1,16456,ROOT,AppOutput,63,Interpretation: <bamboo_said 1> <hardy_said 5> <lichen_said 1>
+10,0500a8c0_0000232c_5ae8a572_0002_0000,LOG,WARN,0,2018/05/01 18:36:22.824,AORUS_X3,app1,16456,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_0000232c_5ae8a572_0002_0000,LOG,STATUS,0,2018/05/01 18:36:22.825,AORUS_X3,app1,16456,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000232c_5ae8a572_0002_0000,LOG,STATUS,0,2018/05/01 18:36:22.825,AORUS_X3,app1,16456,ROOT,AppOutput,26,Entering state "envCheck"

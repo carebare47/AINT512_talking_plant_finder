@@ -1,0 +1,5 @@
+10,0500a8c0_0000616c_5ae8ae30_0001_0000,LOG,ERROR,0,2018/05/01 19:13:04.479,AORUS_X3,app1,17236,AUDIO,ForceHalfDuplex,18,waveInOpen error!
+10,0500a8c0_0000616c_5ae8ae30_0001_0000,LOG,ERROR,0,2018/05/01 19:13:04.487,AORUS_X3,app1,17236,AUDIO,ForceHalfDuplex,64,A device ID has been used that is out of range for your system.
+10,0500a8c0_0000616c_5ae8ae30_0001_0000,LOG,ERROR,0,2018/05/01 19:13:04.487,AORUS_X3,app1,17236,AUDIO,OpenInputDevice,35,Can't open either input or output.
+10,0500a8c0_0000616c_5ae8ae30_0001_0000,LOG,ERROR,0,2018/05/01 19:13:04.488,AORUS_X3,app1,17236,AUDIO,AudioObj::AudioObj,73,Initialization for provider "native" failed because "NUANCE_AUDIO_ERROR"
+10,-,LOG,ERROR,0,2018/05/01 19:13:04.490,AORUS_X3,app1,18360,DIALOG,InitializeRecClient,85,Waiting for the RecClient to finish initializing failed because "NUANCE_AUDIO_ERROR"
