@@ -1,0 +1,10 @@
+10,0500a8c0_00005994_5ae8ec7d_0001_0000,LOG,WARN,0,2018/05/01 23:38:53.962,AORUS_X3,app1,19468,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00005994_5ae8ec7d_0002_0000,LOG,STATUS,0,2018/05/01 23:38:53.979,AORUS_X3,app1,4460,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00005994_5ae8ec7d_0002_0000,LOG,STATUS,0,2018/05/01 23:38:53.979,AORUS_X3,app1,4460,ROOT,AppOutput,31,Entering state "reverseSearch"
+10,0500a8c0_00005994_5ae8ec7d_0002_0000,LOG,STATUS,0,2018/05/01 23:39:04.000,AORUS_X3,app1,4460,ROOT,AppOutput,20,Recognized: "carob"
+10,0500a8c0_00005994_5ae8ec7d_0002_0000,LOG,STATUS,0,2018/05/01 23:39:04.000,AORUS_X3,app1,4460,ROOT,AppOutput,39,Interpretation: <common_name_said 644>
+10,0500a8c0_00005994_5ae8ec7d_0002_0000,LOG,STATUS,0,2018/05/01 23:40:05.008,AORUS_X3,app1,4460,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00005994_5ae8ec7d_0002_0000,LOG,STATUS,0,2018/05/01 23:40:05.008,AORUS_X3,app1,4460,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00005994_5ae8ec7d_0002_0000,LOG,WARN,0,2018/05/01 23:40:05.009,AORUS_X3,app1,4460,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00005994_5ae8ec7d_0002_0000,LOG,STATUS,0,2018/05/01 23:40:10.979,AORUS_X3,app1,4460,ROOT,AppOutput,99,Skipping AppStartAction (ACTION_RECOGNIZE) because the state has changed or the session has ended.
+10,0500a8c0_00005994_5ae8ec7d_0002_0000,LOG,STATUS,0,2018/05/01 23:40:10.979,AORUS_X3,app1,4460,ROOT,AppOutput,22,Detected system error

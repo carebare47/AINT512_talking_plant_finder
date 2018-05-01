@@ -1,0 +1,12 @@
+10,0500a8c0_00004ae4_5ae8e743_0001_0000,LOG,WARN,0,2018/05/01 23:16:35.323,AORUS_X3,app1,19844,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00004ae4_5ae8e743_0002_0000,LOG,STATUS,0,2018/05/01 23:16:35.343,AORUS_X3,app1,23200,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00004ae4_5ae8e743_0002_0000,LOG,STATUS,0,2018/05/01 23:16:35.343,AORUS_X3,app1,23200,ROOT,AppOutput,31,Entering state "reverseSearch"
+10,0500a8c0_00004ae4_5ae8e743_0002_0000,LOG,STATUS,0,2018/05/01 23:16:42.847,AORUS_X3,app1,23200,ROOT,AppOutput,21,Recognized: "carrot"
+10,0500a8c0_00004ae4_5ae8e743_0002_0000,LOG,STATUS,0,2018/05/01 23:16:42.847,AORUS_X3,app1,23200,ROOT,AppOutput,39,Interpretation: <common_name_said 926>
+10,0500a8c0_00004ae4_5ae8e743_0002_0000,LOG,STATUS,0,2018/05/01 23:16:42.848,AORUS_X3,app1,23200,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00004ae4_5ae8e743_0002_0000,LOG,STATUS,0,2018/05/01 23:16:42.848,AORUS_X3,app1,23200,ROOT,AppOutput,31,Entering state "reverseSearch"
+10,0500a8c0_00004ae4_5ae8e743_0002_0000,LOG,STATUS,0,2018/05/01 23:17:37.245,AORUS_X3,app1,23200,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_00004ae4_5ae8e743_0002_0000,LOG,STATUS,0,2018/05/01 23:17:37.245,AORUS_X3,app1,23200,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_00004ae4_5ae8e743_0002_0000,LOG,WARN,0,2018/05/01 23:17:37.246,AORUS_X3,app1,23200,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00004ae4_5ae8e743_0002_0000,LOG,STATUS,0,2018/05/01 23:17:37.248,AORUS_X3,app1,23200,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00004ae4_5ae8e743_0002_0000,LOG,STATUS,0,2018/05/01 23:17:37.248,AORUS_X3,app1,23200,ROOT,AppOutput,31,Entering state "reverseSearch"

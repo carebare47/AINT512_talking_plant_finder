@@ -658,7 +658,10 @@ void SQLReverseSearch(App *app, char* str) {
 		}
 	}
 	
-
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
 	mysql_free_result(result);
 	mysql_close(con);
 }

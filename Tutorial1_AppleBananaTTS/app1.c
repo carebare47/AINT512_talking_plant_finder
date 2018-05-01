@@ -4095,7 +4095,10 @@ if (firstCommonNameRun == 0){
 
 	AppSetGrammar(app, ".ByName");
 	AppAppendTTSPrompt(app, "Please say the common or latin name of a plant you want to search for.");
-	
+	if (!AppRecognize(app)) {
+		printf("!AppRec\n");
+		return;
+	}
 	char buf[100];
 	int iCommonName = -1;
 	if (NLGetIntSlotValue(AppGetNLResult(app), "common_name_said", &iCommonName) != 119) {
@@ -4105,6 +4108,22 @@ if (firstCommonNameRun == 0){
 		sprintf(buf15, "SELECT * FROM `plantlocations` WHERE `Common name`='%s'  GROUP BY `Latin name`", commonNameArray[iCommonName]);
 		printf("%s\n", buf15);
 		SQLReverseSearch(app, buf15);
+		/*if (!AppRecognize(app)) {
+			printf("!AppRec\n");
+			return;
+		}*/
+		//char buf17[350];
+		//sprintf(buf17, "SELECT `Latin Name`,`Common Name`,`Part of plant`,`Water`,`Calories`,`Protein`,`Fat` FROM composition WHERE `Common Name`='%s' GROUP BY `Latin name` LIMIT 0, 1", commonNameArray[iCommonName]);
+		//speakComposition(app, char* type, char* str, int speak) {
+		AppAppendTTSPrompt(app, "Nutritional composition:");
+		char compositionBuf[300];
+		strcpy(compositionBuf, commonNameArray[iCommonName]);
+		speakComposition(app, "Common", compositionBuf, 1);
+	/*	if (!AppRecognize(app)) {
+			printf("!AppRec\n");
+			return;
+		}*/
+		// sleep()
 	}
 	
 
