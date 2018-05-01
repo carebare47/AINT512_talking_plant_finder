@@ -1,0 +1,56 @@
+﻿app1.obj : error LNK2019: unresolved external symbol __imp__NLGetIntSlotValuePublicWrapper referenced in function _freeSpeakfn
+env_states.obj : error LNK2001: unresolved external symbol __imp__NLGetIntSlotValuePublicWrapper
+app1.obj : error LNK2019: unresolved external symbol __imp__NLGetStringSlotValuePublicWrapper referenced in function _AllInOneFn
+env_states.obj : error LNK2001: unresolved external symbol __imp__NLGetStringSlotValuePublicWrapper
+other_states.obj : error LNK2001: unresolved external symbol __imp__NLGetStringSlotValuePublicWrapper
+test_states.obj : error LNK2001: unresolved external symbol __imp__NLGetStringSlotValuePublicWrapper
+app1.obj : error LNK2019: unresolved external symbol __imp__AppNewPublicWrapper referenced in function _main
+app1.obj : error LNK2019: unresolved external symbol __imp__AppCreateStateClassPublicWrapper referenced in function _main
+app1.obj : error LNK2019: unresolved external symbol __imp__AppCreateStatePublicWrapper referenced in function _main
+app1.obj : error LNK2019: unresolved external symbol __imp__AppGoPublicWrapper referenced in function _main
+app1.obj : error LNK2019: unresolved external symbol __imp__AppRecognizePublicWrapper referenced in function _AllInOneFn
+env_states.obj : error LNK2001: unresolved external symbol __imp__AppRecognizePublicWrapper
+other_states.obj : error LNK2001: unresolved external symbol __imp__AppRecognizePublicWrapper
+test_states.obj : error LNK2001: unresolved external symbol __imp__AppRecognizePublicWrapper
+app1.obj : error LNK2019: unresolved external symbol __imp__AppGotoPublicWrapper referenced in function _freeSpeakfn
+env_states.obj : error LNK2001: unresolved external symbol __imp__AppGotoPublicWrapper
+other_states.obj : error LNK2001: unresolved external symbol __imp__AppGotoPublicWrapper
+test_states.obj : error LNK2001: unresolved external symbol __imp__AppGotoSelfPublicWrapper
+app1.obj : error LNK2001: unresolved external symbol __imp__AppGotoSelfPublicWrapper
+env_states.obj : error LNK2001: unresolved external symbol __imp__AppGotoSelfPublicWrapper
+nuance_states.obj : error LNK2001: unresolved external symbol __imp__AppGotoSelfPublicWrapper
+other_states.obj : error LNK2001: unresolved external symbol __imp__AppGotoSelfPublicWrapper
+app1.obj : error LNK2019: unresolved external symbol __imp__AppGetNLResultPublicWrapper referenced in function _AllInOneFn
+env_states.obj : error LNK2001: unresolved external symbol __imp__AppGetNLResultPublicWrapper
+other_states.obj : error LNK2001: unresolved external symbol __imp__AppGetNLResultPublicWrapper
+test_states.obj : error LNK2001: unresolved external symbol __imp__AppGetNLResultPublicWrapper
+app1.obj : error LNK2019: unresolved external symbol __imp__AppGetRecognitionStagePublicWrapper referenced in function _freeSpeakfn
+env_states.obj : error LNK2001: unresolved external symbol __imp__AppGetRecognitionStagePublicWrapper
+app1.obj : error LNK2019: unresolved external symbol __imp__AppSetGrammarPublicWrapper referenced in function _AllInOneFn
+env_states.obj : error LNK2001: unresolved external symbol __imp__AppSetGrammarPublicWrapper
+other_states.obj : error LNK2001: unresolved external symbol __imp__AppSetGrammarPublicWrapper
+test_states.obj : error LNK2001: unresolved external symbol __imp__AppSetGrammarPublicWrapper
+sql_functions.obj : error LNK2001: unresolved external symbol __imp__AppAppendTTSPromptPublicWrapper
+app1.obj : error LNK2001: unresolved external symbol __imp__AppAppendTTSPromptPublicWrapper
+env_states.obj : error LNK2001: unresolved external symbol __imp__AppAppendTTSPromptPublicWrapper
+nuance_states.obj : error LNK2001: unresolved external symbol __imp__AppAppendTTSPromptPublicWrapper
+other_states.obj : error LNK2001: unresolved external symbol __imp__AppAppendTTSPromptPublicWrapper
+nuance_states.obj : error LNK2019: unresolved external symbol __imp__AppGetUttStatusPublicWrapper referenced in function _RootPostRecFn
+nuance_states.obj : error LNK2019: unresolved external symbol __imp__AppSetBeginSpeechTimeoutPublicWrapper referenced in function _RootEntryFn
+nuance_states.obj : error LNK2019: unresolved external symbol __imp__AppSetEndSpeechTimeoutPublicWrapper referenced in function _RootEntryFn
+nuance_states.obj : error LNK2019: unresolved external symbol __imp__AppSetEndRecognitionTimeoutPublicWrapper referenced in function _RootEntryFn
+nuance_states.obj : error LNK2019: unresolved external symbol __imp__AppSetRejectionThresholdPublicWrapper referenced in function _RootEntryFn
+nuance_states.obj : error LNK2019: unresolved external symbol __imp__AppAppendPromptPublicWrapper referenced in function _RootPostRecFn
+sql_functions.obj : error LNK2019: unresolved external symbol __imp__AppAppendSilencePublicWrapper referenced in function _SQLspeakQuery
+sql_functions.obj : error LNK2019: unresolved external symbol _mysql_num_fields@4 referenced in function _SQLcolumnReturn
+sql_functions.obj : error LNK2019: unresolved external symbol _mysql_error@4 referenced in function _finish_with_error
+sql_functions.obj : error LNK2019: unresolved external symbol _mysql_init@4 referenced in function _SQLcolumnReturn
+sql_functions.obj : error LNK2019: unresolved external symbol _mysql_real_connect@32 referenced in function _SQLcolumnReturn
+sql_functions.obj : error LNK2019: unresolved external symbol _mysql_query@8 referenced in function _SQLcolumnReturn
+sql_functions.obj : error LNK2019: unresolved external symbol _mysql_store_result@4 referenced in function _SQLcolumnReturn
+sql_functions.obj : error LNK2019: unresolved external symbol _mysql_get_client_info@0 referenced in function _returnMySQLVersion
+sql_functions.obj : error LNK2019: unresolved external symbol _mysql_free_result@4 referenced in function _SQLcolumnReturn
+sql_functions.obj : error LNK2019: unresolved external symbol _mysql_fetch_row@4 referenced in function _SQLcolumnReturn
+sql_functions.obj : error LNK2019: unresolved external symbol _mysql_fetch_field@4 referenced in function _speakComposition
+sql_functions.obj : error LNK2019: unresolved external symbol _mysql_close@4 referenced in function _SQLcolumnReturn
+.\Release\app1.exe : fatal error LNK1120: 31 unresolved externals

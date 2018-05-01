@@ -1,0 +1,16 @@
+10,0500a8c0_00000c78_5ae79a43_0001_0000,LOG,WARN,0,2018/04/30 23:35:47.855,AORUS_X3,app1,20356,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000c78_5ae79a43_0002_0000,LOG,STATUS,0,2018/04/30 23:35:47.876,AORUS_X3,app1,13472,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00000c78_5ae79a43_0002_0000,LOG,STATUS,0,2018/04/30 23:35:47.876,AORUS_X3,app1,13472,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_00000c78_5ae79a43_0002_0000,LOG,STATUS,0,2018/04/30 23:35:54.981,AORUS_X3,app1,13472,ROOT,AppOutput,34,Recognized: "tree a i and canopy"
+10,0500a8c0_00000c78_5ae79a43_0002_0000,LOG,STATUS,0,2018/04/30 23:35:54.981,AORUS_X3,app1,13472,ROOT,AppOutput,46,Interpretation: <canopy_said 1> <tree_said 1>
+10,0500a8c0_00000c78_5ae79a43_0002_0000,LOG,WARN,0,2018/04/30 23:35:54.981,AORUS_X3,app1,13472,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_00000c78_5ae79a43_0002_0000,LOG,STATUS,0,2018/04/30 23:35:54.983,AORUS_X3,app1,13472,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00000c78_5ae79a43_0002_0000,LOG,STATUS,0,2018/04/30 23:35:54.983,AORUS_X3,app1,13472,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_00000c78_5ae79a43_0002_0000,LOG,STATUS,0,2018/04/30 23:36:02.375,AORUS_X3,app1,13472,ROOT,AppOutput,18,Recognized: "one"
+10,0500a8c0_00000c78_5ae79a43_0002_0000,LOG,STATUS,0,2018/04/30 23:36:02.375,AORUS_X3,app1,13472,ROOT,AppOutput,29,Interpretation: <one_said 1>
+10,0500a8c0_00000c78_5ae79a43_0002_0000,LOG,WARN,0,2018/04/30 23:36:02.375,AORUS_X3,app1,13472,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_00000c78_5ae79a43_0002_0000,LOG,STATUS,0,2018/04/30 23:36:02.376,AORUS_X3,app1,13472,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00000c78_5ae79a43_0002_0000,LOG,STATUS,0,2018/04/30 23:36:02.376,AORUS_X3,app1,13472,ROOT,AppOutput,29,Entering state "envErrorFix"
+10,0500a8c0_00000c78_5ae79a43_0002_0000,LOG,STATUS,0,2018/04/30 23:36:04.340,AORUS_X3,app1,13472,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00000c78_5ae79a43_0002_0000,LOG,STATUS,0,2018/04/30 23:36:04.340,AORUS_X3,app1,13472,ROOT,AppOutput,22,Entering state "env2"
+10,-,LOG,WARN,0,2018/04/30 23:37:15.613,AORUS_X3,app1,17236,NLM,LicenseManagerInfo::Respond,42,Socket read error -10053(WSAECONNABORTED)

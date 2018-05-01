@@ -1,0 +1,25 @@
+10,0500a8c0_00003e34_5ae766d4_0001_0000,LOG,WARN,0,2018/04/30 19:56:20.409,AORUS_X3,app1,13264,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:56:20.430,AORUS_X3,app1,1260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:56:20.430,AORUS_X3,app1,1260,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:56:30.250,AORUS_X3,app1,1260,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:56:30.250,AORUS_X3,app1,1260,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,WARN,0,2018/04/30 19:56:30.250,AORUS_X3,app1,1260,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:56:30.252,AORUS_X3,app1,1260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:56:30.252,AORUS_X3,app1,1260,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:56:37.370,AORUS_X3,app1,1260,ROOT,AppOutput,57,Recognized: "canopy and hedge plant lawn and meadow and"
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:56:37.370,AORUS_X3,app1,1260,ROOT,AppOutput,77,Interpretation: <canopy_said 1> <hedge_said 1> <lawn_said 1> <meadow_said 1>
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,WARN,0,2018/04/30 19:56:37.370,AORUS_X3,app1,1260,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:56:37.371,AORUS_X3,app1,1260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:56:37.371,AORUS_X3,app1,1260,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:56:43.263,AORUS_X3,app1,1260,ROOT,AppOutput,18,Recognized: "one"
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:56:43.263,AORUS_X3,app1,1260,ROOT,AppOutput,29,Interpretation: <one_said 1>
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,WARN,0,2018/04/30 19:56:43.263,AORUS_X3,app1,1260,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:56:43.264,AORUS_X3,app1,1260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:56:43.264,AORUS_X3,app1,1260,ROOT,AppOutput,29,Entering state "envErrorFix"
+10,-,LOG,WARN,0,2018/04/30 19:58:35.989,AORUS_X3,app1,8104,NLM,LicenseManagerInfo::Respond,42,Socket read error -10053(WSAECONNABORTED)
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:58:36.042,AORUS_X3,app1,1260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:58:36.042,AORUS_X3,app1,1260,ROOT,AppOutput,22,Entering state "env2"
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:58:36.191,AORUS_X3,app1,1260,ROOT,AppOutput,99,Skipping AppStartAction (ACTION_RECOGNIZE) because the state has changed or the session has ended.
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:58:36.191,AORUS_X3,app1,1260,ROOT,AppOutput,22,Detected system error
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:58:36.192,AORUS_X3,app1,1260,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003e34_5ae766d4_0002_0000,LOG,STATUS,0,2018/04/30 19:58:36.192,AORUS_X3,app1,1260,ROOT,AppOutput,32,Entering state "zeroMatchesEnv"

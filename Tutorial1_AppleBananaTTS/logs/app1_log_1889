@@ -1,0 +1,62 @@
+10,0500a8c0_000022bc_5ae78158_0001_0000,LOG,WARN,0,2018/04/30 21:49:28.955,AORUS_X3,app1,5172,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:49:28.971,AORUS_X3,app1,18324,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:49:28.971,AORUS_X3,app1,18324,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:49:42.223,AORUS_X3,app1,18324,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:49:42.223,AORUS_X3,app1,18324,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,WARN,0,2018/04/30 21:49:42.224,AORUS_X3,app1,18324,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:49:42.225,AORUS_X3,app1,18324,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:49:42.225,AORUS_X3,app1,18324,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:49:50.299,AORUS_X3,app1,18324,ROOT,AppOutput,60,Recognized: "shrub and tree and canopy and lawn and meadow"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:49:50.299,AORUS_X3,app1,18324,ROOT,AppOutput,91,Interpretation: <canopy_said 1> <lawn_said 1> <meadow_said 1> <shrub_said 1> <tree_said 1>
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,WARN,0,2018/04/30 21:49:50.299,AORUS_X3,app1,18324,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:49:50.301,AORUS_X3,app1,18324,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:49:50.301,AORUS_X3,app1,18324,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:49:58.335,AORUS_X3,app1,18324,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:49:58.335,AORUS_X3,app1,18324,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,WARN,0,2018/04/30 21:49:58.336,AORUS_X3,app1,18324,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:49:58.337,AORUS_X3,app1,18324,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:49:58.337,AORUS_X3,app1,18324,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:03.994,AORUS_X3,app1,18324,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:03.994,AORUS_X3,app1,18324,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,WARN,0,2018/04/30 21:50:03.995,AORUS_X3,app1,18324,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:03.996,AORUS_X3,app1,18324,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:03.996,AORUS_X3,app1,18324,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:09.073,AORUS_X3,app1,18324,ROOT,AppOutput,19,Recognized: "four"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:09.073,AORUS_X3,app1,18324,ROOT,AppOutput,30,Interpretation: <four_said 1>
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,WARN,0,2018/04/30 21:50:09.073,AORUS_X3,app1,18324,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:09.075,AORUS_X3,app1,18324,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:09.075,AORUS_X3,app1,18324,ROOT,AppOutput,29,Entering state "envErrorFix"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:09.105,AORUS_X3,app1,18324,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:09.105,AORUS_X3,app1,18324,ROOT,AppOutput,22,Entering state "env2"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:11.378,AORUS_X3,app1,18324,ROOT,AppOutput,99,Skipping AppStartAction (ACTION_RECOGNIZE) because the state has changed or the session has ended.
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:11.379,AORUS_X3,app1,18324,ROOT,AppOutput,22,Detected system error
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:11.380,AORUS_X3,app1,18324,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:11.380,AORUS_X3,app1,18324,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:22.156,AORUS_X3,app1,18324,ROOT,AppOutput,18,Recognized: "two"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:22.156,AORUS_X3,app1,18324,ROOT,AppOutput,29,Interpretation: <two_said 1>
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,WARN,0,2018/04/30 21:50:22.156,AORUS_X3,app1,18324,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:22.158,AORUS_X3,app1,18324,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:22.158,AORUS_X3,app1,18324,ROOT,AppOutput,29,Entering state "envErrorFix"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:22.174,AORUS_X3,app1,18324,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:22.174,AORUS_X3,app1,18324,ROOT,AppOutput,22,Entering state "env2"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:24.154,AORUS_X3,app1,18324,ROOT,AppOutput,99,Skipping AppStartAction (ACTION_RECOGNIZE) because the state has changed or the session has ended.
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:24.154,AORUS_X3,app1,18324,ROOT,AppOutput,22,Detected system error
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:24.156,AORUS_X3,app1,18324,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:24.156,AORUS_X3,app1,18324,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:39.918,AORUS_X3,app1,18324,ROOT,AppOutput,18,Recognized: "two"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:39.918,AORUS_X3,app1,18324,ROOT,AppOutput,29,Interpretation: <two_said 1>
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,WARN,0,2018/04/30 21:50:39.918,AORUS_X3,app1,18324,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:39.920,AORUS_X3,app1,18324,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:39.920,AORUS_X3,app1,18324,ROOT,AppOutput,29,Entering state "envErrorFix"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:39.950,AORUS_X3,app1,18324,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:39.950,AORUS_X3,app1,18324,ROOT,AppOutput,22,Entering state "env2"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:50.492,AORUS_X3,app1,18324,ROOT,AppOutput,18,Recognized: "yes"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:50.492,AORUS_X3,app1,18324,ROOT,AppOutput,50,Interpretation: <binary_response_said "yes_said">
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,WARN,0,2018/04/30 21:50:50.492,AORUS_X3,app1,18324,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:50.493,AORUS_X3,app1,18324,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:50:50.493,AORUS_X3,app1,18324,ROOT,AppOutput,29,Entering state "environment"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:51:25.566,AORUS_X3,app1,18324,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:51:25.566,AORUS_X3,app1,18324,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,WARN,0,2018/04/30 21:51:25.566,AORUS_X3,app1,18324,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:51:25.567,AORUS_X3,app1,18324,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000022bc_5ae78158_0002_0000,LOG,STATUS,0,2018/04/30 21:51:25.567,AORUS_X3,app1,18324,ROOT,AppOutput,29,Entering state "environment"

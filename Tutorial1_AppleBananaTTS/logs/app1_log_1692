@@ -1,9 +1,0 @@
-10,1f00a8c0_00004f8c_5ae3465f_0001_0000,LOG,WARN,0,2018/04/27 16:48:47.604,AORUS_X3,app1,20588,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
-10,1f00a8c0_00004f8c_5ae3465f_0001_0000,LOG,WARN,0,2018/04/27 16:48:47.629,AORUS_X3,app1,20588,AUDIO,AudioClientImpl::RouteEpSetParameter,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
-10,1f00a8c0_00004f8c_5ae3465f_0002_0000,LOG,STATUS,0,2018/04/27 16:48:47.630,AORUS_X3,app1,20112,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,1f00a8c0_00004f8c_5ae3465f_0002_0000,LOG,STATUS,0,2018/04/27 16:48:47.630,AORUS_X3,app1,20112,ROOT,AppOutput,27,Entering state "freeSpeak"
-10,1f00a8c0_00004f8c_5ae3465f_0002_0000,LOG,ERROR,0,2018/04/27 16:48:49.540,AORUS_X3,app1,20112,DIALOG,HandlePlaybackDone,37,".Speak" is not a known grammar name
-10,1f00a8c0_00004f8c_5ae3465f_0002_0000,LOG,STATUS,0,2018/04/27 16:48:49.540,AORUS_X3,app1,20112,ROOT,AppOutput,22,Detected system error
-10,1f00a8c0_00004f8c_5ae3465f_0002_0000,LOG,STATUS,0,2018/04/27 16:48:49.541,AORUS_X3,app1,20112,ROOT,AppOutput,22,Detected system error
-10,1f00a8c0_00004f8c_5ae3465f_0002_0000,LOG,STATUS,0,2018/04/27 16:48:49.542,AORUS_X3,app1,20112,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,1f00a8c0_00004f8c_5ae3465f_0002_0000,LOG,STATUS,0,2018/04/27 16:48:49.542,AORUS_X3,app1,20112,ROOT,AppOutput,27,Entering state "freeSpeak"

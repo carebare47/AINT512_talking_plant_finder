@@ -1,8 +1,0 @@
-10,1f00a8c0_0000575c_5ae384a5_0001_0000,LOG,WARN,0,2018/04/27 21:14:29.992,AORUS_X3,app1,16432,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
-10,1f00a8c0_0000575c_5ae384a6_0002_0000,LOG,STATUS,0,2018/04/27 21:14:30.013,AORUS_X3,app1,28112,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,1f00a8c0_0000575c_5ae384a6_0002_0000,LOG,STATUS,0,2018/04/27 21:14:30.013,AORUS_X3,app1,28112,ROOT,AppOutput,27,Entering state "freeSpeak"
-10,1f00a8c0_0000575c_5ae384a6_0002_0000,LOG,STATUS,0,2018/04/27 21:14:41.593,AORUS_X3,app1,28112,ROOT,AppOutput,72,Recognized: "my walls plant that grow grow well against lawn walls and"
-10,1f00a8c0_0000575c_5ae384a6_0002_0000,LOG,STATUS,0,2018/04/27 21:14:41.593,AORUS_X3,app1,28112,ROOT,AppOutput,45,Interpretation: <lawn_said 1> <walls_said 1>
-10,1f00a8c0_0000575c_5ae384a6_0002_0000,LOG,WARN,0,2018/04/27 21:14:41.593,AORUS_X3,app1,28112,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
-10,1f00a8c0_0000575c_5ae384a6_0002_0000,LOG,STATUS,0,2018/04/27 21:14:41.594,AORUS_X3,app1,28112,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,1f00a8c0_0000575c_5ae384a6_0002_0000,LOG,STATUS,0,2018/04/27 21:14:41.594,AORUS_X3,app1,28112,ROOT,AppOutput,27,Entering state "env2PandH"

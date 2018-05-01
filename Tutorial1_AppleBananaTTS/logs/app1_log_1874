@@ -1,0 +1,20 @@
+10,0500a8c0_00003c80_5ae76b2a_0001_0000,LOG,WARN,0,2018/04/30 20:14:50.578,AORUS_X3,app1,2500,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,STATUS,0,2018/04/30 20:14:50.596,AORUS_X3,app1,9980,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,STATUS,0,2018/04/30 20:14:50.596,AORUS_X3,app1,9980,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,STATUS,0,2018/04/30 20:15:07.804,AORUS_X3,app1,9980,ROOT,AppOutput,60,Recognized: "canopy and lawn and meadow and hedge and corm"
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,STATUS,0,2018/04/30 20:15:07.804,AORUS_X3,app1,9980,ROOT,AppOutput,91,Interpretation: <canopy_said 1> <corm_said 1> <hedge_said 1> <lawn_said 1> <meadow_said 1>
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,WARN,0,2018/04/30 20:15:07.804,AORUS_X3,app1,9980,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,STATUS,0,2018/04/30 20:15:07.805,AORUS_X3,app1,9980,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,STATUS,0,2018/04/30 20:15:07.805,AORUS_X3,app1,9980,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,STATUS,0,2018/04/30 20:15:13.204,AORUS_X3,app1,9980,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,STATUS,0,2018/04/30 20:15:13.204,AORUS_X3,app1,9980,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,WARN,0,2018/04/30 20:15:13.205,AORUS_X3,app1,9980,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,STATUS,0,2018/04/30 20:15:13.206,AORUS_X3,app1,9980,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,STATUS,0,2018/04/30 20:15:13.206,AORUS_X3,app1,9980,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,STATUS,0,2018/04/30 20:15:18.213,AORUS_X3,app1,9980,ROOT,AppOutput,27,Recognized: "one nine two"
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,STATUS,0,2018/04/30 20:15:18.213,AORUS_X3,app1,9980,ROOT,AppOutput,56,Interpretation: <nine_said 1> <one_said 1> <two_said 1>
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,WARN,0,2018/04/30 20:15:18.214,AORUS_X3,app1,9980,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,STATUS,0,2018/04/30 20:15:18.215,AORUS_X3,app1,9980,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003c80_5ae76b2a_0002_0000,LOG,STATUS,0,2018/04/30 20:15:18.215,AORUS_X3,app1,9980,ROOT,AppOutput,29,Entering state "envErrorFix"
+10,-,LOG,WARN,0,2018/04/30 20:15:44.683,AORUS_X3,app1,17008,NLM,LicenseManagerInfo::Respond,42,Socket read error -10053(WSAECONNABORTED)
+10,-,LOG,WARN,0,2018/04/30 20:16:41.968,AORUS_X3,app1,17008,NLM,LicenseManagerInfo::Respond,42,Socket read error -10053(WSAECONNABORTED)

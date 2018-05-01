@@ -1,0 +1,8 @@
+10,0500a8c0_00004f14_5ae7b0fb_0001_0000,LOG,WARN,0,2018/05/01 01:12:43.709,AORUS_X3,app1,15488,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00004f14_5ae7b0fb_0002_0000,LOG,STATUS,0,2018/05/01 01:12:43.724,AORUS_X3,app1,8372,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00004f14_5ae7b0fb_0002_0000,LOG,STATUS,0,2018/05/01 01:12:43.724,AORUS_X3,app1,8372,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_00004f14_5ae7b0fb_0002_0000,LOG,STATUS,0,2018/05/01 01:12:57.369,AORUS_X3,app1,8372,ROOT,AppOutput,84,Recognized: "i want lichen perennial plant lichen grow well against my annual fern"
+10,0500a8c0_00004f14_5ae7b0fb_0002_0000,LOG,STATUS,0,2018/05/01 01:12:57.369,AORUS_X3,app1,8372,ROOT,AppOutput,81,Interpretation: <annual_said 1> <fern_said 1> <lichen_said 1> <perennial_said 1>
+10,0500a8c0_00004f14_5ae7b0fb_0002_0000,LOG,WARN,0,2018/05/01 01:12:57.370,AORUS_X3,app1,8372,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_00004f14_5ae7b0fb_0002_0000,LOG,STATUS,0,2018/05/01 01:12:57.371,AORUS_X3,app1,8372,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00004f14_5ae7b0fb_0002_0000,LOG,STATUS,0,2018/05/01 01:12:57.371,AORUS_X3,app1,8372,ROOT,AppOutput,26,Entering state "envCheck"

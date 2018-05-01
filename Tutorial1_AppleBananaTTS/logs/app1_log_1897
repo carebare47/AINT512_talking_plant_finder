@@ -1,0 +1,19 @@
+10,0500a8c0_00000854_5ae786b7_0001_0000,LOG,WARN,0,2018/04/30 22:12:23.928,AORUS_X3,app1,9924,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:23.944,AORUS_X3,app1,18808,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:23.944,AORUS_X3,app1,18808,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:39.451,AORUS_X3,app1,18808,ROOT,AppOutput,73,Recognized: "tree plant perennial and grow by lawn and hedge and meadow"
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:39.451,AORUS_X3,app1,18808,ROOT,AppOutput,94,Interpretation: <hedge_said 1> <lawn_said 1> <meadow_said 1> <perennial_said 1> <tree_said 1>
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,WARN,0,2018/04/30 22:12:39.451,AORUS_X3,app1,18808,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:39.452,AORUS_X3,app1,18808,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:39.452,AORUS_X3,app1,18808,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:49.776,AORUS_X3,app1,18808,ROOT,AppOutput,29,Recognized: "three and four"
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:49.776,AORUS_X3,app1,18808,ROOT,AppOutput,45,Interpretation: <four_said 1> <three_said 1>
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,WARN,0,2018/04/30 22:12:49.776,AORUS_X3,app1,18808,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:49.778,AORUS_X3,app1,18808,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:49.778,AORUS_X3,app1,18808,ROOT,AppOutput,29,Entering state "envErrorFix"
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:49.794,AORUS_X3,app1,18808,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:49.794,AORUS_X3,app1,18808,ROOT,AppOutput,22,Entering state "env2"
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:49.918,AORUS_X3,app1,18808,ROOT,AppOutput,99,Skipping AppStartAction (ACTION_RECOGNIZE) because the state has changed or the session has ended.
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:49.918,AORUS_X3,app1,18808,ROOT,AppOutput,22,Detected system error
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:49.921,AORUS_X3,app1,18808,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00000854_5ae786b7_0002_0000,LOG,STATUS,0,2018/04/30 22:12:49.921,AORUS_X3,app1,18808,ROOT,AppOutput,26,Entering state "envCheck"

@@ -1,0 +1,15 @@
+10,0500a8c0_00002f58_5ae7b7fb_0001_0000,LOG,WARN,0,2018/05/01 01:42:35.938,AORUS_X3,app1,21108,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00002f58_5ae7b7fb_0002_0000,LOG,STATUS,0,2018/05/01 01:42:35.953,AORUS_X3,app1,21284,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002f58_5ae7b7fb_0002_0000,LOG,STATUS,0,2018/05/01 01:42:35.953,AORUS_X3,app1,21284,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_00002f58_5ae7b7fb_0002_0000,LOG,STATUS,0,2018/05/01 01:42:41.295,AORUS_X3,app1,21284,ROOT,AppOutput,35,Recognized: "canopy and perennial"
+10,0500a8c0_00002f58_5ae7b7fb_0002_0000,LOG,STATUS,0,2018/05/01 01:42:41.295,AORUS_X3,app1,21284,ROOT,AppOutput,51,Interpretation: <canopy_said 1> <perennial_said 1>
+10,0500a8c0_00002f58_5ae7b7fb_0002_0000,LOG,WARN,0,2018/05/01 01:42:41.295,AORUS_X3,app1,21284,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_00002f58_5ae7b7fb_0002_0000,LOG,STATUS,0,2018/05/01 01:42:41.296,AORUS_X3,app1,21284,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002f58_5ae7b7fb_0002_0000,LOG,STATUS,0,2018/05/01 01:42:41.296,AORUS_X3,app1,21284,ROOT,AppOutput,26,Entering state "envCheck"
+10,0500a8c0_00002f58_5ae7b7fb_0002_0000,LOG,STATUS,0,2018/05/01 01:42:46.242,AORUS_X3,app1,21284,ROOT,AppOutput,18,Recognized: "one"
+10,0500a8c0_00002f58_5ae7b7fb_0002_0000,LOG,STATUS,0,2018/05/01 01:42:46.243,AORUS_X3,app1,21284,ROOT,AppOutput,29,Interpretation: <one_said 1>
+10,0500a8c0_00002f58_5ae7b7fb_0002_0000,LOG,WARN,0,2018/05/01 01:42:46.243,AORUS_X3,app1,21284,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_00002f58_5ae7b7fb_0002_0000,LOG,STATUS,0,2018/05/01 01:42:46.244,AORUS_X3,app1,21284,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002f58_5ae7b7fb_0002_0000,LOG,STATUS,0,2018/05/01 01:42:46.244,AORUS_X3,app1,21284,ROOT,AppOutput,29,Entering state "envErrorFix"
+10,0500a8c0_00002f58_5ae7b7fb_0002_0000,LOG,STATUS,0,2018/05/01 01:42:46.246,AORUS_X3,app1,21284,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00002f58_5ae7b7fb_0002_0000,LOG,STATUS,0,2018/05/01 01:42:46.246,AORUS_X3,app1,21284,ROOT,AppOutput,22,Entering state "env2"
