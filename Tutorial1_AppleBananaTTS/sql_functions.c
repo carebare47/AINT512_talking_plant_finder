@@ -574,6 +574,8 @@ void SQLspeakQueryResultsOnly(App *app, char* str) {
 
 }
 
+
+
 void SQLReverseSearch(App *app, char* str) {
 
 
@@ -612,56 +614,83 @@ void SQLReverseSearch(App *app, char* str) {
 	int growWellInFlag = 0;
 	while ((row = mysql_fetch_row(result)))
 	{
+
 		for (int i = 0; i < num_fields; i++)
 		{
 			field = mysql_fetch_field(result);
+			if ((field->name == NULL) || (field == NULL)) {
+				break;
+			}
 			if (row[i]) {
 				//if (row[i] == 1) {
-				if ((!strcmp(field->name, "Width")) || (!strcmp(field->name, "Height")) || (!strcmp(field->name, "Hardyness")) || (!strcmp(field->name, "Latin name")) || (!strcmp(field->name, "Habitat")) || (!strcmp(field->name, "Habit"))) {
-					if (!strcmp(field->name, "Hardyness")) {
-						AppAppendTTSPrompt(app, "With a hardyness rating of");
-						AppAppendTTSPrompt(app, row[i]);
-						AppAppendTTSPrompt(app, "out of ten.");
-						sprintf(buf3, "%s %s \n", field->name, row[i]);
-						printf("%s", buf3);
-						printf("\n");
-					}
-					else {
-						sprintf(buf3, "%s %s \n", field->name, row[i]);
-						printf("%s", buf3);
-						//if (speak == 1) {
-						AppAppendTTSPrompt(app, buf3);
-						printf("\n");
+				if (row[i] != NULL){
+					if ((field->name != NULL)&&(field != NULL)) {
+						if ((!strcmp(field->name, "Width")) || (!strcmp(field->name, "Height")) || (!strcmp(field->name, "Hardyness")) || (!strcmp(field->name, "Latin name")) || (!strcmp(field->name, "Habitat")) || (!strcmp(field->name, "Habit"))) {
+							if (!strcmp(field->name, "Hardyness")) {
+								AppAppendTTSPrompt(app, "With a hardyness rating of");
+								AppAppendTTSPrompt(app, row[i]);
+								AppAppendTTSPrompt(app, "out of ten.");
+								sprintf(buf3, "%s %s \n", field->name, row[i]);
+								printf("%s", buf3);
+								printf("\n");
+							}
+							else {
+								sprintf(buf3, "%s %s \n", field->name, row[i]);
+								printf("%s", buf3);
+								//if (speak == 1) {
+								AppAppendTTSPrompt(app, buf3);
+								printf("\n");
+							}
+						}//closes here
 					}
 				}
 				else {
-					
-					if (!(strcmp(row[i], "1"))) {
-						if (growWellInFlag == 0) {
-							AppAppendTTSPrompt(app, "This plant will grow well in ");
-							growWellInFlag = 1;
-						}
-						//printf("%s %s \n", field->name, row[i]);
-						sprintf(buf3, "%s \n", field->name);
-						printf("%s", buf3);
-						//if (speak == 1) {
-						AppAppendTTSPrompt(app, buf3);
-						printf("\n");
+					if ((field->name != NULL) && (field != NULL)) {
+						if (!(strcmp(row[i], "1"))) {
+							if (growWellInFlag == 0) {
+								AppAppendTTSPrompt(app, "This plant will grow well in ");
+								growWellInFlag = 1;
+							}
+							//printf("%s %s \n", field->name, row[i]);
+							if (!strcmp(field->name, "OtherHabitats")) {
+								sprintf(buf3, "%s \n", "Other Habitats");
+								printf("%s", buf3);
+								//if (speak == 1) {
+								AppAppendTTSPrompt(app, buf3);
+								printf("\n");
+							}
+							else if ((!strcmp(field->name, "CultivatedBeds"))) {
+								sprintf(buf3, "%s \n", "Cultivated Beds");
+								printf("%s", buf3);
+								//if (speak == 1) {
+								AppAppendTTSPrompt(app, buf3);
+								printf("\n");
+							}
+							else {
+								sprintf(buf3, "%s \n", field->name);
+								printf("%s", buf3);
+								//if (speak == 1) {
+								AppAppendTTSPrompt(app, buf3);
+								printf("\n");
+							}
+							//}
 
-						//}
+						}
 
 					}
-
 				}
-				
+
 			}
+		}
+		if ((field->name == NULL) || (field == NULL)) {
+			break;
 		}
 	}
 	
-	if (!AppRecognize(app)) {
-		printf("!AppRec\n");
-		return;
-	}
+	//if (!AppRecognize(app)) {
+	//	printf("!AppRec\n");
+	//	return;
+	//}
 	mysql_free_result(result);
 	mysql_close(con);
 }

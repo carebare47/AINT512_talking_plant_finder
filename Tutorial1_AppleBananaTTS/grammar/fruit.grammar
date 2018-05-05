@@ -14,11 +14,34 @@
 	[
 	(BINARY)
 	]
+	?THANKS
 )
 
 
+DATE_TIME_S
+(
+	[
+	(?DT_INTRO time)	{<search_type_said time_said>}
+	(?DT_INTRO date)	{<search_type_said date_said>}
+	]
+)
 
+DATE_TIME
+(
+	[
+	(?DT_INTRO time)	{<date_time_said time_said>}
+	(?DT_INTRO date)	{<date_time_said date_said>}
+	]
+)
 
+DT_INTRO
+(
+	[
+	(do you know ?the)
+	(what is ?the)
+	(can you tell me ?the)
+	]
+)
 
 .Speaked
 (
@@ -119,26 +142,26 @@ INTROE
 NUMBERS
 (
 	[
-		(one)		{<one_said 1>}
-		(two)		{<two_said 1>}
-		(three)		{<three_said 1>}
-		(four)		{<four_said 1>}
-		(five)		{<five_said 1>}
-		(six)		{<six_said 1>}
-		(seven)		{<seven_said 1>}
-		(eight)		{<eight_said 1>}
-		(nine)		{<nine_said 1>}
-		(ten)		{<ten_said 1>}
-		(eleven)	{<eleven_said 1>}
-		(twelve)	{<twelve_said 1>}
-		(thirteen)	{<thirteen_said 1>}
-		(fourteen)	{<fourteen_said 1>}
-		(fifteen)	{<fifteen_said 1>}
-		(sixteen)	{<sixteen_said 1>}
-		(seventeen)	{<seventeen_said 1>}
-		(eighteen)	{<eighteen_said 1>}
-		(nineteen)	{<nineteen_said 1>}
-		(twenty)	{<twenty_said 1>}
+		;(one)		{<one_said 1>}
+		;(two)		{<two_said 1>}
+		;(three)		{<three_said 1>}
+		;(four)		{<four_said 1>}
+		;(five)		{<five_said 1>}
+		;(six)		{<six_said 1>}
+		;(seven)		{<seven_said 1>}
+		;(eight)		{<eight_said 1>}
+		;(nine)		{<nine_said 1>}
+		;(ten)		{<ten_said 1>}
+		;(eleven)	{<eleven_said 1>}
+		;(twelve)	{<twelve_said 1>}
+		;(thirteen)	{<thirteen_said 1>}
+		;(fourteen)	{<fourteen_said 1>}
+		;(fifteen)	{<fifteen_said 1>}
+		;(sixteen)	{<sixteen_said 1>}
+		;(seventeen)	{<seventeen_said 1>}
+		;(eighteen)	{<eighteen_said 1>}
+		;(nineteen)	{<nineteen_said 1>}
+		;(twenty)	{<twenty_said 1>}
 		
 				;plantlocation slots
 		(canopy)          	 {<canopy_said 1>}
@@ -151,7 +174,7 @@ NUMBERS
 		(hardiness)          	 {<hardyness_said 1>}
 		(hedge)          	 {<hedge_said 1>}
 		(hedgerow)          	 {<hedgerow_said 1>}
-		(height)          	 {<height_said 1>}
+		;(height)          	 {<height_said 1>}
 		(lawn)          	 {<lawn_said 1>}
 		(meadow)          	 {<meadow_said 1>}
 		(north wall)          	 {<northwall_said 1>}
@@ -164,7 +187,7 @@ NUMBERS
 		(sunny edge)          	 {<sunnyedge_said 1>}
 		(walls)          	 {<walls_said 1>}
 		(west wall)          	 {<westwall_said 1>}
-		(width)          	 {<width_said 1>}
+		;(width)          	 {<width_said 1>}
 		(woodland garden)          	 {<woodlandgarden_said 1>}
 		
 		
@@ -253,6 +276,8 @@ ENV_SLOTS
 		
 		;Suggestion
 		(?PRESUG suggestion ?please)					{<suggestion_said suggestion>}
+		(?PRESUG example ?please)					{<suggestion_said suggestion>}
+		(?PRESUG help ?please)					{<suggestion_said suggestion>}
 
 		
 		;height
@@ -275,9 +300,16 @@ ENV_SLOTS
 PRESUG
 (
 	[
-	(?can ?i ?have ?a)
-	(?will ?you ?give ?me ?a)
-	(?do ?you ?have ?any)
+	;(?can ?i ?have ?a)
+	;(?will ?you ?give ?me ?a)
+	;(?do ?you ?have ?any)
+	
+	(can i have a)
+	(can i have)
+	(will you give me a)
+	(do you have any)
+	(do you have an)
+	(can you)
 	]
 )
 
@@ -317,8 +349,9 @@ WALL
 .OtherSearchType
 (
 	[
-	(normal search)		{<search_type_said normal_said>}
-	(reverse search)	{<search_type_said reverse_said>}
+	(DATE_TIME_S)
+	(normal ?search)		{<search_type_said normal_said>}
+	(reverse ?search)	{<search_type_said reverse_said>}
 	;(normal search)		{<search_type_said normal_said>}
 	]
 )
@@ -360,8 +393,12 @@ MATCHES
 (
 	[
 	(see results)		{<pre_reults_said see_results_said>}
-	(add ?a term)		{<pre_reults_said add_term_said>}
-	(remove ?a term)	{<pre_reults_said remove_term_said>}
+	(add a term)		{<pre_reults_said add_term_said>}
+	(add term)		{<pre_reults_said add_term_said>}
+	(add)				{<pre_reults_said add_term_said>}
+	(remove term)	{<pre_reults_said remove_term_said>}
+	(remove a term)	{<pre_reults_said remove_term_said>}
+	(remove)	{<pre_reults_said remove_term_said>}
 	]
 )
 
@@ -425,7 +462,14 @@ ENV_CATAGORY
 	]
 )
 
-
+THANKS
+(
+	[
+	(please)
+	(thanks)
+	(thank you)
+	]
+)
 BINARY
 (
 	[
@@ -734,7 +778,9 @@ DRUG_CLASS
 ;COMMON_NAME
 .ByName
 (
+
 	[
+		(DATE_TIME)
 		(okra) 		 {<common_name_said 0>}
 		(aibika) 		 {<common_name_said 1>}
 		(musk mallow) 		 {<common_name_said 2>}
@@ -3601,5 +3647,6 @@ DRUG_CLASS
 		(jujube) 		 {<common_name_said 3126>}
 		(korean lawn grass) 		 {<common_name_said 3127>}
 		(syrian bean caper) 		 {<common_name_said 3128>}
+		
 	]
 )

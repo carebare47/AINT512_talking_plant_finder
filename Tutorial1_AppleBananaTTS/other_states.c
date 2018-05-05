@@ -6,7 +6,7 @@ void askLocalefn(App *app) {
 
 	AppSetGrammar(app, ".Start");
 	char buf[100];
-
+	AppAppendTTSPrompt(app, "Hello, welcome to the talking plant finder.");
 	AppAppendTTSPrompt(app, concat("You are currently searching for plants that will grow in ", locale));
 	//AppAppendTTSPrompt(app, concat("You're locale is currently set to ", locale));
 	AppAppendTTSPrompt(app, "Would you like to change that?");
@@ -28,6 +28,10 @@ void askLocalefn(App *app) {
 		printf("You're happy to look for plants that will grow well in %s", locale);
 		AppGoto(app, "greeting");
 	}
+	else {
+		AppAppendTTSPrompt(app, "Try again.");
+	}
+
 
 
 	AppGotoSelf(app);
@@ -161,17 +165,18 @@ void greetfn(App *app) {
 	AppSetGrammar(app, ".OtherSearchType");
 	char buf[100];
 	//AppAppendTTSPrompt(app, returnMySQLVersion());
-	printf("\n%s", returnTime());
-	printf("\n%s\n", returnDate());
+	//printf("\n%s", returnTime());
+	//printf("\n%s\n", returnDate());
 	//AppAppendTTSPrompt(app, returnTime());
 	//AppAppendTTSPrompt(app, "So, you would like to buy a plant? Where abouts do you live?");
 	//AppAppendTTSPrompt(app, returnDate());
 	if (firstRunFlag == 1) {
-		AppAppendTTSPrompt(app, "Would you like to find a plant to match an environment, or see what environments match a plant.");
+		AppAppendTTSPrompt(app, "Would you like to find a plant to match an environment (normal search), or see what environments match a plant (reverse search)?");
+		firstRunFlag = 0;
 		//AppAppendTTSPrompt(app, "Would you like to find a plant that will grow well in a particular environment, or would you rather search for medicinal or edible plants?");
 	}
 	else if (firstRunFlag == 0) {
-		AppAppendTTSPrompt(app, "How can I help?");
+		AppAppendTTSPrompt(app, "Normal or reverse search?");
 	}
 	if (!AppRecognize(app)) {
 		printf("!AppRec\n");
@@ -205,7 +210,7 @@ void greetfn(App *app) {
 	//}
 	if (!strcmp(buf, "normal_said")) {
 		//AppAppendTTSPrompt(app, "")
-		AppGoto(app, "freeSpeech");
+		AppGoto(app, "freeSpeak");
 	}
 	else if (!strcmp(buf, "reverse_said")) {
 		AppGoto(app, "reverseSearch");
@@ -213,12 +218,25 @@ void greetfn(App *app) {
 	else if (!strcmp(buf, "exit_said")) {
 		printf("You said exit.\n");
 		exit(0);
+	} else if(!strcmp(buf, "date_said")) {
+		AppAppendTTSPrompt(app, returnDate());
+	}
+	else if (!strcmp(buf, "time_said")) {
+		AppAppendTTSPrompt(app, returnTime());
 	}
 	else {
 		AppAppendTTSPrompt(app, "try again");
 		//AppAppendPrompt(app, "try_again.wav");
-		printf("You said you prefer a banana.\n");
+		//printf("You said you prefer a banana.\n");
 	}
 
+	//char buf2[200];
+	//NLGetStringSlotValue(AppGetNLResult(app), "date_time_said", buf2, 200);
+	//if (!strcmp(buf2, "date_said")) {
+	//	AppAppendTTSPrompt(app, returnDate());
+	//}
+	//else if (!strcmp(buf2, "time_said")) {
+	//	AppAppendTTSPrompt(app, returnTime());
+	//}
 	AppGotoSelf(app);
 }

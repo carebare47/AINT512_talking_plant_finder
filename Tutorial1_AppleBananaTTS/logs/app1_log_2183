@@ -1,0 +1,3 @@
+10,0500a8c0_00002f40_5ae9a279_0001_0000,LOG,WARN,0,2018/05/02 12:35:21.545,AORUS_X3,app1,14036,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00002f40_5ae9a279_0001_0000,LOG,WARN,0,2018/05/02 12:35:31.347,AORUS_X3,app1,14036,VRSAPI,VRSInitialization,31,connect to recserver timed out
+10,-,LOG,ERROR,0,2018/05/02 12:35:31.348,AORUS_X3,app1,236,DIALOG,InitializeRecClient,83,Waiting for the RecClient to finish initializing failed because "NUANCE_TIMED_OUT"

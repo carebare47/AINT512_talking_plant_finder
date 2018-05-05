@@ -1,7 +1,0 @@
-10,0500a8c0_00003148_5ae8dc46_0001_0000,LOG,WARN,0,2018/05/01 22:29:42.659,AORUS_X3,app1,18408,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
-10,0500a8c0_00003148_5ae8dc46_0002_0000,LOG,STATUS,0,2018/05/01 22:29:42.675,AORUS_X3,app1,5296,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,0500a8c0_00003148_5ae8dc46_0002_0000,LOG,STATUS,0,2018/05/01 22:29:42.675,AORUS_X3,app1,5296,ROOT,AppOutput,31,Entering state "reverseSearch"
-10,0500a8c0_00003148_5ae8dc46_0002_0000,LOG,STATUS,0,2018/05/01 22:29:49.604,AORUS_X3,app1,5296,ROOT,AppOutput,24,Recognized: "sunflower"
-10,0500a8c0_00003148_5ae8dc46_0002_0000,LOG,STATUS,0,2018/05/01 22:29:49.604,AORUS_X3,app1,5296,ROOT,AppOutput,40,Interpretation: <common_name_said 1268>
-10,0500a8c0_00003148_5ae8dc46_0002_0000,LOG,STATUS,0,2018/05/01 22:29:49.605,AORUS_X3,app1,5296,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,0500a8c0_00003148_5ae8dc46_0002_0000,LOG,STATUS,0,2018/05/01 22:29:49.605,AORUS_X3,app1,5296,ROOT,AppOutput,31,Entering state "reverseSearch"

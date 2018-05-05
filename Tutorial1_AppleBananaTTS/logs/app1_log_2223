@@ -1,0 +1,255 @@
+10,347ebc0a_00004d70_5aeae0fc_0001_0000,LOG,WARN,0,2018/05/03 11:14:20.556,AORUS_X3,app1,2508,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:14:20.576,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:14:20.576,AORUS_X3,app1,16740,ROOT,AppOutput,27,Entering state "askLocale"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:14:31.336,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:14:31.336,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:14:31.337,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:14:31.339,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:14:31.339,AORUS_X3,app1,16740,ROOT,AppOutput,27,Entering state "askLocale"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:14:41.481,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:14:41.481,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:14:41.482,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:14:41.483,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:14:41.483,AORUS_X3,app1,16740,ROOT,AppOutput,27,Entering state "askLocale"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:14:51.539,AORUS_X3,app1,16740,ROOT,AppOutput,17,Recognized: "no"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:14:51.539,AORUS_X3,app1,16740,ROOT,AppOutput,49,Interpretation: <binary_response_said "no_said">
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:14:51.540,AORUS_X3,app1,16740,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:14:51.541,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:14:51.541,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:01.637,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:01.637,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:15:01.638,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:01.639,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:01.639,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:05.697,AORUS_X3,app1,16740,ROOT,AppOutput,28,Recognized: "normal search"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:05.698,AORUS_X3,app1,16740,ROOT,AppOutput,49,Interpretation: <search_type_said "normal_said">
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:15:05.698,AORUS_X3,app1,16740,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:05.699,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:05.699,AORUS_X3,app1,16740,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:11.994,AORUS_X3,app1,16740,ROOT,AppOutput,68,Recognized: "can you help me find extremely hardy perennial bamboo"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:11.994,AORUS_X3,app1,16740,ROOT,AppOutput,67,Interpretation: <bamboo_said 1> <hardy_said 10> <perennial_said 1>
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:15:11.995,AORUS_X3,app1,16740,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:11.996,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:11.996,AORUS_X3,app1,16740,ROOT,AppOutput,27,Entering state "envCheck1"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:22.198,AORUS_X3,app1,16740,ROOT,AppOutput,18,Recognized: "yes"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:22.198,AORUS_X3,app1,16740,ROOT,AppOutput,50,Interpretation: <binary_response_said "yes_said">
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:15:22.198,AORUS_X3,app1,16740,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:22.199,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:22.199,AORUS_X3,app1,16740,ROOT,AppOutput,22,Entering state "env2"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:22.252,AORUS_X3,app1,16740,ROOT,AppOutput,99,Skipping AppStartAction (ACTION_RECOGNIZE) because the state has changed or the session has ended.
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:22.252,AORUS_X3,app1,16740,ROOT,AppOutput,22,Detected system error
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:22.254,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:22.254,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "envCheck"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:31.509,AORUS_X3,app1,16740,ROOT,AppOutput,24,Recognized: "perennial"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:31.509,AORUS_X3,app1,16740,ROOT,AppOutput,35,Interpretation: <perennial_said 1>
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:15:31.509,AORUS_X3,app1,16740,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:31.510,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:31.510,AORUS_X3,app1,16740,ROOT,AppOutput,29,Entering state "envErrorFix"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:31.514,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:31.514,AORUS_X3,app1,16740,ROOT,AppOutput,22,Entering state "env2"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:41.819,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:41.819,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:15:41.820,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:41.821,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:41.821,AORUS_X3,app1,16740,ROOT,AppOutput,22,Entering state "env2"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:48.961,AORUS_X3,app1,16740,ROOT,AppOutput,17,Recognized: "no"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:48.961,AORUS_X3,app1,16740,ROOT,AppOutput,49,Interpretation: <binary_response_said "no_said">
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:15:49.009,AORUS_X3,app1,16740,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:49.010,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:49.010,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "envResults"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:15:49.065,AORUS_X3,app1,16740,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:49.066,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:15:49.066,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "results_s2"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:10.743,AORUS_X3,app1,16740,ROOT,AppOutput,18,Recognized: "yes"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:10.743,AORUS_X3,app1,16740,ROOT,AppOutput,50,Interpretation: <binary_response_said "yes_said">
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:16:10.743,AORUS_X3,app1,16740,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:10.746,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:10.746,AORUS_X3,app1,16740,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:17.086,AORUS_X3,app1,16740,ROOT,AppOutput,27,Recognized: "hedge bamboo"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:17.086,AORUS_X3,app1,16740,ROOT,AppOutput,39,Interpretation: <common_name_said 384>
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:17.197,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:17.197,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "results_s3"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:36.027,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:36.027,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:16:36.028,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:36.029,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:36.029,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "results_s3"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:47.869,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:47.869,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:16:47.870,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:47.871,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:16:47.871,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "results_s3"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:00.360,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:00.360,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:17:00.361,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:00.362,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:00.362,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "results_s3"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:09.897,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:09.897,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:17:09.898,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:09.899,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:09.899,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "results_s3"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:24.100,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:24.100,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:17:24.101,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:24.102,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:24.102,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "results_s3"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:29.025,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:29.025,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:17:29.026,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:29.027,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:29.027,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "results_s3"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:37.165,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:37.165,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:17:37.165,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:37.168,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:37.168,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "results_s3"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:44.368,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:44.368,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:17:44.369,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:44.370,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:44.370,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "results_s3"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:51.521,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:51.521,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:17:51.521,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:51.523,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:17:51.523,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "results_s3"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:02.056,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:02.056,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:18:02.057,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:02.059,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:02.059,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "results_s3"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:07.782,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:07.782,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:18:07.782,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:07.784,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:07.784,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "results_s3"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:24.071,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:24.071,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:18:24.071,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:24.072,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:24.072,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "results_s3"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:43.225,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:43.225,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:18:43.226,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:43.228,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:43.228,AORUS_X3,app1,16740,ROOT,AppOutput,28,Entering state "results_s3"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:53.746,AORUS_X3,app1,16740,ROOT,AppOutput,18,Recognized: "yes"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:53.750,AORUS_X3,app1,16740,ROOT,AppOutput,50,Interpretation: <binary_response_said "yes_said">
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:18:53.750,AORUS_X3,app1,16740,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:53.751,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:18:53.751,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:03.635,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:03.635,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:19:03.635,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:03.637,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:03.637,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:11.385,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:11.386,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:19:11.386,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:11.390,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:11.390,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:31.570,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:31.571,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:19:31.571,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:31.573,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:31.573,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:39.684,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:39.685,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:19:39.685,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:39.687,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:39.687,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:51.726,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:51.727,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:19:51.727,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:51.729,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:19:51.729,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:00.949,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:00.949,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:20:00.950,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:00.951,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:00.951,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:09.425,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:09.425,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:20:09.426,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:09.428,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:09.428,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:13.677,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:13.677,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:20:13.677,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:13.679,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:13.679,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:26.294,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:26.294,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:20:26.295,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:26.296,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:26.296,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:33.727,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:33.728,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:20:33.728,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:33.730,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:33.730,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:47.601,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:47.602,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:20:47.603,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:47.605,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:47.605,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:57.543,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:57.562,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:20:57.563,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:57.564,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:20:57.564,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:06.143,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:06.144,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:21:06.145,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:06.146,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:06.146,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:12.556,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:12.556,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:21:12.556,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:12.558,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:12.558,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:25.754,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:25.754,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:21:25.755,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:25.756,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:25.756,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:29.521,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:29.521,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:21:29.522,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:29.523,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:29.523,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:36.387,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:36.387,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:21:36.388,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:36.389,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:36.389,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:43.629,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:43.632,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:21:43.633,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:43.634,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:43.634,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:55.863,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:55.863,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:21:55.864,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:55.867,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:21:55.867,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:12.897,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:12.897,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:22:12.897,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:12.900,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:12.900,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:17.357,AORUS_X3,app1,16740,ROOT,AppOutput,19,Recognized: "time"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:17.357,AORUS_X3,app1,16740,ROOT,AppOutput,47,Interpretation: <search_type_said "time_said">
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:17.359,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:17.359,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:29.214,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:29.214,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:22:29.215,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:29.216,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:29.216,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:34.210,AORUS_X3,app1,16740,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:34.210,AORUS_X3,app1,16740,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,WARN,0,2018/05/03 11:22:34.211,AORUS_X3,app1,16740,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:34.213,AORUS_X3,app1,16740,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004d70_5aeae0fc_0002_0000,LOG,STATUS,0,2018/05/03 11:22:34.213,AORUS_X3,app1,16740,ROOT,AppOutput,26,Entering state "greeting"

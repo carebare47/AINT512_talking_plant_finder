@@ -46,7 +46,11 @@ void envCheckfn1(App *app);
 void envResultsBufFn(App *app, char str);
 void envResultsFn(App *app, char str);
 void envErrorFixfn(App *app);
+void envPreFixCheckfn(App *app);
 
 void constructAdvancedString(void);
+
+void results_s2_fn(App *app);
+void results_s3_fn(App *app);
 
 #endif

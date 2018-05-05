@@ -1,0 +1,19 @@
+10,347ebc0a_000028d4_5aeadfe0_0001_0000,LOG,WARN,0,2018/05/03 11:09:37.024,AORUS_X3,app1,6232,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:09:37.041,AORUS_X3,app1,20224,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:09:37.041,AORUS_X3,app1,20224,ROOT,AppOutput,27,Entering state "askLocale"
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:09:47.609,AORUS_X3,app1,20224,ROOT,AppOutput,17,Recognized: "no"
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:09:47.609,AORUS_X3,app1,20224,ROOT,AppOutput,49,Interpretation: <binary_response_said "no_said">
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,WARN,0,2018/05/03 11:09:47.609,AORUS_X3,app1,20224,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:09:47.610,AORUS_X3,app1,20224,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:09:47.610,AORUS_X3,app1,20224,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:09:59.716,AORUS_X3,app1,20224,ROOT,AppOutput,29,Recognized: "reverse search"
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:09:59.716,AORUS_X3,app1,20224,ROOT,AppOutput,50,Interpretation: <search_type_said "reverse_said">
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,WARN,0,2018/05/03 11:09:59.716,AORUS_X3,app1,20224,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:09:59.717,AORUS_X3,app1,20224,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:09:59.717,AORUS_X3,app1,20224,ROOT,AppOutput,31,Entering state "reverseSearch"
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:10:09.560,AORUS_X3,app1,20224,ROOT,AppOutput,22,Recognized: "shallon"
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:10:09.560,AORUS_X3,app1,20224,ROOT,AppOutput,40,Interpretation: <common_name_said 1191>
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:10:16.382,AORUS_X3,app1,20224,ROOT,AppOutput,99,Skipping AppStartAction (ACTION_RECOGNIZE) because the state has changed or the session has ended.
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:10:16.382,AORUS_X3,app1,20224,ROOT,AppOutput,22,Detected system error
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:10:16.384,AORUS_X3,app1,20224,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_000028d4_5aeadfe1_0002_0000,LOG,STATUS,0,2018/05/03 11:10:16.384,AORUS_X3,app1,20224,ROOT,AppOutput,28,Entering state "results_s3"

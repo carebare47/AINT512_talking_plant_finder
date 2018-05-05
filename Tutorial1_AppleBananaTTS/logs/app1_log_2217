@@ -1,0 +1,8 @@
+10,0500a8c0_00004c0c_5ae9ee16_0001_0000,LOG,WARN,0,2018/05/02 17:57:58.875,AORUS_X3,app1,20096,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00004c0c_5ae9ee16_0002_0000,LOG,STATUS,0,2018/05/02 17:57:58.890,AORUS_X3,app1,19500,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00004c0c_5ae9ee16_0002_0000,LOG,STATUS,0,2018/05/02 17:57:58.890,AORUS_X3,app1,19500,ROOT,AppOutput,27,Entering state "askLocale"
+10,0500a8c0_00004c0c_5ae9ee16_0002_0000,LOG,STATUS,0,2018/05/02 17:58:10.059,AORUS_X3,app1,19500,ROOT,AppOutput,18,Recognized: "yes"
+10,0500a8c0_00004c0c_5ae9ee16_0002_0000,LOG,STATUS,0,2018/05/02 17:58:10.059,AORUS_X3,app1,19500,ROOT,AppOutput,50,Interpretation: <binary_response_said "yes_said">
+10,0500a8c0_00004c0c_5ae9ee16_0002_0000,LOG,WARN,0,2018/05/02 17:58:10.060,AORUS_X3,app1,19500,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_00004c0c_5ae9ee16_0002_0000,LOG,STATUS,0,2018/05/02 17:58:10.061,AORUS_X3,app1,19500,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00004c0c_5ae9ee16_0002_0000,LOG,STATUS,0,2018/05/02 17:58:10.061,AORUS_X3,app1,19500,ROOT,AppOutput,30,Entering state "changeLocale"

@@ -1,8 +1,0 @@
-10,0500a8c0_0000403c_5ae878ef_0001_0000,LOG,WARN,0,2018/05/01 15:25:51.548,AORUS_X3,app1,21860,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
-10,0500a8c0_0000403c_5ae878ef_0002_0000,LOG,STATUS,0,2018/05/01 15:25:51.570,AORUS_X3,app1,19448,ROOT,AppOutput,80,-------------------------------------------------------------------------------
-10,0500a8c0_0000403c_5ae878ef_0002_0000,LOG,STATUS,0,2018/05/01 15:25:51.570,AORUS_X3,app1,19448,ROOT,AppOutput,27,Entering state "freeSpeak"
-10,0500a8c0_0000403c_5ae878ef_0002_0000,LOG,STATUS,0,2018/05/01 15:26:01.647,AORUS_X3,app1,19448,ROOT,AppOutput,36,Recognized: "can i have suggestion"
-10,0500a8c0_0000403c_5ae878ef_0002_0000,LOG,STATUS,0,2018/05/01 15:26:01.647,AORUS_X3,app1,19448,ROOT,AppOutput,47,Interpretation: <suggestion_said "suggestion">
-10,-,LOG,WARN,0,2018/05/01 15:26:32.921,AORUS_X3,app1,15040,NLM,LicenseManagerInfo::Respond,42,Socket read error -10053(WSAECONNABORTED)
-10,-,LOG,WARN,0,2018/05/01 15:29:11.063,AORUS_X3,app1,15040,NLM,LicenseManagerInfo::Respond,42,Socket read error -10053(WSAECONNABORTED)
-10,-,LOG,WARN,0,2018/05/01 15:30:48.928,AORUS_X3,app1,15040,NLM,LicenseManagerInfo::Respond,42,Socket read error -10053(WSAECONNABORTED)
