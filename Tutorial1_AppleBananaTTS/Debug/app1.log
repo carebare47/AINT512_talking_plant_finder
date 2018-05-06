@@ -6,8 +6,6 @@ app1.c(27): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
   app1.c(27): note: command-line arguments:  see previous definition of '_CRT_SECURE_NO_WARNINGS'
 app1.c(852): warning C4113: 'void (__cdecl *)(App *,char)' differs in parameter lists from 'AppFunction'
 app1.c(853): warning C4113: 'void (__cdecl *)(App *,char)' differs in parameter lists from 'AppFunction'
-app1.c(919): warning C4047: 'function': 'char *' differs in levels of indirection from 'const char *[35]'
-app1.c(919): warning C4024: 'strcpy': different types for formal and actual parameter 1
 app1.c(920): warning C4047: 'function': 'char *' differs in levels of indirection from 'const char *[35]'
 app1.c(920): warning C4024: 'strcpy': different types for formal and actual parameter 1
 app1.c(921): warning C4047: 'function': 'char *' differs in levels of indirection from 'const char *[35]'
@@ -44,12 +42,12 @@ app1.c(936): warning C4047: 'function': 'char *' differs in levels of indirectio
 app1.c(936): warning C4024: 'strcpy': different types for formal and actual parameter 1
 app1.c(937): warning C4047: 'function': 'char *' differs in levels of indirection from 'const char *[35]'
 app1.c(937): warning C4024: 'strcpy': different types for formal and actual parameter 1
-app1.c(956): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char *[35]'
-app1.c(956): warning C4024: 'AppAppendTTSPromptPublicWrapper': different types for formal and actual parameter 2
-app1.c(954): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const char **'
-app1.c(948): warning C4101: 'buf10': unreferenced local variable
-app1.c(979): warning C4047: 'function': 'char *' differs in levels of indirection from 'const char *[31]'
-app1.c(979): warning C4024: 'strcpy': different types for formal and actual parameter 1
+app1.c(938): warning C4047: 'function': 'char *' differs in levels of indirection from 'const char *[35]'
+app1.c(938): warning C4024: 'strcpy': different types for formal and actual parameter 1
+app1.c(957): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char *[35]'
+app1.c(957): warning C4024: 'AppAppendTTSPromptPublicWrapper': different types for formal and actual parameter 2
+app1.c(955): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const char **'
+app1.c(949): warning C4101: 'buf10': unreferenced local variable
 app1.c(980): warning C4047: 'function': 'char *' differs in levels of indirection from 'const char *[31]'
 app1.c(980): warning C4024: 'strcpy': different types for formal and actual parameter 1
 app1.c(981): warning C4047: 'function': 'char *' differs in levels of indirection from 'const char *[31]'
@@ -6306,14 +6304,14 @@ app1.c(4106): warning C4047: 'function': 'char *' differs in levels of indirecti
 app1.c(4106): warning C4024: 'strcpy': different types for formal and actual parameter 1
 app1.c(4107): warning C4047: 'function': 'char *' differs in levels of indirection from 'const char *[31]'
 app1.c(4107): warning C4024: 'strcpy': different types for formal and actual parameter 1
-app1.c(4120): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char *[31]'
-app1.c(4120): warning C4024: 'AppAppendTTSPromptPublicWrapper': different types for formal and actual parameter 2
-app1.c(4135): warning C4020: 'returnSQLnumberOfMatches': too many actual parameters
-app1.c(4140): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char *[31]'
-app1.c(4140): warning C4024: 'strcpy': different types for formal and actual parameter 2
-app1.c(4123): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const char **'
-app1.c(4183): warning C4047: 'function': 'char *' differs in levels of indirection from 'const char *[31]'
-app1.c(4183): warning C4024: 'strcpy': different types for formal and actual parameter 1
+app1.c(4108): warning C4047: 'function': 'char *' differs in levels of indirection from 'const char *[31]'
+app1.c(4108): warning C4024: 'strcpy': different types for formal and actual parameter 1
+app1.c(4121): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char *[31]'
+app1.c(4121): warning C4024: 'AppAppendTTSPromptPublicWrapper': different types for formal and actual parameter 2
+app1.c(4136): warning C4020: 'returnSQLnumberOfMatches': too many actual parameters
+app1.c(4141): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char *[31]'
+app1.c(4141): warning C4024: 'strcpy': different types for formal and actual parameter 2
+app1.c(4124): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const char **'
 app1.c(4184): warning C4047: 'function': 'char *' differs in levels of indirection from 'const char *[31]'
 app1.c(4184): warning C4024: 'strcpy': different types for formal and actual parameter 1
 app1.c(4185): warning C4047: 'function': 'char *' differs in levels of indirection from 'const char *[31]'
@@ -12570,12 +12568,14 @@ app1.c(7310): warning C4047: 'function': 'char *' differs in levels of indirecti
 app1.c(7310): warning C4024: 'strcpy': different types for formal and actual parameter 1
 app1.c(7311): warning C4047: 'function': 'char *' differs in levels of indirection from 'const char *[31]'
 app1.c(7311): warning C4024: 'strcpy': different types for formal and actual parameter 1
-app1.c(7325): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char *[31]'
-app1.c(7325): warning C4024: 'AppAppendTTSPromptPublicWrapper': different types for formal and actual parameter 2
-app1.c(7341): warning C4020: 'returnSQLnumberOfMatches': too many actual parameters
-app1.c(7346): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char *[31]'
-app1.c(7346): warning C4024: 'strcpy': different types for formal and actual parameter 2
-app1.c(7328): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const char **'
-app1.c(7322): warning C4101: 'buf': unreferenced local variable
+app1.c(7312): warning C4047: 'function': 'char *' differs in levels of indirection from 'const char *[31]'
+app1.c(7312): warning C4024: 'strcpy': different types for formal and actual parameter 1
+app1.c(7326): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char *[31]'
+app1.c(7326): warning C4024: 'AppAppendTTSPromptPublicWrapper': different types for formal and actual parameter 2
+app1.c(7342): warning C4020: 'returnSQLnumberOfMatches': too many actual parameters
+app1.c(7347): warning C4047: 'function': 'const char *' differs in levels of indirection from 'const char *[31]'
+app1.c(7347): warning C4024: 'strcpy': different types for formal and actual parameter 2
+app1.c(7329): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const char **'
+app1.c(7323): warning C4101: 'buf': unreferenced local variable
   app1.vcxproj -> C:\nuance85\AINT512\Tutorials\retry\1_Tutorial1_AppleBananaTTS\Tutorial1_AppleBananaTTS\.\Debug\app1.exe
   app1.vcxproj -> .\Debug\app1.pdb (Full PDB)

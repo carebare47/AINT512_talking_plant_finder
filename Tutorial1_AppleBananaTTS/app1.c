@@ -871,10 +871,11 @@ int main(int argc, char *argv[])
 	//results_s3_fn
 
 	//AppGo(app, "environment");
-	//AppGo(app, "reverseSearch");
+	AppGo(app, "reverseSearch");
 	//AppGo(app, "askLocale");
-	AppGo(app, "foodfn");
-	//AppGo(app, "askLocale");
+	//AppGo(app, "foodfn");
+			//AppGo(app, "askLocale");
+	//AppGo(app, "freeSpeak");
 	//AppGo(app, "freeSpeak");
 	//AppGo(app, "test");
 	return 0;

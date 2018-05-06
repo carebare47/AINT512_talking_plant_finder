@@ -712,7 +712,7 @@ void envCheckfn(App *app) {
 
 
 
-
+	  
 	if ((AppGetRecognitionStage(app) == 4)) {//&& (recognitionFlag == 1)) {
 		AppGoto(app, "envErrorFix");
 	}
@@ -1481,9 +1481,6 @@ void envZeroMatches(App *app) {
 void constructAdvancedString(char *str) {
 	strcpy(storeBuf2, "");
 	strcpy(storeBufCount, "");
-
-
-
 
 	if (!strcmp(str, "count")) {
 		//if ((plantLocationStringArray[0] != "") && plantHabitStringArray[0] != "") {

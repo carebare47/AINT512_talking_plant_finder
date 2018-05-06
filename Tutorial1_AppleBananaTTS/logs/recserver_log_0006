@@ -1,4 +1,0 @@
-10,-,LOG,STATUS,0,2018/04/20 19:06:36.416,AORUS_X3,recserver,23200,RS,AppOutput,32,Loading recognition packages...
-10,-,LOG,ERROR,0,2018/04/20 19:06:36.422,AORUS_X3,recserver,23200,RS,RecserverMainThread,68,Failed to listen on port 8200
-Check if the port is already in use.
-

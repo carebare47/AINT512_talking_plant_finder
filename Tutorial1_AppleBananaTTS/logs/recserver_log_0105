@@ -1,0 +1,31 @@
+10,-,LOG,STATUS,0,2018/05/05 18:36:07.529,AORUS_X3,recserver,10696,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/05/05 18:36:20.645,AORUS_X3,recserver,10696,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/05/05 18:36:20.645,AORUS_X3,recserver,10696,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/05/05 18:36:20.651,AORUS_X3,recserver,10696,RS,RecServer,19,Client 0 connected
+10,-,LOG,STATUS,0,2018/05/05 18:36:20.651,AORUS_X3,recserver,10696,RS,RecServer,19,Client 1 connected
+10,0500a8c0_00000cc0_5aedeb8a_0001_0000,LOG,STATUS,0,2018/05/05 18:36:20.652,AORUS_X3,recserver,10696,RS,RecServer,24,Client 0 disconnected
+
+
+10,0500a8c0_00000988_5aedeb8e_0001_0000,LOG,STATUS,0,2018/05/05 18:36:20.652,AORUS_X3,recserver,10696,RS,RecServer,24,Client 1 disconnected
+
+
+10,-,LOG,STATUS,0,2018/05/05 18:36:37.641,AORUS_X3,recserver,10696,RS,RecServer,19,Client 2 connected
+10,0500a8c0_00002f28_5aedeba5_0002_0000,LOG,STATUS,0,2018/05/05 18:36:39.882,AORUS_X3,recserver,15096,RS,RecServer,53,Client 2 started utterance 65562 with grammar .Speak
+10,0500a8c0_00002f28_5aedeba5_0002_0000,LOG,STATUS,0,2018/05/05 18:36:57.912,AORUS_X3,recserver,15096,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,0500a8c0_00002f28_5aedeba5_0002_0000,LOG,STATUS,0,2018/05/05 18:36:58.021,AORUS_X3,recserver,15096,RS,RecServer,33,Client 2 utterance 65562 result:
+10,0500a8c0_00002f28_5aedeba5_0002_0000,LOG,STATUS,0,2018/05/05 18:36:58.022,AORUS_X3,recserver,15096,RAPI,RecServer,50,Result #0:     <rejected> (conf: 43, NL conf:  0)
+10,0500a8c0_00002f28_5aedeba5_0002_0000,LOG,STATUS,0,2018/05/05 18:36:58.022,AORUS_X3,recserver,15096,RAPI,RecServer,22,Total Audio: 4.87 sec
+10,0500a8c0_00002f28_5aedeba5_0002_0000,LOG,STATUS,0,2018/05/05 18:36:58.022,AORUS_X3,recserver,15096,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass4
+10,0500a8c0_00002f28_5aedeba5_0002_0000,LOG,STATUS,0,2018/05/05 18:37:00.463,AORUS_X3,recserver,15096,RS,RecServer,53,Client 2 started utterance 65584 with grammar .Speak
+10,0500a8c0_00002f28_5aedeba5_0002_0000,LOG,STATUS,0,2018/05/05 18:37:05.074,AORUS_X3,recserver,15096,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,0500a8c0_00002f28_5aedeba5_0002_0000,LOG,STATUS,0,2018/05/05 18:37:05.160,AORUS_X3,recserver,15096,RS,RecServer,33,Client 2 utterance 65584 result:
+10,0500a8c0_00002f28_5aedeba5_0002_0000,LOG,STATUS,0,2018/05/05 18:37:05.160,AORUS_X3,recserver,15096,RAPI,RecServer,68,Result #0:     on very hardy on pond an the (conf: 49, NL conf: 49)
+10,0500a8c0_00002f28_5aedeba5_0002_0000,LOG,STATUS,0,2018/05/05 18:37:05.160,AORUS_X3,recserver,15096,RAPI,RecServer,44,NL Res.#0:     <hardy_said 7> <pond_said 1>
+10,0500a8c0_00002f28_5aedeba5_0002_0000,LOG,STATUS,0,2018/05/05 18:37:05.160,AORUS_X3,recserver,15096,RAPI,RecServer,22,Total Audio: 4.13 sec
+10,0500a8c0_00002f28_5aedeba5_0002_0000,LOG,STATUS,0,2018/05/05 18:37:05.160,AORUS_X3,recserver,15096,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass2
+10,0500a8c0_00002f28_5aedeba5_0002_0000,LOG,STATUS,0,2018/05/05 18:37:09.126,AORUS_X3,recserver,10696,RS,RecServer,24,Client 2 disconnected
+
+
