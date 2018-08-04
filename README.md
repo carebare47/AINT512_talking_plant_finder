@@ -1,5 +1,4 @@
-# AINT_nuance
-
+# AINT512_talking_plant_finder
 Here lies the final workspace for the talking plant finder (developed for the AINT512 module). Written using visual studio in C.
 The program connects to a SQL database of plants (hosted locally). The database is available from https://pfaf.org.
 Using an old version of the Nuance speech interface API and the MySQL C API, the program is able to engage a user in a dialogue with the objective of helping them find a plant for their garden. There are over 3000 plants currently linked into the conversational agent.
