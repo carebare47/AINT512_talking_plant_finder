@@ -1,0 +1,28 @@
+10,0500a8c0_0000204c_5ae99efb_0001_0000,LOG,WARN,0,2018/05/02 12:20:27.338,AORUS_X3,app1,10708,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:20:27.353,AORUS_X3,app1,1448,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:20:27.353,AORUS_X3,app1,1448,ROOT,AppOutput,27,Entering state "askLocale"
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:20:56.014,AORUS_X3,app1,1448,ROOT,AppOutput,17,Recognized: "no"
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:20:56.014,AORUS_X3,app1,1448,ROOT,AppOutput,49,Interpretation: <binary_response_said "no_said">
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,WARN,0,2018/05/02 12:20:56.014,AORUS_X3,app1,1448,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:20:56.015,AORUS_X3,app1,1448,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:20:56.015,AORUS_X3,app1,1448,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:08.048,AORUS_X3,app1,1448,ROOT,AppOutput,28,Recognized: "normal search"
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:08.048,AORUS_X3,app1,1448,ROOT,AppOutput,49,Interpretation: <search_type_said "normal_said">
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,WARN,0,2018/05/02 12:21:08.048,AORUS_X3,app1,1448,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:08.049,AORUS_X3,app1,1448,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:08.049,AORUS_X3,app1,1448,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:15.518,AORUS_X3,app1,1448,ROOT,AppOutput,30,Recognized: "extremely hardy"
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:15.518,AORUS_X3,app1,1448,ROOT,AppOutput,32,Interpretation: <hardy_said 10>
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,WARN,0,2018/05/02 12:21:15.519,AORUS_X3,app1,1448,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:15.520,AORUS_X3,app1,1448,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:15.520,AORUS_X3,app1,1448,ROOT,AppOutput,27,Entering state "envCheck1"
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:23.136,AORUS_X3,app1,1448,ROOT,AppOutput,17,Recognized: "no"
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:23.136,AORUS_X3,app1,1448,ROOT,AppOutput,49,Interpretation: <binary_response_said "no_said">
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,ERROR,0,2018/05/02 12:21:23.136,AORUS_X3,app1,1448,DIALOG,AppGoto(Cond),39,Unknown state name: "envPreFixCheckfn"
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:23.137,AORUS_X3,app1,1448,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:23.137,AORUS_X3,app1,1448,ROOT,AppOutput,27,Entering state "envCheck1"
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:33.147,AORUS_X3,app1,1448,ROOT,AppOutput,17,Recognized: "no"
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:33.147,AORUS_X3,app1,1448,ROOT,AppOutput,49,Interpretation: <binary_response_said "no_said">
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,ERROR,0,2018/05/02 12:21:33.147,AORUS_X3,app1,1448,DIALOG,AppGoto(Cond),39,Unknown state name: "envPreFixCheckfn"
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:33.149,AORUS_X3,app1,1448,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_0000204c_5ae99efb_0002_0000,LOG,STATUS,0,2018/05/02 12:21:33.149,AORUS_X3,app1,1448,ROOT,AppOutput,27,Entering state "envCheck1"

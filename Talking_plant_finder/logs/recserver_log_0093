@@ -1,0 +1,18 @@
+10,-,LOG,STATUS,0,2018/05/01 21:52:58.638,AORUS_X3,recserver,23148,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/05/01 21:53:12.178,AORUS_X3,recserver,23148,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/05/01 21:53:12.178,AORUS_X3,recserver,23148,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/05/01 21:53:15.860,AORUS_X3,recserver,23148,RS,RecServer,19,Client 0 connected
+10,0500a8c0_00003924_5ae8d3bc_0002_0000,LOG,STATUS,0,2018/05/01 21:53:17.951,AORUS_X3,recserver,16736,RS,RecServer,53,Client 0 started utterance 65562 with grammar .Speak
+10,0500a8c0_00003924_5ae8d3bc_0002_0000,LOG,STATUS,0,2018/05/01 21:53:18.631,AORUS_X3,recserver,23148,RS,RecServer,24,Client 0 disconnected
+
+
+10,-,LOG,STATUS,0,2018/05/01 21:54:00.399,AORUS_X3,recserver,23148,RS,RecServer,19,Client 1 connected
+10,0500a8c0_00001044_5ae8d3e8_0002_0000,LOG,STATUS,0,2018/05/01 21:54:04.908,AORUS_X3,recserver,16736,RS,RecServer,54,Client 1 started utterance 65562 with grammar .ByName
+10,0500a8c0_00001044_5ae8d3e8_0002_0000,LOG,STATUS,0,2018/05/01 21:54:08.167,AORUS_X3,recserver,16736,RS,RecServer,33,Client 1 utterance 65562 result:
+10,0500a8c0_00001044_5ae8d3e8_0002_0000,LOG,STATUS,0,2018/05/01 21:54:08.167,AORUS_X3,recserver,16736,RAPI,RecServer,47,Result #0:     shallon (conf: 61, NL conf: 61)
+10,0500a8c0_00001044_5ae8d3e8_0002_0000,LOG,STATUS,0,2018/05/01 21:54:08.167,AORUS_X3,recserver,16736,RAPI,RecServer,39,NL Res.#0:     <common_name_said 1191>
+10,0500a8c0_00001044_5ae8d3e8_0002_0000,LOG,STATUS,0,2018/05/01 21:54:08.167,AORUS_X3,recserver,16736,RAPI,RecServer,22,Total Audio: 1.39 sec
+10,0500a8c0_00001044_5ae8d3e8_0002_0000,LOG,STATUS,0,2018/05/01 21:54:08.241,AORUS_X3,recserver,23148,RS,RecServer,24,Client 1 disconnected
+
+

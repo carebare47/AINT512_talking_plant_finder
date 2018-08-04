@@ -1,0 +1,79 @@
+10,-,LOG,STATUS,0,2018/04/27 21:07:32.356,AORUS_X3,recserver,25780,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/04/27 21:07:47.374,AORUS_X3,recserver,25780,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/04/27 21:07:47.374,AORUS_X3,recserver,25780,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,ERROR,0,2018/04/27 21:07:47.375,AORUS_X3,recserver,25780,RS,RecserverMainThread::Respond,51,Failed to read in connection message, read 0 bytes
+10,-,LOG,STATUS,0,2018/04/27 21:07:47.375,AORUS_X3,recserver,25780,RS,RecServer,19,Client 0 connected
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:07:49.315,AORUS_X3,recserver,8920,RS,RecServer,53,Client 0 started utterance 65562 with grammar .Speak
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:07:54.376,AORUS_X3,recserver,8920,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:07:54.421,AORUS_X3,recserver,8920,RS,RecServer,33,Client 0 utterance 65562 result:
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:07:54.421,AORUS_X3,recserver,8920,RAPI,RecServer,50,Result #0:     <rejected> (conf: 31, NL conf:  0)
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:07:54.421,AORUS_X3,recserver,8920,RAPI,RecServer,22,Total Audio: 1.91 sec
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:07:54.421,AORUS_X3,recserver,8920,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass4
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:07:56.361,AORUS_X3,recserver,8920,RS,RecServer,53,Client 0 started utterance 65584 with grammar .Speak
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:00.818,AORUS_X3,recserver,8920,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:00.874,AORUS_X3,recserver,8920,RS,RecServer,33,Client 0 utterance 65584 result:
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:00.874,AORUS_X3,recserver,8920,RAPI,RecServer,50,Result #0:     <rejected> (conf: 36, NL conf:  0)
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:00.874,AORUS_X3,recserver,8920,RAPI,RecServer,22,Total Audio: 2.81 sec
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:00.874,AORUS_X3,recserver,8920,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass2
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:02.858,AORUS_X3,recserver,8920,RS,RecServer,53,Client 0 started utterance 65606 with grammar .Speak
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:33.062,AORUS_X3,recserver,8920,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:33.102,AORUS_X3,recserver,8920,RS,RecServer,33,Client 0 utterance 65606 result:
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:33.102,AORUS_X3,recserver,8920,RAPI,RecServer,50,Result #0:     <rejected> (conf: 26, NL conf:  0)
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:33.102,AORUS_X3,recserver,8920,RAPI,RecServer,22,Total Audio: 1.27 sec
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:33.102,AORUS_X3,recserver,8920,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass4
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:34.974,AORUS_X3,recserver,8920,RS,RecServer,53,Client 0 started utterance 65628 with grammar .Speak
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:41.074,AORUS_X3,recserver,8920,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:41.126,AORUS_X3,recserver,8920,RS,RecServer,33,Client 0 utterance 65628 result:
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:41.126,AORUS_X3,recserver,8920,RAPI,RecServer,50,Result #0:     <rejected> (conf: 41, NL conf:  0)
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:41.126,AORUS_X3,recserver,8920,RAPI,RecServer,22,Total Audio: 1.89 sec
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:41.126,AORUS_X3,recserver,8920,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass3
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:43.004,AORUS_X3,recserver,8920,RS,RecServer,53,Client 0 started utterance 65650 with grammar .Speak
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:45.349,AORUS_X3,recserver,8920,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:45.386,AORUS_X3,recserver,8920,RS,RecServer,33,Client 0 utterance 65650 result:
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:45.386,AORUS_X3,recserver,8920,RAPI,RecServer,50,Result #0:     <rejected> (conf: 36, NL conf:  0)
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:45.386,AORUS_X3,recserver,8920,RAPI,RecServer,22,Total Audio: 1.41 sec
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:45.386,AORUS_X3,recserver,8920,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass2
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:47.243,AORUS_X3,recserver,8920,RS,RecServer,53,Client 0 started utterance 65672 with grammar .Speak
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:49.990,AORUS_X3,recserver,8920,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:50.018,AORUS_X3,recserver,8920,RS,RecServer,33,Client 0 utterance 65672 result:
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:50.018,AORUS_X3,recserver,8920,RAPI,RecServer,50,Result #0:     <rejected> (conf: 37, NL conf:  0)
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:50.018,AORUS_X3,recserver,8920,RAPI,RecServer,22,Total Audio: 1.49 sec
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:50.018,AORUS_X3,recserver,8920,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass3
+10,1f00a8c0_0000149c_5ae38313_0002_0000,LOG,STATUS,0,2018/04/27 21:08:51.082,AORUS_X3,recserver,25780,RS,RecServer,24,Client 0 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/27 21:09:14.449,AORUS_X3,recserver,25780,RS,RecServer,19,Client 1 connected
+10,1f00a8c0_000020bc_5ae3836a_0002_0000,LOG,STATUS,0,2018/04/27 21:09:16.517,AORUS_X3,recserver,8920,RS,RecServer,53,Client 1 started utterance 65562 with grammar .Speak
+10,1f00a8c0_000020bc_5ae3836a_0002_0000,LOG,STATUS,0,2018/04/27 21:09:20.578,AORUS_X3,recserver,8920,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,1f00a8c0_000020bc_5ae3836a_0002_0000,LOG,STATUS,0,2018/04/27 21:09:20.619,AORUS_X3,recserver,8920,RS,RecServer,33,Client 1 utterance 65562 result:
+10,1f00a8c0_000020bc_5ae3836a_0002_0000,LOG,STATUS,0,2018/04/27 21:09:20.619,AORUS_X3,recserver,8920,RAPI,RecServer,57,Result #0:     canopy pond shrub (conf: 57, NL conf: 56)
+10,1f00a8c0_000020bc_5ae3836a_0002_0000,LOG,STATUS,0,2018/04/27 21:09:20.619,AORUS_X3,recserver,8920,RAPI,RecServer,60,NL Res.#0:     <canopy_said 1> <pond_said 1> <shrub_said 1>
+10,1f00a8c0_000020bc_5ae3836a_0002_0000,LOG,STATUS,0,2018/04/27 21:09:20.619,AORUS_X3,recserver,8920,RAPI,RecServer,22,Total Audio: 2.59 sec
+10,1f00a8c0_000020bc_5ae3836a_0002_0000,LOG,STATUS,0,2018/04/27 21:09:20.619,AORUS_X3,recserver,8920,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass2
+10,1f00a8c0_000020bc_5ae3836a_0002_0000,LOG,STATUS,0,2018/04/27 21:09:26.132,AORUS_X3,recserver,8920,RS,RecServer,53,Client 1 started utterance 65584 with grammar .Start
+10,1f00a8c0_000020bc_5ae3836a_0002_0000,LOG,STATUS,0,2018/04/27 21:09:29.489,AORUS_X3,recserver,8920,RS,RecServer,33,Client 1 utterance 65584 result:
+10,1f00a8c0_000020bc_5ae3836a_0002_0000,LOG,STATUS,0,2018/04/27 21:09:29.489,AORUS_X3,recserver,8920,RAPI,RecServer,42,Result #0:     no (conf: 56, NL conf: 56)
+10,1f00a8c0_000020bc_5ae3836a_0002_0000,LOG,STATUS,0,2018/04/27 21:09:29.489,AORUS_X3,recserver,8920,RAPI,RecServer,48,NL Res.#0:     <binary_response_said "no_said">
+10,1f00a8c0_000020bc_5ae3836a_0002_0000,LOG,STATUS,0,2018/04/27 21:09:29.489,AORUS_X3,recserver,8920,RAPI,RecServer,22,Total Audio: 1.29 sec
+10,1f00a8c0_000020bc_5ae3836a_0002_0000,LOG,STATUS,0,2018/04/27 21:09:49.716,AORUS_X3,recserver,8920,RS,RecServer,53,Client 1 started utterance 65606 with grammar .Start
+10,1f00a8c0_000020bc_5ae3836a_0002_0000,LOG,STATUS,0,2018/04/27 21:10:08.452,AORUS_X3,recserver,25780,RS,RecServer,24,Client 1 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/27 21:10:14.899,AORUS_X3,recserver,25780,RS,RecServer,19,Client 2 connected
+10,1f00a8c0_00006c0c_5ae383a7_0002_0000,LOG,STATUS,0,2018/04/27 21:10:17.032,AORUS_X3,recserver,8920,RS,RecServer,53,Client 2 started utterance 65562 with grammar .Speak
+10,1f00a8c0_00006c0c_5ae383a7_0002_0000,LOG,STATUS,0,2018/04/27 21:10:28.699,AORUS_X3,recserver,8920,RS,RecServer,33,Client 2 utterance 65562 result:
+10,1f00a8c0_00006c0c_5ae383a7_0002_0000,LOG,STATUS,0,2018/04/27 21:10:28.700,AORUS_X3,recserver,8920,RAPI,RecServer,87,Result #0:     canopy and annual and shrub and lawn and lichen (conf: 56, NL conf: 54)
+10,1f00a8c0_00006c0c_5ae383a7_0002_0000,LOG,STATUS,0,2018/04/27 21:10:28.700,AORUS_X3,recserver,8920,RAPI,RecServer,92,NL Res.#0:     <annual_said 1> <canopy_said 1> <lawn_said 1> <lichen_said 1> <shrub_said 1>
+10,1f00a8c0_00006c0c_5ae383a7_0002_0000,LOG,STATUS,0,2018/04/27 21:10:28.700,AORUS_X3,recserver,8920,RAPI,RecServer,22,Total Audio: 8.85 sec
+10,1f00a8c0_00006c0c_5ae383a7_0002_0000,LOG,STATUS,0,2018/04/27 21:10:40.213,AORUS_X3,recserver,8920,RS,RecServer,59,Client 2 started utterance 65594 with grammar .ZeroMatches
+10,1f00a8c0_00006c0c_5ae383a7_0002_0000,LOG,STATUS,0,2018/04/27 21:10:40.720,AORUS_X3,recserver,25780,RS,RecServer,24,Client 2 disconnected
+
+

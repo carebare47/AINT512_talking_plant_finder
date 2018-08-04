@@ -1,0 +1,20 @@
+10,997ebc0a_00003a0c_5af212f8_0001_0000,LOG,WARN,0,2018/05/08 22:13:29.168,AORUS_X3,app1,2276,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:13:32.834,AORUS_X3,app1,5680,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:13:32.834,AORUS_X3,app1,5680,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:13:39.527,AORUS_X3,app1,5680,ROOT,AppOutput,21,Recognized: "garlic"
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:13:39.527,AORUS_X3,app1,5680,ROOT,AppOutput,39,Interpretation: <common_name_said 143>
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:13:39.528,AORUS_X3,app1,5680,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:13:39.528,AORUS_X3,app1,5680,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:13:47.215,AORUS_X3,app1,5680,ROOT,AppOutput,21,Recognized: "garlic"
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:13:47.215,AORUS_X3,app1,5680,ROOT,AppOutput,39,Interpretation: <common_name_said 143>
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:13:47.216,AORUS_X3,app1,5680,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:13:47.216,AORUS_X3,app1,5680,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:14:21.360,AORUS_X3,app1,5680,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:14:21.360,AORUS_X3,app1,5680,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,WARN,0,2018/05/08 22:14:21.361,AORUS_X3,app1,5680,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:14:21.363,AORUS_X3,app1,5680,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:14:21.363,AORUS_X3,app1,5680,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:14:29.360,AORUS_X3,app1,5680,ROOT,AppOutput,20,Recognized: "culen"
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:14:29.360,AORUS_X3,app1,5680,ROOT,AppOutput,40,Interpretation: <common_name_said 2273>
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:14:29.361,AORUS_X3,app1,5680,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003a0c_5af212fc_0002_0000,LOG,STATUS,0,2018/05/08 22:14:29.361,AORUS_X3,app1,5680,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"

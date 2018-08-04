@@ -1,0 +1,15 @@
+10,0500a8c0_000037e0_5ae9b0d0_0001_0000,LOG,WARN,0,2018/05/02 13:36:32.795,AORUS_X3,app1,9784,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_000037e0_5ae9b0d0_0002_0000,LOG,STATUS,0,2018/05/02 13:36:32.816,AORUS_X3,app1,7296,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000037e0_5ae9b0d0_0002_0000,LOG,STATUS,0,2018/05/02 13:36:32.816,AORUS_X3,app1,7296,ROOT,AppOutput,27,Entering state "askLocale"
+10,0500a8c0_000037e0_5ae9b0d0_0002_0000,LOG,STATUS,0,2018/05/02 13:36:44.507,AORUS_X3,app1,7296,ROOT,AppOutput,17,Recognized: "no"
+10,0500a8c0_000037e0_5ae9b0d0_0002_0000,LOG,STATUS,0,2018/05/02 13:36:44.507,AORUS_X3,app1,7296,ROOT,AppOutput,49,Interpretation: <binary_response_said "no_said">
+10,0500a8c0_000037e0_5ae9b0d0_0002_0000,LOG,WARN,0,2018/05/02 13:36:44.507,AORUS_X3,app1,7296,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_000037e0_5ae9b0d0_0002_0000,LOG,STATUS,0,2018/05/02 13:36:44.508,AORUS_X3,app1,7296,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000037e0_5ae9b0d0_0002_0000,LOG,STATUS,0,2018/05/02 13:36:44.508,AORUS_X3,app1,7296,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_000037e0_5ae9b0d0_0002_0000,LOG,STATUS,0,2018/05/02 13:37:13.288,AORUS_X3,app1,7296,ROOT,AppOutput,22,Recognized: "reverse"
+10,0500a8c0_000037e0_5ae9b0d0_0002_0000,LOG,STATUS,0,2018/05/02 13:37:13.288,AORUS_X3,app1,7296,ROOT,AppOutput,50,Interpretation: <search_type_said "reverse_said">
+10,0500a8c0_000037e0_5ae9b0d0_0002_0000,LOG,WARN,0,2018/05/02 13:37:13.288,AORUS_X3,app1,7296,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_000037e0_5ae9b0d0_0002_0000,LOG,STATUS,0,2018/05/02 13:37:13.289,AORUS_X3,app1,7296,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_000037e0_5ae9b0d0_0002_0000,LOG,STATUS,0,2018/05/02 13:37:13.289,AORUS_X3,app1,7296,ROOT,AppOutput,31,Entering state "reverseSearch"
+10,0500a8c0_000037e0_5ae9b0d0_0002_0000,LOG,STATUS,0,2018/05/02 13:37:26.309,AORUS_X3,app1,7296,ROOT,AppOutput,20,Recognized: "grape"
+10,0500a8c0_000037e0_5ae9b0d0_0002_0000,LOG,STATUS,0,2018/05/02 13:37:26.309,AORUS_X3,app1,7296,ROOT,AppOutput,40,Interpretation: <common_name_said 3071>

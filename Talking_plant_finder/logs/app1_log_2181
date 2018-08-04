@@ -1,0 +1,43 @@
+10,0500a8c0_00001ec4_5ae9a178_0001_0000,LOG,WARN,0,2018/05/02 12:31:04.742,AORUS_X3,app1,13340,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:04.764,AORUS_X3,app1,13640,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:04.764,AORUS_X3,app1,13640,ROOT,AppOutput,27,Entering state "askLocale"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:15.165,AORUS_X3,app1,13640,ROOT,AppOutput,17,Recognized: "no"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:15.165,AORUS_X3,app1,13640,ROOT,AppOutput,49,Interpretation: <binary_response_said "no_said">
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,WARN,0,2018/05/02 12:31:15.165,AORUS_X3,app1,13640,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:15.167,AORUS_X3,app1,13640,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:15.167,AORUS_X3,app1,13640,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:31.249,AORUS_X3,app1,13640,ROOT,AppOutput,35,Recognized: "do you know the time"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:31.249,AORUS_X3,app1,13640,ROOT,AppOutput,45,Interpretation: <date_time_said "time_said">
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:31.251,AORUS_X3,app1,13640,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:31.251,AORUS_X3,app1,13640,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:37.924,AORUS_X3,app1,13640,ROOT,AppOutput,19,Recognized: "time"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:37.924,AORUS_X3,app1,13640,ROOT,AppOutput,45,Interpretation: <date_time_said "time_said">
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:37.925,AORUS_X3,app1,13640,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:37.925,AORUS_X3,app1,13640,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:55.454,AORUS_X3,app1,13640,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:55.454,AORUS_X3,app1,13640,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,WARN,0,2018/05/02 12:31:55.454,AORUS_X3,app1,13640,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:55.455,AORUS_X3,app1,13640,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:31:55.455,AORUS_X3,app1,13640,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:00.046,AORUS_X3,app1,13640,ROOT,AppOutput,19,Recognized: "date"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:00.046,AORUS_X3,app1,13640,ROOT,AppOutput,45,Interpretation: <date_time_said "date_said">
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:00.047,AORUS_X3,app1,13640,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:00.047,AORUS_X3,app1,13640,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:13.224,AORUS_X3,app1,13640,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:13.224,AORUS_X3,app1,13640,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,WARN,0,2018/05/02 12:32:13.225,AORUS_X3,app1,13640,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:13.227,AORUS_X3,app1,13640,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:13.227,AORUS_X3,app1,13640,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:18.144,AORUS_X3,app1,13640,ROOT,AppOutput,31,Recognized: "what is the time"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:18.144,AORUS_X3,app1,13640,ROOT,AppOutput,45,Interpretation: <date_time_said "time_said">
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:18.145,AORUS_X3,app1,13640,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:18.145,AORUS_X3,app1,13640,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:24.165,AORUS_X3,app1,13640,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:24.165,AORUS_X3,app1,13640,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,WARN,0,2018/05/02 12:32:24.165,AORUS_X3,app1,13640,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:24.167,AORUS_X3,app1,13640,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:24.167,AORUS_X3,app1,13640,ROOT,AppOutput,26,Entering state "greeting"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:29.436,AORUS_X3,app1,13640,ROOT,AppOutput,27,Recognized: "what is time"
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:29.436,AORUS_X3,app1,13640,ROOT,AppOutput,45,Interpretation: <date_time_said "time_said">
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:29.438,AORUS_X3,app1,13640,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00001ec4_5ae9a178_0002_0000,LOG,STATUS,0,2018/05/02 12:32:29.438,AORUS_X3,app1,13640,ROOT,AppOutput,26,Entering state "greeting"

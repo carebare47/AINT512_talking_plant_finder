@@ -1,0 +1,21 @@
+10,-,LOG,STATUS,0,2018/05/01 14:24:01.357,AORUS_X3,recserver,16080,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/05/01 14:24:14.902,AORUS_X3,recserver,16080,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/05/01 14:24:14.902,AORUS_X3,recserver,16080,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/05/01 14:24:14.902,AORUS_X3,recserver,16080,RS,RecServer,19,Client 0 connected
+10,0500a8c0_00006384_5ae86a74_0001_0000,LOG,STATUS,0,2018/05/01 14:24:14.903,AORUS_X3,recserver,16080,RS,RecServer,24,Client 0 disconnected
+
+
+10,-,LOG,STATUS,0,2018/05/01 14:24:19.757,AORUS_X3,recserver,16080,RS,RecServer,19,Client 1 connected
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:21.839,AORUS_X3,recserver,21388,RS,RecServer,53,Client 1 started utterance 65562 with grammar .Speak
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:29.592,AORUS_X3,recserver,21388,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:29.622,AORUS_X3,recserver,21388,RS,RecServer,33,Client 1 utterance 65562 result:
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:29.622,AORUS_X3,recserver,21388,RAPI,RecServer,50,Result #0:     <rejected> (conf: 30, NL conf:  0)
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:29.622,AORUS_X3,recserver,21388,RAPI,RecServer,22,Total Audio: 1.47 sec
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:29.622,AORUS_X3,recserver,21388,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass2
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:32.112,AORUS_X3,recserver,21388,RS,RecServer,53,Client 1 started utterance 65584 with grammar .Speak
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:38.688,AORUS_X3,recserver,21388,RS,RecServer,33,Client 1 utterance 65584 result:
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:38.688,AORUS_X3,recserver,21388,RAPI,RecServer,49,Result #0:     hardiness (conf: 57, NL conf: 57)
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:38.688,AORUS_X3,recserver,21388,RAPI,RecServer,34,NL Res.#0:     <hardyness_said 1>
+10,0500a8c0_000057c8_5ae86a83_0002_0000,LOG,STATUS,0,2018/05/01 14:24:38.688,AORUS_X3,recserver,21388,RAPI,RecServer,22,Total Audio: 1.43 sec

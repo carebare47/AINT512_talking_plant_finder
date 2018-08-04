@@ -1,0 +1,20 @@
+10,-,LOG,STATUS,0,2018/05/01 13:56:47.341,AORUS_X3,recserver,23512,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/05/01 13:57:02.108,AORUS_X3,recserver,23512,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/05/01 13:57:02.108,AORUS_X3,recserver,23512,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/05/01 14:18:21.782,AORUS_X3,recserver,23512,RS,RecServer,19,Client 0 connected
+10,0500a8c0_000039ac_5ae8691e_0002_0000,LOG,STATUS,0,2018/05/01 14:18:23.874,AORUS_X3,recserver,24264,RS,RecServer,53,Client 0 started utterance 65562 with grammar .Speak
+10,0500a8c0_000039ac_5ae8691e_0002_0000,LOG,STATUS,0,2018/05/01 14:18:37.721,AORUS_X3,recserver,24264,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,0500a8c0_000039ac_5ae8691e_0002_0000,LOG,STATUS,0,2018/05/01 14:18:37.762,AORUS_X3,recserver,24264,RS,RecServer,33,Client 0 utterance 65562 result:
+10,0500a8c0_000039ac_5ae8691e_0002_0000,LOG,STATUS,0,2018/05/01 14:18:37.762,AORUS_X3,recserver,24264,RAPI,RecServer,50,Result #0:     <rejected> (conf: 43, NL conf:  0)
+10,0500a8c0_000039ac_5ae8691e_0002_0000,LOG,STATUS,0,2018/05/01 14:18:37.762,AORUS_X3,recserver,24264,RAPI,RecServer,22,Total Audio: 2.57 sec
+10,0500a8c0_000039ac_5ae8691e_0002_0000,LOG,STATUS,0,2018/05/01 14:18:37.762,AORUS_X3,recserver,24264,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass2
+10,0500a8c0_000039ac_5ae8691e_0002_0000,LOG,STATUS,0,2018/05/01 14:18:40.208,AORUS_X3,recserver,24264,RS,RecServer,53,Client 0 started utterance 65584 with grammar .Speak
+10,0500a8c0_000039ac_5ae8691e_0002_0000,LOG,STATUS,0,2018/05/01 14:18:43.591,AORUS_X3,recserver,24264,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,0500a8c0_000039ac_5ae8691e_0002_0000,LOG,STATUS,0,2018/05/01 14:18:43.617,AORUS_X3,recserver,24264,RS,RecServer,33,Client 0 utterance 65584 result:
+10,0500a8c0_000039ac_5ae8691e_0002_0000,LOG,STATUS,0,2018/05/01 14:18:43.617,AORUS_X3,recserver,24264,RAPI,RecServer,46,Result #0:     pond a (conf: 54, NL conf: 55)
+10,0500a8c0_000039ac_5ae8691e_0002_0000,LOG,STATUS,0,2018/05/01 14:18:43.617,AORUS_X3,recserver,24264,RAPI,RecServer,29,NL Res.#0:     <pond_said 1>
+10,0500a8c0_000039ac_5ae8691e_0002_0000,LOG,STATUS,0,2018/05/01 14:18:43.617,AORUS_X3,recserver,24264,RAPI,RecServer,22,Total Audio: 1.41 sec
+10,0500a8c0_000039ac_5ae8691e_0002_0000,LOG,STATUS,0,2018/05/01 14:18:43.617,AORUS_X3,recserver,24264,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass2

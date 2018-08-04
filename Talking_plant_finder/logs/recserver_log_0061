@@ -1,0 +1,50 @@
+10,-,LOG,STATUS,0,2018/04/27 18:43:24.543,AORUS_X3,recserver,26604,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/04/27 18:43:38.376,AORUS_X3,recserver,26604,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/04/27 18:43:38.376,AORUS_X3,recserver,26604,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,ERROR,0,2018/04/27 18:43:38.376,AORUS_X3,recserver,26604,RS,RecserverMainThread::Respond,51,Failed to read in connection message, read 0 bytes
+10,-,LOG,STATUS,0,2018/04/27 18:43:38.376,AORUS_X3,recserver,26604,RS,RecServer,19,Client 0 connected
+10,1f00a8c0_000007f0_5ae3614a_0002_0000,LOG,STATUS,0,2018/04/27 18:43:40.257,AORUS_X3,recserver,22056,RS,RecServer,53,Client 0 started utterance 65562 with grammar .Speak
+10,1f00a8c0_000007f0_5ae3614a_0002_0000,LOG,STATUS,0,2018/04/27 18:43:45.113,AORUS_X3,recserver,22056,RS,RecServer,33,Client 0 utterance 65562 result:
+10,1f00a8c0_000007f0_5ae3614a_0002_0000,LOG,STATUS,0,2018/04/27 18:43:45.113,AORUS_X3,recserver,22056,RAPI,RecServer,55,Result #0:     canopy and lawn (conf: 54, NL conf: 55)
+10,1f00a8c0_000007f0_5ae3614a_0002_0000,LOG,STATUS,0,2018/04/27 18:43:45.113,AORUS_X3,recserver,22056,RAPI,RecServer,45,NL Res.#0:     <canopy_said 1> <lawn_said 1>
+10,1f00a8c0_000007f0_5ae3614a_0002_0000,LOG,STATUS,0,2018/04/27 18:43:45.113,AORUS_X3,recserver,22056,RAPI,RecServer,22,Total Audio: 2.61 sec
+10,1f00a8c0_000007f0_5ae3614a_0002_0000,LOG,STATUS,0,2018/04/27 18:43:50.128,AORUS_X3,recserver,26604,RS,RecServer,24,Client 0 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/27 18:44:11.503,AORUS_X3,recserver,26604,RS,RecServer,19,Client 1 connected
+10,1f00a8c0_0000195c_5ae3616b_0002_0000,LOG,STATUS,0,2018/04/27 18:44:13.553,AORUS_X3,recserver,22056,RS,RecServer,53,Client 1 started utterance 65562 with grammar .Speak
+10,1f00a8c0_0000195c_5ae3616b_0002_0000,LOG,STATUS,0,2018/04/27 18:44:17.353,AORUS_X3,recserver,22056,RS,RecServer,33,Client 1 utterance 65562 result:
+10,1f00a8c0_0000195c_5ae3616b_0002_0000,LOG,STATUS,0,2018/04/27 18:44:17.353,AORUS_X3,recserver,22056,RAPI,RecServer,55,Result #0:     canopy and lawn (conf: 57, NL conf: 56)
+10,1f00a8c0_0000195c_5ae3616b_0002_0000,LOG,STATUS,0,2018/04/27 18:44:17.353,AORUS_X3,recserver,22056,RAPI,RecServer,45,NL Res.#0:     <canopy_said 1> <lawn_said 1>
+10,1f00a8c0_0000195c_5ae3616b_0002_0000,LOG,STATUS,0,2018/04/27 18:44:17.353,AORUS_X3,recserver,22056,RAPI,RecServer,22,Total Audio: 2.37 sec
+10,1f00a8c0_0000195c_5ae3616b_0002_0000,LOG,STATUS,0,2018/04/27 18:44:22.367,AORUS_X3,recserver,26604,RS,RecServer,24,Client 1 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/27 18:44:48.736,AORUS_X3,recserver,26604,RS,RecServer,19,Client 2 connected
+10,1f00a8c0_000021e4_5ae36190_0002_0000,LOG,STATUS,0,2018/04/27 18:44:50.823,AORUS_X3,recserver,22056,RS,RecServer,53,Client 2 started utterance 65562 with grammar .Speak
+10,1f00a8c0_000021e4_5ae36190_0002_0000,LOG,STATUS,0,2018/04/27 18:44:54.313,AORUS_X3,recserver,22056,RS,RecServer,33,Client 2 utterance 65562 result:
+10,1f00a8c0_000021e4_5ae36190_0002_0000,LOG,STATUS,0,2018/04/27 18:44:54.313,AORUS_X3,recserver,22056,RAPI,RecServer,55,Result #0:     lawn and canopy (conf: 53, NL conf: 55)
+10,1f00a8c0_000021e4_5ae36190_0002_0000,LOG,STATUS,0,2018/04/27 18:44:54.313,AORUS_X3,recserver,22056,RAPI,RecServer,45,NL Res.#0:     <canopy_said 1> <lawn_said 1>
+10,1f00a8c0_000021e4_5ae36190_0002_0000,LOG,STATUS,0,2018/04/27 18:44:54.313,AORUS_X3,recserver,22056,RAPI,RecServer,22,Total Audio: 2.33 sec
+10,1f00a8c0_000021e4_5ae36190_0002_0000,LOG,STATUS,0,2018/04/27 18:44:56.199,AORUS_X3,recserver,22056,RS,RecServer,53,Client 2 started utterance 65584 with grammar .Speak
+10,1f00a8c0_000021e4_5ae36190_0002_0000,LOG,STATUS,0,2018/04/27 18:44:59.230,AORUS_X3,recserver,26604,RS,RecServer,24,Client 2 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/27 18:44:59.934,AORUS_X3,recserver,26604,RS,RecServer,19,Client 3 connected
+10,1f00a8c0_00006504_5ae3619c_0002_0000,LOG,STATUS,0,2018/04/27 18:45:01.993,AORUS_X3,recserver,22056,RS,RecServer,53,Client 3 started utterance 65562 with grammar .Speak
+10,1f00a8c0_00006504_5ae3619c_0002_0000,LOG,STATUS,0,2018/04/27 18:45:05.613,AORUS_X3,recserver,22056,RS,RecServer,33,Client 3 utterance 65562 result:
+10,1f00a8c0_00006504_5ae3619c_0002_0000,LOG,STATUS,0,2018/04/27 18:45:05.613,AORUS_X3,recserver,22056,RAPI,RecServer,55,Result #0:     canopy and lawn (conf: 48, NL conf: 49)
+10,1f00a8c0_00006504_5ae3619c_0002_0000,LOG,STATUS,0,2018/04/27 18:45:05.613,AORUS_X3,recserver,22056,RAPI,RecServer,45,NL Res.#0:     <canopy_said 1> <lawn_said 1>
+10,1f00a8c0_00006504_5ae3619c_0002_0000,LOG,STATUS,0,2018/04/27 18:45:05.613,AORUS_X3,recserver,22056,RAPI,RecServer,22,Total Audio: 2.29 sec
+10,1f00a8c0_00006504_5ae3619c_0002_0000,LOG,STATUS,0,2018/04/27 18:45:07.273,AORUS_X3,recserver,26604,RS,RecServer,24,Client 3 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/27 18:53:05.950,AORUS_X3,recserver,26604,RS,RecServer,19,Client 4 connected
+10,1f00a8c0_0000228c_5ae36382_0002_0000,LOG,STATUS,0,2018/04/27 18:53:14.777,AORUS_X3,recserver,26604,RS,RecServer,24,Client 4 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/27 18:53:25.144,AORUS_X3,recserver,26604,RS,RecServer,19,Client 5 connected
+10,1f00a8c0_000067a4_5ae36395_0002_0000,LOG,STATUS,0,2018/04/27 18:53:31.240,AORUS_X3,recserver,26604,RS,RecServer,24,Client 5 disconnected
+
+

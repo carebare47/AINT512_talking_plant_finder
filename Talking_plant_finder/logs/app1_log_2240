@@ -1,0 +1,47 @@
+10,997ebc0a_00006758_5af2146f_0001_0000,LOG,WARN,0,2018/05/08 22:19:43.326,AORUS_X3,app1,25672,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:19:43.348,AORUS_X3,app1,15496,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:19:43.348,AORUS_X3,app1,15496,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:19:50.418,AORUS_X3,app1,15496,ROOT,AppOutput,21,Recognized: "calalu"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:19:50.418,AORUS_X3,app1,15496,ROOT,AppOutput,39,Interpretation: <common_name_said 178>
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:19:50.428,AORUS_X3,app1,15496,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:19:50.428,AORUS_X3,app1,15496,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:19:56.858,AORUS_X3,app1,15496,ROOT,AppOutput,25,Utterance status: REJECT
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:19:56.858,AORUS_X3,app1,15496,ROOT,AppOutput,15,Recognized: ""
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,WARN,0,2018/05/08 22:19:56.858,AORUS_X3,app1,15496,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:19:56.860,AORUS_X3,app1,15496,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:19:56.860,AORUS_X3,app1,15496,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:04.136,AORUS_X3,app1,15496,ROOT,AppOutput,25,Utterance status: REJECT
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:04.136,AORUS_X3,app1,15496,ROOT,AppOutput,15,Recognized: ""
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,WARN,0,2018/05/08 22:20:04.136,AORUS_X3,app1,15496,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:04.138,AORUS_X3,app1,15496,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:04.138,AORUS_X3,app1,15496,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:14.104,AORUS_X3,app1,15496,ROOT,AppOutput,25,Utterance status: REJECT
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:14.104,AORUS_X3,app1,15496,ROOT,AppOutput,15,Recognized: ""
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,WARN,0,2018/05/08 22:20:14.105,AORUS_X3,app1,15496,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:14.107,AORUS_X3,app1,15496,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:14.107,AORUS_X3,app1,15496,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:23.809,AORUS_X3,app1,15496,ROOT,AppOutput,21,Recognized: "carrot"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:23.809,AORUS_X3,app1,15496,ROOT,AppOutput,39,Interpretation: <common_name_said 926>
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:23.811,AORUS_X3,app1,15496,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:23.811,AORUS_X3,app1,15496,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:31.936,AORUS_X3,app1,15496,ROOT,AppOutput,22,Recognized: "shallot"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:31.937,AORUS_X3,app1,15496,ROOT,AppOutput,39,Interpretation: <common_name_said 128>
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:31.939,AORUS_X3,app1,15496,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:31.939,AORUS_X3,app1,15496,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:38.392,AORUS_X3,app1,15496,ROOT,AppOutput,20,Recognized: "rauli"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:38.392,AORUS_X3,app1,15496,ROOT,AppOutput,40,Interpretation: <common_name_said 1777>
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:38.393,AORUS_X3,app1,15496,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:38.393,AORUS_X3,app1,15496,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:45.885,AORUS_X3,app1,15496,ROOT,AppOutput,21,Recognized: "carrot"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:45.885,AORUS_X3,app1,15496,ROOT,AppOutput,39,Interpretation: <common_name_said 926>
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:45.886,AORUS_X3,app1,15496,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:45.886,AORUS_X3,app1,15496,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:52.528,AORUS_X3,app1,15496,ROOT,AppOutput,21,Recognized: "calalu"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:52.528,AORUS_X3,app1,15496,ROOT,AppOutput,39,Interpretation: <common_name_said 178>
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:52.530,AORUS_X3,app1,15496,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:20:52.530,AORUS_X3,app1,15496,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:21:01.554,AORUS_X3,app1,15496,ROOT,AppOutput,25,Utterance status: REJECT
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:21:01.554,AORUS_X3,app1,15496,ROOT,AppOutput,15,Recognized: ""
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,WARN,0,2018/05/08 22:21:01.554,AORUS_X3,app1,15496,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:21:01.556,AORUS_X3,app1,15496,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006758_5af2146f_0002_0000,LOG,STATUS,0,2018/05/08 22:21:01.556,AORUS_X3,app1,15496,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"

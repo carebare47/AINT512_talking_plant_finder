@@ -1,0 +1,8 @@
+10,0500a8c0_00003378_5af3809c_0001_0000,LOG,WARN,0,2018/05/10 00:13:33.110,AORUS_X3,app1,1108,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,0500a8c0_00003378_5af380a0_0002_0000,LOG,STATUS,0,2018/05/10 00:13:36.265,AORUS_X3,app1,16972,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003378_5af380a0_0002_0000,LOG,STATUS,0,2018/05/10 00:13:36.265,AORUS_X3,app1,16972,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,0500a8c0_00003378_5af380a0_0002_0000,LOG,STATUS,0,2018/05/10 00:13:44.479,AORUS_X3,app1,16972,ROOT,AppOutput,25,Utterance status: REJECT
+10,0500a8c0_00003378_5af380a0_0002_0000,LOG,STATUS,0,2018/05/10 00:13:44.479,AORUS_X3,app1,16972,ROOT,AppOutput,15,Recognized: ""
+10,0500a8c0_00003378_5af380a0_0002_0000,LOG,WARN,0,2018/05/10 00:13:44.479,AORUS_X3,app1,16972,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,0500a8c0_00003378_5af380a0_0002_0000,LOG,STATUS,0,2018/05/10 00:13:44.483,AORUS_X3,app1,16972,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,0500a8c0_00003378_5af380a0_0002_0000,LOG,STATUS,0,2018/05/10 00:13:44.483,AORUS_X3,app1,16972,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"

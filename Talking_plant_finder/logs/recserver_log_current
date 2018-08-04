@@ -1,0 +1,51 @@
+10,-,LOG,STATUS,0,2018/05/10 00:13:25.419,AORUS_X3,recserver,18004,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/05/10 00:13:36.262,AORUS_X3,recserver,18004,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/05/10 00:13:36.262,AORUS_X3,recserver,18004,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/05/10 00:13:36.263,AORUS_X3,recserver,18004,RS,RecServer,19,Client 0 connected
+10,0500a8c0_00003378_5af380a0_0002_0000,LOG,STATUS,0,2018/05/10 00:13:40.527,AORUS_X3,recserver,17380,RS,RecServer,54,Client 0 started utterance 65562 with grammar .ByName
+10,0500a8c0_00003378_5af380a0_0002_0000,LOG,STATUS,0,2018/05/10 00:13:44.435,AORUS_X3,recserver,17380,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,0500a8c0_00003378_5af380a0_0002_0000,LOG,STATUS,0,2018/05/10 00:13:44.479,AORUS_X3,recserver,17380,RS,RecServer,33,Client 0 utterance 65562 result:
+10,0500a8c0_00003378_5af380a0_0002_0000,LOG,STATUS,0,2018/05/10 00:13:44.479,AORUS_X3,recserver,17380,RAPI,RecServer,50,Result #0:     <rejected> (conf: 32, NL conf:  0)
+10,0500a8c0_00003378_5af380a0_0002_0000,LOG,STATUS,0,2018/05/10 00:13:44.479,AORUS_X3,recserver,17380,RAPI,RecServer,22,Total Audio: 1.61 sec
+10,0500a8c0_00003378_5af380a0_0002_0000,LOG,STATUS,0,2018/05/10 00:13:44.479,AORUS_X3,recserver,17380,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass4
+10,0500a8c0_00003378_5af380a0_0002_0000,LOG,STATUS,0,2018/05/10 00:13:46.914,AORUS_X3,recserver,18004,RS,RecServer,24,Client 0 disconnected
+
+
+10,-,LOG,STATUS,0,2018/05/10 00:14:35.927,AORUS_X3,recserver,18004,RS,RecServer,19,Client 1 connected
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:14:44.893,AORUS_X3,recserver,17380,RS,RecServer,53,Client 1 started utterance 65562 with grammar .Start
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:14:51.075,AORUS_X3,recserver,17380,RS,RecServer,33,Client 1 utterance 65562 result:
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:14:51.075,AORUS_X3,recserver,17380,RAPI,RecServer,45,Result #0:     uh no (conf: 50, NL conf: 49)
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:14:51.075,AORUS_X3,recserver,17380,RAPI,RecServer,48,NL Res.#0:     <binary_response_said "no_said">
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:14:51.075,AORUS_X3,recserver,17380,RAPI,RecServer,22,Total Audio: 5.73 sec
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:14:59.334,AORUS_X3,recserver,17380,RS,RecServer,63,Client 1 started utterance 65584 with grammar .OtherSearchType
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:01.834,AORUS_X3,recserver,17380,RS,RecServer,33,Client 1 utterance 65584 result:
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:01.834,AORUS_X3,recserver,17380,RAPI,RecServer,53,Result #0:     normal search (conf: 46, NL conf: 40)
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:01.834,AORUS_X3,recserver,17380,RAPI,RecServer,48,NL Res.#0:     <search_type_said "normal_said">
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:01.834,AORUS_X3,recserver,17380,RAPI,RecServer,22,Total Audio: 2.13 sec
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:03.795,AORUS_X3,recserver,17380,RS,RecServer,53,Client 1 started utterance 65606 with grammar .Speak
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:10.743,AORUS_X3,recserver,17380,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:10.834,AORUS_X3,recserver,17380,RS,RecServer,33,Client 1 utterance 65606 result:
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:10.834,AORUS_X3,recserver,17380,RAPI,RecServer,50,Result #0:     <rejected> (conf: 44, NL conf:  0)
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:10.834,AORUS_X3,recserver,17380,RAPI,RecServer,22,Total Audio: 4.67 sec
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:10.834,AORUS_X3,recserver,17380,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass4
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:13.145,AORUS_X3,recserver,17380,RS,RecServer,53,Client 1 started utterance 65628 with grammar .Speak
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:18.072,AORUS_X3,recserver,17380,COMPILER,AppOutput,59,	Expanding grammar .DynamicGrammar for crossword modeling
+
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:18.126,AORUS_X3,recserver,17380,RS,RecServer,33,Client 1 utterance 65628 result:
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:18.126,AORUS_X3,recserver,17380,RAPI,RecServer,73,Result #0:     extremely hardy perennial climber (conf: 45, NL conf: 44)
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:18.126,AORUS_X3,recserver,17380,RAPI,RecServer,70,NL Res.#0[0]:     <climber_said 1> <hardy_said 10> <perennial_said 1>
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:18.126,AORUS_X3,recserver,17380,RAPI,RecServer,61,NL Res.#0[1]:     <hardy_said 10> <perennial_climber_said 1>
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:18.126,AORUS_X3,recserver,17380,RAPI,RecServer,22,Total Audio: 3.41 sec
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:18.126,AORUS_X3,recserver,17380,RAPI,RecServer,40,Secondpass Recognizer Info: SecondPass4
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:27.084,AORUS_X3,recserver,17380,RS,RecServer,53,Client 1 started utterance 65650 with grammar .Start
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:29.495,AORUS_X3,recserver,17380,RS,RecServer,33,Client 1 utterance 65650 result:
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:29.495,AORUS_X3,recserver,17380,RAPI,RecServer,43,Result #0:     yes (conf: 68, NL conf: 68)
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:29.495,AORUS_X3,recserver,17380,RAPI,RecServer,49,NL Res.#0:     <binary_response_said "yes_said">
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:29.495,AORUS_X3,recserver,17380,RAPI,RecServer,22,Total Audio: 1.31 sec
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:37.028,AORUS_X3,recserver,17380,RS,RecServer,63,Client 1 started utterance 65682 with grammar .ErrorFixNumbers
+10,0500a8c0_00001f70_5af380dc_0002_0000,LOG,STATUS,0,2018/05/10 00:15:38.842,AORUS_X3,recserver,18004,RS,RecServer,24,Client 1 disconnected
+
+

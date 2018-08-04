@@ -1,0 +1,6 @@
+
+This package was created from the directory
+	C:\nuance85\AINT512\Tutorials\retry\1_Tutorial1_AppleBananaTTS\Talking_plant_finder
+by running the following command:
+	C:\Nuance85\V8.5.0\bin\win32\nuance-compile C:\nuance85\AINT512\Tutorials\retry\1_Tutorial1_AppleBananaTTS\Talking_plant_finder\grammar\plant.grammar English.America -i C:\nuance85\AINT512\Tutorials\retry\1_Tutorial1_AppleBananaTTS\Talking_plant_finder\package -o C:\nuance85\AINT512\Tutorials\retry\1_Tutorial1_AppleBananaTTS\Talking_plant_finder\grammar\plant -auto_pron 
+

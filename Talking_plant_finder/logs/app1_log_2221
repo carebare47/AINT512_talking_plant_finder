@@ -1,0 +1,28 @@
+10,347ebc0a_00004b70_5aeae036_0001_0000,LOG,WARN,0,2018/05/03 11:11:02.368,AORUS_X3,app1,12516,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:02.384,AORUS_X3,app1,12204,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:02.384,AORUS_X3,app1,12204,ROOT,AppOutput,27,Entering state "askLocale"
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:13.641,AORUS_X3,app1,12204,ROOT,AppOutput,17,Recognized: "no"
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:13.641,AORUS_X3,app1,12204,ROOT,AppOutput,49,Interpretation: <binary_response_said "no_said">
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,WARN,0,2018/05/03 11:11:13.641,AORUS_X3,app1,12204,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:13.642,AORUS_X3,app1,12204,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:13.642,AORUS_X3,app1,12204,ROOT,AppOutput,26,Entering state "greeting"
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:24.348,AORUS_X3,app1,12204,ROOT,AppOutput,28,Recognized: "normal search"
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:24.349,AORUS_X3,app1,12204,ROOT,AppOutput,49,Interpretation: <search_type_said "normal_said">
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,WARN,0,2018/05/03 11:11:24.349,AORUS_X3,app1,12204,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:24.350,AORUS_X3,app1,12204,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:24.350,AORUS_X3,app1,12204,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:29.421,AORUS_X3,app1,12204,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:29.422,AORUS_X3,app1,12204,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,WARN,0,2018/05/03 11:11:29.422,AORUS_X3,app1,12204,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:29.423,AORUS_X3,app1,12204,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:29.423,AORUS_X3,app1,12204,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:33.610,AORUS_X3,app1,12204,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:33.610,AORUS_X3,app1,12204,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,WARN,0,2018/05/03 11:11:33.611,AORUS_X3,app1,12204,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:33.613,AORUS_X3,app1,12204,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:33.613,AORUS_X3,app1,12204,ROOT,AppOutput,27,Entering state "freeSpeak"
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:39.964,AORUS_X3,app1,12204,ROOT,AppOutput,25,Utterance status: REJECT
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:39.964,AORUS_X3,app1,12204,ROOT,AppOutput,15,Recognized: ""
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,WARN,0,2018/05/03 11:11:39.965,AORUS_X3,app1,12204,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:39.967,AORUS_X3,app1,12204,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,347ebc0a_00004b70_5aeae036_0002_0000,LOG,STATUS,0,2018/05/03 11:11:39.967,AORUS_X3,app1,12204,ROOT,AppOutput,27,Entering state "freeSpeak"

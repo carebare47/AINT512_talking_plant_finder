@@ -1,0 +1,29 @@
+10,997ebc0a_00006acc_5af2134d_0001_0000,LOG,WARN,0,2018/05/08 22:14:53.474,AORUS_X3,app1,17292,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:14:53.504,AORUS_X3,app1,13980,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:14:53.504,AORUS_X3,app1,13980,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:14:59.976,AORUS_X3,app1,13980,ROOT,AppOutput,22,Recognized: "felwort"
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:14:59.976,AORUS_X3,app1,13980,ROOT,AppOutput,40,Interpretation: <common_name_said 1205>
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:14:59.977,AORUS_X3,app1,13980,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:14:59.977,AORUS_X3,app1,13980,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:15:09.891,AORUS_X3,app1,13980,ROOT,AppOutput,21,Recognized: "carrot"
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:15:09.891,AORUS_X3,app1,13980,ROOT,AppOutput,39,Interpretation: <common_name_said 926>
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:15:09.893,AORUS_X3,app1,13980,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:15:09.893,AORUS_X3,app1,13980,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:15:44.094,AORUS_X3,app1,13980,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:15:44.094,AORUS_X3,app1,13980,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,WARN,0,2018/05/08 22:15:44.095,AORUS_X3,app1,13980,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:15:44.096,AORUS_X3,app1,13980,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:15:44.096,AORUS_X3,app1,13980,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:16:03.568,AORUS_X3,app1,13980,ROOT,AppOutput,21,Recognized: "garlic"
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:16:03.568,AORUS_X3,app1,13980,ROOT,AppOutput,39,Interpretation: <common_name_said 143>
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:16:03.569,AORUS_X3,app1,13980,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:16:03.569,AORUS_X3,app1,13980,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:16:11.305,AORUS_X3,app1,13980,ROOT,AppOutput,21,Recognized: "garlic"
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:16:11.305,AORUS_X3,app1,13980,ROOT,AppOutput,39,Interpretation: <common_name_said 143>
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:16:20.094,AORUS_X3,app1,13980,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:16:20.094,AORUS_X3,app1,13980,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:16:27.164,AORUS_X3,app1,13980,ROOT,AppOutput,21,Recognized: "calalu"
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:16:27.164,AORUS_X3,app1,13980,ROOT,AppOutput,39,Interpretation: <common_name_said 178>
+10,-,LOG,WARN,0,2018/05/08 22:17:41.857,AORUS_X3,app1,25732,NLM,LicenseManagerInfo::Respond,42,Socket read error -10053(WSAECONNABORTED)
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:17:41.858,AORUS_X3,app1,13980,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00006acc_5af2134d_0002_0000,LOG,STATUS,0,2018/05/08 22:17:41.858,AORUS_X3,app1,13980,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"

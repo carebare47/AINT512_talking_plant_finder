@@ -1,0 +1,45 @@
+10,-,LOG,STATUS,0,2018/04/27 16:47:56.482,AORUS_X3,recserver,13392,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/04/27 16:48:09.845,AORUS_X3,recserver,13392,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/04/27 16:48:09.846,AORUS_X3,recserver,13392,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/04/27 16:48:09.846,AORUS_X3,recserver,13392,RS,RecServer,19,Client 0 connected
+10,1f00a8c0_00001740_5ae34639_0002_0000,LOG,STATUS,0,2018/04/27 16:48:11.769,AORUS_X3,recserver,13392,RS,RecServer,24,Client 0 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/27 16:48:47.438,AORUS_X3,recserver,13392,RS,RecServer,19,Client 1 connected
+10,1f00a8c0_00004f8c_5ae3465f_0002_0000,LOG,STATUS,0,2018/04/27 16:48:49.521,AORUS_X3,recserver,13392,RS,RecServer,24,Client 1 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/27 16:51:34.893,AORUS_X3,recserver,13392,RS,RecServer,19,Client 2 connected
+10,1f00a8c0_0000412c_5ae34707_0002_0000,LOG,STATUS,0,2018/04/27 16:51:36.918,AORUS_X3,recserver,13392,RS,RecServer,24,Client 2 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/27 16:51:55.681,AORUS_X3,recserver,13392,RS,RecServer,19,Client 3 connected
+10,1f00a8c0_00004328_5ae3471b_0002_0000,LOG,STATUS,0,2018/04/27 16:51:57.723,AORUS_X3,recserver,13392,RS,RecServer,24,Client 3 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/27 16:53:26.285,AORUS_X3,recserver,13392,RS,RecServer,19,Client 4 connected
+10,1f00a8c0_00003dcc_5ae34776_0002_0000,LOG,STATUS,0,2018/04/27 16:53:29.976,AORUS_X3,recserver,19820,RS,RecServer,59,Client 4 started utterance 65566 with grammar .Environment
+10,1f00a8c0_00003dcc_5ae34776_0002_0000,LOG,STATUS,0,2018/04/27 16:53:59.995,AORUS_X3,recserver,19820,RS,RecServer,33,Client 4 utterance 65566 aborted
+10,1f00a8c0_00003dcc_5ae34776_0002_0000,LOG,STATUS,0,2018/04/27 16:54:00.096,AORUS_X3,recserver,19820,RS,RecServer,59,Client 4 started utterance 65588 with grammar .Environment
+10,1f00a8c0_00003dcc_5ae34776_0002_0000,LOG,STATUS,0,2018/04/27 16:54:00.577,AORUS_X3,recserver,13392,RS,RecServer,24,Client 4 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/27 16:54:02.473,AORUS_X3,recserver,13392,RS,RecServer,19,Client 5 connected
+10,1f00a8c0_0000514c_5ae3479a_0002_0000,LOG,STATUS,0,2018/04/27 16:54:06.206,AORUS_X3,recserver,19820,RS,RecServer,59,Client 5 started utterance 65566 with grammar .Environment
+10,1f00a8c0_0000514c_5ae3479a_0002_0000,LOG,STATUS,0,2018/04/27 16:54:36.215,AORUS_X3,recserver,19820,RS,RecServer,33,Client 5 utterance 65566 aborted
+10,1f00a8c0_0000514c_5ae3479a_0002_0000,LOG,STATUS,0,2018/04/27 16:54:39.742,AORUS_X3,recserver,19820,RS,RecServer,59,Client 5 started utterance 65589 with grammar .Environment
+10,1f00a8c0_0000514c_5ae3479a_0002_0000,LOG,STATUS,0,2018/04/27 16:55:09.750,AORUS_X3,recserver,19820,RS,RecServer,33,Client 5 utterance 65589 aborted
+10,1f00a8c0_0000514c_5ae3479a_0002_0000,LOG,STATUS,0,2018/04/27 16:55:13.261,AORUS_X3,recserver,19820,RS,RecServer,59,Client 5 started utterance 65612 with grammar .Environment
+10,1f00a8c0_0000514c_5ae3479a_0002_0000,LOG,STATUS,0,2018/04/27 16:55:37.359,AORUS_X3,recserver,13392,RS,RecServer,24,Client 5 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/27 16:55:39.259,AORUS_X3,recserver,13392,RS,RecServer,19,Client 6 connected
+10,1f00a8c0_00005030_5ae347fb_0002_0000,LOG,STATUS,0,2018/04/27 16:55:42.963,AORUS_X3,recserver,19820,RS,RecServer,59,Client 6 started utterance 65562 with grammar .Environment
+10,1f00a8c0_00005030_5ae347fb_0002_0000,LOG,STATUS,0,2018/04/27 16:55:50.666,AORUS_X3,recserver,13392,RS,RecServer,24,Client 6 disconnected
+
+
+10,-,LOG,STATUS,0,2018/04/27 16:55:55.117,AORUS_X3,recserver,13392,RS,RecServer,19,Client 7 connected
+10,1f00a8c0_000034c0_5ae3480b_0002_0000,LOG,STATUS,0,2018/04/27 16:55:57.187,AORUS_X3,recserver,13392,RS,RecServer,24,Client 7 disconnected
+
+

@@ -1,0 +1,12 @@
+10,997ebc0a_000061cc_5af2142c_0001_0000,LOG,WARN,0,2018/05/08 22:18:36.237,AORUS_X3,app1,25712,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,997ebc0a_000061cc_5af2142c_0002_0000,LOG,STATUS,0,2018/05/08 22:18:36.261,AORUS_X3,app1,19080,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_000061cc_5af2142c_0002_0000,LOG,STATUS,0,2018/05/08 22:18:36.261,AORUS_X3,app1,19080,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_000061cc_5af2142c_0002_0000,LOG,STATUS,0,2018/05/08 22:18:42.928,AORUS_X3,app1,19080,ROOT,AppOutput,22,Recognized: "shallon"
+10,997ebc0a_000061cc_5af2142c_0002_0000,LOG,STATUS,0,2018/05/08 22:18:42.928,AORUS_X3,app1,19080,ROOT,AppOutput,40,Interpretation: <common_name_said 1191>
+10,997ebc0a_000061cc_5af2142c_0002_0000,LOG,STATUS,0,2018/05/08 22:18:42.929,AORUS_X3,app1,19080,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_000061cc_5af2142c_0002_0000,LOG,STATUS,0,2018/05/08 22:18:42.929,AORUS_X3,app1,19080,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_000061cc_5af2142c_0002_0000,LOG,STATUS,0,2018/05/08 22:19:17.154,AORUS_X3,app1,19080,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_000061cc_5af2142c_0002_0000,LOG,STATUS,0,2018/05/08 22:19:17.154,AORUS_X3,app1,19080,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_000061cc_5af2142c_0002_0000,LOG,WARN,0,2018/05/08 22:19:17.155,AORUS_X3,app1,19080,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_000061cc_5af2142c_0002_0000,LOG,STATUS,0,2018/05/08 22:19:17.157,AORUS_X3,app1,19080,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_000061cc_5af2142c_0002_0000,LOG,STATUS,0,2018/05/08 22:19:17.157,AORUS_X3,app1,19080,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"

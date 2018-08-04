@@ -1,0 +1,147 @@
+10,997ebc0a_00003cd0_5af215c0_0001_0000,LOG,WARN,0,2018/05/08 22:25:20.576,AORUS_X3,app1,23960,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:25:20.598,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:25:20.598,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:25:27.519,AORUS_X3,app1,27392,ROOT,AppOutput,21,Recognized: "calalu"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:25:27.520,AORUS_X3,app1,27392,ROOT,AppOutput,39,Interpretation: <common_name_said 178>
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:25:27.521,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:25:27.521,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:25:34.130,AORUS_X3,app1,27392,ROOT,AppOutput,20,Recognized: "culen"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:25:34.130,AORUS_X3,app1,27392,ROOT,AppOutput,40,Interpretation: <common_name_said 2273>
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:25:34.132,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:25:34.132,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:25:40.219,AORUS_X3,app1,27392,ROOT,AppOutput,21,Recognized: "garlic"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:25:40.219,AORUS_X3,app1,27392,ROOT,AppOutput,39,Interpretation: <common_name_said 143>
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:25:40.221,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:25:40.221,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:26:14.372,AORUS_X3,app1,27392,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:26:14.372,AORUS_X3,app1,27392,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:26:14.373,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:26:14.375,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:26:14.375,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:26:45.573,AORUS_X3,app1,27392,ROOT,AppOutput,25,Utterance status: REJECT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:26:45.573,AORUS_X3,app1,27392,ROOT,AppOutput,15,Recognized: ""
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:26:45.574,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:26:45.575,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:26:45.575,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:27:19.732,AORUS_X3,app1,27392,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:27:19.732,AORUS_X3,app1,27392,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:27:19.733,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:27:19.734,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:27:19.734,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:27:53.892,AORUS_X3,app1,27392,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:27:53.893,AORUS_X3,app1,27392,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:27:53.893,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:27:53.896,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:27:53.896,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:28:28.052,AORUS_X3,app1,27392,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:28:28.052,AORUS_X3,app1,27392,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:28:28.053,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:28:28.054,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:28:28.054,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:29:02.222,AORUS_X3,app1,27392,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:29:02.222,AORUS_X3,app1,27392,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:29:02.223,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:29:02.224,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:29:02.224,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:29:36.371,AORUS_X3,app1,27392,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:29:36.371,AORUS_X3,app1,27392,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:29:36.372,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:29:36.373,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:29:36.373,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:30:10.511,AORUS_X3,app1,27392,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:30:10.511,AORUS_X3,app1,27392,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:30:10.512,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:30:10.513,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:30:10.513,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:30:44.682,AORUS_X3,app1,27392,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:30:44.682,AORUS_X3,app1,27392,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:30:44.684,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:30:44.685,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:30:44.685,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:31:18.909,AORUS_X3,app1,27392,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:31:18.909,AORUS_X3,app1,27392,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:31:18.910,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:31:18.912,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:31:18.912,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:31:53.072,AORUS_X3,app1,27392,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:31:53.072,AORUS_X3,app1,27392,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:31:53.073,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:31:53.074,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:31:53.074,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:32:27.230,AORUS_X3,app1,27392,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:32:27.230,AORUS_X3,app1,27392,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:32:27.231,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:32:27.233,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:32:27.233,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:33:01.371,AORUS_X3,app1,27392,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:33:01.371,AORUS_X3,app1,27392,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:33:01.371,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:33:01.373,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:33:01.373,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:33:35.563,AORUS_X3,app1,27392,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:33:35.563,AORUS_X3,app1,27392,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:33:35.564,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:33:35.566,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:33:35.566,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:33:44.040,AORUS_X3,app1,27392,ROOT,AppOutput,21,Recognized: "tutsan"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:33:44.040,AORUS_X3,app1,27392,ROOT,AppOutput,40,Interpretation: <common_name_said 1342>
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:33:44.041,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:33:44.041,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:34:10.520,AORUS_X3,app1,27392,ROOT,AppOutput,25,Utterance status: REJECT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:34:10.520,AORUS_X3,app1,27392,ROOT,AppOutput,15,Recognized: ""
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:34:10.521,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:34:10.523,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:34:10.523,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:23.825,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,56,*** All the buffers are full.  Samples may be lost! ***
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:23.827,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,26,*** Can't prepare header!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:23.827,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,45,There is no driver installed on your system.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:23.827,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,21,*** Can't AddBuffer!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:23.827,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,103,The wave header was not prepared.  Use the Prepare function to prepare the header, and then try again.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:23.828,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,26,*** Can't prepare header!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:23.828,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,45,There is no driver installed on your system.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:23.828,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,21,*** Can't AddBuffer!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:23.828,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,103,The wave header was not prepared.  Use the Prepare function to prepare the header, and then try again.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:23.931,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,26,*** Can't prepare header!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:23.931,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,45,There is no driver installed on your system.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:23.931,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,21,*** Can't AddBuffer!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:23.931,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,103,The wave header was not prepared.  Use the Prepare function to prepare the header, and then try again.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.041,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,26,*** Can't prepare header!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.041,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,45,There is no driver installed on your system.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.041,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,21,*** Can't AddBuffer!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.041,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,103,The wave header was not prepared.  Use the Prepare function to prepare the header, and then try again.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.153,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,26,*** Can't prepare header!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.153,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,45,There is no driver installed on your system.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.153,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,21,*** Can't AddBuffer!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.153,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,103,The wave header was not prepared.  Use the Prepare function to prepare the header, and then try again.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.270,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,26,*** Can't prepare header!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.270,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,45,There is no driver installed on your system.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.270,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,21,*** Can't AddBuffer!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.270,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,103,The wave header was not prepared.  Use the Prepare function to prepare the header, and then try again.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.382,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,26,*** Can't prepare header!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.382,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,45,There is no driver installed on your system.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.382,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,21,*** Can't AddBuffer!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.382,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,103,The wave header was not prepared.  Use the Prepare function to prepare the header, and then try again.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.484,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,26,*** Can't prepare header!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.484,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,45,There is no driver installed on your system.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.524,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,21,*** Can't AddBuffer!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:34:24.524,AORUS_X3,app1,23960,AUDIO,ReturnBufferToInputQueue,103,The wave header was not prepared.  Use the Prepare function to prepare the header, and then try again.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:55:39.395,AORUS_X3,app1,27392,ROOT,AppOutput,39,Utterance status: BEGIN SPEECH TIMEOUT
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:55:39.395,AORUS_X3,app1,27392,ROOT,AppOutput,24,Recognized: "<timeout>"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,WARN,0,2018/05/08 22:55:39.399,AORUS_X3,app1,27392,DIALOG,PrompterAppend,39,Could not find prompt: "try_again.wav"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:55:39.474,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:55:39.474,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:55:39.481,AORUS_X3,app1,23960,AUDIO,ForceHalfDuplex,18,waveInOpen error!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:55:39.481,AORUS_X3,app1,23960,AUDIO,ForceHalfDuplex,64,A device ID has been used that is out of range for your system.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:55:39.481,AORUS_X3,app1,23960,AUDIO,OpenOutputDevice,35,Can't open either input or output.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:55:39.481,AORUS_X3,app1,23960,RCE,RCEngine::StartPlaybackProcess,53,Unable to start playback because NUANCE_AUDIO_ERROR.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/08 22:55:39.482,AORUS_X3,app1,27392,DIALOG,AppStartAction (ACTION_RECOGNIZE),49,PrompterPlay failed because "NUANCE_AUDIO_ERROR"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/08 22:55:39.482,AORUS_X3,app1,27392,ROOT,AppOutput,22,Detected system error
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/09 14:18:05.078,AORUS_X3,app1,27392,ROOT,AppOutput,22,Detected system error
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/09 14:18:05.079,AORUS_X3,app1,27392,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/09 14:18:05.079,AORUS_X3,app1,27392,ROOT,AppOutput,42,Entering state "reverseSearchFromResults"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/09 14:18:05.092,AORUS_X3,app1,23960,AUDIO,ForceHalfDuplex,18,waveInOpen error!
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/09 14:18:05.092,AORUS_X3,app1,23960,AUDIO,ForceHalfDuplex,64,A device ID has been used that is out of range for your system.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/09 14:18:05.092,AORUS_X3,app1,23960,AUDIO,OpenOutputDevice,35,Can't open either input or output.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/09 14:18:05.092,AORUS_X3,app1,23960,RCE,RCEngine::StartPlaybackProcess,53,Unable to start playback because NUANCE_AUDIO_ERROR.
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,ERROR,0,2018/05/09 14:18:05.092,AORUS_X3,app1,27392,DIALOG,AppStartAction (ACTION_RECOGNIZE),49,PrompterPlay failed because "NUANCE_AUDIO_ERROR"
+10,997ebc0a_00003cd0_5af215c0_0002_0000,LOG,STATUS,0,2018/05/09 14:18:05.092,AORUS_X3,app1,27392,ROOT,AppOutput,22,Detected system error

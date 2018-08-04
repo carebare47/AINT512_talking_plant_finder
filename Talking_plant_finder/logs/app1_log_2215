@@ -1,0 +1,16 @@
+10,fc7dbc0a_000020d8_5ae9bbf5_0001_0000,LOG,WARN,0,2018/05/02 14:24:05.725,AORUS_X3,app1,10184,AUDIO,AudioClientImpl::InitializeFromConfig,135,Audio provider does not support barge-in because it cannot perform full duplex play and record-- setting client.AllowBargeIn to false.
+10,fc7dbc0a_000020d8_5ae9bbf5_0002_0000,LOG,STATUS,0,2018/05/02 14:24:05.742,AORUS_X3,app1,13880,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,fc7dbc0a_000020d8_5ae9bbf5_0002_0000,LOG,STATUS,0,2018/05/02 14:24:05.742,AORUS_X3,app1,13880,ROOT,AppOutput,27,Entering state "askLocale"
+10,fc7dbc0a_000020d8_5ae9bbf5_0002_0000,LOG,STATUS,0,2018/05/02 14:24:16.132,AORUS_X3,app1,13880,ROOT,AppOutput,17,Recognized: "no"
+10,fc7dbc0a_000020d8_5ae9bbf5_0002_0000,LOG,STATUS,0,2018/05/02 14:24:16.132,AORUS_X3,app1,13880,ROOT,AppOutput,49,Interpretation: <binary_response_said "no_said">
+10,fc7dbc0a_000020d8_5ae9bbf5_0002_0000,LOG,WARN,0,2018/05/02 14:24:16.133,AORUS_X3,app1,13880,DIALOG,AppGoto(Cond),53,Ignoring goto because state has already been changed
+10,fc7dbc0a_000020d8_5ae9bbf5_0002_0000,LOG,STATUS,0,2018/05/02 14:24:16.134,AORUS_X3,app1,13880,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,fc7dbc0a_000020d8_5ae9bbf5_0002_0000,LOG,STATUS,0,2018/05/02 14:24:16.134,AORUS_X3,app1,13880,ROOT,AppOutput,26,Entering state "greeting"
+10,fc7dbc0a_000020d8_5ae9bbf5_0002_0000,LOG,STATUS,0,2018/05/02 14:24:26.857,AORUS_X3,app1,13880,ROOT,AppOutput,31,Recognized: "what is the time"
+10,fc7dbc0a_000020d8_5ae9bbf5_0002_0000,LOG,STATUS,0,2018/05/02 14:24:26.857,AORUS_X3,app1,13880,ROOT,AppOutput,47,Interpretation: <search_type_said "time_said">
+10,fc7dbc0a_000020d8_5ae9bbf5_0002_0000,LOG,STATUS,0,2018/05/02 14:24:26.859,AORUS_X3,app1,13880,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,fc7dbc0a_000020d8_5ae9bbf5_0002_0000,LOG,STATUS,0,2018/05/02 14:24:26.859,AORUS_X3,app1,13880,ROOT,AppOutput,26,Entering state "greeting"
+10,fc7dbc0a_000020d8_5ae9bbf5_0002_0000,LOG,STATUS,0,2018/05/02 14:24:34.658,AORUS_X3,app1,13880,ROOT,AppOutput,31,Recognized: "what is the date"
+10,fc7dbc0a_000020d8_5ae9bbf5_0002_0000,LOG,STATUS,0,2018/05/02 14:24:34.658,AORUS_X3,app1,13880,ROOT,AppOutput,47,Interpretation: <search_type_said "date_said">
+10,fc7dbc0a_000020d8_5ae9bbf5_0002_0000,LOG,STATUS,0,2018/05/02 14:24:34.660,AORUS_X3,app1,13880,ROOT,AppOutput,80,-------------------------------------------------------------------------------
+10,fc7dbc0a_000020d8_5ae9bbf5_0002_0000,LOG,STATUS,0,2018/05/02 14:24:34.660,AORUS_X3,app1,13880,ROOT,AppOutput,26,Entering state "greeting"
