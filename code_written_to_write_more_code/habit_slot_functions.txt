@@ -1,0 +1,114 @@
+int shrub = 2;
+int annual = 2;
+int perennial = 2;
+int tree = 2;
+int perennial_climber = 2;
+int annual_slash_perennial = 2;
+int climber = 2;
+int fern = 2;
+int bulb = 2;
+int biennial = 2;
+int annual_slash_biennial = 2;
+int biennial_slash_perennial = 2;
+int bamboo = 2;
+int corm = 2;
+int lichen = 2;
+int annual_climber = 2;
+
+
+NLGetIntSlotValue(AppGetNLResult(app), "shrub_said", &shrub);
+if (shrub == 1) {
+	printf("%s\n", "You said Shrub.");
+	strcpy(plantHabitStringArray[habitCounter], "Shrub");
+	habitCounter = habitCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "annual_said", &annual);
+if (annual == 1) {
+	printf("%s\n", "You said Annual.");
+	strcpy(plantHabitStringArray[habitCounter], "Annual");
+	habitCounter = habitCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "perennial_said", &perennial);
+if (perennial == 1) {
+	printf("%s\n", "You said Perennial.");
+	strcpy(plantHabitStringArray[habitCounter], "Perennial");
+	habitCounter = habitCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "tree_said", &tree);
+if (tree == 1) {
+	printf("%s\n", "You said Tree.");
+	strcpy(plantHabitStringArray[habitCounter], "Tree");
+	habitCounter = habitCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "perennial_climber_said", &perennial_climber);
+if (perennial_climber == 1) {
+	printf("%s\n", "You said Perennial Climber.");
+	strcpy(plantHabitStringArray[habitCounter], "Perennial Climber");
+	habitCounter = habitCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "annual_slash_perennial_said", &annual_slash_perennial);
+if (annual_slash_perennial == 1) {
+	printf("%s\n", "You said Annual_slash_Perennial.");
+	strcpy(plantHabitStringArray[habitCounter], "Annual_slash_Perennial");
+	habitCounter = habitCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "climber_said", &climber);
+if (climber == 1) {
+	printf("%s\n", "You said Climber.");
+	strcpy(plantHabitStringArray[habitCounter], "Climber");
+	habitCounter = habitCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "fern_said", &fern);
+if (fern == 1) {
+	printf("%s\n", "You said Fern.");
+	strcpy(plantHabitStringArray[habitCounter], "Fern");
+	habitCounter = habitCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "bulb_said", &bulb);
+if (bulb == 1) {
+	printf("%s\n", "You said Bulb.");
+	strcpy(plantHabitStringArray[habitCounter], "Bulb");
+	habitCounter = habitCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "biennial_said", &biennial);
+if (biennial == 1) {
+	printf("%s\n", "You said Biennial.");
+	strcpy(plantHabitStringArray[habitCounter], "Biennial");
+	habitCounter = habitCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "annual_slash_biennial_said", &annual_slash_biennial);
+if (annual_slash_biennial == 1) {
+	printf("%s\n", "You said Annual_slash_Biennial.");
+	strcpy(plantHabitStringArray[habitCounter], "Annual_slash_Biennial");
+	habitCounter = habitCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "biennial_slash_perennial_said", &biennial_slash_perennial);
+if (biennial_slash_perennial == 1) {
+	printf("%s\n", "You said Biennial_slash_Perennial.");
+	strcpy(plantHabitStringArray[habitCounter], "Biennial_slash_Perennial");
+	habitCounter = habitCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "bamboo_said", &bamboo);
+if (bamboo == 1) {
+	printf("%s\n", "You said Bamboo.");
+	strcpy(plantHabitStringArray[habitCounter], "Bamboo");
+	habitCounter = habitCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "corm_said", &corm);
+if (corm == 1) {
+	printf("%s\n", "You said Corm.");
+	strcpy(plantHabitStringArray[habitCounter], "Corm");
+	habitCounter = habitCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "lichen_said", &lichen);
+if (lichen == 1) {
+	printf("%s\n", "You said Lichen.");
+	strcpy(plantHabitStringArray[habitCounter], "Lichen");
+	habitCounter = habitCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "annual_climber_said", &annual_climber);
+if (annual_climber == 1) {
+	printf("%s\n", "You said Annual Climber.");
+	strcpy(plantHabitStringArray[habitCounter], "Annual Climber");
+	habitCounter = habitCounter + 1;
+}

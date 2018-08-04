@@ -1,0 +1,162 @@
+int one = 2;
+int two = 2;
+int three = 2;
+int four = 2;
+int five = 2;
+int six = 2;
+int seven = 2;
+int eight = 2;
+int nine = 2;
+int ten = 2;
+int eleven = 2;
+int twelve = 2;
+int thirteen = 2;
+int fourteen = 2;
+int fifteen = 2;
+int sixteen = 2;
+int seventeen = 2;
+int eighteen = 2;
+int nineteen = 2;
+int twenty = 2;
+
+
+NLGetIntSlotValue(AppGetNLResult(app), "one_said", &one);
+if (one == 1) {
+	printf("%s\n", "You said one.");
+	numberStringArray[numberCounter] = 1;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "two_said", &two);
+if (two == 1) {
+	printf("%s\n", "You said two.");
+	numberStringArray[numberCounter] = 2;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "three_said", &three);
+if (three == 1) {
+	printf("%s\n", "You said three.");
+	numberStringArray[numberCounter] = 3;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "four_said", &four);
+if (four == 1) {
+	printf("%s\n", "You said four.");
+	numberStringArray[numberCounter] = 4;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "five_said", &five);
+if (five == 1) {
+	printf("%s\n", "You said five.");
+	numberStringArray[numberCounter] = 5;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "six_said", &six);
+if (six == 1) {
+	printf("%s\n", "You said six.");
+	numberStringArray[numberCounter] = 6;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "seven_said", &seven);
+if (seven == 1) {
+	printf("%s\n", "You said seven.");
+	numberStringArray[numberCounter] = 7;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "eight_said", &eight);
+if (eight == 1) {
+	printf("%s\n", "You said eight.");
+	numberStringArray[numberCounter] = 8;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "nine_said", &nine);
+if (nine == 1) {
+	printf("%s\n", "You said nine.");
+	numberStringArray[numberCounter] = 9;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "ten_said", &ten);
+if (ten == 1) {
+	printf("%s\n", "You said ten.");
+	numberStringArray[numberCounter] = 10;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "eleven_said", &eleven);
+if (eleven == 1) {
+	printf("%s\n", "You said eleven.");
+	numberStringArray[numberCounter] = 11;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "twelve_said", &twelve);
+if (twelve == 1) {
+	printf("%s\n", "You said twelve.");
+	numberStringArray[numberCounter] = 12;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "thirteen_said", &thirteen);
+if (thirteen == 1) {
+	printf("%s\n", "You said thirteen.");
+	numberStringArray[numberCounter] = 13;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "fourteen_said", &fourteen);
+if (fourteen == 1) {
+	printf("%s\n", "You said fourteen.");
+	numberStringArray[numberCounter] = 14;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "fifteen_said", &fifteen);
+if (fifteen == 1) {
+	printf("%s\n", "You said fifteen.");
+	numberStringArray[numberCounter] = 15;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "sixteen_said", &sixteen);
+if (sixteen == 1) {
+	printf("%s\n", "You said sixteen.");
+	numberStringArray[numberCounter] = 16;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "seventeen_said", &seventeen);
+if (seventeen == 1) {
+	printf("%s\n", "You said seventeen.");
+	numberStringArray[numberCounter] = 17;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "eighteen_said", &eighteen);
+if (eighteen == 1) {
+	printf("%s\n", "You said eighteen.");
+	numberStringArray[numberCounter] = 18;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "nineteen_said", &nineteen);
+if (nineteen == 1) {
+	printf("%s\n", "You said nineteen.");
+	numberStringArray[numberCounter] = 19;
+	numberCounter = numberCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "twenty_said", &twenty);
+if (twenty == 1) {
+	printf("%s\n", "You said twenty.");
+	numberStringArray[numberCounter] = 20;
+	numberCounter = numberCounter + 1;
+}
+one_said
+two_said
+three_said
+four_said
+five_said
+six_said
+seven_said
+eight_said
+nine_said
+ten_said
+eleven_said
+twelve_said
+thirteen_said
+fourteen_said
+fifteen_said
+sixteen_said
+seventeen_said
+eighteen_said
+nineteen_said
+twenty_said

@@ -1,0 +1,205 @@
+const char *plantLocationStringArray[8];
+
+if (!strcmp(buf, "canopy_said")) {
+AppAppendTTSPrompt(app, "You said canopy.");
+printf("You said canopy.\n");
+strcpy(plantLocationStringArray[envCounter], "Canopy");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "common_name_said")) {
+AppAppendTTSPrompt(app, "You said common name.");
+printf("You said common_name_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Common name");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "cultivar_said")) {
+AppAppendTTSPrompt(app, "You said cultivar.");
+printf("You said cultivar_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Cultivar");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "cultivatedbeds_said")) {
+AppAppendTTSPrompt(app, "You said cultivated beds.");
+printf("You said cultivatedbeds_said.\n");
+strcpy(plantLocationStringArray[envCounter], "CultivatedBeds");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "dappledshade_said")) {
+AppAppendTTSPrompt(app, "You said dappled shade.");
+printf("You said dappledshade_said.\n");
+strcpy(plantLocationStringArray[envCounter], "DappledShade");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "deepshade_said")) {
+AppAppendTTSPrompt(app, "You said deep shade.");
+printf("You said deepshade_said.\n");
+strcpy(plantLocationStringArray[envCounter], "DeepShade");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "eastwall_said")) {
+AppAppendTTSPrompt(app, "You said east wall.");
+printf("You said eastwall_said.\n");
+strcpy(plantLocationStringArray[envCounter], "EastWall");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "groundcover_said")) {
+AppAppendTTSPrompt(app, "You said ground cover.");
+printf("You said groundcover_said.\n");
+strcpy(plantLocationStringArray[envCounter], "GroundCover");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "habit_said")) {
+AppAppendTTSPrompt(app, "You said habit.");
+printf("You said habit_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Habit");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "habitat_said")) {
+AppAppendTTSPrompt(app, "You said habitat.");
+printf("You said habitat_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Habitat");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "hardyness_said")) {
+AppAppendTTSPrompt(app, "You said hardiness.");
+printf("You said hardyness_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Hardyness");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "hedge_said")) {
+AppAppendTTSPrompt(app, "You said hedge.");
+printf("You said hedge_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Hedge");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "hedgerow_said")) {
+AppAppendTTSPrompt(app, "You said hedgerow.");
+printf("You said hedgerow_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Hedgerow");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "height_said")) {
+AppAppendTTSPrompt(app, "You said height.");
+printf("You said height_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Height");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "latin_name_said")) {
+AppAppendTTSPrompt(app, "You said latin name.");
+printf("You said latin_name_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Latin name");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "lawn_said")) {
+AppAppendTTSPrompt(app, "You said lawn.");
+printf("You said lawn_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Lawn");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "meadow_said")) {
+AppAppendTTSPrompt(app, "You said meadow.");
+printf("You said meadow_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Meadow");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "northwall_said")) {
+AppAppendTTSPrompt(app, "You said north wall.");
+printf("You said northwall_said.\n");
+strcpy(plantLocationStringArray[envCounter], "NorthWall");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "otherhabitats_said")) {
+AppAppendTTSPrompt(app, "You said other habitats.");
+printf("You said otherhabitats_said.\n");
+strcpy(plantLocationStringArray[envCounter], "OtherHabitats");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "pond_said")) {
+AppAppendTTSPrompt(app, "You said pond.");
+printf("You said pond_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Pond");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "secondary_said")) {
+AppAppendTTSPrompt(app, "You said secondary.");
+printf("You said secondary_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Secondary");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "shade_said")) {
+AppAppendTTSPrompt(app, "You said shade.");
+printf("You said shade_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Shade");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "shadyedge_said")) {
+AppAppendTTSPrompt(app, "You said shady edge.");
+printf("You said shadyedge_said.\n");
+strcpy(plantLocationStringArray[envCounter], "ShadyEdge");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "southwall_said")) {
+AppAppendTTSPrompt(app, "You said south wall.");
+printf("You said southwall_said.\n");
+strcpy(plantLocationStringArray[envCounter], "SouthWall");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "sunnyedge_said")) {
+AppAppendTTSPrompt(app, "You said sunny edge.");
+printf("You said sunnyedge_said.\n");
+strcpy(plantLocationStringArray[envCounter], "SunnyEdge");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "walls_said")) {
+AppAppendTTSPrompt(app, "You said walls.");
+printf("You said walls_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Walls");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "westwall_said")) {
+AppAppendTTSPrompt(app, "You said west wall.");
+printf("You said westwall_said.\n");
+strcpy(plantLocationStringArray[envCounter], "WestWall");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "width_said")) {
+AppAppendTTSPrompt(app, "You said width.");
+printf("You said width_said.\n");
+strcpy(plantLocationStringArray[envCounter], "Width");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}
+else if (!strcmp(buf, "woodlandgarden_said")) {
+AppAppendTTSPrompt(app, "You said woodland garden.");
+printf("You said woodlandgarden_said.\n");
+strcpy(plantLocationStringArray[envCounter], "WoodlandGarden");
+envCounter = envCounter + 1;
+AppGoto(app, "env2");
+}

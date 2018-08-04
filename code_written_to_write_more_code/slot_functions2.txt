@@ -1,0 +1,205 @@
+int canopy_said = 2;
+int common_name_said = 2;
+int cultivar_said = 2;
+int cultivatedbeds_said = 2;
+int dappledshade_said = 2;
+int deepshade_said = 2;
+int eastwall_said = 2;
+int groundcover_said = 2;
+int habit_said = 2;
+int habitat_said = 2;
+int hardyness_said = 2;
+int hedge_said = 2;
+int hedgerow_said = 2;
+int height_said = 2;
+int latin_name_said = 2;
+int lawn_said = 2;
+int meadow_said = 2;
+int northwall_said = 2;
+int otherhabitats_said = 2;
+int pond_said = 2;
+int secondary_said = 2;
+int shade_said = 2;
+int shadyedge_said = 2;
+int southwall_said = 2;
+int sunnyedge_said = 2;
+int walls_said = 2;
+int westwall_said = 2;
+int width_said = 2;
+int woodlandgarden_said = 2;
+
+
+NLGetIntSlotValue(AppGetNLResult(app), "canopy_said", &canopy_said);
+if (canopy_said == 1) {
+	printf("%s\n", "You said canopy.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Canopy");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "common_name_said", &common_name_said);
+if (common_name_said == 1) {
+	printf("%s\n", "You said common name.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Common name");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "cultivar_said", &cultivar_said);
+if (cultivar_said == 1) {
+	printf("%s\n", "You said cultivar.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Cultivar");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "cultivatedbeds_said", &cultivatedbeds_said);
+if (cultivatedbeds_said == 1) {
+	printf("%s\n", "You said cultivated beds.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "CultivatedBeds");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "dappledshade_said", &dappledshade_said);
+if (dappledshade_said == 1) {
+	printf("%s\n", "You said dappled shade.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "DappledShade");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "deepshade_said", &deepshade_said);
+if (deepshade_said == 1) {
+	printf("%s\n", "You said deep shade.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "DeepShade");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "eastwall_said", &eastwall_said);
+if (eastwall_said == 1) {
+	printf("%s\n", "You said east wall.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "EastWall");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "groundcover_said", &groundcover_said);
+if (groundcover_said == 1) {
+	printf("%s\n", "You said ground cover.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "GroundCover");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "habit_said", &habit_said);
+if (habit_said == 1) {
+	printf("%s\n", "You said habit.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Habit");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "habitat_said", &habitat_said);
+if (habitat_said == 1) {
+	printf("%s\n", "You said habitat.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Habitat");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "hardyness_said", &hardyness_said);
+if (hardyness_said == 1) {
+	printf("%s\n", "You said hardiness.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Hardyness");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "hedge_said", &hedge_said);
+if (hedge_said == 1) {
+	printf("%s\n", "You said hedge.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Hedge");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "hedgerow_said", &hedgerow_said);
+if (hedgerow_said == 1) {
+	printf("%s\n", "You said hedgerow.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Hedgerow");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "height_said", &height_said);
+if (height_said == 1) {
+	printf("%s\n", "You said height.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Height");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "latin_name_said", &latin_name_said);
+if (latin_name_said == 1) {
+	printf("%s\n", "You said latin name.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Latin name");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "lawn_said", &lawn_said);
+if (lawn_said == 1) {
+	printf("%s\n", "You said lawn.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Lawn");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "meadow_said", &meadow_said);
+if (meadow_said == 1) {
+	printf("%s\n", "You said meadow.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Meadow");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "northwall_said", &northwall_said);
+if (northwall_said == 1) {
+	printf("%s\n", "You said north wall.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "NorthWall");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "otherhabitats_said", &otherhabitats_said);
+if (otherhabitats_said == 1) {
+	printf("%s\n", "You said other habitats.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "OtherHabitats");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "pond_said", &pond_said);
+if (pond_said == 1) {
+	printf("%s\n", "You said pond.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Pond");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "secondary_said", &secondary_said);
+if (secondary_said == 1) {
+	printf("%s\n", "You said secondary.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Secondary");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "shade_said", &shade_said);
+if (shade_said == 1) {
+	printf("%s\n", "You said shade.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Shade");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "shadyedge_said", &shadyedge_said);
+if (shadyedge_said == 1) {
+	printf("%s\n", "You said shady edge.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "ShadyEdge");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "southwall_said", &southwall_said);
+if (southwall_said == 1) {
+	printf("%s\n", "You said south wall.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "SouthWall");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "sunnyedge_said", &sunnyedge_said);
+if (sunnyedge_said == 1) {
+	printf("%s\n", "You said sunny edge.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "SunnyEdge");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "walls_said", &walls_said);
+if (walls_said == 1) {
+	printf("%s\n", "You said walls.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Walls");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "westwall_said", &westwall_said);
+if (westwall_said == 1) {
+	printf("%s\n", "You said west wall.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "WestWall");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "width_said", &width_said);
+if (width_said == 1) {
+	printf("%s\n", "You said width.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "Width");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}
+NLGetIntSlotValue(AppGetNLResult(app), "woodlandgarden_said", &woodlandgarden_said);
+if (woodlandgarden_said == 1) {
+	printf("%s\n", "You said woodland garden.");
+	strcpy(errorEnvStringArray[errorEnvStringCounter], "WoodlandGarden");
+	errorEnvStringCounter = errorEnvStringCounter + 1;
+}

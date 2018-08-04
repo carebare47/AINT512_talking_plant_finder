@@ -1,0 +1,35 @@
+(Shrub)  	 {<shrub_said 1>}
+(Annual)  	 {<annual_said 1>}
+(Perennial)  	 {<perennial_said 1>}
+(Tree)  	 {<tree_said 1>}
+(Perennial Climber)  	 {<perennial_climber_said 1>}
+(Annual_slash_Perennial)  	 {<annual_slash_perennial_said 1>}
+(Climber)  	 {<climber_said 1>}
+(Fern)  	 {<fern_said 1>}
+(Bulb)  	 {<bulb_said 1>}
+(Biennial)  	 {<biennial_said 1>}
+(Annual_slash_Biennial)  	 {<annual_slash_biennial_said 1>}
+(Biennial_slash_Perennial)  	 {<biennial_slash_perennial_said 1>}
+(Bamboo)  	 {<bamboo_said 1>}
+(Corm)  	 {<corm_said 1>}
+(Lichen)  	 {<lichen_said 1>}
+(Annual Climber)  	 {<annual_climber_said 1>}
+
+
+
+shrub_said
+annual_said
+perennial_said
+tree_said
+perennial_climber_said
+annual_slash_perennial_said
+climber_said
+fern_said
+bulb_said
+biennial_said
+annual_slash_biennial_said
+biennial_slash_perennial_said
+bamboo_said
+corm_said
+lichen_said
+annual_climber_said

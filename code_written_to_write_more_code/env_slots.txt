@@ -1,0 +1,61 @@
+(canopy)          	 {<canopy_said 1>}
+(common name)          	 {<common_name_said 1>}
+(cultivar)          	 {<cultivar_said 1>}
+(cultivated beds)          	 {<cultivatedbeds_said 1>}
+(dappled shade)          	 {<dappledshade_said 1>}
+(deep shade)          	 {<deepshade_said 1>}
+(east wall)          	 {<eastwall_said 1>}
+(ground cover)          	 {<groundcover_said 1>}
+(habit)          	 {<habit_said 1>}
+(habitat)          	 {<habitat_said 1>}
+(hardiness)          	 {<hardyness_said 1>}
+(hedge)          	 {<hedge_said 1>}
+(hedgerow)          	 {<hedgerow_said 1>}
+(height)          	 {<height_said 1>}
+(latin name)          	 {<latin_name_said 1>}
+(lawn)          	 {<lawn_said 1>}
+(meadow)          	 {<meadow_said 1>}
+(north wall)          	 {<northwall_said 1>}
+(other habitats)          	 {<otherhabitats_said 1>}
+(pond)          	 {<pond_said 1>}
+(secondary)          	 {<secondary_said 1>}
+(shade)          	 {<shade_said 1>}
+(shady edge)          	 {<shadyedge_said 1>}
+(south wall)          	 {<southwall_said 1>}
+(sunny edge)          	 {<sunnyedge_said 1>}
+(walls)          	 {<walls_said 1>}
+(west wall)          	 {<westwall_said 1>}
+(width)          	 {<width_said 1>}
+(woodland garden)          	 {<woodlandgarden_said 1>}
+
+
+
+canopy_said
+common_name_said
+cultivar_said
+cultivatedbeds_said
+dappledshade_said
+deepshade_said
+eastwall_said
+groundcover_said
+habit_said
+habitat_said
+hardyness_said
+hedge_said
+hedgerow_said
+height_said
+latin_name_said
+lawn_said
+meadow_said
+northwall_said
+otherhabitats_said
+pond_said
+secondary_said
+shade_said
+shadyedge_said
+southwall_said
+sunnyedge_said
+walls_said
+westwall_said
+width_said
+woodlandgarden_said
